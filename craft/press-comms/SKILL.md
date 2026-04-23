@@ -13,8 +13,17 @@ Generates PR pitch emails based on product details, target outlet/journalist, an
 - `foundation/marketing-os`
 - `brand-voice/{relevant brand}` (loaded dynamically)
 - `positioning/{relevant brand}` (loaded dynamically)
-- `launches/{parent launch skill}` (when invoked inside a launch)
+- `craft/copywriting`
+- `craft/editing`
+
+Brand is resolved dynamically based on what invokes this skill.
+
+## Channel-specific notes
+
+- Every pitch is tailored to a specific journalist and outlet — no blast templates
+- The angle must match the outlet's editorial lens, not just the company's messaging
+- Subject line and opening sentence determine whether the pitch gets read
 
 ## To do
 
-Populate on completion of the press comms craft playbook.
+Populate with press comms guidance once PR strategy work is complete.

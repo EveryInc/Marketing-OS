@@ -52,6 +52,8 @@ All positioning skills load:
 
 ## Craft
 
+### Core craft (not channel-specific)
+
     craft/copywriting
       - foundation/marketing-os
       - brand-voice/{relevant brand}
@@ -66,35 +68,71 @@ All positioning skills load:
       - marketing-science/archetyping
       - brand-voice/{relevant brand}
 
-    craft/launch-email
-      - foundation/marketing-os
-      - brand-voice/{relevant brand}
-      - positioning/{relevant brand}
-      - launches/{parent launch skill} (when invoked inside a launch)
+### Email
 
-    craft/linkedin-post
-      - foundation/marketing-os
-      - brand-voice/{relevant brand}
-      - positioning/{relevant brand}
-      - launches/{parent launch skill} (when invoked inside a launch)
+All email skills load:
+  - foundation/marketing-os
+  - brand-voice/{relevant brand}
+  - positioning/{relevant brand}
+  - craft/copywriting
+  - craft/editing
 
-    craft/x-post
-      - foundation/marketing-os
-      - brand-voice/{relevant brand}
-      - positioning/{relevant brand}
-      - launches/{parent launch skill} (when invoked inside a launch)
+    craft/email/current-subscriber
+    craft/email/paid-user
+    craft/email/churned-user
+    craft/email/prospect
+    craft/email/transactional
 
-    craft/website-copy
-      - foundation/marketing-os
-      - brand-voice/{relevant brand}
-      - positioning/{relevant brand}
-      - launches/{parent launch skill} (when invoked inside a launch)
+### Social
+
+All social skills load:
+  - foundation/marketing-os
+  - brand-voice/{relevant brand}
+  - positioning/{relevant brand}
+  - craft/copywriting
+  - craft/editing
+
+    craft/social/linkedin-post
+    craft/social/x-post
+    craft/social/threads-post
+    craft/social/bluesky-post
+    craft/social/instagram-post
+    craft/social/substack-note
+
+### Web
+
+All web skills load:
+  - foundation/marketing-os
+  - brand-voice/{relevant brand}
+  - positioning/{relevant brand}
+  - craft/copywriting
+  - craft/editing
+
+    craft/web/landing-page
+    craft/web/product-page
+    craft/web/homepage
+    craft/web/blog-post
+
+### Press
 
     craft/press-comms
       - foundation/marketing-os
       - brand-voice/{relevant brand}
       - positioning/{relevant brand}
-      - launches/{parent launch skill} (when invoked inside a launch)
+      - craft/copywriting
+      - craft/editing
+
+### Long-form
+
+All long-form skills load:
+  - foundation/marketing-os
+  - brand-voice/{relevant brand}
+  - positioning/{relevant brand}
+  - craft/copywriting
+  - craft/editing
+
+    craft/long-form/byline
+    craft/long-form/thought-leadership
 
 ## Launches
 
@@ -103,15 +141,42 @@ All launch skills load:
   - positioning/{relevant product}
   - brand-voice/{relevant product}
   - strategy/messaging-architecture
-  - craft/launch-email
-  - craft/linkedin-post
-  - craft/x-post
-  - craft/website-copy
-  - craft/press-comms
+
+Each tier orchestrates a specific set of craft skills:
 
     launches/improvement-launch
+      Orchestrates:
+        - craft/email/current-subscriber
+        - craft/email/paid-user
+        - craft/social/linkedin-post
+        - craft/social/x-post
+
     launches/feature-launch
+      Orchestrates:
+        - craft/email/current-subscriber
+        - craft/email/paid-user
+        - craft/email/churned-user
+        - craft/social/linkedin-post
+        - craft/social/x-post
+        - craft/social/threads-post
+        - craft/web/product-page
+
     launches/new-product-launch
+      Orchestrates:
+        - craft/email/current-subscriber
+        - craft/email/paid-user
+        - craft/email/churned-user
+        - craft/email/prospect
+        - craft/social/linkedin-post
+        - craft/social/x-post
+        - craft/social/threads-post
+        - craft/social/bluesky-post
+        - craft/social/instagram-post
+        - craft/web/landing-page
+        - craft/web/product-page
+        - craft/press-comms
+        - craft/long-form/byline
+        - craft/long-form/thought-leadership
 
 ## Marketing Science
 

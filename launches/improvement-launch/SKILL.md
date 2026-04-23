@@ -1,6 +1,8 @@
 # Improvement Launch
 
-Orchestrates a launch for a product improvement — the lightest launch tier.
+Orchestrates a launch for a product improvement — the lightest launch tier. For small
+quality-of-life updates that warrant external communication but don't rise to the level
+of a new feature.
 
 ## When to invoke
 
@@ -14,11 +16,15 @@ Orchestrates a launch for a product improvement — the lightest launch tier.
 - `positioning/{relevant product}` (loaded dynamically)
 - `brand-voice/{relevant product}` (loaded dynamically)
 - `strategy/messaging-architecture`
-- `craft/launch-email`
-- `craft/linkedin-post`
-- `craft/x-post`
-- `craft/website-copy`
-- `craft/press-comms`
+
+## Orchestrated craft skills
+
+An improvement launch coordinates the following channel skills:
+
+- `craft/email/current-subscriber`
+- `craft/email/paid-user`
+- `craft/social/linkedin-post`
+- `craft/social/x-post`
 
 ## To do
 

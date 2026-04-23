@@ -1,6 +1,7 @@
 # New Product Launch
 
-Orchestrates a full launch for a net-new product — the heaviest launch tier.
+Orchestrates a full launch for a net-new product — the heaviest launch tier. For entirely
+new products or sub-brands that require the full suite of channels and maximum coordination.
 
 ## When to invoke
 
@@ -14,11 +15,25 @@ Orchestrates a full launch for a net-new product — the heaviest launch tier.
 - `positioning/{relevant product}` (loaded dynamically)
 - `brand-voice/{relevant product}` (loaded dynamically)
 - `strategy/messaging-architecture`
-- `craft/launch-email`
-- `craft/linkedin-post`
-- `craft/x-post`
-- `craft/website-copy`
+
+## Orchestrated craft skills
+
+A new-product launch coordinates the following channel skills:
+
+- `craft/email/current-subscriber`
+- `craft/email/paid-user`
+- `craft/email/churned-user`
+- `craft/email/prospect`
+- `craft/social/linkedin-post`
+- `craft/social/x-post`
+- `craft/social/threads-post`
+- `craft/social/bluesky-post`
+- `craft/social/instagram-post`
+- `craft/web/landing-page`
+- `craft/web/product-page`
 - `craft/press-comms`
+- `craft/long-form/byline`
+- `craft/long-form/thought-leadership`
 
 ## To do
 
