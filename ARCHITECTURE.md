@@ -5,6 +5,52 @@ Additional dependencies are listed below, grouped by category.
 
 ---
 
+## Skill file structure
+
+Every SKILL.md in this repo follows the same structure. Deviations are bugs, not style choices.
+
+```
+# [Title]
+
+[One or two prose paragraphs introducing what this skill does and when it matters.
+No YAML frontmatter. The file starts with the heading.]
+
+## When to invoke
+
+- [Bullet list of trigger conditions, situations, and trigger phrases.]
+- [Phrase matching goes here — not in a description: field or frontmatter.]
+
+## [Body sections specific to this skill]
+
+[Content varies by skill type: audience model, voice rules, structural anatomy,
+reference file descriptions, orchestration logic, cadence, etc. Section names and
+count are not fixed — use whatever sections the skill needs.]
+
+## Dependencies
+
+- `skill/path` (loaded dynamically or always)
+- `skill/path/{relevant brand}` (loaded dynamically)
+
+## Quick checklist
+
+[Checkbox list as the operational close. This section is last.]
+
+- [ ] Item one
+- [ ] Item two
+```
+
+**What this repo does not use:**
+- YAML frontmatter (`---` blocks with `name:`, `description:`, etc.)
+- A `description:` field for trigger phrases — those live under `## When to invoke`
+- A fixed set of body section names — body sections are skill-specific
+
+**Section ordering rules:**
+- `## When to invoke` is always near the top, directly after the intro paragraph
+- `## Dependencies` is always near the bottom, before the checklist
+- `## Quick checklist` is always last
+
+---
+
 ## Foundation
 
     foundation/marketing-os
