@@ -126,13 +126,9 @@ Taste is largely philosophical, and we have a strong, clear philosophy rooted in
 
 **"This looks like shit" triggers.** Gradients. Cartoonish robot mascots. "AI-powered" badges. Stock photography of people staring at laptops. Three-feature pricing tables. Headlines that start with "Revolutionary." Manifestos with no specifics. Founder pictures with arms crossed. Pastel purple applied to AI products. Drop-shadow chrome. Wordmarks with connector dots. Abstract Lottie animations. Hero copy that ends in a question mark. The word "supercharged."
 
-<!-- [DOUGLAS TO FILL] "This has the Every thing" signals — the positive counterpart to the shit triggers. What does Every work look like when it's working? -->
-
 **Taste vs. preference.** Taste survives outside the room. If three people who don't know each other independently pick the same option for related reasons, that's taste. If one person likes it and can't say why, that's preference. Preference is a fine starting point. Taste is what's left after pressure-testing.
 
 **Populism vs. friction.** The work should be legible to an ambitious 28-year-old PM at a SaaS company who's never read Every before, and it should reward the reader who keeps coming back. Friction is fine when it earns the second read. Friction for its own sake is bad writing. We maintain our highly technical audience while growing to the AI-curious just beginning their journey. Customers describe Every as a "filter" — above all we are trusted because we are human beings talking about AI in a very human way.
-
-<!-- [DOUGLAS TO FILL] The "too cool" failure mode — what does it look like when Every tips from tastemaker into exclusionary? Where's the guardrail? -->
 
 **The "too obvious" failure mode.** Sounding like a vendor. Three benefit bullets with sans-serif icons. "Empowering teams to do their best work." Anything that could appear on any AI company's landing page without changing a word. Promoting content from models without disclosing it. Ads that don't make sense for us — think about how The Paris Review is selective about their advertisers, or how Monocle designs most of the ads in their pages. That's our bar.
 
