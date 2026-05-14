@@ -1,4 +1,4 @@
-# Every Skills
+# Marketing OS
 
 A skills repository for Every's marketing OS. Each skill is a structured prompt module designed to be loaded into Plus One (or any Claude-based workflow) for a specific marketing task.
 
