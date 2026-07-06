@@ -1,6 +1,6 @@
 # The Every Launch Process — Canonical Reference
 
-**Version 1.2 · July 4, 2026 · Ruled by Douglas (Head of Marketing / ECD)**
+**Version 1.3 · July 6, 2026 · Ruled by Douglas (Head of Marketing / ECD)**
 
 This file is the single source of truth for Every's flagship launch process. Every skill
 in `launches/` that generates calendars, burn-downs, briefs, scaffolds, or gates derives
@@ -140,6 +140,9 @@ note in the standard format (below).
 - Claims clearance pass on every launch surface (`claims-clearance` skill): every stat sourced, every logo permissioned, every price consistent — before anything ships
 - Asset capture during launch — screenshots, product film, launch-day material; it's perishable
 - Launch day: assets ship in sequence; live monitoring in Slack
+- Reminder sends, Day 2–3: last-call/ICYMI email to non-openers and a Discord nudge,
+  per the GTM plan. The second touch routinely performs on par with the first; it is a
+  task with an owner, not an afterthought. Kate's gate applies to the email.
 
 ### Post-launch
 
@@ -253,6 +256,14 @@ A new launch's roster is collected, never inherited. These are examples to offer
 | marketing-outreach-emails | Live | If outreach is in the GTM plan |
 
 ## Changelog
+
+**v1.3 — July 6, 2026 (Douglas × Claude)**
+- Added reminder sends (Day 2–3 email last-call + Discord nudge) to the Week 8
+  checklist — adopted from Anukshi's event-launch pattern ("Launch + Reminder"),
+  which the product-launch canon previously lacked.
+- Scaffold standard implemented in the Every Calendar [Launch] template (sections,
+  views, updated instructions, rebuilt Product Launch button), Jul 6.
+
 
 **v1.2 — July 4, 2026 (Douglas ruling)**
 - Ratified: Douglas required yes at every gate; Dan at three gates; the six-section
