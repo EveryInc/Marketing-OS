@@ -40,6 +40,10 @@ voice, and the offer are the variables.
   triple.
 - Segment boundaries are checked with whoever owns the list (a churned-user email to an
   active user is a trust injury); send timing belongs to the GTM plan, not this skill.
+- **Reminder / last-call send:** the canon's Week-8 reminder-sends item (a Day 2–3
+  last-call/ICYMI email to non-openers, plus a Discord nudge) is part of the launch email
+  set — an owned, GTM-sequenced task through Kate's gate, not an afterthought. See
+  `launches/canonical-process.md` (Week 8).
 
 ## Dependencies
 
@@ -59,3 +63,4 @@ voice, and the offer are the variables.
 - [ ] Claims already cleared; none introduced fresh
 - [ ] Kate gate scheduled before any send date
 - [ ] Sequencing deferred to the GTM plan
+- [ ] Day 2–3 reminder / last-call send planned per canon Week 8 (owned, not an afterthought)
