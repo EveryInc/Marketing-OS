@@ -162,6 +162,9 @@ All web skills load:
 ### Press
 
     craft/press-comms
+    craft/pr-check
+      - craft/press-comms
+      - launches/claims-clearance
       - foundation/marketing-os
       - brand-voice/{relevant brand}
       - positioning/{relevant brand}
@@ -223,6 +226,50 @@ Each tier orchestrates a specific set of craft skills:
         - craft/press-comms
         - craft/long-form/byline
         - craft/long-form/thought-leadership
+
+### Launch Architecture Skillset (L/XL flagship process)
+
+All generate from launches/canonical-process.md — the single versioned source for the
+flagship process. When the canon and a skill disagree, the canon wins and the skill
+gets fixed.
+
+    launches/canonical-process.md
+      (reference, not a skill — the ruled process, versioned with a changelog)
+
+    launches/launch-calendar
+      - launches/canonical-process.md (always)
+      (the date engine: work-back, collision rule, meeting schedule, burn-down seeds)
+
+    launches/notion-launch-scaffold
+      - launches/canonical-process.md (always)
+      - launches/launch-calendar (dates in)
+      - launches/launch-brief (Week 1 content in)
+
+    launches/launch-brief
+      - launches/canonical-process.md (always)
+      - marketing-science/archetyping
+      - marketing-science/research
+      - positioning/{relevant product}
+
+    launches/codex-gut-check
+      - launches/canonical-process.md (always)
+      - positioning/every-master
+      - positioning/{relevant product}
+      - brand-voice/{relevant product}
+      - marketing-science/archetyping
+
+    launches/claims-clearance
+      - launches/canonical-process.md (always)
+
+    launches/wireframe-from-copy
+      - launches/canonical-process.md (always)
+      - brand-voice/{relevant product}
+      - launches/claims-clearance (receives the flag inventory)
+
+    launches/launch-email-flows
+      - launches/canonical-process.md (always)
+      - brand-voice/{relevant product}
+      - launches/claims-clearance (clearance table in)
 
 ## Marketing Science
 
