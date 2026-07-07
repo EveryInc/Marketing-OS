@@ -116,6 +116,30 @@ itself, and a Brand Book R1 revision is in flight — reconcile this file when i
 The Every Agent's positioning remains deliberately unpopulated (`positioning/plus-one`)
 — not yet ruled.
 
+## Active launch canon: All Access / Builder Pack (Douglas ruling, 2026-07-07)
+
+Ruled by Douglas via his R002 edit diff. These are master-brand corrections that every
+external-copy skill for an Every-brand launch inherits.
+
+1. **Thesis name embargo (external copy).** Until the conference name is announced, all
+   external copy refers to "our upcoming AI conference in Brooklyn" (variants: "our
+   first-ever AI conference in Brooklyn this fall"). "Thesis" appears in internal docs
+   only. Remove "Thesis" from any external-facing draft on sight. (Time-bound — lift the
+   embargo when the name is announced.)
+2. **Entitlement phrasing.** The precise benefit is "unlimited Cora **accounts** and
+   Spiral **usage**" — not "unlimited Cora and Spiral." Use the precise form everywhere.
+3. **Corrected team proof points (supersede prior versions):**
+   - Kieran (GM Cora) — builds and ships Cora entirely with Claude Code
+   - Austin (Head of Growth) — runs his daily growth HQ out of Codex, with a PostHog
+     connector for analytics
+   - Brandon (COO) — plans all launches in a Notion Calendar, updated with agents daily
+   - Dan (CEO) — used Codex and Cora to build a custom email experience; Inbox Zero for
+     over 3 months
+   - Design team — builds pages in Framer, deploys on Render, finesses visuals in Flora
+4. **Naming.** "The Builder Pack" is the flagship perk of Every All Access; describable
+   as "the Every stack" / "Every's AI stack" / "our core AI stack." "Frontier AI tools"
+   is approved descriptor language.
+
 ## Dependencies
 
 - `foundation/marketing-os`
