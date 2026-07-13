@@ -11,7 +11,7 @@ channel but the core craft is consistent.
 
 ## System
 
-Copywriting is composed of four reference files:
+Copywriting is composed of seven reference files:
 
 ### references/principles.md
 The copywriting principles we hold — synthesized from the creative canon in marketing-os.
@@ -29,6 +29,24 @@ press operates differently. This reference governs those adaptations.
 What not to do. AI tropes, cliché, LinkedIn-voice, hollow superlatives, and the specific
 failure modes that make marketing copy generic or untrustworthy.
 
+### references/messaging-doc-discipline.md
+The writing rules for brand and messaging documents (generalizable across all products):
+the four-bucket protocol, research-before-drafting, proof-travels-with-the-claim,
+hypothesis tagging, full citations, the competitive-read expiry rule, and the
+differentiation ladder. The verification discipline that every strategy or messaging draft
+runs before delivery. Cross-references `marketing-science/research/references/` (competitive
+audits, synthesis methodology) rather than restating them.
+
+### references/copywriting-line-rules.md
+Line-level copywriting rules (C1–C5) from the sample-messaging passes: no imitation
+compression, every pronoun needs a visible antecedent, the line must survive its own logic,
+generate for a kill rate, state the claim plain before styling it.
+
+### references/failure-ledger.md
+The failure ledger — the recurring ways a draft breaks when verification is treated as a
+feature of some claims instead of the default for all claims, traced to one root cause, with
+the one-line test for any draft.
+
 ## When to invoke
 
 - When drafting net-new copy for any brand or product
@@ -45,6 +63,9 @@ failure modes that make marketing copy generic or untrustworthy.
 | Choosing or adapting to a format | `references/formats.md` |
 | Adapting copy across channels | `references/channel-adaptation.md` |
 | Reviewing for failure modes | `references/antipatterns.md` |
+| Writing or auditing a brand/messaging doc for verification discipline | `references/messaging-doc-discipline.md` |
+| Drafting or QC-ing original brand copy at the line level | `references/copywriting-line-rules.md` |
+| Diagnosing why a draft reads unsourced, generic, or off | `references/failure-ledger.md` |
 
 ## Dependencies
 
