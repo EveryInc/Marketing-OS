@@ -282,3 +282,12 @@ gets fixed.
     marketing-science/brand-equity
       - foundation/marketing-os
       (theoretical skill, anchored in Aaker/Keller/etc.)
+
+    marketing-science/messaging
+      - foundation/marketing-os
+      - strategy/messaging-architecture (cross-referenced: the message house /
+        audience-proposition matrix upstream — the audience-section schema
+        operationalizes the per-target section format, it does not duplicate it)
+      - marketing-science/research (the evidence bank, competitive audits, and
+        synthesis methodology it draws proof from)
+      (the audience-section schema for messaging docs + product-tagged evidence banks)

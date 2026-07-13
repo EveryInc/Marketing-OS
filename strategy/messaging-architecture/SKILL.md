@@ -9,6 +9,12 @@ This is the bridge between strategy and execution. Positioning says what the bra
 for; messaging architecture says what we actually say about it, to whom, and in what order
 of priority.
 
+> Cross-reference: when writing an actual audience-facing messaging doc, the canonical
+> per-target section format — WHO · PAIN · MOTIVATION · HOW WE SOLVE IT · THE COMPETITION ·
+> WHY US · WHERE — lives in `marketing-science/messaging/references/audience-section-schema.md`.
+> It operationalizes the audience-proposition matrix below at the section level; it does not
+> replace it.
+
 ## System
 
 Messaging architecture is composed of four reference files:
