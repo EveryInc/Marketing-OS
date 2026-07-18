@@ -21,9 +21,12 @@ approval roster in the process.
 3. **Customer profile** — one core psychographic or professional target, sub-targets
    allowed, laddering to one–two archetypes (Builder, Operator, Seeker, Executive).
    Feeling-first archetype analysis per `marketing-science/archetyping`, not projection.
-4. **Why / success / how** — why we're doing this, what defines success, how we drive it.
+4. **Why / success / how** — why we're doing this, what defines success, and how we drive
+   it. Separate business, activation, proof, learning, and brand outcomes; name the
+   decisions the measures will inform.
 5. **Dream tweet and dream headline** — written out verbatim. These are the retro's
-   scoring rubric; vague versions make the retro unscoreable.
+   scoring rubric; vague versions make the retro unscoreable. The headline should
+   validate the intended category belief or customer outcome, not repeat the tagline.
 6. **Positioning and story** — what we made, why we made it, who it's for. For net-new
    products, the why-now / why-us / why-this narrative discipline from
    `launches/new-product-launch` applies.
@@ -34,6 +37,9 @@ approval roster in the process.
    examples only.
 10. **Approval record** — Douglas, Brandon + GM (co-rule), stakeholders, Dan, Austin;
     with dates. An unapproved brief blocks Week 2 (canon Rule 3).
+11. **GTM handoff** — mark the primary customer, buyer/champion/user roles, market tension,
+    positioning inputs, verified internal proof, and open product truths that
+    `launches/gtm-plan` must inherit. Do not pre-write the channel plan inside the brief.
 
 ## Rules
 
@@ -52,12 +58,15 @@ approval roster in the process.
 - `launches/competitive-audit` output as input
 - `launches/new-product-launch` (narrative discipline, for net-new products)
 
+Downstream: the approved brief becomes an input to `launches/gtm-plan`.
+
 ## Quick checklist
 
 - [ ] Date + freeze confirmation status stated on the face of the doc
 - [ ] Subscriber lens answered, escalated if "no"
 - [ ] Customer profile laddered to archetypes, feeling-first
 - [ ] Dream tweet + dream headline verbatim (the retro rubric)
+- [ ] GTM handoff names the primary customer, role system, tension, proof, and OPEN truths
 - [ ] Competitive claims source-linked
 - [ ] Pricing owner named per the Brandon + GM ruling
 - [ ] Roster collected fresh; OPEN items marked, not filled

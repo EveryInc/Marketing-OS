@@ -15,6 +15,8 @@ specifics are needed.
 - [ ] Positioning confirmed and the relevant positioning skill is complete
 - [ ] Launch narrative written, reviewed, and locked — the why-now, why-us, why-this
       are all answered in specific, falsifiable terms (see `references/launch-narrative.md`)
+- [ ] GTM one-page strategy locked with `launches/gtm-plan`: primary customer, belief
+      shift, campaign hierarchy, proof engine, first behavior, and dated measures
 - [ ] Brand-voice confirmed and the relevant brand-voice skill is complete
 - [ ] All channel assets can be traced back to the launch narrative — if any asset
       cannot, it has been revised or the narrative has been updated to resolve the gap
@@ -35,6 +37,9 @@ specifics are needed.
 - [ ] Social suite final across all in-scope platforms
 - [ ] All links live and correct
 - [ ] All visual assets (screenshots, video, product demo) approved for external use
+- [ ] Branded launch film and product-proof video library have separate briefs and
+      complete deliverables lists
+- [ ] Short interaction clips prove specific claims rather than functioning as a feature tour
 
 *[To be populated: specific asset format requirements, approval workflows, and
 publication logistics for Every's channels.]*
@@ -51,6 +56,8 @@ publication logistics for Every's channels.]*
 - [ ] Press relationships confirmed: who is reaching out to which journalist?
 - [ ] Embargo dates and terms confirmed with all embargo recipients
 - [ ] Press embargo recipients have the embargo materials and have confirmed receipt
+- [ ] Pre-launch seeding cohort has completed real workflows more than once
+- [ ] Post-launch seeding wave, support owners, permissions, and receipt targets are set
 
 *[To be populated: Every's press contact list, embargo process, and distribution
 list naming conventions.]*
@@ -62,6 +69,7 @@ list naming conventions.]*
 - [ ] Product is live and stable in production (not staging)
 - [ ] Product team has confirmed the launch narrative and all assets are accurate
 - [ ] Onboarding or sign-up flow is tested and working
+- [ ] The concrete starter workflow creates visible value and can lead to repeat or team use
 - [ ] Any known edge cases or limitations have been reviewed: are there any that would
       embarrass the announcement if discovered by a journalist or early user?
 - [ ] Customer support or feedback channel is ready to receive new-product inquiries
@@ -78,6 +86,8 @@ list naming conventions.]*
 - [ ] Support or community channel owners are briefed and ready
 - [ ] Founder or principal spokesperson is aligned on talking points and available
       on launch day
+- [ ] Editorial category guide is final or scheduled when customer education is part of
+      the GTM strategy
 
 *[To be populated: specific internal stakeholders and briefing process for new-
 product launches.]*
