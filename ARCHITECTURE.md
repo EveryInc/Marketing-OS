@@ -228,6 +228,23 @@ Each tier orchestrates a specific set of craft skills:
         - craft/long-form/byline
         - craft/long-form/thought-leadership
 
+
+    launches/marketing-launch-workflow
+      Douglas's end-to-end execution layer. Sits on top of the three tier
+      skills and adds the actual deliverable sequence, web copy workflow,
+      design brief flow, and approval process.
+      Additional dependencies:
+        - launches/improvement-launch
+        - launches/feature-launch
+        - launches/new-product-launch
+      Orchestrates all craft skills from the tier skills above, plus:
+        - craft/web/homepage
+        - craft/web/landing-page
+      References:
+        - references/workback-templates.md
+        - references/deliverable-templates.md
+        - references/web-copy-workflow.md
+
 ### Launch Architecture Skillset (L/XL flagship process)
 
 All generate from launches/canonical-process.md — the single versioned source for the
