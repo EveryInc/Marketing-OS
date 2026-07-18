@@ -22,11 +22,16 @@ strategy.
 - Positioning confirmed. The product's positioning skill is complete and reviewed.
 - Launch narrative written, reviewed, and locked. This is the upstream document for
   everything that follows. See `references/launch-narrative.md`.
+- GTM one-page strategy locked with `launches/gtm-plan`: primary customer, belief shift,
+  campaign hierarchy, proof engine, first customer behavior, editorial role, video
+  system, and measures.
 - Brand-voice confirmed. The brand-voice skill for this product is complete.
 - Asset scope decided. Which channels, what sequencing, what formats — all decided
   before production begins.
 - Press strategy decided: are we doing press? If so, who is the journalist relationship
   owner, what is the target outlet list, and what is the embargo strategy?
+- Seeding cohort selected. Each participant is tied to a real workflow and a support
+  owner; publishable evidence is the target, not posting volume.
 
 ### T-60 (eight weeks before launch)
 
@@ -35,6 +40,11 @@ strategy.
 - Landing page in first draft.
 - Email drafts begun for all in-scope segments.
 - Social asset suite outlined.
+- Branded launch film brief and product-proof video library in production.
+- Seeded users are running real workflows more than once; early evidence is being
+  captured with permission.
+- Editorial category guide commissioned when the launch requires customers to learn a
+  new behavior.
 - Press outreach list finalized, if press is in plan.
 
 ### T-30 (four weeks before launch)
@@ -43,6 +53,9 @@ strategy.
 - Landing page final or near-final.
 - All email drafts complete.
 - Social asset suite drafted.
+- Launch film, product overview, interaction clips, workflow stories, and channel
+  cutdowns in final production.
+- Internal operating receipt verified; customer-receipt format and permissions ready.
 - Press outreach materials (pitch, embargo release) drafted and reviewed.
 - Internal team briefed — anyone at Every who interacts with external audiences should
   know the product is launching, what it does, and what the announcement says.
@@ -52,6 +65,8 @@ strategy.
 ### T-14 (two weeks before launch)
 
 - All assets final or in final revision.
+- Starter workflow and first-use path tested with target customers.
+- Post-launch seeding wave and receipt calendar scheduled.
 - Landing page staged and ready for launch-day deployment (or already live in pre-launch
   form, if that's the strategy).
 - Press outreach begins under embargo, if press is in plan.
@@ -68,6 +83,8 @@ strategy.
   monitoring and decision-making.
 - Any pre-launch content (teasers, behind-the-scenes, waitlist communication) complete
   and scheduled.
+- Editorial guide, seeding posts, and proof assets sequenced around launch according to
+  the GTM strategy.
 
 ### T-2 (two days before launch)
 
@@ -100,6 +117,8 @@ Every's launch sequence (to be adapted based on product and context):
   to the most engaged audience — the people who trust Every's editorial judgment and
   will respond to the launch as a signal of what Every is building.
 - **Within two hours of email**: social posts across all in-scope channels.
+- **Throughout launch day**: publish product-proof interactions and named receipts in a
+  deliberate sequence; do not force the full proof library into one announcement.
 - **Same day**: any long-form content goes live (byline, thought-leadership). These are
   the narrative-depth pieces that provide context beyond the announcement.
 - **Launch-day owner monitors all channels** for user response, press pickup, and any
@@ -126,6 +145,7 @@ Every's launch sequence (to be adapted based on product and context):
   - Social proof aggregation (press coverage, notable mentions)
   - Founder or team perspective on what launch day revealed
 - Internal debrief: what worked, what surprised us, what would we do differently?
+- Begin the second seeding wave and publish the first complete customer workflow receipt.
 
 ### T+14
 
@@ -134,6 +154,7 @@ Every's launch sequence (to be adapted based on product and context):
   launch?
 - Identify the narrative thread for the next thirty days: what is the ongoing story
   of this product post-launch, and which channels carry it?
+- Compare starter workflows and identify which behaviors predict repeat or shared use.
 
 ### T+30
 
@@ -143,3 +164,5 @@ Every's launch sequence (to be adapted based on product and context):
 - Identify whether any launch content should be updated, retired, or extended. Landing
   pages and product pages have a longer shelf life than announcement emails — are they
   still accurate and current?
+- Score publishable receipts, named advocacy, case-study candidates, and distinctive
+  brand associations against the GTM plan.

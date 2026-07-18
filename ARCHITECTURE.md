@@ -212,6 +212,7 @@ Each tier orchestrates a specific set of craft skills:
 
     launches/new-product-launch
       Orchestrates:
+        - launches/gtm-plan
         - craft/email/current-subscriber
         - craft/email/paid-user
         - craft/email/churned-user
@@ -250,6 +251,17 @@ gets fixed.
       - marketing-science/archetyping
       - marketing-science/research
       - positioning/{relevant product}
+
+    launches/gtm-plan
+      - launches/canonical-process.md (always)
+      - launches/launch-brief (approved input)
+      - launches/new-product-launch/references/launch-narrative.md (for net-new products)
+      - strategy/messaging-architecture
+      - marketing-science/research
+      - marketing-science/brand-equity
+      - positioning/{relevant product}
+      - brand-voice/{relevant product}
+      - launches/claims-clearance
 
     launches/codex-gut-check
       - launches/canonical-process.md (always)

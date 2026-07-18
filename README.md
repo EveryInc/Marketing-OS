@@ -13,7 +13,8 @@ The repository is organized into seven top-level folders:
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
 4. **strategy/** — Higher-order strategy skills (messaging architecture, one-pagers) that compose voice and positioning
 5. **craft/** — Execution-level skills for specific deliverables: copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
-6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
+6. **launches/** — Orchestration skills for three launch tiers plus the flagship GTM,
+   calendar, brief, claims, wireframe, and email systems
 7. **marketing-science/** — Research, archetyping, and brand-equity theory skills that inform positioning and naming
 
 ## Dependency model

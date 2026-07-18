@@ -1,6 +1,6 @@
 # The Every Launch Process — Canonical Reference
 
-**Version 1.3 · July 6, 2026 · Ruled by Douglas (Head of Marketing / ECD)**
+**Version 1.4 · July 18, 2026 · Ruled by Douglas (Head of Marketing / ECD)**
 
 This file is the single source of truth for Every's flagship launch process. Every skill
 in `launches/` that generates calendars, burn-downs, briefs, scaffolds, or gates derives
@@ -45,6 +45,11 @@ from launch day starting at the first incomplete phase.
    and customer work run in parallel. Douglas solo; GM/Brandon and Dan approve. Any live
    AI product on a candidate name disqualifies it; every availability claim requires a
    live search cited inline; "unverified" is not a status.
+6. **GTM strategy precedes the channel plan.** The GTM plan must choose the primary
+   customer, market belief, campaign platform, proof engine, first customer behavior,
+   and dated success measures before it expands into dates and assets. Generate it with
+   `launches/gtm-plan`. A brand line, emotional value proposition, activation instruction,
+   or launch calendar is not a GTM strategy by itself.
 
 ## The eight-week spine
 
@@ -88,7 +93,8 @@ note in the standard format (below).
 - Subscriber lens: can all our subscribers use it? (Monologue and Cora pass; Para didn't.)
 - Customer profile: one core psychographic or professional target, sub-targets allowed, laddering to one–two archetypes (Builder, Operator, Seeker, Executive)
 - Why are we doing this, what defines success, how do we drive it
-- Dream tweet and dream headline
+- Dream tweet and dream headline — verbatim and specific enough to score at the retro;
+  the headline should validate the intended category belief or customer outcome
 - Positioning and story: what we made, why we made it, who it's for
 - Deep competitive audit — messaging, positioning, colors, pricing (`competitive-audit` skill)
 - Name the pricing/offer owner — Brandon and the GM lock pricing, targeted for wireframe approval
@@ -96,14 +102,16 @@ note in the standard format (below).
 - Assemble the brief → approval: Douglas, Brandon, stakeholders, Dan, Austin
 - Stand up the Notion Calendar entry and sectioned burn-down (`notion-launch-scaffold` skill); approve with the GMs, Brandon, and Austin
 - Place Dan's three calendar holds now (brief, final web design, Launch Week) — Dan is best in person when possible
-- Ping Austin — the GTM framework begins
+- Hand the approved brief to Austin — the GTM framework begins with
+  `launches/gtm-plan`, not a channel calendar
 
 ### Weeks 2–4 — Brand build (three parallel tracks)
 
 - Douglas + design lead write the Figma moodboard brief; hand off to the designer
 - Designer builds the brand book: wordmark, brandmark, type hierarchy, colors, treatments, photography direction, illustration, logos, applications, systems
 - Marketing builds the full brand doc: fleshed strategy and positioning, messaging, sample web copy R1, tone of voice, influencer/culture if relevant
-- Austin builds the GTM framework and brief — a conversion strategy that makes money (solo track)
+- Austin builds the GTM framework and brief with `launches/gtm-plan` — the one-page
+  strategy first, then the execution appendix (solo track)
 - Cadence: weekly team standup; Douglas's design standups; weekly stakeholder approval
 - Two GM/engineering touchpoints on the weekly update
 - End of Week 4: red light / green light presentation (Douglas, Brandon, stakeholders)
@@ -113,7 +121,9 @@ note in the standard format (below).
 - Feed Codex/Claude the full strategy doc + Every master brand positioning and archetypes: gut-check positioning, inform high-conversion site copy, check customer alignment, brainstorm CTA and prompt copy against competitors (`codex-gut-check` skill)
 - Finalize web copy off the pass (ai-check + every-style gates, both mandatory)
 - Team brainstorm on the website — the wireframe phase; a few section mockups (`wireframe-from-copy` skill produces the annotated wireframe)
-- Motion and video needs surface from the brainstorm → motion brief + deliverables list; brief the motion lead earliest possible, maximum lead time
+- Motion and video needs surface from the brainstorm → motion brief + deliverables list;
+  separate the branded launch film from the high-volume product-proof library and brief
+  the motion lead earliest possible, maximum lead time
 - Team approves the list; Austin approves only launch assets (launch video yes, site-only motion no)
 - Austin sign-off #2: positioning in the copy, approach to site and brand, launch video assets/brief
 - Wireframe sign-off: stakeholders on product, Douglas on marketing
@@ -126,7 +136,8 @@ note in the standard format (below).
 - Builder builds, one–two weeks; QA owner named, definition of done agreed at handoff
 - Product designer and GM apply the brand in the app, from the locked brand book
 - Measurement and KPIs locked in Growth's GTM plan, metrics included — Growth owns measurement
-- Austin locks the GTM plan one week before launch
+- Austin locks the GTM plan one week before launch: customer, campaign hierarchy,
+  proof/seeding system, starter behavior, editorial role, video suite, measures, and owners
 - Douglas builds the Marketing Launch Calendar — including retro and sustain — into the Notion Calendar
 
 ### Week 8 — Launch Week
@@ -134,7 +145,9 @@ note in the standard format (below).
 - Pricing locked — hard deadline: the Monday of Launch Week (see collision rule)
 - Daily standups through launch day, set by Douglas — all hands
 - Master burn-down is the single source of truth — if it's not on the list, it doesn't exist
-- Pre-launch influencer/affiliate plan live per the GTM plan (only if the launch has one)
+- Pre-launch influencer/affiliate plan live per the GTM plan (only if the launch has one);
+  post-launch seeding is already scheduled so advocacy and use-case discovery do not end
+  on launch day
 - Dan pulled in: tweet, video, whatever the launch needs — in person when possible
 - Final website design approved: Douglas, Brandon, stakeholders, Dan, Austin
 - Claims clearance pass on every launch surface (`claims-clearance` skill): every stat sourced, every logo permissioned, every price consistent — before anything ships
@@ -148,6 +161,8 @@ note in the standard format (below).
 
 - Retro — always. Scored against the Week 1 success definition: dream tweet, dream headline, metrics
 - Sustain per the GTM plan and Marketing Launch Calendar — flexes by launch
+- Customer receipts, seeded-user evidence, and case studies feed the next acquisition
+  cycle; proof targets are scored at the retro alongside business and brand outcomes
 - Learnings logged back into **this file**, with a changelog entry and version bump
 
 ## The Notion scaffold standard
@@ -240,7 +255,7 @@ A new launch's roster is collected, never inherited. These are examples to offer
   beats a complete-looking false one.
 - Check every item the same way; name what wasn't covered instead of implying it passed.
 
-## Skill registry (status as of July 4, 2026)
+## Skill registry (status as of July 18, 2026)
 
 | Skill | Status | Role |
 |---|---|---|
@@ -249,6 +264,7 @@ A new launch's roster is collected, never inherited. These are examples to offer
 | notion-launch-scaffold | **New in this bundle** | Builds the Notion standard above |
 | codex-gut-check | **New in this bundle** | The Week 5 bridge |
 | launch-brief | **New in this bundle** | Week 1 foundation generator |
+| gtm-plan | **New in v1.4** | Market belief, campaign, proof, activation, and measurement strategy |
 | claims-clearance | **New in this bundle** | Pre-ship verification gate |
 | wireframe-from-copy | **New in this bundle** | Copy doc → annotated lo-fi wireframe |
 | launch-email-flows | **New in this bundle** | Four-flow launch email pattern |
@@ -256,6 +272,16 @@ A new launch's roster is collected, never inherited. These are examples to offer
 | marketing-outreach-emails | Live | If outreach is in the GTM plan |
 
 ## Changelog
+
+**v1.4 — July 18, 2026 (Douglas × Codex)**
+- Added `launches/gtm-plan`, the missing strategy layer between the approved launch brief
+  and channel execution.
+- Ruled that GTM must choose a primary customer, belief shift, campaign hierarchy, proof
+  engine, first customer behavior, and dated measures before dates and assets.
+- Added pre- and post-launch influencer seeding, editorial category education, customer
+  receipts, and separate brand-film/product-proof video systems to the flagship process.
+- Added the Every Agent launch as the worked example, including the Aug. 18, 2026 launch,
+  compounding campaign platform, and dream-headline standard.
 
 **v1.3 — July 6, 2026 (Douglas × Claude)**
 - Added reminder sends (Day 2–3 email last-call + Discord nudge) to the Week 8
