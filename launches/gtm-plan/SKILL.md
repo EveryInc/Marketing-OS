@@ -141,19 +141,48 @@ Lock four classes of measures with dates and owners:
 Do not report every available metric. Choose measures that decide positioning, onboarding,
 pricing, channel investment, or the sustain story.
 
-## Output shape
+## Required output template
 
-Write the plan in two layers:
+Use this section order. Adapt the depth to the launch tier, but do not replace the strategy
+with a different consulting framework.
 
-1. **The one-page strategy:** tension, audience, belief shift, positioning for GTM,
-   campaign hierarchy, three–five campaign goals, proof engine, starter workflow, and
-   success measures.
-2. **The execution appendix:** pre-launch, launch, and sustain phases; owners; real dates;
-   editorial; seeding; video deliverables; activation; reporting moments; and open risks.
+1. **Launch facts** — product, confirmed date, primary audience, buyer, champion, daily
+   user, secondary audience, and explicit non-target.
+2. **The tension** — the customer or market truth creating the opening, supported by
+   verified evidence and the customer's current workaround.
+3. **Campaign approach** — three–five numbered goals describing what the campaign must
+   make happen in the market.
+4. **Business and learning goals** — dated targets for demand, activation, conversion,
+   proof, retention, revenue, brand, and the decisions those results will inform.
+5. **Positioning for GTM** — framing, problem, audience, promise, brand line, functional
+   proposition, emotional value, reasons to believe, archetype, and current competitive
+   distinction.
+6. **Campaign idea** — platform, enemy, demand, payoff, and a short articulation showing
+   the human or organizational insight behind them.
+7. **Dream outcomes** — one dream tweet and three–five sample dream headlines written
+   verbatim. Each headline should validate the intended category belief or customer
+   outcome; do not repeat the tagline with publication syntax around it.
+8. **Proof and distribution** — internal receipt, real workflows, pre-launch seeding,
+   post-launch seeding, customer receipts, case studies, permissions, and proof targets.
+9. **Editorial** — the category-teaching asset, why it is useful without the product,
+   publication timing, and supporting tools or worksheets.
+10. **Activation** — the concrete starter workflow, first-use path, expansion into shared
+    or repeated use, and the activation definition.
+11. **Video system** — branded film, product overview, interaction library, workflow
+    stories, customer receipts, creator kits, onboarding, cutdowns, and aspect ratios.
+12. **Campaign shape** — pre-launch, launch, second use/activation moment, and sustain.
+    Give each phase one job before listing its few essential assets.
+13. **Measurement and reporting** — business, activation, proof, and brand measures with
+    owners and dated review moments.
+14. **Milestones** — only the real locks, publications, seeding starts, launch date, and
+    reporting dates needed to run the plan.
+15. **Open questions and claims** — unresolved product truths, pricing, permissions,
+    unsupported claims, and the owner and deadline for each.
 
-Keep dates subordinate to strategic choices. Combine tasks that serve the same purpose.
-If removing a date changes the argument, the draft is probably a project plan rather than
-a GTM strategy.
+Write the first seven sections as the one-page strategic core when possible. Treat the
+remaining sections as the execution appendix. Keep dates subordinate to strategic choices
+and combine tasks that serve the same purpose. If removing a date changes the argument,
+the draft is probably a project plan rather than a GTM strategy.
 
 ## Reference routing
 
@@ -186,4 +215,6 @@ a GTM strategy.
 - [ ] Editorial teaches the behavior the product requires
 - [ ] Brand film and product-proof video library are scoped separately
 - [ ] Business, activation, proof, and brand measures have dates and owners
+- [ ] The required section order is preserved and includes one dream tweet plus three–five
+      verbatim dream headlines
 - [ ] Every external claim routes through claims clearance
