@@ -43,3 +43,17 @@ of culturally overused references. The mandatory human reference gate belongs in
 general skill.
 
 Full worked brief: `docs/thesis-2027-brand-brief.md`.
+
+
+## Core metaphor refinement
+
+The territory gained a precise historical engine after the first system pass. A **pinakion**
+was a citizen's named token; a **kleroterion** was the slotted allotment machine that
+organized individual tokens into a civic process. For Thesis, the pinakion becomes the
+human token carrying a name, thesis, field, and edition. The kleroterion becomes the
+public field where authored positions enter, assemble, and change the visible structure.
+
+The conference remains curated. Sortition supplies motion behavior—entry, release,
+selection, and rearrangement—without becoming a programming rule. This distinction keeps
+the metaphor defensible and prevents the identity from collapsing into generic classical
+imagery.
