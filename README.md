@@ -1,28 +1,40 @@
 # Marketing OS
 
-A skills repository for Every's marketing OS. Each skill is a structured prompt module designed to be loaded into Plus One (or any Claude-based workflow) for a specific marketing task.
+A skills repository for Every's marketing OS. Each skill is a structured prompt module designed to be loaded into Plus One or another agent workflow for a specific marketing task.
 
-This repo is **scaffolding only** — stubs will be populated as the corresponding brand docs and frameworks are completed.
+The repository combines mature operating skills with active modules that are still being developed and tested.
 
 ## Taxonomy
 
 The repository is organized into seven top-level folders:
 
 1. **foundation/** — The Marketing OS, the operating system underlying all skills
-2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
+2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
-4. **strategy/** — Higher-order strategy skills (messaging architecture, one-pagers) that compose voice and positioning
-5. **craft/** — Execution-level skills for specific deliverables: copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
-6. **launches/** — Orchestration skills for three launch tiers plus the flagship GTM,
-   calendar, brief, claims, wireframe, and email systems
-7. **marketing-science/** — Research, archetyping, and brand-equity theory skills that inform positioning and naming
+4. **strategy/** — Higher-order strategy skills, including the gated Compound Brand workflow, messaging architecture, and one-pagers
+5. **craft/** — Identity and execution skills, including verbal identity, art direction, copywriting, editing, naming, and channel-specific output
+6. **launches/** — Orchestration skills for three launch tiers plus the flagship GTM, calendar, brief, claims, wireframe, and email systems
+7. **marketing-science/** — Research, archetyping, and brand-equity theory that inform strategy and identity
 
 ## Dependency model
 
-Every skill loads `foundation/marketing-os` as its root dependency. Additional dependencies cascade by category — positioning skills pull in marketing-science, craft skills pull in brand-voice and positioning, launch skills orchestrate strategy and all five channel craft skills.
+Every skill loads `foundation/marketing-os` as its root dependency. Additional dependencies cascade by category. The Compound Brand orchestrator runs a gated sequence from research and strategic foundation through brand character, optional equity modeling, verbal identity, and art direction. Launch skills orchestrate strategy and channel craft skills.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for the full dependency graph.
 
-## Status
+## Current operating coverage
 
-All 31 skill stubs are in place. Each will be populated as its corresponding brand doc or framework is finalized.
+Ready for structured use:
+
+- Every master positioning and brand voice
+- Evidence-led research, competitive auditing, and positioning matrices
+- Compound Brand strategy through art direction
+- Aaker-led brand-equity modeling
+- Messaging architecture and flagship launch systems
+- The Thesis 2027 brand brief as a worked art-direction case
+
+Still being developed:
+
+- Product-specific positioning and voice modules that remain stubs
+- Several channel and deliverable craft skills
+- Additional worked cases, evaluations, and post-project compounding loops
