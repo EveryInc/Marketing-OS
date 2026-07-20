@@ -1,56 +1,62 @@
 # Archetyping
 
-How we define and deploy audience archetypes at Every. This skill bridges the gap between
-abstract audience segments and the concrete, psychologically grounded profiles that
-positioning, naming, and brand-voice skills need to do their work.
-
-Loaded by every positioning skill. Also pulled in by naming (archetypes shape what names
-resonate) and by brand-voice skills when the voice needs to speak to a specific audience.
-
-## System
-
-Archetyping is composed of four reference files:
-
-### references/archetype-framework.md
-The archetype model we use — whether Jungian, Mark & Pearson, our own synthesis, or a
-hybrid. Defines the taxonomy, the logic behind it, and how archetypes relate to one
-another.
-
-### references/audience-definition.md
-How we define audiences at Every — the distinction between ICPs (ideal customer profiles)
-and archetypes, when to use each, and how they complement rather than replace one another.
-
-### references/every-audiences.md
-The actual audience archetypes for Every's brands. Placeholder — to be populated as brand
-docs complete. Will contain the archetypes for each sub-brand and the master brand.
-
-### references/mapping-methodology.md
-How we map overlapping audiences across sub-brands. Every operates a portfolio — audiences
-for Cora, Spiral, Plus One, etc. overlap and diverge. This methodology governs how we
-track those relationships.
+Define brand character and audience archetypes after strategic foundation and before equity,
+verbal identity, or art direction. Archetypes provide a coherent relationship and pattern
+of behavior. They are not costumes, moodboards, or a substitute for customer evidence.
 
 ## When to invoke
 
-- When a positioning skill needs archetype context for a specific brand
-- When the naming skill needs archetype guidance for candidate generation and evaluation
-- When defining or refining the archetypal identity of a sub-brand's audience
-- When mapping audience overlaps across Every's portfolio
-- When a brand-voice skill needs to understand who it's speaking to at the archetype level
+- When the compound-brand workflow reaches brand character
+- When positioning needs a psychologically coherent brand relationship
+- When naming, voice, or art direction needs character guidance
+- When an existing brand has a list of traits but no behavioral model
+- When mapping audience overlap across a portfolio or branded house
 
-## Reference routing
+## Inputs
 
-| Task type | Load |
-|---|---|
-| Understanding the archetype model itself | `references/archetype-framework.md` |
-| Defining an audience (ICP vs. archetype) | `references/audience-definition.md` |
-| Looking up a specific brand's audience archetypes | `references/every-audiences.md` |
-| Mapping overlaps across sub-brands | `references/mapping-methodology.md` |
+Require the approved philosophy, customer and demand model, positioning, customer language,
+founder behavior, product experience, and cultural context. Do not select an archetype from
+an abstract quiz.
+
+## Brand character
+
+Load `references/brand-character.md`. Define:
+
+- Primary and secondary archetypal pattern
+- Core desire and fear
+- Brand role and customer relationship
+- Three or four behavioral traits
+- Anti-traits and shadow failure
+- How character behaves under pressure
+- Range across channels without personality drift
+- Symbols, stories, or figures that clarify the character
+
+Use Jung, Mark and Pearson, Aaker, Kapferer, and cultural figures as lenses. Choose the
+smallest model that explains the brand.
+
+## Audience archetypes
+
+Keep audience archetypes distinct from ICPs. ICPs identify economically useful customers;
+archetypes describe motivations, identity, tensions, and desired transformation. Use both
+when the business model requires qualification and the brand needs human understanding.
+
+## Approval
+
+Present two or three character models with evidence, risks, and downstream implications.
+Recommend one. Require human approval before equity, verbal identity, or art direction.
 
 ## Dependencies
 
 - `foundation/marketing-os`
+- `marketing-science/research`
+- `positioning/{relevant brand}` when available
 
-## Status
+## Quick checklist
 
-Reference skeletons are in place. The archetype framework and methodology will be
-populated first; brand-specific audiences will follow as brand docs complete.
+- [ ] Strategic foundation is approved
+- [ ] Character comes from evidence and philosophy
+- [ ] Archetype is expressed as behavior and relationship
+- [ ] Shadow and anti-traits are explicit
+- [ ] Audience archetypes and ICPs are not conflated
+- [ ] Two or three models were presented with a recommendation
+- [ ] Human approved the model before identity execution

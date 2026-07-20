@@ -86,6 +86,20 @@ All positioning skills load:
 
 ## Strategy
 
+    strategy/compound-brand
+      - foundation/marketing-os
+      - marketing-science/research
+      - marketing-science/archetyping
+      - marketing-science/brand-equity
+      - craft/verbal-identity
+      - craft/art-direction
+      Orchestrates gated phases:
+        1. Strategic foundation
+        2. Brand character
+        3. Optional equity modeling
+        4. Verbal identity
+        5. Art direction
+
     strategy/messaging-architecture
       - foundation/marketing-os
       - positioning/{relevant product}
@@ -99,6 +113,23 @@ All positioning skills load:
 ## Craft
 
 ### Core craft (not channel-specific)
+
+    craft/verbal-identity
+      - foundation/marketing-os
+      - strategy/compound-brand
+      - marketing-science/archetyping
+      - brand-voice/{relevant brand}
+      - positioning/{relevant brand}
+
+    craft/art-direction
+      - foundation/marketing-os
+      - strategy/compound-brand
+      - craft/verbal-identity
+      - marketing-science/research
+      - marketing-science/archetyping
+      - marketing-science/brand-equity (when completed)
+      - positioning/{relevant brand}
+      - brand-voice/{relevant brand}
 
     craft/copywriting
       - foundation/marketing-os
