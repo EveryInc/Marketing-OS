@@ -64,7 +64,7 @@ The Every logo acts as a maker’s mark or publisher’s imprint. It should not 
 
 ## Art-Direction Thesis: The Civic Machine
 
-“Civic Machine” names the identity’s behavior. It is not an architectural style.
+“Civic Machine” names the identity’s behavior rather than an architectural style.
 
 The system imagines public thought as something people build together. Contributions enter, occupy a position, combine, split, and reorganize the shared field. The visual language can borrow the logic of civic artifacts, tickets, ballots, seals, diagrams, publishing systems, and instruments. It should avoid literal temples, monumental portals, ornate chambers, and machine-age decoration.
 
@@ -77,6 +77,18 @@ The desired character:
 - Historical, without nostalgia
 - Surreal, with a clear governing idea
 - Orderly enough to use at scale, with controlled disruption
+
+### Core metaphor: Pinakion and kleroterion
+
+The Civic Machine is grounded in two specific artifacts from Athenian democracy.
+
+The **pinakion** was a citizen's named identification token, made from bronze or wood. It made an individual legible inside a civic process. The **kleroterion** was the slotted allotment machine that received those tokens and organized citizens into public service through sortition.
+
+For Thesis, the pinakion becomes the human token: a compact unit carrying a person's name, thesis, field, and edition. The kleroterion becomes the public field: the grid, sequence, and visible structure where individual positions meet. Together, they hold the brand's central tension. The person stays authored and distinct while entering a larger system of shared consequence.
+
+The conference remains curated. Sortition informs motion and interaction rather than programming: tokens enter, rows release, positions shift, and the public arrangement changes.
+
+This metaphor should govern the identity across badges, editorial bylines, session cards, the annual archive, environmental screens, motion, and the entry experience. It is the historical engine beneath the broader “Civic Machine” territory.
 
 ## The Anti-Deco Rule
 
@@ -445,4 +457,3 @@ Approve the core system after step three. Experiential work should prove that sy
 - Naming and URL structure for the editorial series
 - Participation model for responses, annotations, and attendee theses
 - Final production color values after Figma and print testing
-
