@@ -14,7 +14,7 @@ The repository is organized into seven top-level folders:
 4. **strategy/** — Higher-order strategy skills, including the gated Compound Brand workflow, messaging architecture, and one-pagers
 5. **craft/** — Identity and execution skills, including verbal identity, art direction, copywriting, editing, naming, and channel-specific output
 6. **launches/** — Orchestration skills for three launch tiers plus the flagship GTM, calendar, brief, claims, wireframe, and email systems
-7. **marketing-science/** — Research, archetyping, and brand-equity theory that inform strategy and identity
+7. **marketing-science/** — Research, measurement, archetyping, and brand-equity theory that inform strategy and identity
 
 ## Dependency model
 
@@ -28,6 +28,7 @@ Ready for structured use:
 
 - Every master positioning and brand voice
 - Evidence-led research, competitive auditing, and positioning matrices
+- Decision-led measurement contracts for campaigns, launches, and experiments
 - Compound Brand strategy through art direction
 - Aaker-led brand-equity modeling
 - Messaging architecture and flagship launch systems

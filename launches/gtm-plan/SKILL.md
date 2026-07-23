@@ -150,6 +150,12 @@ Every clip should prove one claim. Do not turn the campaign into a feature tour.
 
 ## Measurement
 
+Load `marketing-science/measurement` and complete its measurement contract before launch.
+The contract must define the objective, hypothesis, baseline, primary decision metric,
+formula, target or threshold, diagnostics, guardrails, data source, owner, window,
+attribution limits, and pre-committed decision rule. A list of plausible metrics is not
+a measurement plan.
+
 Lock four classes of measures with dates and owners:
 
 - **Business:** qualified demand, paid conversion, revenue, capacity, retention, and referrals
@@ -160,6 +166,10 @@ Lock four classes of measures with dates and owners:
 Label each measure as offer, campaign, activation, or operations. Activation completion cannot stand in for offer success unless the value lock makes that activation part of the product. Measure the promised customer outcome as directly as the launch allows.
 
 Use a funnel model before launch when capacity, revenue, or sales targets matter. Show the assumptions and track quality or composition beside volume. A full event with the wrong room or a large waitlist of poor-fit applicants is not success.
+
+If no baseline exists, write `NO BASELINE`, establish the earliest defensible observation
+window, and do not claim improvement. Name the action the team will take for success,
+mixed evidence, failure, and an inconclusive result.
 
 ## Required output
 
@@ -175,7 +185,8 @@ Use seven sections and keep them brief:
 4. **The campaign** — platform, enemy, proposition, optional campaign demand, conversion action, payoff, articulation, and proof system
 5. **The journey** — conversion and lifecycle path, including decision points and recovery
 6. **The route to market** — three to six phases, each with one job and only its required proof or action
-7. **The scorecard and gates** — funnel assumptions, a small set of outcomes, launch gates, and owners for open decisions
+7. **The scorecard and gates** — the completed measurement contract, funnel assumptions,
+   a small set of outcomes, launch gates, and owners for open decisions
 
 ### Chosen appendices
 
@@ -200,6 +211,7 @@ Dream tweets and headlines are optional stress tests for positioning. Use them o
 | Planning a curated or application-based event | `references/curated-event-gtm.md` |
 | Auditing whether an activation has replaced the offer | `references/concept-inflation-case.md` |
 | Verifying Every Agent market claims | `marketing-science/messaging/references/evidence-bank-every-agent.md` |
+| Building the scorecard, targets, instrumentation, and decision rules | `marketing-science/measurement` |
 | Building the upstream message hierarchy | `strategy/messaging-architecture` |
 | Producing the launch narrative | `launches/new-product-launch/references/launch-narrative.md` |
 
@@ -210,7 +222,7 @@ Dream tweets and headlines are optional stress tests for positioning. Use them o
 - `launches/launch-brief` (approved input)
 - `launches/new-product-launch/references/launch-narrative.md` (for net-new products)
 - `strategy/messaging-architecture`
-- `marketing-science/research` · `marketing-science/brand-equity`
+- `marketing-science/research` · `marketing-science/measurement` · `marketing-science/brand-equity`
 - `positioning/{relevant product}` · `brand-voice/{relevant product}`
 - `launches/claims-clearance`
 
@@ -224,6 +236,9 @@ Dream tweets and headlines are optional stress tests for positioning. Use them o
 - [ ] Campaign platform, enemy, proposition, optional demand, conversion action, and payoff each have a clear job
 - [ ] No optional activation has silently become an admissions rule, onboarding task, PR premise, or success metric
 - [ ] Offer, campaign, activation, and operations measures remain separate
+- [ ] The measurement contract has a baseline, one primary metric per objective, formulas,
+      targets, diagnostics, guardrails, sources, owners, windows, attribution limits, and
+      decision rules
 - [ ] Proof exists before channel volume begins
 - [ ] The journey names decisions, handoffs, service levels, failure states, and follow-up
 - [ ] Application data and private logistics are separated for gated experiences
