@@ -112,6 +112,36 @@ CAC, MQLs, click-through — those are Austin's territory, the growth team's. Th
 
 ---
 
+## Measurement doctrine
+
+Measurement exists to drive decisions. Dashboards are a reporting surface. Every
+strategy, campaign, launch, and experiment names the objective, causal hypothesis,
+baseline, primary decision metric, target or threshold, diagnostics, guardrails, data
+source, owner, window, attribution limits, and decision rule before results arrive. Load
+`marketing-science/measurement` to build the contract.
+
+**One objective, one primary decision metric.** Supporting numbers can explain the
+result or protect against unintended damage. They cannot all be north stars. Volume is
+paired with quality or audience composition, and percentages show their denominators.
+
+**Marketing and Growth share evidence without collapsing mandates.** Marketing measures
+demand, memory, associations, cultural position, earned attention, and audience quality.
+Growth measures conversion, activation, revenue, retention, and funnel efficiency. A
+shared launch needs both views and named owners. Last-click attribution does not become
+the final account merely because it is available.
+
+**What is measurable is not identical to what matters.** Hard-to-attribute effects still
+require observable signals, appropriate time horizons, and honest confidence labels.
+Quantitative evidence is paired with customer behavior, qualitative evidence, and
+cultural context. Judgment stays in the system; unsupported intuition does not get a
+free pass.
+
+**No baseline means no improvement claim.** When the baseline is missing, say so,
+establish one, and name which conclusions remain unavailable. Results end in a decision:
+continue, change, stop, invest, or collect better evidence.
+
+---
+
 ## Taste as strategic asset
 
 **Taste defined.** Taste is point of view — the judgment that something belongs. Which idea is worth writing about, which AI tool is worth covering, which guest is worth interviewing, which sentence earns its place, which campaign is worth shipping. Taste is the quality of attention paid to a decision most companies make on autopilot. A high taste level means, by definition, that some people won't "get it." Good.

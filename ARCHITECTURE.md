@@ -306,6 +306,7 @@ gets fixed.
       - launches/new-product-launch/references/launch-narrative.md (for net-new products)
       - strategy/messaging-architecture
       - marketing-science/research
+      - marketing-science/measurement
       - marketing-science/brand-equity
       - positioning/{relevant product}
       - brand-voice/{relevant product}
@@ -335,6 +336,11 @@ gets fixed.
 
     marketing-science/research
       - foundation/marketing-os
+
+    marketing-science/measurement
+      - foundation/marketing-os
+      - marketing-science/research
+      (measurement contract, metric hierarchy, instrumentation, and decision rules)
 
     marketing-science/archetyping
       - foundation/marketing-os

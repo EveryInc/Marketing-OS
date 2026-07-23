@@ -96,6 +96,8 @@ note in the standard format (below).
 - Dream tweet and dream headline — verbatim and specific enough to score at the retro;
   the headline should validate the intended category belief or customer outcome
 - Positioning and story: what we made, why we made it, who it's for
+- Name the measurement owner, inventory available data and instrumentation, and capture
+  the pre-launch baseline or mark it `NO BASELINE`
 - Deep competitive audit — messaging, positioning, colors, pricing (`competitive-audit` skill)
 - Name the pricing/offer owner — Brandon and the GM lock pricing, targeted for wireframe approval
 - Naming phase if needed, per Rule 5
@@ -135,7 +137,9 @@ note in the standard format (below).
 - Design the full website; ship to the builder within two weeks of green light
 - Builder builds, one–two weeks; QA owner named, definition of done agreed at handoff
 - Product designer and GM apply the brand in the app, from the locked brand book
-- Measurement and KPIs locked in Growth's GTM plan, metrics included — Growth owns measurement
+- Growth completes the measurement contract with `marketing-science/measurement` inside
+  the GTM plan: objective, hypothesis, baseline, primary metric, formulas, targets,
+  diagnostics, guardrails, sources, owner, window, attribution limits, and decision rules
 - Austin locks the GTM plan one week before launch: customer, campaign hierarchy,
   proof/seeding system, starter behavior, editorial role, video suite, measures, and owners
 - Douglas builds the Marketing Launch Calendar — including retro and sustain — into the Notion Calendar
@@ -159,7 +163,9 @@ note in the standard format (below).
 
 ### Post-launch
 
-- Retro — always. Scored against the Week 1 success definition: dream tweet, dream headline, metrics
+- Retro — always. Scored against the Week 1 success definition and pre-committed
+  measurement rules: dream tweet, dream headline, primary outcomes, diagnostics, and
+  guardrails. End with a decision, not a metric recap.
 - Sustain per the GTM plan and Marketing Launch Calendar — flexes by launch
 - Customer receipts, seeded-user evidence, and case studies feed the next acquisition
   cycle; proof targets are scored at the retro alongside business and brand outcomes
@@ -205,8 +211,11 @@ Established July 2026 on the All Access, Every Agent, and Cora 2.0 launches. The
 3. **Naming.** Per Rule 5.
 4. **Red light.** One more round; solve the reasons within a week if possible; budget
    one–two weeks before re-presenting. Show the slack on the calendar.
-5. **Measurement.** Growth owns measurement and KPIs, locked inside the GTM plan.
-   Marketing's retro scores against the Week 1 success definition.
+5. **Measurement.** Growth owns measurement and KPIs, locked as a measurement contract
+   inside the GTM plan with `marketing-science/measurement`. Marketing owns the brand,
+   demand, cultural, and qualitative outcomes it expects the contract to include.
+   Marketing's retro scores against the Week 1 success definition and the contract's
+   decision rules. No baseline means no improvement claim.
 6. **In-product brand.** The GM builds the app. Marketing connects with the GM and
    engineering twice during the brand build and once at brand lock; the product designer
    and GM incorporate the identity. Not marketing's workstream.
@@ -255,7 +264,7 @@ A new launch's roster is collected, never inherited. These are examples to offer
   beats a complete-looking false one.
 - Check every item the same way; name what wasn't covered instead of implying it passed.
 
-## Skill registry (status as of July 18, 2026)
+## Skill registry (status as of July 23, 2026)
 
 | Skill | Status | Role |
 |---|---|---|
@@ -265,6 +274,7 @@ A new launch's roster is collected, never inherited. These are examples to offer
 | codex-gut-check | **New in this bundle** | The Week 5 bridge |
 | launch-brief | **New in this bundle** | Week 1 foundation generator |
 | gtm-plan | **New in v1.4** | Market belief, campaign, proof, activation, and measurement strategy |
+| marketing-science/measurement | **New in v1.5** | Measurement contract, metric hierarchy, instrumentation, and decision rules |
 | claims-clearance | **New in this bundle** | Pre-ship verification gate |
 | wireframe-from-copy | **New in this bundle** | Copy doc → annotated lo-fi wireframe |
 | launch-email-flows | **New in this bundle** | Four-flow launch email pattern |
@@ -272,6 +282,14 @@ A new launch's roster is collected, never inherited. These are examples to offer
 | marketing-outreach-emails | Live | If outreach is in the GTM plan |
 
 ## Changelog
+
+**v1.5 — July 23, 2026 (Douglas × Codex)**
+- Added `marketing-science/measurement`, a reusable measurement contract for strategies,
+  campaigns, launches, experiments, and ongoing programs.
+- Required a baseline, primary decision metric, formula, target, diagnostics, guardrails,
+  instrumentation, owner, window, attribution limits, and pre-committed decision rules.
+- Kept Marketing and Growth measures connected but distinct, and required launch retros
+  to end in a decision rather than a dashboard recap.
 
 **v1.4 — July 18, 2026 (Douglas × Codex)**
 - Added `launches/gtm-plan`, the missing strategy layer between the approved launch brief
