@@ -19,6 +19,8 @@ two through shared cohorts and economics.
 6. Report what the evidence supports: attributed, assisted, or incremental.
 7. Follow each meaningful cohort through conversion, retention, revenue, and LTV:CAC.
 8. End every readout with scale, revise, or stop.
+9. Compound the result into program guidance or durable doctrine only when the evidence
+   supports that promotion.
 
 ## Metric hierarchy
 
@@ -42,6 +44,7 @@ Do not turn the scorecard into a collection of every available number.
 | Define attribution, cohorts, CAC, or LTV:CAC | `references/attribution-and-economics.md` |
 | Design or interpret the Every Fame Score | `references/fame-score.md` |
 | Design a control or set a decision gate | `references/experiments-and-decision-gates.md` |
+| Turn completed work into a decision and durable learning | `references/compound-from-results.md` |
 
 ## Dependencies
 
@@ -57,3 +60,4 @@ Do not turn the scorecard into a collection of every available number.
 - Does the cohort have a 30-, 90-, and 180-day follow-up?
 - Is the Fame Score directional rather than falsely representative?
 - Does the report end in a decision?
+- Are one-off results separated from program guidance and durable doctrine?

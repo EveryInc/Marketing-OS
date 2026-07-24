@@ -198,4 +198,5 @@ Each tier orchestrates a specific set of craft skills:
     marketing-science/measurement
       - foundation/marketing-os
       - marketing-science/brand-equity
-      (subscriber acquisition, cohorts, fame, authority, and decision gates)
+      (subscriber acquisition, cohorts, fame, authority, decision gates, and
+      compounding from results)
