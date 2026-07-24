@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Program Brief"
+  short_description: "Turn ideas into measurable program briefs"
+  default_prompt: "Use $program-brief to turn this marketing idea into an actionable, measurable pilot."

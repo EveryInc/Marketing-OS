@@ -116,6 +116,18 @@ itself, and a Brand Book R1 revision is in flight — reconcile this file when i
 The Every Agent's positioning remains deliberately unpopulated (`positioning/plus-one`)
 — not yet ruled.
 
+## Current Marketing agenda: H2 2026 through H1 2027
+
+The ruled brand position above remains canonical. For current company-level Marketing
+work, load:
+
+- `references/positioning-year-2026-27.md` for the audience and perception shift.
+- `references/marketing-portfolio-2026-27.md` for the time-bound program portfolio.
+
+The working Marketing story, **"Every makes you AI native,"** translates the applied-AI-
+lab position into an audience promise. It does not replace the ruled foundations,
+allocation-economy frame, or master positioning statement.
+
 ## Active launch canon: All Access / Builder Pack (Douglas ruling, 2026-07-07)
 
 Ruled by Douglas via his R002 edit diff. These are master-brand corrections that every
@@ -155,4 +167,5 @@ external-copy skill for an Every-brand launch inherits.
 - [ ] Praxis backs every claim — the work itself is the marketing
 - [ ] Audience focus split respected (Operator-first; Builders are the soul; Seekers never made to feel behind)
 - [ ] Sub-brands argument-led under the branded house
+- [ ] Current Marketing work uses the dated agenda without overriding ruled positioning
 - [ ] Vocabulary codes respected (no "leverage," "disrupt," "cutting-edge," AI-ubiquitous words)

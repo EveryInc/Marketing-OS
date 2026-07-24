@@ -351,3 +351,9 @@ gets fixed.
       - marketing-science/research (the evidence bank, competitive audits, and
         synthesis methodology it draws proof from)
       (the audience-section schema for messaging docs + product-tagged evidence banks)
+
+    marketing-science/measurement
+      - foundation/marketing-os
+      - marketing-science/brand-equity
+      (subscriber acquisition, cohorts, fame, authority, decision gates, and
+      compounding from results)

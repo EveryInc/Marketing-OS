@@ -14,7 +14,15 @@ Every operates in a category that rewards cultural gravity, not reach optimizati
 
 1. **Brand building and growth marketing are separate disciplines.** Marketing owns brand equity, cultural authority, and awareness among audiences who aren't in-market yet. Growth owns conversion, funnel mechanics, and activation among audiences who are. Confusing them produces work that does neither job well. The classical 60/40 framing isn't a budget rule for us — we barely spend on paid — it's a mandate split. Marketing's output is the soil. Growth's output is the harvest. Growth converts demand. Marketing creates it.
 
-2. **We measure what matters culturally, not what's easiest to attribute.** North-star marketing metrics: earned press placements in taste-making outlets (not tech trade press), organic newsletter subscribers, and qualitative brand perception among creative and cultural professionals. We do not measure click-through, CAC, or MQLs. Those belong to Growth. Our job is to make them cheaper to acquire.
+2. **We measure demand without reducing Marketing to last-click attribution.**
+Marketing's primary acquisition metric is Marketing-sourced free subscribers. Marketing
+separates attributed subscriptions from assisted subscriptions and uses "incremental"
+only when a credible control supports causality. It tracks meaningful campaign cohorts
+through paid conversion and retention, records direct and fully loaded costs, and
+interprets LTV:CAC with Growth, which owns the source-of-truth commercial calculation.
+Earned press, Fame Score movement, branded search, and qualitative brand perception show
+whether demand is expanding beyond what a tracked link can capture. Click-through and
+MQL optimization remain Growth work.
 
 3. **The badge brand thesis is Every's central organizing principle.** "I read Every" must carry the same weight as "I read The Economist." Subscribing — especially at the Max tier — is a statement of identity. This is an uncrossable moat if we execute it.
 
@@ -52,6 +60,11 @@ Every operates in a category that rewards cultural gravity, not reach optimizati
 
    **Anti-patterns (if it could be swapped onto a competitor without anyone noticing, it's wrong):**
    Sepia intelligence · Notebook nostalgia · Literary preciousness · Quiet-luxury Substack-ism · "Serious writer" cosplay · Generic AI aesthetic · Category wallpaper · Corporate SaaS blandness
+
+   **Investment discipline.** Every program starts with an audience, hypothesis,
+   subscriber or Consulting path, cost cap, measurement window, and decision date.
+   Marketing scales, revises, or stops the program based on the predeclared outcome
+   without replacing distinctive creative work with generic performance marketing.
 
 ---
 
@@ -100,11 +113,16 @@ Campaigns, identities, and brand systems we study. Each is here because it did s
 
 Marketing creates demand. Growth converts it. Our job is marketing, not growth.
 
-CAC, MQLs, click-through — those are Austin's territory, the growth team's. They are not rejected; they're important. But the marketing OS exists to drive awareness, generate attention and buzz, build distinctive brand assets, and make people join the cult of Every.
+Growth owns funnel optimization and the source-of-truth commercial calculation.
+Marketing records program costs, reports Marketing-sourced free subscribers, follows
+cohort quality with Growth, and uses economics to decide which programs deserve more
+investment. The marketing OS exists to drive awareness, generate attention and buzz,
+build distinctive brand assets, and make people join the cult of Every.
 
 **Allocation.** 80:20 brand to performance. Even with significant funding, paid would likely go to events, collaborations, and creating things — not ads. We may run OOH occasionally.
 
-**Performance thinking does not influence marketing.** It belongs to the growth team. Our focus is brand salience and cohesion.
+**Performance creative does not set Marketing strategy.** Economics set investment
+gates; they do not dictate the idea. Our focus is brand salience, cohesion, and demand.
 
 **A brand-building success in 2026 that wouldn't show up in attribution:** A collaboration with a brand like Teenage Engineering. A viral launch.
 

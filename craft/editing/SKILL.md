@@ -33,6 +33,10 @@ Does this copy actually work commercially? The final filter — evaluating wheth
 copy does what it was written to do (convert, persuade, inform, engage) rather than
 just sounding good.
 
+### references/compound-from-edits.md
+How to learn from Douglas's edits: compare versions, classify the delta, preserve his
+version as canonical, and update the relevant durable rule without overwriting the work.
+
 ## When to invoke
 
 - When reviewing and refining a draft for voice alignment
@@ -40,6 +44,7 @@ just sounding good.
 - When a piece needs a final pass before publication
 - When evaluating whether existing copy meets brand and effectiveness standards
 - When stripping AI tells from generated or co-written copy
+- When Douglas returns an edited draft and asks to compound or remember the changes
 
 ## Reference routing
 
@@ -49,13 +54,17 @@ just sounding good.
 | Detecting or removing AI-generated patterns | `references/ai-tells.md` |
 | Structural editing decisions (cut, rewrite, reorder) | `references/surgery.md` |
 | Evaluating commercial effectiveness of copy | `references/effectiveness-check.md` |
+| Learning durable rules from a human-edited draft | `references/compound-from-edits.md` |
 
 ## Dependencies
 
 - `foundation/marketing-os`
 - `brand-voice/{relevant brand}` (loaded dynamically)
 
-## Status
+## Quick checklist
 
-Reference skeletons are in place. Filters and AI-tells will be populated first; surgery
-and effectiveness-check will follow.
+- Did the edit preserve the argument and creative premise?
+- Did it remove repetition rather than unique information?
+- Is the language active, specific, and recognizably Every?
+- Does the piece still do its intended job?
+- If Douglas edited it, did the system learn from the delta?
