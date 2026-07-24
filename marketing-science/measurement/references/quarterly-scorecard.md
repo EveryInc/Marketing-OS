@@ -47,6 +47,10 @@ they mean for the program.
 Name what Marketing will scale, revise, and stop. Do not hide an inconclusive result
 inside a larger dashboard.
 
+After the decision, load `compound-from-results.md`. Preserve each program's dated result
+record beside its working brief. Update Marketing OS doctrine only when the evidence
+clears the promotion standard.
+
 ## Readout sentence
 
 > Marketing sourced [X] free subscribers. [Y] converted to paid. The strongest cohort

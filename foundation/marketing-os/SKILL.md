@@ -84,6 +84,8 @@ None — this is the root dependency. All other skills load this skill.
   inform the canon and frameworks over time
 - **measurement/** connects Marketing-created demand with subscriber quality, brand
   movement, authority, and business outcomes
+- **compound-from-results** turns completed programs into decisions, program guidance,
+  and narrowly supported updates to durable doctrine
 - **strategy/** preserves the full idea while producing concise, decision-ready briefs
 
 ## Status
