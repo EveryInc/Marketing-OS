@@ -56,7 +56,8 @@ Douglas's edits are high-value evidence. When he returns an edited draft:
 2. Classify the changes: strategic correction, stronger point of view, specificity,
    voice, structure, evidence, ownership, measurement, or formatting.
 3. Treat his version as canonical unless he asks for alternatives.
-4. Update the relevant durable rule or project context.
+4. Update the relevant durable rule only when the edit passes
+   `knowledge-boundaries.md`; otherwise keep it in project context.
 5. Make the next edit locally. Do not overwrite the document with a new synthesized
    version.
 

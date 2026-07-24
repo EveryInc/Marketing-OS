@@ -5,8 +5,6 @@ based on team capacity and dependencies.
 
 ## Feature update (2–4 week lead time)
 
-Example: Monologue Shortcuts (June 3 launch).
-
 | When | Phase | Deliverable |
 |---|---|---|
 | T-14 | Calendar & Timeline | Notion calendar entry, timeline bar |
@@ -20,8 +18,6 @@ Example: Monologue Shortcuts (June 3 launch).
 | T+7 | Retro | What worked, what to carry forward |
 
 ## Website / rebrand (4–8 week lead time)
-
-Example: Monologue website redesign (June 19 launch).
 
 | When | Phase | Deliverable |
 |---|---|---|
@@ -42,8 +38,6 @@ Example: Monologue website redesign (June 19 launch).
 | T+7 | Retro | Full review |
 
 ## New product (8–12 week lead time)
-
-Example: EveryCon (November 12 conference).
 
 | When | Phase | Deliverable |
 |---|---|---|
@@ -67,18 +61,10 @@ Example: EveryCon (November 12 conference).
 | T+14 | Adoption review | Channel performance analysis |
 | T+30 | Full retro | Document everything for next launch |
 
-## EveryCon-specific phases (from actual workback)
+## Large event extension
 
-The EveryCon workback covered 63 tasks across seven phases. Key timing adjustments from
-the first pass: sponsor decks moved to June (was July), all October tasks moved to
-August, speaker promotion strategy moved to end of August, badge and merch design moved
-to end of August.
-
-| Phase | Window | Key deliverables |
-|---|---|---|
-| Foundation | T-160 to T-145 | Domain, budget, ticket pricing, brand book, ticketing |
-| Outreach & Brand | T-145 to T-128 | Sponsor decks, outreach templates, partnerships, website |
-| Early Bird Launch | T-120 | Launch assets, copy, banner, newsletter integration |
-| Marketing Campaign | T-118 to T-82 | Product story, copy and social, emails, launch assets, team posts, growth, drip |
-| Distribution | T-72 to T-65 | Product Hunt, HN, Reddit, speaker promotion |
-| Pre-Event Production | T-75 to T-6 | Badge and merch, team logistics, surprise and delight, recap solution |
+For a conference or large event, extend the new-product template when sponsor sales,
+speaker booking, ticketing, venue production, attendee operations, merchandise, or
+recap production require more lead time. Add only the workstreams the event brief
+confirms. Work back from contractual and production deadlines, not a copied event
+calendar.

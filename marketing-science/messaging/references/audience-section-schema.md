@@ -4,9 +4,6 @@ The canonical format for messaging documents. This is the per-target section str
 audience-facing messaging doc uses, plus the document-level framing that opens it and the
 evidence ledger that closes each section.
 
-Source: Every Agent messaging framework session, July 13, 2026 (product referred to as
-"@Every" / "the Every Agent," formerly Plus One).
-
 Cross-reference: this operationalizes the message house and audience-proposition matrix in
 `strategy/messaging-architecture` at the section level — it does not replace them. The
 sourcing and verification rules each field must satisfy live in

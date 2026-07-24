@@ -55,6 +55,11 @@ count are not fixed — use whatever sections the skill needs.]
 
     foundation/marketing-os
       (no dependencies — this is the root)
+      Enforces knowledge boundaries:
+        - reusable operating doctrine in skills
+        - durable, ruled brand and product canon in positioning and voice
+        - current project facts outside the repository
+        - optional cases under docs/cases, never loaded by default
 
 ## Brand Voice
 
@@ -348,12 +353,18 @@ gets fixed.
       - strategy/messaging-architecture (cross-referenced: the message house /
         audience-proposition matrix upstream — the audience-section schema
         operationalizes the per-target section format, it does not duplicate it)
-      - marketing-science/research (the evidence bank, competitive audits, and
+      - marketing-science/research (project evidence, competitive audits, and
         synthesis methodology it draws proof from)
-      (the audience-section schema for messaging docs + product-tagged evidence banks)
+      (the audience-section schema and project evidence-bank standard)
 
     marketing-science/measurement
       - foundation/marketing-os
       - marketing-science/brand-equity
       (subscriber acquisition, cohorts, fame, authority, decision gates, and
       compounding from results)
+
+## Non-dependency: Project Cases
+
+`docs/cases/` is never part of the dependency graph. A case may preserve necessary
+historical evidence, but no `SKILL.md` may load it by default or treat it as current
+project guidance.

@@ -2,8 +2,7 @@
 
 How we turn raw research into the strategic inputs that positioning, archetyping, and
 messaging consume. This file answers the operational question directly: **what,
-specifically, does each downstream skill pull from research.** Codified July 2026 from
-the Cora, Plus One/Every Agent, and Every master brand cycles.
+specifically, does each downstream skill pull from research.**
 
 ---
 

@@ -4,8 +4,7 @@ Writing rules for brand and messaging documents — generalizable across all pro
 are the verification and craft rules that run before any strategy or messaging draft ships.
 They are operating rules, not aspirations: every one is imperative and every one is auditable.
 
-Source: Every Agent messaging framework session, July 13, 2026 (product referred to as
-"@Every" / "the Every Agent," formerly Plus One). Companion files: line-level rules in
+Companion files: line-level rules in
 `references/copywriting-line-rules.md`, the failure ledger in `references/failure-ledger.md`.
 For the research-side methodology these rules point at, see
 `marketing-science/research/references/competitive-audits.md` and
@@ -34,7 +33,9 @@ duplicated).
 
 - **COMPETITORS APPEAR IN EVERY BUYER-FACING SECTION.** State what named competitors currently say to that audience, verbatim where fetched, with fetch dates. Absence claims ("nobody offers X") carry the fetch date and a launch-week re-check flag. An open lane is only claimable if the doc shows who isn't in it.
 
-- **FRAMEWORKS ARE USED, NOT CITED.** Reeves, Bernbach, Sharp, Romaniuk appear only when the doc answers them for this product ("For @Every: ..."). Never as decoration or authority gestures.
+- **FRAMEWORKS ARE USED, NOT CITED.** Reeves, Bernbach, Sharp, and Romaniuk appear only
+  when the document applies their ideas to the project. Never use them as decoration or
+  an authority gesture.
 
 - **ADMIT WEAKNESS INLINE.** Where a claim is thin, say so in the section itself ("The Power: the weakest leg, honestly"), not in an appendix. Candor where we're weak buys credibility where we're strong.
 

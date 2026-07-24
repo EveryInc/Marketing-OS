@@ -29,8 +29,7 @@ at two gates; the canon rules three). Generate from `launches/canonical-process.
 4. **Mid-flight (L) entry:** start the work-back at the first incomplete phase. If the
    remaining runway can't hold the remaining phases, lead with that — a short true
    "this date doesn't fit" beats a complete-looking calendar with hidden zero-slack.
-   When slack is zero, say so on the calendar itself (see Cora 2.0: "a design slip eats
-   the build window directly").
+   When slack is zero, state the consequence on the calendar itself.
 5. **Gates land on Fridays of their gate week, labeled (proposed) until scheduled.**
    Dan's three holds (brief, final web design, Launch Week) are placed in Week 1 —
    in person when possible.

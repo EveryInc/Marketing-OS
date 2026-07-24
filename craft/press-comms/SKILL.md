@@ -1,7 +1,8 @@
 # Press Comms
 
-Builds Every's press strategy and writes the materials required to earn coverage. Press
-combines an always-on expert-commentary desk with concentrated tentpole launches.
+Builds a press strategy and writes the materials required to earn coverage. It can
+support an always-on expert desk, a tentpole launch, a research release, a partnership,
+or another approved communications objective.
 
 ## When to invoke
 
@@ -11,26 +12,45 @@ combines an always-on expert-commentary desk with concentrated tentpole launches
 - When building a press plan, spokesperson strategy, exclusive, press kit, or quarterly
   PR readout
 
+## Required inputs
+
+- Communications objective and the business or brand decision it supports
+- News, evidence, timing, and claims-clearance status
+- Priority audience, outlet types, and named reporters when available
+- Current spokesperson roster, availability, authority, and risks
+- Owned assets, product access, research, visuals, and customer proof
+- Measurement window, baseline, tracking path, and budget
+
+Do not inherit spokespeople, outlets, cadence, exclusives, or success targets from an
+earlier press plan.
+
 ## Operating model
 
 ### Always-on press
 
-Maintain a steady cadence of timely expert commentary, relationship building, and
-briefings. The operating target is at least one meaningful expert feature each month.
-Dan is the lead public voice; the wider roster expands the number of credible stories
-Every can enter.
+Use timely expert commentary, relationship building, briefings, source material, and
+smaller news to build repeat authority between launches. Set a cadence from the objective,
+team availability, and evidence rather than treating coverage volume as the goal.
 
 ### Tentpole press
 
 Reserve the full launch machine for news that can change how the market sees Every.
-Choose one major outlet and reporter whose audience and beat fit the story. Offer a
-time-bound exclusive with early access, a private demonstration, the relevant
-spokesperson, and the strongest evidence Every can share. Once the exclusive publishes,
-release Every's definitive launch story and open distinct angles to the broader press
-list.
+Choose an exclusive only when one reporter's depth, timing, and audience outweigh the
+reach sacrificed elsewhere. Define the exclusive's scope, deadline, access, evidence,
+spokesperson, fallback, and wider-release sequence before offering it.
 
-Load `references/every-pr-strategy.md` for the current spokesperson, outlet, partnership,
-and measurement model.
+## Required output
+
+- Objective and press role
+- News and market story
+- Priority audiences, outlet types, and reporter logic
+- Lead angle plus distinct supporting angles
+- Current spokesperson matrix by topic
+- Always-on or tentpole cadence
+- Exclusive or embargo logic, if any
+- Assets, access, claims, hard questions, and risks
+- Outreach owners and follow-up
+- Authority, attention, acquisition, and business measures
 
 ## Dependencies
 

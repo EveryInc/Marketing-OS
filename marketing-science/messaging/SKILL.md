@@ -26,17 +26,16 @@ The canonical per-target section format for messaging docs — WHO · PAIN · MO
 WE SOLVE IT · THE COMPETITION · WHY US · WHERE — plus the macro-backdrop opening and the
 per-section evidence ledger that closes each section.
 
-### references/evidence-bank-every-agent.md
-The verified evidence bank for the Every Agent launch — every stat with its report,
-publisher, year, and sample, dated and flagged for re-check, including the known-fabricated
-stats that must never ship. Product-tagged; re-verify dates before external use.
+### references/evidence-bank-template.md
+The standard structure for a project evidence bank: verified claims, source details,
+verification depth, expiry or re-check date, clearance status, and rejected claims.
 
 ## Reference routing
 
 | Task type | Load |
 |---|---|
 | Structuring an audience section in a messaging doc | `references/audience-section-schema.md` |
-| Pulling a verified stat for Every Agent copy | `references/evidence-bank-every-agent.md` |
+| Building or reviewing a project evidence bank | `references/evidence-bank-template.md` |
 | Sourcing/citation discipline for the whole draft | `craft/copywriting/references/messaging-doc-discipline.md` |
 | The message house / pillars this schema sits under | `strategy/messaging-architecture` |
 
@@ -54,4 +53,4 @@ stats that must never ship. Product-tagged; re-verify dates before external use.
 - [ ] MOTIVATION claims are tagged [H] with the validation step named
 - [ ] THE COMPETITION carries dated verbatims per named competitor; absence claims dated with a re-check flag
 - [ ] Each section closes with a one-line evidence ledger: verified / hypothesis / pending re-check
-- [ ] Stats pulled only from the evidence bank; no known-fabricated stat shipped
+- [ ] Claims pulled only from the current project evidence bank; rejected claims do not ship

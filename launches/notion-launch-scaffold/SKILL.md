@@ -1,10 +1,8 @@
 # Notion Launch Scaffold
 
 Builds the standard Notion launch structure for an Every launch: the calendar entry, the
-sectioned burn-down with owned/dated/annotated tasks, and the per-section views — exactly
-to the scaffold standard in `launches/canonical-process.md`. This skill exists because the
-scaffold was built by hand twice in one day (the Every Agent and Cora 2.0, July 2026) and
-every future launch needs the same structure without re-deriving it.
+sectioned burn-down with owned, dated, annotated tasks and the per-section views, exactly
+to the scaffold standard in `launches/canonical-process.md`.
 
 ## When to invoke
 
@@ -19,8 +17,8 @@ every future launch needs the same structure without re-deriving it.
 1. The launch calendar entry (URL) or permission to create one; the launch date and tier.
 2. The roster — collected, never inherited. Project owner is Brandon with the product GM
    as co-ruler (canon ruling); everything else is asked.
-3. The section subset. Default six per the canon; launches subset by ruling (Cora 2.0
-   dropped Influencer + Affiliate + PR).
+3. The section subset. Default to the six canonical sections, then remove any track the
+   approved launch brief does not require.
 4. Actual state of each track for mid-flight (L) entries — completed phases get marked
    with evidence, never regenerated as Not Started.
 5. Work-back dates from `launch-calendar` — this skill places dates, it does not compute them.

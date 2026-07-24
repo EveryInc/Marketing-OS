@@ -1,8 +1,7 @@
 # Marketing Launch Workflow
 
-Douglas's end-to-end marketing launch system for Every products. Built from actual
-launches (Monologue Shortcuts, Monologue website redesign, EveryCon, Cora 2.0) — not
-theory. Covers the full sequence from launch decision through post-launch retro:
+Douglas's end-to-end marketing launch system for Every products. Covers the full
+sequence from launch decision through post-launch retro:
 calendar entry, positioning brief, web copy, creative brief, deliverables list, social
 briefs, email copy, asset drill-down, approvals, and go-live.
 
@@ -23,11 +22,11 @@ marketing runs for every launch.
 
 Ask Douglas or infer from context. The tier determines which phases are required.
 
-| Tier | What it is | Lead time | Example |
-|---|---|---|---|
-| Feature update | New capability in an existing product | 2–4 weeks | Monologue Shortcuts, Plus One new model |
-| Website / Rebrand | New or redesigned product site, positioning shift | 4–8 weeks | Monologue website redesign, Cora 2.0 website |
-| New product | Net-new product launch or major initiative | 8–12 weeks | EveryCon, new Every website |
+| Tier | What it is | Lead time |
+|---|---|---|
+| Feature update | New capability in an existing product | 2–4 weeks |
+| Website / Rebrand | New or redesigned product site, positioning shift | 4–8 weeks |
+| New product | Net-new product launch or major initiative | 8–12 weeks |
 
 ### Tier-specific scope
 
@@ -166,7 +165,9 @@ briefed. Go/no-go at T-2.
 **Deliverable:** T+1 check plus T+7 retro
 
 T+1: engagement check (email opens/clicks, social engagement, site traffic).
-T+7: what worked, what did not, user response patterns. Update this skill with learnings.
+T+7: what worked, what did not, and user response patterns. Record the result with
+`marketing-science/measurement/references/compound-from-results.md`; update this skill
+only when the learning passes the knowledge-boundary rules.
 
 ## References
 
@@ -174,7 +175,7 @@ T+7: what worked, what did not, user response patterns. Update this skill with l
 
 Workback schedules for all three tiers, with actual dates from past launches. Feature
 update runs T-14 through T+7. Website/rebrand runs T-42 through T+7. New product runs
-T-84 through T+30. Includes the EveryCon-specific phase breakdown.
+T-84 through T+30.
 
 ### references/deliverable-templates.md
 

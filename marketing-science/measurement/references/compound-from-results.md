@@ -47,7 +47,7 @@ threshold.
 | Channel mechanism or format | The relevant `craft/` channel reference |
 | Program sequencing or investment gate | `strategy/program-brief/references/portfolio-rules.md` |
 | Editing, voice, or creative pattern | The narrowest `craft/editing/` or approved brand-voice reference |
-| Time-bound priority | The current dated portfolio or program plan |
+| Time-bound priority | The current project or portfolio source outside Marketing OS |
 
 ## Promotion standard
 
@@ -59,6 +59,8 @@ Promote a result into durable doctrine only when at least one condition holds:
 - The result corrects a factual error in the current system.
 
 One surprising result creates a hypothesis. It does not create a universal rule.
+Apply `foundation/marketing-os/references/knowledge-boundaries.md` before changing the
+repository.
 
 ## Result record
 

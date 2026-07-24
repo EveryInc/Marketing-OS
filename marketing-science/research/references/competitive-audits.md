@@ -1,9 +1,8 @@
 # Competitive Audits
 
-How we audit competitors at Every — what we look at, how we structure findings, and how
-audits feed into positioning and messaging. Codified July 2026 from the Cora 2.0, Plus
-One/Every Agent, and All Access audit cycles. The operational version lives in the
-competitive-audit launch skill; this file is the methodology it implements.
+How we audit competitors at Every: what we inspect, how we structure findings, and how
+audits feed positioning and messaging. This file defines the reusable method used by
+`marketing-science/research`.
 
 ---
 
@@ -33,8 +32,8 @@ same way — no sampling, no skipping the boring ones.
 
 ## Analysis framework
 
-Two-axis positioning map, axes chosen per category (the Cora precedent: Agent vs. Tool ×
-Crafted vs. Generic). Every competitor placed with the evidence for its placement.
+Two-axis positioning map with axes chosen for the category. Place every competitor with
+the evidence for its placement.
 Whitespace is a quadrant no one credibly occupies — and the analysis must say whether
 it's empty because it's valuable or because it's worthless.
 

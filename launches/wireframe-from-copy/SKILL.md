@@ -1,9 +1,8 @@
 # Wireframe From Copy
 
-Turns an approved web-copy document into an annotated lo-fi wireframe — the artifact the
-Week 5 brainstorm reviews and the design team builds from. Proven on Cora 2.0 (July
-2026): copy R002 in, an eleven-section grayscale wireframe out, with the copy's own
-contradictions flagged inline where designers would otherwise build on top of them.
+Turns an approved web-copy document into an annotated lo-fi wireframe, the artifact the
+Week 5 brainstorm reviews and the design team builds from. It carries approved copy into
+structure and flags contradictions before designers build on top of them.
 
 ## When to invoke
 

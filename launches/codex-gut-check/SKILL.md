@@ -18,8 +18,8 @@ sunk cost in the strategy, told to find where it fails, before the website inher
 1. The launch's full strategy/positioning doc (or brand doc containing it)
 2. Every master brand positioning and archetypes (`positioning/every-master`,
    `marketing-science/archetyping`)
-3. The competitive set with live citations (`competitive-audit` output — if stale by more
-   than ~4 weeks, re-verify the claims that the copy leans on)
+3. The competitive set with live citations (`marketing-science/research` output — if
+   stale by more than about four weeks, re-verify the claims that the copy leans on)
 4. The current web copy draft, whatever round it's at
 
 ## Outputs
@@ -51,7 +51,7 @@ sunk cost in the strategy, told to find where it fails, before the website inher
 - `positioning/every-master` · `positioning/{product}` (loaded dynamically)
 - `brand-voice/{product}` (loaded dynamically)
 - `marketing-science/archetyping`
-- `launches/competitive-audit` output as input
+- `marketing-science/research` competitive-audit output as input
 
 ## Quick checklist
 

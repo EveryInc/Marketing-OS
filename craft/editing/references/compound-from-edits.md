@@ -16,9 +16,10 @@ Human edits are evidence about the system, not cleanup to be absorbed silently.
    - Clearer ownership or measurement.
    - Formatting or native-document preservation.
 4. Identify repeated patterns across the edit.
-5. Update the narrowest durable source: brand voice, positioning, audience, measurement,
-   channel guidance, collaboration rule, or project context.
-6. Treat the human-edited version as canonical.
+5. Apply `foundation/marketing-os/references/knowledge-boundaries.md`.
+6. Update the narrowest durable source only when the edit passes the promotion rule.
+   Otherwise keep the learning with the project.
+7. Treat the human-edited version as canonical for that project.
 
 ## Guardrails
 

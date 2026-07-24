@@ -196,12 +196,12 @@ Dream tweets and headlines are optional stress tests for positioning. Use them o
 
 | Task | Load |
 |---|---|
-| Applying the skill to the Every Agent launch | `references/every-agent-worked-example.md` |
 | Planning a curated or application-based event | `references/curated-event-gtm.md` |
-| Auditing whether an activation has replaced the offer | `references/concept-inflation-case.md` |
-| Verifying Every Agent market claims | `marketing-science/messaging/references/evidence-bank-every-agent.md` |
 | Building the upstream message hierarchy | `strategy/messaging-architecture` |
 | Producing the launch narrative | `launches/new-product-launch/references/launch-narrative.md` |
+
+Historical worked examples live under `docs/cases/`. They are optional study material,
+not dependencies or current project guidance.
 
 ## Dependencies
 

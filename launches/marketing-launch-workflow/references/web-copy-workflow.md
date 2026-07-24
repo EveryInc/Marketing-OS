@@ -1,7 +1,6 @@
 # Web Copy Workflow
 
-How Douglas runs web copy for product launches. Extracted from the Monologue website
-redesign process.
+How Douglas runs web copy for product launches.
 
 ## The pattern
 
@@ -9,8 +8,7 @@ redesign process.
    customer evidence, competitive notes, and rough direction.
 2. Produce a positioning brief grounded in the source doc, `foundation/marketing-os`,
    and a competitor audit.
-3. Douglas gives headline direction (e.g., "THINK OUT LOUD" or "turns your voice
-   into X?").
+3. Douglas gives headline direction.
 4. Push back with variants organized by approach (transformation, wordplay, imperative,
    personality), with competitive context.
 5. Douglas refines live — rapid-fire thread, often gives his own version and says
@@ -46,7 +44,7 @@ copy. Do not accidentally write their copy.
 
 ## Hero copy structure
 
-The hero is the biggest conversion lever. Based on the Monologue process:
+The hero is the biggest conversion lever:
 
 ```
 Hed: [Short, evocative, behavior-first — not feature-first]

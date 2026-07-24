@@ -16,8 +16,8 @@ approval roster in the process.
 
 1. **Launch date + feature freeze** — confirmed by the product owner or the entire brief
    is marked DRAFT on its face.
-2. **Subscriber lens** — can all our subscribers use it? (Monologue and Cora pass; Para
-   didn't.) A "no" here is a strategy conversation, not a footnote.
+2. **Subscriber lens** — can all our subscribers use it? A "no" here is a strategy
+   conversation, not a footnote.
 3. **Customer profile** — one core psychographic or professional target, sub-targets
    allowed, laddering to one–two archetypes (Builder, Operator, Seeker, Executive).
    Feeling-first archetype analysis per `marketing-science/archetyping`, not projection.
@@ -30,11 +30,11 @@ approval roster in the process.
 6. **Positioning and story** — what we made, why we made it, who it's for. For net-new
    products, the why-now / why-us / why-this narrative discipline from
    `launches/new-product-launch` applies.
-7. **Competitive picture** — the `competitive-audit` summary, source-linked.
+7. **Competitive picture** — the `marketing-science/research` competitive-audit
+   summary, source-linked.
 8. **Pricing owner named** — Brandon + the product GM (canon ruling); target lock at the
    wireframe gate, hard lock Monday of the Launch Week window.
-9. **Roster** — collected for this launch, never inherited; canon rosters offered as
-   examples only.
+9. **Roster** — collected for this launch and never inherited.
 10. **Approval record** — Douglas, Brandon + GM (co-rule), stakeholders, Dan, Austin;
     with dates. An unapproved brief blocks Week 2 (canon Rule 3).
 11. **GTM handoff** — mark the primary customer, buyer/champion/user roles, market tension,
@@ -55,7 +55,7 @@ approval roster in the process.
 - `launches/canonical-process.md` (Week 1 checklist, rosters, epistemic rules)
 - `marketing-science/archetyping` · `marketing-science/research`
 - `positioning/every-master` · `positioning/{product}` (dynamically)
-- `launches/competitive-audit` output as input
+- `marketing-science/research` competitive-audit output as input
 - `launches/new-product-launch` (narrative discipline, for net-new products)
 
 Downstream: the approved brief becomes an input to `launches/gtm-plan`.

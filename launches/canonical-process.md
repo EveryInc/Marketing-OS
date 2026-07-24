@@ -1,6 +1,6 @@
 # The Every Launch Process — Canonical Reference
 
-**Version 1.4 · July 18, 2026 · Ruled by Douglas (Head of Marketing / ECD)**
+**Version 1.5 · July 24, 2026 · Ruled by Douglas (Head of Marketing / ECD)**
 
 This file is the single source of truth for Every's flagship launch process. Every skill
 in `launches/` that generates calendars, burn-downs, briefs, scaffolds, or gates derives
@@ -19,8 +19,8 @@ tiers are separate skills in this directory (`feature-launch`, `improvement-laun
 and do not use this spine. If asked to compress this process for a smaller launch,
 don't improvise: route to the right tier or ask Douglas.
 
-An **L launch** (e.g., Cora 2.0) may enter the spine mid-flight — brand refreshed rather
-than built, copy partially approved. The spine still applies; completed phases are marked
+An **L launch** may enter the spine mid-flight with the brand refreshed rather than
+built or copy partially approved. The spine still applies; completed phases are marked
 done with evidence, never skipped silently, and the remaining calendar is a work-back
 from launch day starting at the first incomplete phase.
 
@@ -90,13 +90,15 @@ note in the standard format (below).
 ### Week 1 — Foundation (owner: Douglas unless noted)
 
 - Confirm launch date and feature freeze with the product owner — the whole clock hangs on this. A soft date makes every artifact DRAFT.
-- Subscriber lens: can all our subscribers use it? (Monologue and Cora pass; Para didn't.)
+- Subscriber lens: can all our subscribers use it? A "no" requires a strategy decision,
+  not a footnote.
 - Customer profile: one core psychographic or professional target, sub-targets allowed, laddering to one–two archetypes (Builder, Operator, Seeker, Executive)
 - Why are we doing this, what defines success, how do we drive it
 - Dream tweet and dream headline — verbatim and specific enough to score at the retro;
   the headline should validate the intended category belief or customer outcome
 - Positioning and story: what we made, why we made it, who it's for
-- Deep competitive audit — messaging, positioning, colors, pricing (`competitive-audit` skill)
+- Deep competitive audit — messaging, positioning, colors, and pricing
+  (`marketing-science/research`)
 - Name the pricing/offer owner — Brandon and the GM lock pricing, targeted for wireframe approval
 - Naming phase if needed, per Rule 5
 - Assemble the brief → approval: Douglas, Brandon, stakeholders, Dan, Austin
@@ -163,12 +165,12 @@ note in the standard format (below).
 - Sustain per the GTM plan and Marketing Launch Calendar — flexes by launch
 - Customer receipts, seeded-user evidence, and case studies feed the next acquisition
   cycle; proof targets are scored at the retro alongside business and brand outcomes
-- Learnings logged back into **this file**, with a changelog entry and version bump
+- Results enter the project record and `compound-from-results` review. Update this file
+  only when the learning passes the repository's knowledge-boundary rules.
 
 ## The Notion scaffold standard
 
-Established July 2026 on the All Access, Every Agent, and Cora 2.0 launches. The
-`notion-launch-scaffold` skill implements this; the standard lives here.
+The `notion-launch-scaffold` skill implements this standard.
 
 - **One calendar entry** in the Every Calendar database per launch (Type: Product Launch,
   Date = launch day). The page body is: template buttons, then section headings, then one
@@ -177,11 +179,11 @@ Established July 2026 on the All Access, Every Agent, and Cora 2.0 launches. The
   the Launch relation. Rows are the tasks: deleting a row deletes the task everywhere.
   Views are windows; remove views, never rows, to change what a page shows.
 - **Sections** via the shared `Section` select: Brand + Strategy · Web Design + Build ·
-  GTM · Influencer + Affiliate + PR · Launch Week · Post-Launch. Launches subset as
-  ruled (Cora 2.0 dropped Influencer + Affiliate + PR — social campaign lives in GTM).
+  GTM · Influencer + Affiliate + PR · Launch Week · Post-Launch. Remove a section only
+  when the approved brief does not require that workstream.
 - **Every task carries:** an Owner (a real person; "TBD with [name]" in the note when
   genuinely undecided — never a silent blank), a Deadline from the work-back, and a
-  **Note in the All Access format**: `[Function tag] What it is. What it derives from /
+  **standard note**: `[Function tag] What it is. What it derives from /
   feeds. Open questions marked plainly.` Assumed owners and proposed dates are labeled
   as such in the note.
 - **Section views filter on Section AND the Launch relation.** Known limitation: the
@@ -230,18 +232,13 @@ Established July 2026 on the All Access, Every Agent, and Cora 2.0 launches. The
 | Final web design approval | Week 8 | Douglas, Brandon, stakeholders, Dan, Austin | Approved design |
 | Retro | Post-launch | Douglas, Austin, team | Learnings → this file |
 
-## Rosters (offer, never assume)
+## Roster rule
 
-**The Every Agent (XL, Aug 18 2026):** process owner Douglas · project owner Brandon ·
-stakeholders Willie, Marcus · founder Dan · GTM Austin · design lead Daniel · site build
-Andrey · motion Valerio · video Douglas · in-product Ryan (product design) + GM.
-
-**Cora 2.0 (L, Aug 4 2026, mid-flight entry):** GM/co-ruler Kieran · project owner
-Brandon (per the studio-ownership ruling) · site design Daniel on a basis by Noah
-(freelance) · site build Andrey probable (vs. Yash) · motion Valerio · product build
-Tyler (freelance) · video Douglas.
-
-A new launch's roster is collected, never inherited. These are examples to offer.
+Collect every launch roster from current project reality. Never inherit people,
+freelancers, or responsibilities from an earlier launch. Record the process owner,
+project owner, product ruler, stakeholders, GTM owner, design lead, site builder, motion
+and video owners, product designer, engineering owner, QA owner, and any specialist the
+brief requires.
 
 ## Epistemic rules (non-negotiable, inherited by every launch skill)
 
@@ -255,23 +252,28 @@ A new launch's roster is collected, never inherited. These are examples to offer
   beats a complete-looking false one.
 - Check every item the same way; name what wasn't covered instead of implying it passed.
 
-## Skill registry (status as of July 18, 2026)
+## Skill registry
 
 | Skill | Status | Role |
 |---|---|---|
-| launch-calendar | v1 live locally; **v1.1 in this bundle** re-grounds it in this canon | Date engine: calendar, burn-down, meetings |
-| competitive-audit | Live v1 | Week 1 audit, source-linked |
-| notion-launch-scaffold | **New in this bundle** | Builds the Notion standard above |
-| codex-gut-check | **New in this bundle** | The Week 5 bridge |
-| launch-brief | **New in this bundle** | Week 1 foundation generator |
-| gtm-plan | **New in v1.4** | Market belief, campaign, proof, activation, and measurement strategy |
-| claims-clearance | **New in this bundle** | Pre-ship verification gate |
-| wireframe-from-copy | **New in this bundle** | Copy doc → annotated lo-fi wireframe |
-| launch-email-flows | **New in this bundle** | Four-flow launch email pattern |
-| ai-check, every-style, every-editor | Live | Mandatory copy gates, referenced not duplicated |
-| marketing-outreach-emails | Live | If outreach is in the GTM plan |
+| launch-calendar | Active | Date engine: calendar, burn-down, meetings |
+| marketing-science/research | Active | Week 1 competitive audit, source-linked |
+| notion-launch-scaffold | Active | Builds the Notion standard above |
+| codex-gut-check | Active | The Week 5 bridge |
+| launch-brief | Active | Week 1 foundation generator |
+| gtm-plan | Active | Market belief, campaign, proof, activation, and measurement strategy |
+| claims-clearance | Active | Pre-ship verification gate |
+| wireframe-from-copy | Active | Copy doc → annotated lo-fi wireframe |
+| launch-email-flows | Active | Four-flow launch email pattern |
+| ai-check, every-style, every-editor | Active | Mandatory copy gates, referenced not duplicated |
+| marketing-outreach-emails | Active | If outreach is in the GTM plan |
 
 ## Changelog
+
+**v1.5 — July 24, 2026**
+- Removed project names, rosters, offers, and dated examples from the canonical process.
+- Routed project results through knowledge-boundary review before they can change the
+  reusable system.
 
 **v1.4 — July 18, 2026 (Douglas × Codex)**
 - Added `launches/gtm-plan`, the missing strategy layer between the approved launch brief
@@ -280,15 +282,13 @@ A new launch's roster is collected, never inherited. These are examples to offer
   engine, first customer behavior, and dated measures before dates and assets.
 - Added pre- and post-launch influencer seeding, editorial category education, customer
   receipts, and separate brand-film/product-proof video systems to the flagship process.
-- Added the Every Agent launch as the worked example, including the Aug. 18, 2026 launch,
-  compounding campaign platform, and dream-headline standard.
+- Added the dream-headline stress test and proof-led launch standard.
 
 **v1.3 — July 6, 2026 (Douglas × Claude)**
 - Added reminder sends (Day 2–3 email last-call + Discord nudge) to the Week 8
   checklist — adopted from Anukshi's event-launch pattern ("Launch + Reminder"),
   which the product-launch canon previously lacked.
-- Scaffold standard implemented in the Every Calendar [Launch] template (sections,
-  views, updated instructions, rebuilt Product Launch button), Jul 6.
+- Scaffold standard implemented in the Every Calendar [Launch] template.
 
 
 **v1.2 — July 4, 2026 (Douglas ruling)**
@@ -305,9 +305,8 @@ A new launch's roster is collected, never inherited. These are examples to offer
   Week) — v1.0 drift against Douglas's July ruling.
 - Added the Notion scaffold standard (sections, task format, view rules, API limitation).
 - Added the early-week collision rule with its pending-ruling status.
-- Added L-tier mid-flight entry (Cora 2.0 pattern).
+- Added L-tier mid-flight entry.
 - Added claims clearance to the Week 8 checklist.
-- Added the Cora 2.0 roster as a second worked example.
 - Consolidated three diverged copies (Commons HTML, Notion doc, launch-calendar skill
   reference) into this single file; corrected the contradictory skill-status tables.
 

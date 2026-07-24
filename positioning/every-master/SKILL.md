@@ -88,17 +88,17 @@ with what's next, then making it useful.
 
 Branded house. Sub-brands are argument-led products under the master: Cora ("your email
 should solve itself"), Monologue ("talking is the new typing"), Spiral ("AI should
-write like you, not for you"), Sparkle, Proof, Plus One/The Every Agent. Master-brand
-credibility flows down; each surface makes every other surface more credible (editorial
-→ software → consulting → education).
+write like you, not for you"), Sparkle, Proof, Plus One. Master-brand credibility flows
+down; each surface makes every other surface more credible (editorial → software →
+consulting → education).
 
 ## The descriptor ladder (halo messaging)
 
 In a sentence: "Ideas, tools, and training about the future of work from a team that
 builds everything with AI, every day." The paragraph and conversation versions live in
 the deck's Messaging section (slides 66–67), along with per-surface sample copy (Media,
-Studio, Consulting, Education) and the "Meet the New Every" refresh narrative with the
-three membership tiers (Subscriber free · Member $288/yr · All Access $500/yr).
+Studio, Consulting, Education) and the "Meet the New Every" refresh narrative. Verify
+current membership names, prices, and entitlements before use.
 
 ## Voice pointer (executes in brand-voice/every-master)
 
@@ -113,44 +113,8 @@ codes (reach-for and avoid lists) are in the deck, slides 57–64.
 
 DB Edit 003 is the ruled edit; Verbal iD and Visual iD are flagged WIP in the deck
 itself, and a Brand Book R1 revision is in flight — reconcile this file when it locks.
-The Every Agent's positioning remains deliberately unpopulated (`positioning/plus-one`)
-— not yet ruled.
-
-## Current Marketing agenda: H2 2026 through H1 2027
-
-The ruled brand position above remains canonical. For current company-level Marketing
-work, load:
-
-- `references/positioning-year-2026-27.md` for the audience and perception shift.
-- `references/marketing-portfolio-2026-27.md` for the time-bound program portfolio.
-
-The working Marketing story, **"Every makes you AI native,"** translates the applied-AI-
-lab position into an audience promise. It does not replace the ruled foundations,
-allocation-economy frame, or master positioning statement.
-
-## Active launch canon: All Access / Builder Pack (Douglas ruling, 2026-07-07)
-
-Ruled by Douglas via his R002 edit diff. These are master-brand corrections that every
-external-copy skill for an Every-brand launch inherits.
-
-1. **Thesis name embargo (external copy).** Until the conference name is announced, all
-   external copy refers to "our upcoming AI conference in Brooklyn" (variants: "our
-   first-ever AI conference in Brooklyn this fall"). "Thesis" appears in internal docs
-   only. Remove "Thesis" from any external-facing draft on sight. (Time-bound — lift the
-   embargo when the name is announced.)
-2. **Entitlement phrasing.** The precise benefit is "unlimited Cora **accounts** and
-   Spiral **usage**" — not "unlimited Cora and Spiral." Use the precise form everywhere.
-3. **Corrected team proof points (supersede prior versions):**
-   - Kieran (GM Cora) — builds and ships Cora entirely with Claude Code
-   - Austin (Head of Growth) — runs his daily growth HQ out of Codex, with a PostHog
-     connector for analytics
-   - Brandon (COO) — plans all launches in a Notion Calendar, updated with agents daily
-   - Dan (CEO) — used Codex and Cora to build a custom email experience; Inbox Zero for
-     over 3 months
-   - Design team — builds pages in Framer, deploys on Render, finesses visuals in Flora
-4. **Naming.** "The Builder Pack" is the flagship perk of Every All Access; describable
-   as "the Every stack" / "Every's AI stack" / "our core AI stack." "Frontier AI tools"
-   is approved descriptor language.
+Plus One's positioning remains deliberately unpopulated (`positioning/plus-one`) and is
+not yet ruled.
 
 ## Dependencies
 
@@ -167,5 +131,4 @@ external-copy skill for an Every-brand launch inherits.
 - [ ] Praxis backs every claim — the work itself is the marketing
 - [ ] Audience focus split respected (Operator-first; Builders are the soul; Seekers never made to feel behind)
 - [ ] Sub-brands argument-led under the branded house
-- [ ] Current Marketing work uses the dated agenda without overriding ruled positioning
 - [ ] Vocabulary codes respected (no "leverage," "disrupt," "cutting-edge," AI-ubiquitous words)

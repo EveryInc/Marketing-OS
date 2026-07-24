@@ -5,8 +5,7 @@ Root cause: verification treated as a feature of *some* claims instead of the de
 implied. Seven-plus corrections, one cause. This ledger names the faces that one failure
 wore, so the next draft catches them before delivery.
 
-Source: Every Agent messaging framework session, July 13, 2026 (product referred to as
-"@Every" / "the Every Agent," formerly Plus One). The rules that prevent these live in
+The rules that prevent these failures live in
 `references/messaging-doc-discipline.md` (document discipline) and
 `references/copywriting-line-rules.md` (line-level, C1–C5).
 

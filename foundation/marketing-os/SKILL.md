@@ -13,7 +13,7 @@ frameworks.
 
 ## System
 
-Marketing OS is composed of five reference files, each serving a distinct role:
+Marketing OS is composed of six reference files, each serving a distinct role:
 
 ### references/canon.md
 The reference encyclopedia. Thinkers, practitioners, and researchers organized by domain
@@ -42,6 +42,11 @@ when developing or revising substantial strategy, positioning, campaign, or bran
 How to edit existing native documents without destroying their structure or design.
 Load this before changing a formatted, multi-tab, table-heavy, or collaborative document.
 
+### references/knowledge-boundaries.md
+How project work becomes reusable operating doctrine without contaminating future work
+with dated briefs, campaign facts, or one-off preferences. Load this when adding,
+revising, or compounding a skill.
+
 ## When to invoke
 
 This skill is loaded automatically by every other skill in the repo. It is the root
@@ -64,6 +69,7 @@ When this skill is loaded, route to the appropriate reference file based on the 
 | Need to operationalize a framework (Binet/Field, Sharp, Aaker, etc.) | `references/frameworks.md` |
 | Need to develop or revise substantial work with Douglas | `references/collaboration.md` |
 | Need to edit an existing formatted document | `references/native-document-editing.md` |
+| Need to add or compound repository guidance | `references/knowledge-boundaries.md` |
 
 Multiple references can be loaded simultaneously. A positioning task, for example, might
 load canon.md for Trout/Ries context, method.md for Every's positioning stance, and
@@ -87,6 +93,13 @@ None — this is the root dependency. All other skills load this skill.
 - **compound-from-results** turns completed programs into decisions, program guidance,
   and narrowly supported updates to durable doctrine
 - **strategy/** preserves the full idea while producing concise, decision-ready briefs
+
+## Knowledge boundary
+
+Project work supplies evidence. It does not become operating doctrine automatically.
+Reusable skills contain transferable methods; brand and product modules contain durable
+ruled canon; optional historical cases live under `docs/cases/` and are never loaded by
+default. Apply `references/knowledge-boundaries.md` before any repository update.
 
 ## Status
 
