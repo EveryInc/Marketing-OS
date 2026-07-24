@@ -1,6 +1,6 @@
 # Marketing OS
 
-Every's AI-native marketing operating system. It gives Plus One and other agents a
+Every's AI-native marketing operating system. It gives @EVERY and other agents a
 shared point of view, durable brand context, and repeatable workflows for running
 marketing work.
 
