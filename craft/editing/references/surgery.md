@@ -1,24 +1,48 @@
-# Surgery — Cut vs. Rewrite vs. Reorder
+# Surgery: Cut, Rewrite, or Reorder
 
-The decision framework for structural editing — knowing whether a paragraph needs a
-scalpel, a full rewrite, or a different position in the piece.
+## Cut
 
----
+Cut repetition, throat-clearing, empty theory, stale context, generic claims, and process
+detail that does not affect the reader's decision.
 
-## When to cut
-<!-- To populate — signals that content should be removed entirely -->
+Do not cut a unique audience insight, mechanism, proof point, owner, decision, metric,
+cultural reference, or creative detail merely to reduce word count.
 
-## When to rewrite
-<!-- To populate — signals that the idea is right but the execution is wrong -->
+## Rewrite
 
-## When to reorder
-<!-- To populate — signals that the structure is wrong but the content is sound -->
+Rewrite when the idea is right but the sentence is passive, abstract, generic, overly
+theoretical, or mechanically awkward. Preserve the claim and strengthen its form.
 
-## When to merge
-<!-- To populate — signals that two sections are saying the same thing differently -->
+Prefer:
 
-## When to leave it alone
-<!-- To populate — signals that intervention would make things worse -->
+- "Every does" to "Every should do."
+- Named actors and actions to passive constructions.
+- Concrete mechanisms to strategic abstractions.
+- One sharp example to several loose ones.
 
-## Decision framework
-<!-- To populate — a structured approach to choosing the right surgical intervention -->
+## Reorder
+
+Reorder when the decision, argument, or recommendation appears after its supporting
+context. Lead with the point, then earn it.
+
+## Merge
+
+Merge sections only when they perform the same job. Keep them separate when they address
+different audiences, mechanisms, phases, owners, or decisions.
+
+## Leave it alone
+
+Leave language alone when an unusual rhythm, cultural reference, material detail, or
+provocation gives the idea its identity. Editorial smoothness is not always an
+improvement.
+
+## Structural test
+
+Before finalizing, ask:
+
+1. What unique information existed before the edit?
+2. Where does each item live now?
+3. What became clearer?
+4. What became more generic?
+
+Reverse any edit whose main effect was making the work more generic.

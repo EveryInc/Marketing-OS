@@ -10,19 +10,70 @@ Written in institutional voice. This is Every's marketing OS, not one person's o
 
 ## Effectiveness stance
 
-Every operates in a category that rewards cultural gravity, not reach optimization. Our effectiveness model rests on five claims.
+Every operates in a category that rewards cultural gravity and commercial discipline.
+Our effectiveness model rests on seven claims.
 
-1. **Brand building and growth marketing are separate disciplines.** Marketing owns brand equity, cultural authority, and awareness among audiences who aren't in-market yet. Growth owns conversion, funnel mechanics, and activation among audiences who are. Confusing them produces work that does neither job well. The classical 60/40 framing isn't a budget rule for us — we barely spend on paid — it's a mandate split. Marketing's output is the soil. Growth's output is the harvest. Growth converts demand. Marketing creates it.
+1. **Marketing creates demand. Growth converts it.** Every creates ideas, apps, and
+training. Marketing makes more people know, want, and recommend them. Growth converts
+that demand into revenue so Every can build more. Marketing owns the market-facing
+story, brand stewardship, awareness, public relations, audience expansion, and
+Marketing-sourced free subscribers. Growth owns funnel instrumentation, activation,
+paid conversion, retention, revenue, and LTV:CAC calculations. The functions share
+campaign design, cohort interpretation, and scale, revise, or stop decisions.
 
-2. **We measure what matters culturally, not what's easiest to attribute.** North-star marketing metrics: earned press placements in taste-making outlets (not tech trade press), organic newsletter subscribers, and qualitative brand perception among creative and cultural professionals. We do not measure click-through, CAC, or MQLs. Those belong to Growth. Our job is to make them cheaper to acquire.
+2. **Fame and fortune are one company system.** Marketing makes Every famous for
+creating the future of work. Growth turns that attention into economic value. A major
+launch can increase awareness, free subscriptions, activation, paid conversion, and
+revenue at once. Each function reports the part it is best equipped to understand,
+without erasing the other's contribution.
 
-3. **We are building a badge brand through staged audience expansion.** In 2026, Every's working audience is what we're internally calling "AI Curious" (working term, not yet canonized) — ambitious professionals across functions who sense AI is culturally consequential and want to be the person at work who understands what's happening. This is a bridge audience, not a final audience. The long-term aspiration is to be to AI and productivity what The New Yorker is to literature, The Paris Review is to poetry, and A24 is to film — the badge brand inside a category, where subscribing signals taste, judgment, and early-cultural-authority. We build this by reaching the bridge audience first, then letting the prestige cascade to adjacent creative and cultural audiences over time.
+3. **Free subscribers are Marketing's primary acquisition metric, but measurability is
+not last-click reductionism.** Marketing reports attributed subscriptions when a tracked
+touchpoint connects a campaign to signup, assisted subscriptions when Marketing shaped
+the work but another source receives final credit, and incremental subscriptions only
+when a valid control supports causality. Campaign cohorts are followed through paid
+conversion, retention, revenue, direct CAC, fully loaded CAC, and LTV:CAC. Brand and
+authority programs also predeclare the awareness, association, press, or Consulting
+outcome they are intended to create.
+
+4. **We are building a badge brand through staged audience expansion.** Every's audience
+model distinguishes Builders, Operators, Seekers, and Executives. Marketing deepens
+affinity and paid conversion among Builders and Operators while expanding awareness,
+free subscriptions, and authority among Seekers and Executives. The long-term aspiration
+is to be to AI and productivity what The New Yorker is to literature, The Paris Review
+is to poetry, and A24 is to film: the badge brand inside a category, where subscribing
+signals taste, judgment, and early cultural authority.
 
    The comp set for master brand voice and cultural positioning: The New Yorker, A24, Teenage Engineering, COSMOS, Air, Spike Jonze's advertising work, Seed, Depop at its peak. The comp set for our software output: IDEO, Eames Office. Our products are not tools in a category; they are objects made by a studio with a point of view.
 
-4. **Creative quality is the effectiveness lever, because we can't out-spend the AI field.** OpenAI, Anthropic, and Google can outspend any marketing budget we'd ever have. We can't win on reach bought. We can win on idea density, cultural taste, and craft. Nike in the 80s and 90s and Apple in the early 2000s are the canonical examples of how to build enormous brand value without CPG-scale budgets — by making every piece of output worth paying attention to. Our native surfaces are different (essays, software UI, podcasts, conferences, occasional campaigns), but the principle transfers: the work itself is the marketing.
+5. **Creative quality is the effectiveness lever because we cannot outspend the AI
+field.** OpenAI, Anthropic, and Google can outspend any marketing budget Every will have.
+Every wins on idea density, cultural taste, and craft. The work itself is the marketing.
+Measurement protects creative ambition by showing which ideas deserve more investment;
+it does not justify replacing distinctive ideas with generic direct response.
 
-5. **The master brand and the sub-brands compound bidirectionally.** Every is a bundle whose parts make each other stronger. The newsletter builds cultural authority that sells software. The software generates use cases and case studies that fuel the newsletter. Writers and operators become cultural figures who amplify the whole. Each sub-brand's audience is distinct — Spiral for writers, Cora for professionals inundated by email, Plus One for technically adventurous users, Monologue, Sparkle, and Proof each with their own cohort — but the effectiveness currents running through them are the same: badge quality, editorial authority, craft-level execution, cultural relevance. No sub-brand is marketed on feature parity with a category incumbent. Every sub-brand is marketed as an object from the studio.
+6. **The master brand and the sub-brands compound bidirectionally.** Every is a bundle
+whose parts make each other stronger. Editorial builds cultural authority that sells
+software, training, membership, and Consulting. Products, research, and client work
+generate proof and stories that strengthen Editorial. Each sub-brand has a distinct
+audience, but none is marketed on feature parity with a category incumbent. Every
+sub-brand is an object from the studio.
+
+7. **Every program earns the right to scale.** Begin with the audience, hypothesis,
+subscriber or Consulting path, cost cap, decision date, and primary metric. Acquisition
+programs scale against subscriber quality and economics. Brand and authority programs
+scale against a predeclared outcome, a plausible business path, and an approved time
+horizon. Run one high-effort build and one lightweight pilot at a time unless the team
+has capacity for more.
+
+## Working company story
+
+You want to build or work with AI. Every makes you AI native.
+
+Marketing makes that promise known, valuable, and credible. Editorial, Studio, Training,
+Consulting, and Every's products prove it in different forms. The position becomes the
+clearest association people hold with Every while adapting to each audience and business
+line.
 
 ---
 
@@ -58,4 +109,6 @@ We argue that ___ because ___.
 
 ## The Every difference
 
-We argue that ___ because ___.
+Every combines editorial judgment, working software, practical training, original
+research, and applied expertise. Marketing turns those parts into one legible company
+with a consistent promise and a premium creative standard.

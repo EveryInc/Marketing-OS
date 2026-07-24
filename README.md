@@ -2,7 +2,8 @@
 
 A skills repository for Every's marketing OS. Each skill is a structured prompt module designed to be loaded into Plus One (or any Claude-based workflow) for a specific marketing task.
 
-This repo is **scaffolding only** — stubs will be populated as the corresponding brand docs and frameworks are completed.
+The repo combines active operating skills with scaffolding that is populated as Every's
+brand documents, measurement systems, and channel strategies are finalized.
 
 ## Taxonomy
 
@@ -11,10 +12,10 @@ The repository is organized into seven top-level folders:
 1. **foundation/** — The Marketing OS, the operating system underlying all skills
 2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
-4. **strategy/** — Higher-order strategy skills (messaging architecture, one-pagers) that compose voice and positioning
+4. **strategy/** — Higher-order strategy skills (messaging architecture, program briefs, one-pagers) that compose voice, positioning, and measurement
 5. **craft/** — Execution-level skills for specific deliverables: copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
 6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
-7. **marketing-science/** — Research, archetyping, and brand-equity theory skills that inform positioning and naming
+7. **marketing-science/** — Research, archetyping, brand equity, and measurement skills that inform positioning, programs, and decisions
 
 ## Dependency model
 
@@ -24,4 +25,6 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the full dependency graph.
 
 ## Status
 
-All 31 skill stubs are in place. Each will be populated as its corresponding brand doc or framework is finalized.
+The foundation doctrine, Every-master positioning, audience model, measurement system,
+program briefs, and core editing workflows are active. Some product-level voice,
+positioning, and channel skills remain scaffolding.

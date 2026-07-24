@@ -50,6 +50,11 @@ All positioning skills load:
       - positioning/{source brand}
       - brand-voice/{source brand}
 
+    strategy/program-brief
+      - foundation/marketing-os
+      - marketing-science/measurement
+      - positioning/{relevant brand}
+
 ## Craft
 
 ### Core craft (not channel-specific)
@@ -189,3 +194,8 @@ Each tier orchestrates a specific set of craft skills:
     marketing-science/brand-equity
       - foundation/marketing-os
       (theoretical skill, anchored in Aaker/Keller/etc.)
+
+    marketing-science/measurement
+      - foundation/marketing-os
+      - marketing-science/brand-equity
+      (subscriber acquisition, cohorts, fame, authority, and decision gates)

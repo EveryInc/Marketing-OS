@@ -1,9 +1,9 @@
 # One-Pager
 
 Compresses extensive brand docs, strategies, positioning frameworks, or plans into a
-single page. The one-pager is not a summary — it is a compression. Every word earns its
-place. The skill handles the editorial judgment of what to keep, what to cut, and how to
-structure information for maximum impact in minimum space.
+decision-ready page. The one-pager is a second layer, never a replacement for the full
+strategy. Every word earns its place, but unique strategic and creative information
+survives compression.
 
 Different audiences need different one-pagers. An executive one-pager emphasizes strategic
 rationale and outcomes. A team one-pager emphasizes operational clarity. An external
@@ -34,6 +34,7 @@ structure and emphasis.
 - When distilling a full positioning framework into an executive-facing artifact
 - When preparing a strategic summary for a board, investor, or partner meeting
 - When a brand doc or strategy is complete and needs a compressed reference version
+- When leadership needs to review a strategy in 10 to 15 minutes
 
 ## Reference routing
 
@@ -49,7 +50,10 @@ structure and emphasis.
 - `positioning/{source brand}` (loaded dynamically)
 - `brand-voice/{source brand}` (loaded dynamically)
 
-## Status
+## Quick checklist
 
-Reference skeletons are in place. Compression methodology and information hierarchy will
-be populated first; format variants will follow.
+- Does the page lead with the decision or argument?
+- Can leadership understand it in 10 to 15 minutes?
+- Does it preserve the source's distinctive idea, mechanism, audience, and evidence?
+- Are ownership, measurement, asks, and budget visible when relevant?
+- Does the full strategy remain available as the source of truth?
