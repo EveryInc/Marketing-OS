@@ -1,12 +1,16 @@
----
-name: program-brief
-description: Turn an Every marketing idea into a concise, measurable pilot with a protected creative premise, audience, owner, operating mechanism, subscriber or Consulting path, costs, metrics, and scale, revise, or stop gate. Use when proposing a campaign, social channel, affiliate program, research franchise, event, podcast, partnership, PR initiative, or other recurring Marketing program.
----
-
 # Marketing Program Brief
 
 Translate an ambitious idea into something leadership can approve and the team can run.
 Do not neutralize the idea to make the brief easier to measure.
+
+## When to invoke
+
+- When proposing a campaign or recurring Marketing program
+- When developing a social channel, affiliate program, or research franchise
+- When proposing an event, podcast, partnership, or PR initiative
+- When leadership needs an idea expressed as an owned, costed, measurable pilot
+- When a strong creative premise needs an explicit subscriber or Consulting path
+- When several programs need sequencing and investment gates
 
 ## Workflow
 

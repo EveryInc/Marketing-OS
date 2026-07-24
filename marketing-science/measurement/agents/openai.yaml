@@ -1,4 +1,0 @@
-interface:
-  display_name: "Marketing Measurement"
-  short_description: "Measure demand, fame, cohorts, and economics"
-  default_prompt: "Use $measurement to build a simple marketing scorecard and decision system."

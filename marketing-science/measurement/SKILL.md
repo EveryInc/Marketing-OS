@@ -1,13 +1,18 @@
----
-name: measurement
-description: Measure Every marketing through Marketing-sourced free subscribers, campaign cohorts, CAC, LTV:CAC, brand fame, public authority, and Consulting demand. Use when planning campaign measurement, defining KPIs, building quarterly scorecards, explaining attribution or incrementality, designing a control test, evaluating PR or brand work, or deciding whether to scale, revise, or stop a marketing program.
----
-
 # Marketing Measurement
 
 Build the smallest measurement system that can support a decision. Preserve the
 distinction between Marketing-created demand and Growth conversion while connecting the
 two through shared cohorts and economics.
+
+## When to invoke
+
+- When planning campaign measurement or defining KPIs
+- When building the quarterly Marketing scorecard
+- When explaining attribution, incrementality, CAC, or LTV:CAC
+- When designing a control test
+- When evaluating PR, brand, fame, authority, or Consulting demand
+- When deciding whether to scale, revise, or stop a Marketing program
+- When turning completed Marketing work into durable learning
 
 ## Workflow
 
