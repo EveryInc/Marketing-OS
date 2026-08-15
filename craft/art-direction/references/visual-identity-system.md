@@ -47,9 +47,18 @@ the richest world-building layer.
 Connect motion to the governing idea. Define entrances, transitions, transformations,
 tempo, and reduced-motion behavior. Avoid atmospheric motion without communicative work.
 
+### Component and template architecture
+
+Define canonical components, variants, properties, variables, source assets, responsive
+rules, and export targets. Give every reusable object a semantic name that survives a
+change in position or appearance. Include content fields and identity fields explicitly.
+
+State which parts may be detached, overridden, regenerated, or edited by hand. A visual
+system is incomplete when only its original designer can operate it safely.
+
 ## Surface proof
 
-Test the system on:
+Test the system on the relevant subset of:
 
 - Website hero, navigation, content card, and mobile screen
 - Editorial or document cover and long-form page
@@ -57,7 +66,13 @@ Test the system on:
 - Product or service interface
 - Presentation and sales document
 - Print and OOH
-- Merchandise or packaging where relevant
-- Stage, wayfinding, or environmental application where relevant
+- Merchandise or packaging
+- Stage, wayfinding, or environmental application
 
 The system passes when the surfaces feel related without repeating one composition.
+
+## Failure testing
+
+Test long names, short names, long quotes, missing images, unusual aspect ratios, small
+screens, large screens, grayscale or one-color reproduction, low-bandwidth rendering,
+and reduced motion. Define the fallback before production encounters it.

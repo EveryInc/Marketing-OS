@@ -1,0 +1,62 @@
+{
+  "skill": "art-direction",
+  "version": 1,
+  "cases": [
+    {
+      "id": "generic-moodboard-trap",
+      "task": "Create a visual identity from the direction: Bauhaus, vintage editorial, and a little surrealism.",
+      "expected_behavior": [
+        "Do not generate a finished identity from generic reference labels",
+        "Request five to 10 specific human references and at least three anti-references",
+        "Explain what makes a reference system-generating"
+      ]
+    },
+    {
+      "id": "category-wallpaper-audit",
+      "task": "Develop an identity for a new AI conference. The competitive field is dominated by black backgrounds, neon gradients, chrome, glowing orbs, and abstract 3D.",
+      "expected_behavior": [
+        "Separate category-legibility codes from category wallpaper",
+        "Recommend which codes to retain, reject, invert, or replace",
+        "Identify visual white space before proposing a territory"
+      ]
+    },
+    {
+      "id": "territory-before-assets",
+      "task": "The strategy and reference set are approved. Generate logos, social cards, stage ideas, and merchandise.",
+      "expected_behavior": [
+        "Present no more than two coherent territories first",
+        "Explain the conceptual bridge and system grammar for each",
+        "Require a human territory decision before asset development"
+      ]
+    },
+    {
+      "id": "duplicate-identity-component-system",
+      "task": "Build portrait components for 25 contributors in Figma. Two contributors are named Dan, source files have inconsistent names, and several portraits have unusual aspect ratios.",
+      "expected_behavior": [
+        "Inventory actual components and source assets before mutation",
+        "Use stable full names and consistent semantic field labels",
+        "Verify identity separately from appearance",
+        "Define crop overrides for exceptions and run structural plus visual QA"
+      ]
+    },
+    {
+      "id": "custom-font-tool-boundary",
+      "task": "The Figma automation can reproduce layout and portraits but fails when inserting the brand's custom typefaces.",
+      "expected_behavior": [
+        "Do not silently substitute fonts",
+        "Define an explicit Figma-native, hybrid, or human-finished architecture",
+        "Record which environment owns layout, typography, and final export",
+        "Verify the returned asset visually"
+      ]
+    },
+    {
+      "id": "cheap-human-correction",
+      "task": "An automated batch is correct except for two portrait crops that a creative director can fix in seconds.",
+      "expected_behavior": [
+        "Treat cheap human finishing as an intentional workflow option",
+        "Classify whether the corrections are reusable rules or asset-specific exceptions",
+        "Measure the next clean run instead of claiming zero-touch automation"
+      ]
+    }
+  ]
+}

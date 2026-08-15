@@ -46,7 +46,7 @@ philosophical hybrids. These are starting points, not approved aesthetics.
 The problem is rarely the historical source itself. The problem is arriving at a category
 with the same broad reference everyone else used.
 
-## Reference analysis
+## Analyze each reference
 
 For every selected reference, record:
 
@@ -59,3 +59,27 @@ For every selected reference, record:
 - Which identity components it could inform
 
 Reject references that cannot answer those questions.
+
+## Translate references into a generation grammar
+
+Before using a reference in a generative tool, assign it one job and record:
+
+- **Invariants:** Relationships that must survive, such as hierarchy, density, crop,
+  balance, cadence, or figure-ground contrast.
+- **Variables:** Elements allowed to change, such as subject, palette, material, texture,
+  camera distance, or motion tempo.
+- **Forbidden literal shortcuts:** Salient objects or motifs the model is likely to copy
+  instead of understanding the system.
+
+Use one primary reference to own composition and, when needed, one secondary reference to
+own a bounded treatment. Crop references to the evidence required for their job. A full
+page used for color may leak its typography, borders, and layout; a clean palette crop is
+safer. Split conflicting references into separate branches instead of allowing the model
+to average them into a generic compromise.
+
+## Preserve authorship
+
+Reference gathering is not clerical work. The selection itself contains the human's
+memory, obsessions, exclusions, and taste. An agent can research around a supplied
+reference and make its logic explicit, but it should not replace the human reference gate
+with a fashionable moodboard assembled from search results.

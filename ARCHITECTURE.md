@@ -145,7 +145,7 @@ All positioning skills load:
       - craft/verbal-identity
       - marketing-science/research
       - marketing-science/archetyping
-      - marketing-science/brand-equity (when completed)
+      - marketing-science/brand-equity (only for explicit equity evaluation)
       - positioning/{relevant brand}
       - brand-voice/{relevant brand}
 

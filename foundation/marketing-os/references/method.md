@@ -14,15 +14,7 @@ Every operates in a category that rewards cultural gravity, not reach optimizati
 
 1. **Brand building and growth marketing are separate disciplines.** Marketing owns brand equity, cultural authority, and awareness among audiences who aren't in-market yet. Growth owns conversion, funnel mechanics, and activation among audiences who are. Confusing them produces work that does neither job well. The classical 60/40 framing isn't a budget rule for us — we barely spend on paid — it's a mandate split. Marketing's output is the soil. Growth's output is the harvest. Growth converts demand. Marketing creates it.
 
-2. **We measure demand without reducing Marketing to last-click attribution.**
-Marketing's primary acquisition metric is Marketing-sourced free subscribers. Marketing
-separates attributed subscriptions from assisted subscriptions and uses "incremental"
-only when a credible control supports causality. It tracks meaningful campaign cohorts
-through paid conversion and retention, records direct and fully loaded costs, and
-interprets LTV:CAC with Growth, which owns the source-of-truth commercial calculation.
-Earned press, Fame Score movement, branded search, and qualitative brand perception show
-whether demand is expanding beyond what a tracked link can capture. Click-through and
-MQL optimization remain Growth work.
+2. **We measure what matters culturally, not what's easiest to attribute.** North-star marketing metrics: earned press placements in taste-making outlets (not tech trade press), organic newsletter subscribers, and qualitative brand perception among creative and cultural professionals. We do not measure click-through, CAC, or MQLs. Those belong to Growth. Our job is to make them cheaper to acquire.
 
 3. **The badge brand thesis is Every's central organizing principle.** "I read Every" must carry the same weight as "I read The Economist." Subscribing — especially at the Max tier — is a statement of identity. This is an uncrossable moat if we execute it.
 
@@ -46,7 +38,7 @@ MQL optimization remain Growth work.
 
 5. **Branded house architecture (decided May 2026).** Every is a branded house, not a house of brands. Like Google, Nike, Ralph Lauren, Apple, Adobe. Architecture rules:
    - Master brand is always visible
-   - Products are siblings, not strangers (Spiral, Cora, Sparkle, Monologue, Proof, Plus One)
+   - Products are siblings, not strangers (Every Agent, Cora, Monologue)
    - Consulting is "the twin who went to business school" — same DNA, different dialect
    - Editorial is the brand's front door
    - Events and education inherit from the master brand and adapt
@@ -60,11 +52,6 @@ MQL optimization remain Growth work.
 
    **Anti-patterns (if it could be swapped onto a competitor without anyone noticing, it's wrong):**
    Sepia intelligence · Notebook nostalgia · Literary preciousness · Quiet-luxury Substack-ism · "Serious writer" cosplay · Generic AI aesthetic · Category wallpaper · Corporate SaaS blandness
-
-   **Investment discipline.** Every program starts with an audience, hypothesis,
-   subscriber or Consulting path, cost cap, measurement window, and decision date.
-   Marketing scales, revises, or stops the program based on the predeclared outcome
-   without replacing distinctive creative work with generic performance marketing.
 
 ---
 
@@ -113,16 +100,11 @@ Campaigns, identities, and brand systems we study. Each is here because it did s
 
 Marketing creates demand. Growth converts it. Our job is marketing, not growth.
 
-Growth owns funnel optimization and the source-of-truth commercial calculation.
-Marketing records program costs, reports Marketing-sourced free subscribers, follows
-cohort quality with Growth, and uses economics to decide which programs deserve more
-investment. The marketing OS exists to drive awareness, generate attention and buzz,
-build distinctive brand assets, and make people join the cult of Every.
+CAC, MQLs, click-through — those are Austin's territory, the growth team's. They are not rejected; they're important. But the marketing OS exists to drive awareness, generate attention and buzz, build distinctive brand assets, and make people join the cult of Every.
 
 **Allocation.** 80:20 brand to performance. Even with significant funding, paid would likely go to events, collaborations, and creating things — not ads. We may run OOH occasionally.
 
-**Performance creative does not set Marketing strategy.** Economics set investment
-gates; they do not dictate the idea. Our focus is brand salience, cohesion, and demand.
+**Performance thinking does not influence marketing.** It belongs to the growth team. Our focus is brand salience and cohesion.
 
 **A brand-building success in 2026 that wouldn't show up in attribution:** A collaboration with a brand like Teenage Engineering. A viral launch.
 
@@ -158,17 +140,17 @@ AI is an instrument we play, not an efficiency tool we deploy.
 
 **The fundamental advantage: building the thing while writing about it.** Most marketing is a department writing copy about a product they didn't make and barely use. Every flips that. The same people writing about AI are the people building with AI, and the writing is sharper because of it. The marketing isn't a translation of the work. It's the same act, made public. Dan Shipper calls this "creative alchemy."
 
-**The real advantage isn't speed, personalization, or volume.** Those are the answers a SaaS company gives. The actual advantage is permission to play. Every can build a tool over a weekend because somebody on the team wants it, ship it to 50 readers, see what happens, kill it if nothing happens, keep going if something does. Monologue, Spiral, Cora, Sparkle — every product started from a personal itch, not a market-sizing exercise. The cost of going from "I want this" to a working thing in the world has collapsed. The advantage is being willing to use that.
+**The real advantage isn't speed, personalization, or volume.** Those are the answers a SaaS company gives. The actual advantage is permission to play. Every can build a tool because somebody on the team wants it, put it in front of real users, kill it if nothing happens, and keep going if something does. Every Agent, Cora, and Monologue started from work worth improving, not a market-sizing exercise. The cost of going from “I want this” to a working thing in the world has collapsed. The advantage is being willing to use that.
 
 **What we never automate.** The decision to make the thing. The opinion. The willingness to be wrong in public. The first sentence of an essay. The launch line. The headline. The choice of who to interview and why. The risk. Anything that, if it works, becomes part of why Every is Every.
 
-**What we aggressively automate.** Everything between the idea and the world. Format adaptation across surfaces. Voice enforcement — Spiral is literally this. Variant generation under a sharp brief. The unglamorous middle 80% of any production process. The rule: a human had a thought worth having; the instrument extends that thought into more shapes without diluting it. We are the bread in the AI sandwich.
+**What we aggressively automate.** Everything between the idea and the world. Format adaptation across surfaces. Variant generation under a sharp brief. The unglamorous middle of any production process. The rule: a human had a thought worth having; the instrument extends that thought into more shapes without diluting it. We are the bread in the AI sandwich.
 
 **How AI changes campaign strategy.** It collapses the distance between a hunch and a finished piece. Old strategy: imagine, brief, produce, ship, measure. New strategy: ship a version Wednesday, watch what happens, ship the better version Friday, keep what worked, discard what didn't. Strategy becomes a continuous experiment instead of an annual plan. The campaign is alive while it's running, not finished when it launches.
 
 **What an AI-native launch looks like.** It has play in it. At least one piece of the launch is something only an AI-native team could've made — a small custom agent, an interactive site, a CLI, a generative tool — that the audience can actually touch rather than read about. AI Diplomacy is the model: an Every experiment that turned into 60,000 readers, 50,000 Twitch viewers, and a spinout company because the team thought it'd be fun to make frontier models play a board game against each other. Launches teach the team something a focus group never could because they let people surprise you.
 
-**The products are the OS, not proof of it.** Spiral is how marketing copy gets written in the brand voice. Cora keeps email from eating the workday. Plus One handles the connective tissue of running a small ambitious team. Sparkle organizes files by what's inside them. Monologue captures thinking as it happens. The publication is the room where the thinking lands and the audience that closes the loop. Each tool earns its place by making the next piece of work better than the last. Dan's term: "artisanal AI apps." Small-batch software with a point of view, made by the people who use it.
+**The products are the OS, not proof of it.** Every Agent handles the connective tissue of running a small ambitious company. Cora keeps email from eating the workday. Monologue captures thinking as it happens. The publication is the room where the thinking lands and the audience that closes the loop. Each tool earns its place by making the next piece of work better than the last. Dan's term: “artisanal AI apps.” Small-batch software with a point of view, made by the people who use it.
 
 **Compound marketing.** Every piece of marketing leaves something behind that the next piece inherits — a line, a format, a visual move, a tool the team built, a relationship with a reader who shows up again. Nothing starts from zero. Nothing dies after one cycle. The brand is what's left after years of stacking. The compounding is the strategy.
 
@@ -194,7 +176,7 @@ AI is an instrument we play, not an efficiency tool we deploy.
 
 **Right:** Master-brand discipline. The logo on the poster is a reason to show up. Every film, every piece of merch, every zine reinforces "A24" as the source of meaning. They moved from distribution to a $3.5B master brand by treating taste as the moat and merch as a portable billboard. AAA24 membership: quarterly zines, welcome packs, birthday gifts, early-access drops. Stunts over banner ads. They give artists permission to make weird, specific things and sell that permission as a brand. Every should steal the master-brand discipline, the membership infrastructure, the stunts philosophy, and the merch-as-marketing-channel logic.
 
-**Wrong for Every:** A24 curates other people's work. We make our own. Their surface codes (Gen Z, indie horror, lo-fi nostalgia) aren't ours — take the operating posture, not the aesthetic. A24 optimizes for cultural cachet; Every needs to optimize for creative leverage in people's lives — you can write better with Spiral, but you can't directly use a Daniels movie. And A24 can't ship software, can't compound its brand into operating tools. Same shape until the audience needs an instrument; A24 stops there, we start there.
+**Wrong for Every:** A24 curates other people's work. We make our own. Their surface codes (Gen Z, indie horror, lo-fi nostalgia) aren't ours — take the operating posture, not the aesthetic. A24 optimizes for cultural cachet; Every needs to optimize for creative leverage in people's lives — Every Agent can change how a company works, while a Daniels movie cannot. A24 cannot compound its brand into operating tools. Same shape until the audience needs an instrument; A24 stops there, we start there.
 
 ### Positioning clarity
 
@@ -304,7 +286,7 @@ Kahneman's *Thinking, Fast and Slow* (2011) frames the brain as two systems. Sys
 
 5. **Scarcity.** When supply is limited, perceived value rises. Supreme turned this into a business model — weekly drops, limited quantities, never restocking. The pattern trained customers' brains: if you don't buy it now, you'll never see it again. For Every, scarcity manifests differently: exclusive content behind the paywall, limited-run camps, subscriber-only product access. The mechanism is the same — restricted availability signals value.
 
-6. **Affect.** Emotional state shapes judgment. People who feel good about a brand evaluate its products more favorably. Every's editorial quality, design standards, and voice create positive affect that bleeds into how readers perceive the software products. A great essay makes Spiral feel more valuable. This is the halo effect in action — one positive impression colors all other evaluations.
+6. **Affect.** Emotional state shapes judgment. People who feel good about a brand evaluate its products more favorably. Every's editorial quality, design standards, and voice create positive affect that bleeds into how readers perceive the software products. A great essay makes Every Agent feel more valuable. This is the halo effect in action — one positive impression colors all other evaluations.
 
 ### The canon
 
@@ -337,7 +319,7 @@ Key principles Every applies:
 Key principles Every applies:
 - *Mental accounting.* People don't treat money as fungible — they assign it to mental categories (entertainment, education, tools, subscriptions) and evaluate spending within those categories. How readers categorize their Every subscription determines what they compare it against and how much they'll pay. The bundle strategy works partly because it collapses multiple mental accounts into one.
 - *Transaction utility.* Thaler distinguishes *acquisition utility* (value of the thing minus its cost) from *transaction utility* (perceived quality of the deal). A $20/month subscription that readers compare against a $200/month consulting engagement has high transaction utility even if acquisition utility is hard to quantify.
-- *The endowment effect.* People value what they already own more than equivalent things they don't own. Once a subscriber has built a workflow around Spiral, organized their thinking in Plus One, or followed a writer for months, the subscription is "theirs." Canceling feels like losing something, not stopping a payment. Free trials create ownership before the charge hits.
+- *The endowment effect.* People value what they already own more than equivalent things they don't own. Once a subscriber has built a workflow around Every Agent, established an email ritual with Cora, or followed a writer for months, the subscription is “theirs.” Canceling feels like losing something, not stopping a payment. Free trials create ownership before the charge hits.
 - *Status quo bias.* People disproportionately stick with the current state of affairs. Getting someone to switch *to* Every requires overcoming their status quo. The activation energy for that first subscription is the hardest thing.
 - *The sunk cost fallacy.* People continue investing because of past investment, not future returns. This is a retention asset but not one to exploit — retention should be earned by ongoing value.
 
@@ -381,7 +363,7 @@ The lesson for Every: heuristics can be engineered, but only if the vision-keepe
 - *Onboarding* — defaults, progressive commitment, reducing friction to first value, creating endowment early
 - *Retention* — endowment and status quo bias, loss framing in churn-prevention, sunk cost awareness
 - *Campaign CTAs* — System 1 language, scarcity cues, social proof placement, frame selection
-- *Product surfaces* — nudges inside Spiral, Plus One, Cora that reinforce the subscription relationship
+- *Product surfaces* — nudges inside Every Agent, Cora, and Monologue that reinforce the subscription relationship
 - *Content strategy* — the halo effect from editorial to product, expectation-shaping through positioning
 - *Community* — maintaining social norms over market norms, protecting the identity relationship
 

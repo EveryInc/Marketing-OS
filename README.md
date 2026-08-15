@@ -18,6 +18,21 @@ launch skills produce the work. Measurement connects Marketing-sourced demand to
 subscriber quality and business economics. Completed work improves the system only when
 the learning transfers beyond the project that produced it.
 
+The repository map is:
+
+1. **foundation/** — The Marketing OS, the operating system underlying all skills
+2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
+3. **positioning/** — Positioning frameworks for Every master and each sub-brand
+4. **strategy/** — Higher-order strategy skills (messaging architecture, program briefs, one-pagers) that compose voice, positioning, and measurement
+5. **craft/** — Execution-level skills for art direction, copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
+6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
+7. **marketing-science/** — Research, archetyping, brand equity, and measurement skills that inform positioning, programs, and decisions
+8. **marketing/** — Integrated planning workflows that turn strategy, sources, and campaign decisions into executable GTM artifacts
+
+## Dependency model
+
+Every skill loads `foundation/marketing-os` as its root dependency. Additional dependencies cascade by category — positioning skills pull in marketing-science, craft skills pull in brand-voice and positioning, launch skills orchestrate strategy and all five channel craft skills.
+
 See [ARCHITECTURE.md](ARCHITECTURE.md) for the full dependency graph.
 
 ## Taxonomy
