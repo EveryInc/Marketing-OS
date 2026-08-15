@@ -1,11 +1,12 @@
----
-name: gtm
-description: Build, revise, and evaluate Every marketing GTM strategies, launch plans, launch backbones, dated campaign drumbeats, production plans, and concise social briefs. Use when a user asks for a GTM plan, launch plan, two-week plan, launch sequence, campaign strategy, editorial-event launch, Austin-style plan, social brief, or a scoped revision to one of these artifacts.
----
-
 # Marketing / GTM
 
 Turn messy launch context into a strategic master plan and, when needed, a separate social brief. Lead with the argument and intended behavior. Add execution only after the strategy is clear.
+
+## When to invoke
+
+- When building or revising a GTM strategy, launch plan, launch backbone, or campaign sequence
+- When producing a dated drumbeat, production plan, or concise social brief
+- When applying a scoped revision to an existing GTM artifact
 
 ## Load the system
 
@@ -126,3 +127,22 @@ Treat the user's edited version as canonical. Learn from the delta before drafti
 ## Evaluate
 
 Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for deterministic checks. The skill passes only when it clears the score threshold with zero hard failures.
+
+## Dependencies
+
+- `foundation/marketing-os`
+- `positioning/every-master`
+- `marketing-science/archetyping`
+- `marketing-science/measurement`
+- `strategy/program-brief`
+- `craft/editing`
+
+## Quick checklist
+
+- [ ] Authority and source roles are explicit
+- [ ] Ambiguous strategic questions were resolved before the long draft
+- [ ] Goal, story, concept, and launch backbone precede the calendar
+- [ ] Dates, people, claims, prices, and links are verified or clearly marked open
+- [ ] Measurement names a primary decision metric and decision date
+- [ ] Scoped revisions preserved protected content exactly
+- [ ] The relevant evaluation and deterministic checks passed

@@ -1,6 +1,11 @@
 # Atlas Social Brief
 
-## Story
+## Goal
+
+Make AI adoption legible as changed organizational behavior, and drive readers to download
+the Atlas report. The executive roundtable application is the secondary action.
+
+## The Social Idea
 
 Most companies count AI licenses, seats, and installed tools. Those numbers prove procurement. They say little about whether the company works differently.
 
