@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing / GTM"
+  short_description: "Build grounded launch strategy and GTM plans"
+  default_prompt: "Use $gtm to turn these launch materials into a grounded GTM plan and concise social brief."

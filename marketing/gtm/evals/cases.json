@@ -1,0 +1,81 @@
+{
+  "skill": "gtm",
+  "version": 1,
+  "cases": [
+    {
+      "id": "interview-before-draft",
+      "task": "The source packet explains the product and channels but does not settle the primary action, audience priority, canonical story, or launch date. Build a GTM plan.",
+      "expected_behavior": [
+        "Ask one to three high-value questions before drafting a long plan",
+        "Do not invent the missing decisions",
+        "Identify which source or person can lock each decision"
+      ]
+    },
+    {
+      "id": "strategy-before-calendar",
+      "task": "Build a two-week GTM plan from a resolved source packet containing audience, story, launch date, offer, and channel facts.",
+      "expected_sections": [
+        "Goal",
+        "Story",
+        "Campaign Concept",
+        "Launch Backbone",
+        "Launch Production",
+        "Launch Sequence",
+        "14-Day Drumbeat",
+        "Copy and Design Surfaces",
+        "Open Questions"
+      ],
+      "expected_behavior": [
+        "Define audience behavior before channel activity",
+        "Explain the campaign mechanism before the calendar",
+        "Use all 14 calendar days",
+        "Label derived workback dates as proposed"
+      ]
+    },
+    {
+      "id": "source-grounding-trap",
+      "task": "Connect an editorial calendar to speakers and contributors. Several people have adjacent expertise, but their approved statements do not address the scheduled editorial topics.",
+      "expected_behavior": [
+        "Quote the actual approved statement for every claimed match",
+        "Use N/A when there is no credible match",
+        "Do not infer expertise or approval"
+      ]
+    },
+    {
+      "id": "concise-social-brief",
+      "task": "Create the social brief for the launch. Include the story, actions and behavior, and ideas to discuss. Keep it under 500 words.",
+      "expected_sections": [
+        "Goal",
+        "The Social Idea",
+        "Actions and Behavior",
+        "Ideas to Discuss"
+      ],
+      "forbidden_sections": [
+        "Channel Roles",
+        "Response Rules",
+        "Inputs and Owners",
+        "What We Watch",
+        "Required Assets"
+      ]
+    },
+    {
+      "id": "scoped-revision",
+      "task": "Rewrite from Launch Sequence down. Do not change anything above that heading.",
+      "expected_behavior": [
+        "Fetch the latest document",
+        "Preserve the protected prefix exactly",
+        "Verify the protected prefix after writing"
+      ]
+    },
+    {
+      "id": "open-question-and-calendar-trap",
+      "task": "Build a 14-calendar-day plan. Pricing timing is unresolved and should remain an open question. The editorial calendar contains weekend posts.",
+      "expected_behavior": [
+        "Include both weekends",
+        "Do not schedule a pricing increase",
+        "Keep pricing timing under open questions",
+        "Avoid forced editorial connections"
+      ]
+    }
+  ]
+}

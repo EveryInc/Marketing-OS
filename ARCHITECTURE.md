@@ -115,6 +115,19 @@ All positioning skills load:
       - positioning/{source brand}
       - brand-voice/{source brand}
 
+    strategy/program-brief
+      - foundation/marketing-os
+      - marketing-science/measurement
+      - positioning/{relevant brand}
+
+## Marketing
+
+    marketing/gtm
+      - foundation/marketing-os
+      - positioning/every-master
+      - marketing-science/archetyping
+      - craft/editing
+
 ## Craft
 
 ### Core craft (not channel-specific)

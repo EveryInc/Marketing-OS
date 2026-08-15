@@ -1,0 +1,22 @@
+{
+  "type": "retrospective_observed_baseline",
+  "project": "Thesis: 2027 GTM and social brief",
+  "observed_on": "2026-08-08",
+  "score": {
+    "strategic_clarity": 12,
+    "source_fidelity": 10,
+    "audience_behavior": 8,
+    "operational_usefulness": 9,
+    "voice_and_compression": 3,
+    "total": 42
+  },
+  "hard_failures": [
+    "Used incorrect or unsupported dates and people-to-topic connections",
+    "Changed or replaced user-selected language",
+    "Produced an overlong social operating manual",
+    "Used banned event-marketing shorthand",
+    "Allowed logistics and metrics to crowd out the strategy"
+  ],
+  "note": "This baseline records the observed unskilled workflow from the live Thesis session. It is evidence for v1 design, not a clean-room model benchmark."
+}
+

@@ -22,7 +22,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the full dependency graph.
 
 ## Taxonomy
 
-The repository has seven skill families:
+The repository has eight skill families:
 
 1. **foundation/** — Every's marketing doctrine, canon, operating frameworks,
    collaboration rules, and native-document editing protocol
@@ -36,6 +36,8 @@ The repository has seven skill families:
    claims clearance, wireframing, email flows, and three launch tiers
 7. **marketing-science/** — Research, audience archetypes, brand equity, messaging
    evidence, attribution, Fame Score, cohort economics, and results compounding
+8. **marketing/** — Integrated GTM planning that turns approved strategy, sources, and
+   campaign decisions into executable artifacts
 
 Optional historical cases live in `docs/cases/`. Skills never load them by default.
 

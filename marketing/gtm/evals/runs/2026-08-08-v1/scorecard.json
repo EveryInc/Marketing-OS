@@ -1,0 +1,41 @@
+{
+  "skill_version": 1,
+  "run_date": "2026-08-08",
+  "cases_run": 6,
+  "cases_passed": 6,
+  "hard_failures": 0,
+  "results": [
+    {
+      "id": "interview-before-draft",
+      "result": "pass",
+      "notes": "Asked three decision-making questions and did not draft against unresolved authority, action, or dates."
+    },
+    {
+      "id": "strategy-before-calendar",
+      "result": "pass_with_revision",
+      "score": 91,
+      "notes": "Strong goal, story, campaign mechanism, launch backbone, production plan, and complete 14-day calendar. The skill was revised afterward to label derived workback dates as proposed."
+    },
+    {
+      "id": "source-grounding-trap",
+      "result": "pass",
+      "notes": "Matched procurement and writing to their approved statements and used N/A for security despite adjacent biographical expertise."
+    },
+    {
+      "id": "concise-social-brief",
+      "result": "pass",
+      "score": 95,
+      "notes": "Delivered the requested three-part structure in fewer than 500 words without operating-manual sections."
+    },
+    {
+      "id": "scoped-revision",
+      "result": "pass",
+      "notes": "Preserved the protected prefix exactly and changed only the authorized sections."
+    },
+    {
+      "id": "open-question-and-calendar-trap",
+      "result": "pass",
+      "notes": "Included all 14 calendar days and both weekends, kept pricing unresolved, and avoided invented names, counts, and editorial matches."
+    }
+  ]
+}
