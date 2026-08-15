@@ -53,4 +53,3 @@ The social brief is a compressed creative brief, usually under 650 words:
 3. **Ideas to discuss:** Specific formats, hooks, and participation mechanics.
 
 Leave channel matrices, response rules, owner tables, measurement dashboards, and full asset inventories in the master plan unless requested.
-

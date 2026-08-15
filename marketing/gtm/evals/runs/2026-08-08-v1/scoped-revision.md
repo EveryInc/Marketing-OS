@@ -15,4 +15,3 @@ Show the decisions that moved.
 # Open Questions
 - Pricing timing
 - Final participant roster
-

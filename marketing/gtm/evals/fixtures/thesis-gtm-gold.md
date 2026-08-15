@@ -5,66 +5,66 @@
 **Primary action:** Visit the Thesis website and apply to attend
 **Secondary action:** Read and share Thesis Statements
 # Goal
-Make the ideas in **After Automation** famous, and make Thesis: 2027 the place where the most credible people in AI gather to work through them. 
+Make the ideas in **After Automation** famous, and make Thesis: 2027 the place where the most credible people in AI gather to work through them.
 - Operators should be thinking about how to implement new ways of working after automation.
-- Executives should be thinking seriously about what their business looks like after automation, and how to get it there before their competition.  
+- Executives should be thinking seriously about what their business looks like after automation, and how to get it there before their competition.
 - Builders should be invigorated to create the answers.
 - Builders, Operators, and Execs should apply to attend.
-- The general AI-curious public should read, share, and respond to AA and Thesis Statements. 
-- All of the above should subscribe to Every.  
-If this launch works, we’ve sold more tickets than expected in our first two weeks, see meaningful subscriber growth and/or site visit growth, Thesis Statements and/or AA become a trending topic on X, and the same caliber of people who engaged in the original AA launch come back to chime in on Thesis.  
-A meta-goal is that “after automation” enters the exec/operator sphere as a meme coined by Every. The way industries discussed “design thinking,” “innovation,” and “disruption” so much in the past were rooted in larger socio-cultural shifts that impacted their businesses. 
-We don’t really have a term to describe how to look at work with AI, besides “AI-native,” which most businesses would readily admit they’re nowhere close to being. After Automation can become this turn of phrase. 
+- The general AI-curious public should read, share, and respond to AA and Thesis Statements.
+- All of the above should subscribe to Every.
+If this launch works, we’ve sold more tickets than expected in our first two weeks, see meaningful subscriber growth and/or site visit growth, Thesis Statements and/or AA become a trending topic on X, and the same caliber of people who engaged in the original AA launch come back to chime in on Thesis.
+A meta-goal is that “after automation” enters the exec/operator sphere as a meme coined by Every. The way industries discussed “design thinking,” “innovation,” and “disruption” so much in the past were rooted in larger socio-cultural shifts that impacted their businesses.
+We don’t really have a term to describe how to look at work with AI, besides “AI-native,” which most businesses would readily admit they’re nowhere close to being. After Automation can become this turn of phrase.
 # Story
 AI presents a paradox: **The more we automate, the more human work there is left to do. **Dan’s AA manifesto announced this perspective as Every's bet on the next year of work and AI. After After Automation…comes Thesis.
-Our thesis has been established. 
-Now we invite the world's most credible AI builders, operators, creatives, and executives to respond to it by filling in the blank: "After Automation...___?" 
-The editorial layer to this is Thesis Statements, a year-end moment being announced alongside our conference. 
+Our thesis has been established.
+Now we invite the world's most credible AI builders, operators, creatives, and executives to respond to it by filling in the blank: "After Automation...___?"
+The editorial layer to this is Thesis Statements, a year-end moment being announced alongside our conference.
 The place to engage with it more deeply, IRL, is Thesis: 2027, our inaugural conference.
 # Campaign Concept
 ## Provoke + Promote
-This approach creates intellectual momentum by pairing a question people feel compelled to answer with visible proof that credible leaders they look up to are already doing so. 
+This approach creates intellectual momentum by pairing a question people feel compelled to answer with visible proof that credible leaders they look up to are already doing so.
 - **High-arousal ideas spread**: awe, anxiety, and anger increase sharing. We lean into awe and some implied anxiety around work and AI, not anger. [Source](https://www.jonahberger.com/wp-content/uploads/2013/02/ViralityB.pdf)
 - **Self-generated ideas stick**: People remember information better when they generate it or respond to it themselves rather than simply read it. [Source](https://pubmed.ncbi.nlm.nih.gov/17645161/)
 - **Credibility drives action**: Amplifying our messaging through high-signal folks beyond the Everysphere is key, and a core function that Thesis Statements will serve. [Source](https://doi.org/10.1177/01461672261445474)
 - **Social proof compounds:** Just one like or share makes something infinitely more discoverable on social. CTAs like “submit your thesis” or “who should we invite to speak?” or “nominate someone to attend” lead for this reason, but we’ll test their impact and adjust if necessary. [Source](https://pubmed.ncbi.nlm.nih.gov/23929980/)
 - **Peer participation beats brand broadcasting**: People are more likely to take an action when they see peers doing it (social proof) than when a brand simply asks them to. For Thesis, contributors sharing their statements and nominees tagging other people should spread the idea further than Every’s launch posts alone. [Source](https://www.nature.com/articles/nature11421)
-**Thesis owns** **Promote** - sharing Dan’s big ideas and launch post/video, announcing every new speaker with social-first mechanics, and beating the drum on applications and nominations. Sponsors and Speakers support.  
-**Thesis Statements** **owns** **Provoke** - sharing big ideas, encouraging debate, and expanding our social graph to 100 participants through October. TS contributors, including Every’s own team, support. 
+**Thesis owns** **Promote** - sharing Dan’s big ideas and launch post/video, announcing every new speaker with social-first mechanics, and beating the drum on applications and nominations. Sponsors and Speakers support.
+**Thesis Statements** **owns** **Provoke** - sharing big ideas, encouraging debate, and expanding our social graph to 100 participants through October. TS contributors, including Every’s own team, support.
 ## Promote
 **Show who is gathering at Thesis, who we want to attend, and why it will matter if you’re a Builder, Operator, or Executive grappling with AI at work. **
 - Launch with a roster of 6-10 speakers including Every’s own team, then frame every new speaker around what they add to the After Automation conversation.
-	- Include a FOMO-driving “major speakers to be announced” box on site if we don’t lock any high-signal talent from OpenAI/Anthropic/etc by launch. 
-	- Tag<span discussion-urls="discussion://3b6ca4f3-55ac-818f-a739-d2dd3a82d65d/3b6ca4f3-55ac-802f-95c5-f8c01ec5dde0/3b6ca4f3-55ac-808a-b641-001c4cb9a476"> each speaker individually in separate launch posts throughout the day, </span>highlighting who they are and their Thesis. 
+	- Include a FOMO-driving “major speakers to be announced” box on site if we don’t lock any high-signal talent from OpenAI/Anthropic/etc by launch.
+	- Tag<span discussion-urls="discussion://3b6ca4f3-55ac-818f-a739-d2dd3a82d65d/3b6ca4f3-55ac-802f-95c5-f8c01ec5dde0/3b6ca4f3-55ac-808a-b641-001c4cb9a476"> each speaker individually in separate launch posts throughout the day, </span>highlighting who they are and their Thesis.
 		- **Open Q: SOCIAL MEDIA **How to best structure this, eg do we respond to our own tweets with more details on each person? Do we structure these all as “After Automation, @ Person thinks “X WILL HAPPEN.” Join them at Thesis on November 5, early bird pricing now available” etc.
-- Use nominations as a mechanic to expand beyond the Everysphere: 
-	- Every asks who should attend. 
+- Use nominations as a mechanic to expand beyond the Everysphere:
+	- Every asks who should attend.
 	- Dan asks who should be speaking.
-		- Both of these can evolve to specific sectors as time goes by. 
+		- Both of these can evolve to specific sectors as time goes by.
 		- Eg we lock Ramp to sponsor a Finance Salon, Dan asks who the leaders in AI and fintech are while Every asks who is working in the space that you know needs to attend.
-- Build FOMO as the speaker list and program grow. Announce new speakers on a rolling basis. Quote RT every speaker who shares they’re attending. 
-	- **Open Q: GROWTH **Do we give speakers specific links to share to track attribution? 
-	- **To Do: DESIGN **Create shareable templates for speakers. 
+- Build FOMO as the speaker list and program grow. Announce new speakers on a rolling basis. Quote RT every speaker who shares they’re attending.
+	- **Open Q: GROWTH **Do we give speakers specific links to share to track attribution?
+	- **To Do: DESIGN **Create shareable templates for speakers.
 ## Provoke
 **Get people thinking and talking about work after automation. The bigger the conversation gets, the more we’re at the center of it. **
-- Publish strong Thesis Statements, invite public responses, spotlight practitioners, and surface the questions executives and operators should be asking. 
-- Ask everyone to submit their own Thesis Statement. 
-- Highlight some of our favorites and the “hottest takes” on social, but NOT on our actual list of 100. 
+- Publish strong Thesis Statements, invite public responses, spotlight practitioners, and surface the questions executives and operators should be asking.
+- Ask everyone to submit their own Thesis Statement.
+- Highlight some of our favorites and the “hottest takes” on social, but NOT on our actual list of 100.
 	- **Open Q: SOCIAL MEDIA **How to best do this?
-	- **To Do: DESIGN **Create shareable templates for this. 
-- When our team disagrees with each other in public, social takes notice. This can be an engineered part of how we ask Every employees to engage. 
-- Consider verticalizing TS provocation post-launch, eg focus on Finance one day, Design the next.  
+	- **To Do: DESIGN **Create shareable templates for this.
+- When our team disagrees with each other in public, social takes notice. This can be an engineered part of how we ask Every employees to engage.
+- Consider verticalizing TS provocation post-launch, eg focus on Finance one day, Design the next.
 # Launch Backbone
-1. **Dan launches the idea.** Article, video, and social introduce the paradox and connect After Automation to Thesis. This is what comes “After After Automation.” 
+1. **Dan launches the idea.** Article, video, and social introduce the paradox and connect After Automation to Thesis. This is what comes “After After Automation.”
 2. **Every amplifies it.** Dan and Every both provoke and promote, with Dan leaning further into Provoke and Every further into Promote.
-3. **Credible people respond.** Thesis Statements roll out at the same time with our first 20 to give builders, operators, creatives, and executives a sharp point of view to share. We drip this content over the first 2 weeks, but all are available to share at launch. 
-	- **Open Q: GROWTH/MARKETING **Do we want to put a considered verticalized approach behind this? Eg highlight people from particular industries on purpose, together? 
+3. **Credible people respond.** Thesis Statements roll out at the same time with our first 20 to give builders, operators, creatives, and executives a sharp point of view to share. We drip this content over the first 2 weeks, but all are available to share at launch.
+	- **Open Q: GROWTH/MARKETING **Do we want to put a considered verticalized approach behind this? Eg highlight people from particular industries on purpose, together?
 4. **The public joins in.** "After Automation...___?" invites responses and makes the phrase travel.
 5. **The audience expands the guest list.** Every asks who should attend. Dan asks who should speak.
 6. **Thesis takes shape.** New speakers, program formats, and pricing ladder escalation announcements give people reasons to apply (pricing ladder does not escalate in this first 2 weeks however).
 7. **Editorial force multipliers. **We do not compromise the editorial calendar for Thesis, but if there are things planned like camps, pieces, or vibe checks that relate specifically to AA in general or (ideally) a specific Thesis Statement or Speaker, how do we cross-multiply here? I have some ideas below.
 # Launch Production
-These are our to-dos. 
+These are our to-dos.
 ## Audience Email
 Three announcement emails ship on launch day. They share the story but give each audience a different reason to act.
 <table fit-page-width="true" header-row="true">
@@ -90,12 +90,12 @@ Three announcement emails ship on launch day. They share the story but give each
 </tr>
 </table>
 **DRI**: Douglas
-**Copy**: Douglas —\> KateBench —\> Kate 
+**Copy**: Douglas —\> KateBench —\> Kate
 **Tracking, Links, Send, Response Metrics: **Yash
 **Due Date:** Monday, August 10
 ## Personal Invitations
 The [Thesis Invite Priority List](https://docs.google.com/document/d/1avlAol2f_b_70h2o--3z1rZzDHFVGDGYF6DMG1DamIY/edit) becomes a separate, personal outreach program.
-- **Monday, Aug. 10:** Verify P1 identities, choose the first invite cohort, and assign each name to Dan or Douglas for outreach (Brian is OOO). Brandon or Kate can send invites if there is a personal connection. 
+- **Monday, Aug. 10:** Verify P1 identities, choose the first invite cohort, and assign each name to Dan or Douglas for outreach (Brian is OOO). Brandon or Kate can send invites if there is a personal connection.
 - **Friday, Aug. 14:** Send personal invitations right after the public announcement. Explain why their work makes them right for Thesis and that the event was announced Thursday.
 - **Flow:** These invitees are automatically approved. Send them directly to the longer registration and payment form, not the public application.
 - **Launch day:** Suppress personal invitees from the generic application emails.
@@ -155,11 +155,11 @@ Dan handles peer-credibility names; Douglas the rest.
 **Before launch:**
 - Lock the public speaker and Thesis Statements rosters.
 - Resolve incomplete speaker records, including “Katie TBD” and the Andrew Ambrosino  ambiguity.
-- Get one useful point of view, question, or quote from every launch speaker, or approve a quote from their past. 
+- Get one useful point of view, question, or quote from every launch speaker, or approve a quote from their past.
 - Send each speaker and contributor a launch-day sharing kit with their asset, suggested copy, link, and posting window.
-**Launch Kit Asset Design**: Daniel + Douglas 
+**Launch Kit Asset Design**: Daniel + Douglas
 **Cross-Pollination from Editorial: **Kate approval, Becky on post.
-**Social flow:** Becky 
+**Social flow:** Becky
 **Speaker + Thesis Statement Approval to Share their Statement: **Kate (or Brandon for speakers?)
 **Due date:** Wednesday, Aug. 12
 ## Website and Application Flow
@@ -173,8 +173,8 @@ Write, design, build, and QA:
 - Logged-in and logged-out states where needed.
 The working flow lives in the [application document](https://docs.google.com/document/d/1z2adoXlKKIxRxunDJIF4xObnwZX4jFVS38Lhcvk9-tA/edit).
 **DRI**: Douglas
-**Design: **Daniel + Douglas 
-**Copy + Emails**: Douglas —\> KateBench —\> Kate edit/approval 
+**Design: **Daniel + Douglas
+**Copy + Emails**: Douglas —\> KateBench —\> Kate edit/approval
 **Application Flow + Builder Pack Intro: **Yash w/ Andrey on build
 **Due Date:** Tuesday, August 11 locked, Wednesday August 12 de-bug/final edits
 ## Launch Assets
@@ -183,18 +183,18 @@ The working flow lives in the [application document](https://docs.google.com/doc
 - Thesis Statement cards and contributor kits.
 - Speaker cards and speaker kits.
 - Nomination assets.
-- Website + web surfaces. 
+- Website + web surfaces.
 - Tracking links for email, speakers, contributors, and major partners.
 **DRI**: Douglas, support by everyone
 # Launch Sequence
 ## Monday, Aug. 10: Lock the Plan
-- Write and approve the free, paid, and All Access emails. Yash to set up in Kit. 
+- Write and approve the free, paid, and All Access emails. Yash to set up in Kit.
 - Finalize the P1 invite cohort, assign each person to Dan or Douglas, and give Yash the suppression list.
 - Lock the launch speaker roster and the Thesis Statements available for public use. Lock questions we need out to speakers eg - can we use this quote?
 - Resolve any missing speaker names, titles, quotes, and approvals.
-- Create and approve launch asset design and copy burn down list. 
-- Ensure Andrey has what he needs to launch both sites. 
-- Approve site design for both sites. 
+- Create and approve launch asset design and copy burn down list.
+- Ensure Andrey has what he needs to launch both sites.
+- Approve site design for both sites.
 ## Tuesday, Aug. 11: Lock the Experience
 - Finalize both website edits, their cross-links, the homepage takeover module, and all CTAs.
 - Lock the public application, acceptance flow, direct-invite flow, payment step, and Builder Pack messaging.
@@ -219,7 +219,7 @@ The working flow lives in the [application document](https://docs.google.com/doc
 - Send P1 personal invitations with the direct registration and payment link.
 - Highlight new thesis statements.
 # 14-Day Drumbeat
-A cursory approach to beating the drum over our first 2 weeks. 
+A cursory approach to beating the drum over our first 2 weeks.
 <table fit-page-width="true" header-row="true">
 <colgroup>
 <col>
@@ -328,7 +328,7 @@ It must translate the moments above into:
 - Rules for reposting public responses and “hottest takes.”
 - Channel roles for X, LinkedIn, YouTube, email, and editorial.
 - Required copy and design templates.
-**DRI:** Becky  
+**DRI:** Becky
 **Support:** Randy, Douglas, Kate, Brandon, Dan, and Daniel.
 # Copy and Design Surfaces
 ## Announcement
@@ -352,7 +352,7 @@ It must translate the moments above into:
 ## Speakers and Contributors
 - [ ] Final launch roster with verified names, titles, and companies.
 - [ ] Approved statement or quote for each contributor and speaker used in marketing.
-- [ ] Approved headshot for every contributor and speaker. 
+- [ ] Approved headshot for every contributor and speaker.
 - [ ] Thesis Statement card template.
 - [ ] Contributor sharing kit.
 - [ ] Speaker sharing kit.
@@ -383,4 +383,3 @@ It must translate the moments above into:
 - [Thesis Invite Priority List](https://docs.google.com/document/d/1avlAol2f_b_70h2o--3z1rZzDHFVGDGYF6DMG1DamIY/edit)
 - [Application flow](https://docs.google.com/document/d/1z2adoXlKKIxRxunDJIF4xObnwZX4jFVS38Lhcvk9-tA/edit)
 <page url="https://app.notion.com/p/3b6ca4f355ac81049e99fe1663c09e04">Thesis: 2027 Social Brief — Launch + First 2 Weeks</page>
-

@@ -6,4 +6,3 @@ Software automated tasks. Agents redistribute judgment.
 
 # Campaign Concept
 Show the decisions that moved.
-

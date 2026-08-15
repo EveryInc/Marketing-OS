@@ -51,4 +51,3 @@ Any hard failure prevents a pass:
 ## Passing bar
 
 Require at least 80 points and zero hard failures.
-

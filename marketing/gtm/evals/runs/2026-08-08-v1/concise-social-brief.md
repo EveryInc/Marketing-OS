@@ -29,4 +29,3 @@ Dan owns the opening argument. Every turns it into a campaign through report fin
 - **Operator nominations:** Invite the public to nominate operators whose teams work differently because of AI. Feature the strongest examples as proof.
 - **Opposing practitioner claims:** Publish two credible, conflicting positions on what counts as adoption. Ask people to choose a side, supply evidence, and see how Atlas resolves or complicates the argument.
 - **“What changed?” examples:** Short posts or cards pairing an old operating behavior with the decision or workflow now used. Keep them specific enough for another operator to compare against their own work.
-
