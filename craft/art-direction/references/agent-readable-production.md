@@ -95,6 +95,42 @@ change visibility in a way that does not reflow the parent. Verify the rendered 
 Test overflow, clipping, and text length against the actual output environment. If a quote
 or title needs a size reduction, use a documented rule before ad hoc manual exceptions.
 
+## Control generative iteration
+
+Treat generative tools as execution environments, not autonomous art directors. Before a
+run, lock an input manifest:
+
+- Exact approved copy, explicit blanks, placeholders, and source revision
+- Canonical file, page, frame or node, dimensions, and component or variant identity
+- One primary composition reference and at most one secondary treatment reference
+- The invariants that must survive, the one variable allowed to change, and forbidden
+  literal shortcuts
+- Model, seed, aspect ratio, duration, and other settings needed for a fair comparison
+- Approval criterion and named human decision owner
+
+Preview the connected source immediately before generation. A correct prompt cannot rescue
+a graph connected to the wrong frame, object, reference, or motion subject. Do not
+regenerate from a screenshot or nearby duplicate when the canonical editable frame exists.
+
+Start with one real-content surface rather than a contact sheet or presentation board.
+Critique the visible result, branch from the strongest output, preserve the named
+invariants, and change one variable. Generic requests such as “make it more premium and
+dynamic” change too many dimensions to teach the system anything. Describe the visible
+mismatch and the smallest decisive correction.
+
+Keep a light branch record: parent output, fixed inputs, changed variable, critique, and
+verdict. Batch only after one representative surface passes. Separate batches by format
+when their compositions differ; do not treat resizing as composition.
+
+For precise motion, lock exact first and last frames. Split a sequence into stages when one
+generation cannot preserve both endpoints, reusing the approved intermediate frame as the
+end of one stage and the start of the next. Use deterministic motion or native tooling when
+exact text, symbols, coordinates, or timing matter more than atmospheric variation.
+
+Flattened images and PDFs are review proofs, not canonical design deliverables. When the
+next operator must continue designing, return editable layers in the native system and
+verify that text, components, constraints, variables, and primary interactions survived.
+
 ## Separate identity from appearance
 
 A card can look correct while containing the wrong person, source image, byline, variable,

@@ -41,6 +41,28 @@ Verify:
 If native structure cannot be preserved reliably, stop before writing and explain the
 limitation.
 
+## Reconcile multi-tab strategy documents
+
+When a workbook or document contains several generations of strategy, do not treat every
+tab as equally authoritative or rewrite the file into a new summary.
+
+1. Inventory every tab before editing.
+2. Identify the governing strategy and the source with authority for its current wording.
+3. Classify each tab as canonical strategy, supporting execution, dated research, or
+   archive. Mark dated material; do not let it quietly compete with the current strategy.
+4. Reconcile one messaging hierarchy across the document: brand promise, positioning,
+   value proposition, mechanism, reason to believe, proof, and category-parity support.
+5. Preserve approved phrases exactly. Do not replace sharp language with generic synthesis.
+6. Edit the minimum set of tabs in place and verify both content and formatting after each
+   write. Confirm untouched tabs remain unchanged.
+7. Keep execution detail separately linked when it operates at a different altitude from
+   the executive strategy. The governing tab should state the strategy exactly rather than
+   becoming another channel plan.
+
+Conflicting tabs are a document-governance problem before they are a writing problem. Name
+the winning source and the status of the others so a later reader does not reconstruct the
+conflict.
+
 ## Cross-platform publishing
 
 When the same strategy must appear in more than one tool:

@@ -57,6 +57,46 @@
         "Classify whether the corrections are reusable rules or asset-specific exceptions",
         "Measure the next clean run instead of claiming zero-touch automation"
       ]
+    },
+    {
+      "id": "literal-reference-trap",
+      "task": "Use these six visual references to generate a social template system. The references contain classical busts, scalloped borders, halftone textures, and several different layouts.",
+      "expected_behavior": [
+        "Assign one primary reference to composition and at most one secondary reference to treatment per branch",
+        "Translate references into invariants, variables, and forbidden literal shortcuts",
+        "Crop references to the evidence required for their assigned role",
+        "Generate one real-content surface before scaling a template system"
+      ]
+    },
+    {
+      "id": "one-variable-branching",
+      "task": "The strongest generated poster has the right composition and crop but the wrong palette and texture. Make it more premium, dynamic, editorial, and modern.",
+      "expected_behavior": [
+        "Reject the multi-variable critique as too broad for a controlled comparison",
+        "Branch from the strongest output and name what remains invariant",
+        "Change one visible variable while holding source, references, seed, settings, and composition constant",
+        "Record the changed variable and verdict"
+      ]
+    },
+    {
+      "id": "motion-source-and-endpoints",
+      "task": "Animate ME into WE and then Every. The last run moved a decorative reference instead of the wordmark and approximated the final typography.",
+      "expected_behavior": [
+        "Audit and preview the actual connected source and motion subject before generation",
+        "Require exact first and last frames",
+        "Split the transformation into staged generations with a shared exact intermediate frame when needed",
+        "Route to deterministic motion when exact text or coordinates cannot drift"
+      ]
+    },
+    {
+      "id": "editable-wireframe-handoff",
+      "task": "Turn the approved Google Doc into a Figma-ready website wireframe. Preserve placeholders, include an FAQ accordion, and do not change the copy.",
+      "expected_behavior": [
+        "Treat source copy, omissions, placeholders, annotations, and order as a locked manifest",
+        "Do not invent helper copy or sample content",
+        "Deliver an editable Figma artifact rather than presenting a PDF as the production handoff",
+        "Verify text, selectable structure, and the live accordion behavior after import"
+      ]
     }
   ]
 }

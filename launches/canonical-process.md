@@ -122,7 +122,9 @@ note in the standard format (below).
 
 - Feed Codex/Claude the full strategy doc + Every master brand positioning and archetypes: gut-check positioning, inform high-conversion site copy, check customer alignment, brainstorm CTA and prompt copy against competitors (`codex-gut-check` skill)
 - Finalize web copy off the pass (ai-check + every-style gates, both mandatory)
-- Team brainstorm on the website — the wireframe phase; a few section mockups (`wireframe-from-copy` skill produces the annotated wireframe)
+- Team brainstorm on the website — the wireframe phase; a few section mockups
+  (`wireframe-from-copy` produces the annotated wireframe; generative Figma or Flora
+  branches follow `craft/art-direction/references/agent-readable-production.md`)
 - Motion and video needs surface from the brainstorm → motion brief + deliverables list;
   separate the branded launch film from the high-volume product-proof library and brief
   the motion lead earliest possible, maximum lead time

@@ -16,6 +16,10 @@ structure and flags contradictions before designers build on top of them.
   the design lead. A styled wireframe preempts the designer and gets thrown away.
 - **Copy is placed verbatim** from the source round, with the round and date stated in the
   header and footer. The wireframe never silently improves copy — improvements are flags.
+- **The source is a locked content manifest.** Preserve every approved string, explicit
+  omission, placeholder, annotation, and section order. Do not invent helper headlines,
+  sample statements, labels, proof, or microcopy. Layout work does not silently authorize
+  rewriting.
 - **Placeholders are typed:** solid ✕-boxes for static images/screenshots; dashed hatch
   for motion/video. Every motion placeholder is numbered as a motion-scope item so the
   motion brief can be written straight off the wireframe.
@@ -29,8 +33,13 @@ structure and flags contradictions before designers build on top of them.
   handed to `claims-clearance` and to the copy owner for R-next.
 - **Provenance footer:** source doc + round, build date, what gate it serves, who signs
   off, where the motion-scope items are.
-- Output is a single HTML file; PDF export on request (wkhtmltopdf print pass, verified
-  page count and text before delivery).
+- **Match the output to the next job.** Use an editable Figma artifact when the design team
+  will continue production in Figma; use a browser prototype when interaction behavior is
+  part of the decision; use HTML, images, or PDF for static review and archival comparison.
+  A PDF is not a Figma handoff merely because it can be imported.
+- After import or export, compare every string and placeholder with the source manifest.
+  For editable handoffs, verify that text and key objects remain selectable, expected
+  structure survives, and the primary interaction works in the live file.
 
 ## Reading the copy carefully (the actual job)
 
@@ -39,6 +48,10 @@ check the hero against the messaging spine's ruled hero line; check every stat, 
 quote, and price for a source; check feature sections for copy-paste artifacts; check the
 doc's internal numbering; check pricing against the strategy doc in the same file. Each
 finding becomes an inline flag, not a silent fix.
+
+Separate structure from behavior. A static stack can show the FAQ's place in the page, but
+an accordion requirement needs an explicit state model and a live prototype check. Record
+which interactions are represented, which are merely annotated, and which remain open.
 
 ## Dependencies
 
@@ -51,9 +64,12 @@ finding becomes an inline flag, not a silent fix.
 ## Quick checklist
 
 - [ ] Source round + date stated on the artifact
+- [ ] Source manifest reconciled: copy, omissions, placeholders, annotations, and order
 - [ ] Copy verbatim; improvements expressed as flags, not edits
 - [ ] Static vs. motion placeholders typed; motion items numbered for the brief
 - [ ] Annotation bar on every section: number, name, job
 - [ ] Careful-read flags inline: spine contradictions, unsourced claims, copy artifacts
 - [ ] Flag inventory handed to claims-clearance and the copy owner
-- [ ] Provenance footer; PDF verified if exported
+- [ ] Output format matches the next operator's job
+- [ ] Text, editability, structure, and primary interaction verified after handoff
+- [ ] Provenance footer; static export verified if produced
