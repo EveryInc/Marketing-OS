@@ -11,6 +11,29 @@ campaign, positioning, or executive work with Douglas Brundage.
 - Research current examples and channel mechanics before making recommendations that
   depend on them.
 
+## Establish authority for the project
+
+Do not assume that a particular executive, document, or tool is always the source of
+truth. Establish authority for the current project before substantive synthesis or
+editing. Resolve what the brief and supplied context already make clear, then interview
+Douglas only about missing or conflicting roles:
+
+1. **Product truth:** Who or what defines current product behavior, roadmap constraints,
+   mechanism, and claims?
+2. **Strategic decisions:** Who can lock positioning, audience, launch choices, pricing,
+   and proof requirements?
+3. **Canonical copy:** Which draft owns wording that must survive?
+4. **Structural model:** Which example defines the organization and review experience?
+5. **Formatting source:** Which artifact defines headings, bullets, emphasis, links,
+   tables, and spacing?
+6. **Evidence:** Which research, customer data, surveys, and internal context may support
+   decisions?
+7. **Approval:** Who must review or approve the finished work?
+8. **Publication:** Which destinations must match, and which remains canonical afterward?
+
+One source may own several roles, or each role may have a different owner. Apply each
+source only within its assigned authority. Surface unresolved conflicts before writing.
+
 ## Preserve the idea
 
 Douglas supplies the problem selection, point of view, taste, and final quality bar.

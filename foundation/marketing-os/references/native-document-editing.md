@@ -40,3 +40,20 @@ Verify:
 
 If native structure cannot be preserved reliably, stop before writing and explain the
 limitation.
+
+## Cross-platform publishing
+
+When the same strategy must appear in more than one tool:
+
+1. Declare the canonical copy and formatting source separately.
+2. Update every requested destination from the same approved copy.
+3. Preserve the formatting source's heading hierarchy, paragraph roles, bullets,
+   indentation, emphasis, links, tables, and spacing as closely as each tool allows.
+4. Re-read every destination after writing.
+5. Compare section order and paragraph text.
+6. Verify protected phrases, links, citations, headings, bullets, and nested content.
+7. Report unavoidable platform differences and state which destination remains
+   canonical.
+
+Two documents are synchronized only when the approved copy, section order, and intended
+formatting match. Similar meaning is insufficient.

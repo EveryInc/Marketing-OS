@@ -21,6 +21,20 @@ Human edits are evidence about the system, not cleanup to be absorbed silently.
    Otherwise keep the learning with the project.
 7. Treat the human-edited version as canonical for that project.
 
+## Protect canonical language
+
+Identify language the author has defended, restored, repeated, or designated as
+canonical. This may include campaign lines, product shorthand, coined mechanisms, vivid
+phrases, deliberate provocations, and terms the team has chosen to own.
+
+- Preserve protected language exactly unless the author authorizes a change.
+- Propose replacements as visible alternatives or deltas before applying them.
+- Distinguish deliberate brand language from connective prose that can be tightened.
+- Do not use an AI-tell rule to erase intentional voice, quoted product terms, or chosen
+  jargon.
+- When the author rejects an edit, restore their wording and carry the preference through
+  the rest of the task.
+
 ## Guardrails
 
 - Do not rewrite the whole artifact while extracting the lesson.
