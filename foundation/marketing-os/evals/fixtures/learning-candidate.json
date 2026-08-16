@@ -1,0 +1,21 @@
+{
+  "task_id": "marketing-os-learning-loop",
+  "observed_at": "2026-08-16",
+  "task_type": "system-improvement",
+  "signal": "explicit-ruling",
+  "evidence": [
+    {
+      "kind": "conversation",
+      "reference": "current Marketing OS task",
+      "reason": "Douglas chose a lightweight learning loop over a large evaluation program"
+    }
+  ],
+  "classification": "durable-rule",
+  "lesson": "Compound meaningful feedback through a bounded candidate and a regression check without adding a separate retrospective for the user.",
+  "destination": "foundation/marketing-os/references/learning-loop.md",
+  "limits": "Run only when feedback or results change a future decision; ordinary cleanup creates no record.",
+  "promotion": "promote",
+  "independent_evidence_count": 1,
+  "credible_causal_evidence": false,
+  "contains_sensitive_detail": false
+}
