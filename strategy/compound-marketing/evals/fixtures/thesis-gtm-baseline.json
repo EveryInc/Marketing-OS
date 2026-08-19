@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "run_id": "thesis-gtm-2026-08-baseline",
+  "project": "Thesis: 2027 GTM and social brief",
+  "workflow": "gtm",
+  "evidence_status": "retrospective",
+  "decisions": [
+    {
+      "id": "D1",
+      "decision": "Make the ideas in After Automation famous and make Thesis the place to work through them.",
+      "owner": "Douglas",
+      "source": "marketing/gtm/evals/fixtures/thesis-gtm-gold.md",
+      "status": "locked",
+      "applies_to": ["strategy_to_market"]
+    },
+    {
+      "id": "D2",
+      "decision": "Use visiting the Thesis site and applying to attend as the primary action.",
+      "owner": "Douglas",
+      "source": "marketing/gtm/evals/fixtures/thesis-gtm-gold.md",
+      "status": "locked",
+      "applies_to": ["strategy_to_market"]
+    },
+    {
+      "id": "D3",
+      "decision": "Use Provoke and Promote as the two campaign jobs.",
+      "owner": "Douglas",
+      "source": "marketing/gtm/evals/fixtures/thesis-social-gold.md",
+      "status": "locked",
+      "applies_to": ["strategy_to_market"]
+    }
+  ],
+  "stages": {
+    "context_to_strategy": {
+      "status": "approved",
+      "artifact": "marketing/gtm/evals/fixtures/thesis-gtm-gold.md",
+      "output_decision_ids": ["D1", "D2", "D3"]
+    },
+    "strategy_to_market": {
+      "status": "approved",
+      "artifact": "marketing/gtm/evals/fixtures/thesis-social-gold.md",
+      "preserved_decision_ids": ["D1", "D2", "D3"]
+    },
+    "market_to_memory": {
+      "status": "complete",
+      "artifact": "marketing/gtm/references/edit-deltas.md",
+      "learning_classification": "durable_doctrine"
+    }
+  },
+  "metrics": {
+    "human_review_minutes": null,
+    "first_pass_accepted": false,
+    "critical_defects": 5,
+    "inherited_decisions": 0,
+    "accepted_inherited_decisions": 0,
+    "independent_operator": false,
+    "artifact_fidelity_verified": true,
+    "artifact_fidelity_verifier": "Douglas Brundage"
+  },
+  "proof": {
+    "comparable_to": null,
+    "accepted_inherited_decision_ids": [],
+    "publishable_claim": false
+  }
+}
