@@ -6,41 +6,39 @@ brands.
 
 ## Philosophy
 
-- **Purpose:** Pioneer the future of work after automation.
-- **Mission:** We live in the future. We write what we see. We build what's missing. We
-  teach what works.
-- **Vision:** Humanity benefits from AGI.
-- **North star:** Cross into what's next and bring back something useful.
-- **Enduring promise:** We've crossed into what's next. Here's the way through.
-- **Values:** Search for truth; truth is found and made; build the ideas we want to exist;
-  practice generative optimism; technology is human.
+- **Goal:** Pioneer the future of work with AI.
+- **How we operate:** We live in the future. We write what we see. We build what's
+  missing. We teach what works.
+- **Enduring invitation:** We've crossed into what comes next. Here's the way through.
+- **Values:** The world is made, not given; ideas and action make each other better;
+  choose what creates more possibility; technology should expand human agency; see for
+  yourself.
 
 ## Customer and demand
 
-Primary focus: ambitious knowledge workers who need to get better at working with AI.
-They want practical advantage without surrendering judgment. Builders protect the brand's
-technical soul; seekers need warmth and a clear route in; executives buy practitioner
-credibility at organizational scale.
-
-Demand is organized around the shift from the knowledge economy to the allocation
-economy. Information and execution become abundant. Judgment about what to delegate,
-what to keep, and what deserves attention becomes scarce.
+Primary focus: ambitious people who work, or want to work, with AI. AI changes too fast
+to master once. They need a way to keep learning while they work. Builders protect the
+brand's credibility, operators drive subscription scale, executives bring the system
+inside companies, and seekers need a clear route into the free subscription.
 
 ## Position
 
-- **Mental slot:** The company that makes you better at working with AI.
-- **Category expression:** An applied AI lab pioneering the future of work.
-- **Positioning statement:** For knowledge workers who need tools and theory, Every is
-  the applied AI lab that equips you with the judgment and software to do the work.
-- **Competitive distinction:** Every builds products, writes the analysis, teaches the
-  skills, and advises organizations from the same bench.
+- **Company category:** A media and technology company.
+- **Customer promise:** Learn to work with AI as fast as it changes.
+- **Mental slot:** The must-have subscription for anyone who works, or wants to work,
+  with AI.
+- **Business system:** Ideas + Software + Education, connected by community; enterprise
+  brings the system inside companies.
+- **Integrity mechanism:** The Frontier Team, Every's applied AI lab.
+- **Competitive distinction:** Adjacent categories sell information, software, courses,
+  or advice separately. Every connects them through one learning system.
 
 ## Value propositions
 
-- Learn what changed from practitioners already using it.
-- Use software built from the same lived problems Every covers editorially.
-- Develop judgment about what to hand to AI and what to keep.
-- Access one branded house of media, software, education, events, and consulting.
+- Know what matters before wasting time on the wrong thing.
+- See how serious practitioners use AI in real work.
+- Put tested workflows into practice through software and education.
+- Learn among a community of builders and operators who take the work seriously.
 
 ## Brand essence
 

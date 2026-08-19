@@ -112,11 +112,19 @@ Produce a versioned brand-book draft containing:
 
 - [ ] Research corpus and evidence ledger exist before positioning
 - [ ] Philosophy is separated from changeable customer demand and market expression
+- [ ] Category, goal, customer promise, mental position, business system, integrity
+      mechanism, audience expressions, and commercial logic are distinct
 - [ ] Competitive audit includes a required positioning matrix
 - [ ] Human chose or edited the matrix axes
 - [ ] Two or three strategic options were offered at each consequential decision
+- [ ] Each priority audience has a customer promise, brand role, brand-equity role, and
+      commercial role before channel messaging is written
+- [ ] Framework outputs end in plain behavioral or business decisions
+- [ ] Protected language and ownable assets are recorded separately from connective copy
 - [ ] Each phase was approved before the next began
 - [ ] Equity modeling was completed or explicitly deferred
 - [ ] Verbal identity preceded visual identity
 - [ ] Art direction used five to 10 human references and explicit anti-references
 - [ ] Final system covers real surfaces, not a moodboard alone
+- [ ] Ruled changes were reconciled across the full artifact, including the table of
+      contents, summaries, messaging, and legacy terminology

@@ -24,11 +24,13 @@ Every operates in a category that rewards cultural gravity, not reach optimizati
 
    **Through-line archetype across all audiences:** High agency. Professionally ambitious. Taste-conscious. Anxious to move fast. Intellectually honest about what they don't know. The badge matters — not as vanity, but as identity.
 
-   **Four target audiences (canonized May 2026):**
-   - **T1 Media** — AI-Informed Professional, 28–45, mid-career. Wants signal over noise. The gateway to Every. Reads NYT, Stratechery, The Verge. Competes with Morning Brew AI, TLDR, The Neuron. Every wins on depth + taste.
-   - **T2 Studio/Bundle** — AI-Powered Operator, 30–45, $20–35/mo. Where the badge thesis lives or dies. Browses ProductHunt, reads Lenny's Newsletter. Competing with standalone tools (Notion AI, Jasper, Otter). Every wins because the suite is curated by people who write about AI daily.
-   - **T3 Consulting** — Enterprise Buyer, 40–55, C-suite. $100K–$1M+ engagements. Reads Bloomberg, HBR, listens to Acquired. Competes with McKinsey Digital, BCG, Accenture. Every wins on practitioner credibility — we build, not just advise.
-   - **T4 Education** — Motivated Upskiller, 25–40. Career-anxious. Structured learning, not YouTube. Reads Reforge, Maven, follows Sahil Lavingia. Competes with Coursera, LinkedIn Learning, Reforge. Every wins on practitioner depth + editorial authority.
+   **Audience architecture (canonized August 2026):** Every serves Builders, Operators,
+   Executives, and Seekers with one company promise. Builders create credibility through
+   the Frontier Team and community. Operators are the center of the one-subscription
+   business. Executives create authority and enterprise revenue. Seekers are an audience
+   to earn into the free subscription and develop over time. The detailed promises,
+   brand roles, and commercial roles live in
+   `marketing-science/archetyping/references/every-audiences.md`.
 
    **Niche vs. broad?** Stay specific, let aspiration do the broadening. The Economist's circulation is 1.2M — its cultural footprint is 100× that.
 
@@ -162,9 +164,17 @@ AI is an instrument we play, not an efficiency tool we deploy.
 
 ## The Every difference
 
-**Every is not a media company** because the publication is the spine, not the product. A media company sells attention to advertisers. Every sells editorial judgment, software people pay for monthly, and membership in something. The publication is what's underneath. The software is the body. The brand is the room people want to be in.
+**Every is a media and technology company.** Media supplies judgment, language, and the
+relationship with the customer. Technology turns the work into software and repeatable
+practice. Education builds lasting capability. Community connects the system. Enterprise
+brings it inside companies. The customer buys one clear result from that complex system:
+learning to work with AI as fast as it changes.
 
-**We are a third thing.** More of a creative studio that ships software, writes essays, hosts a podcast, runs a paid community, and treats all of it as one body of work made by the same people for the same reasons. Closest analogues: A24 (curator with its own product line), Teenage Engineering (small group with strong taste shipping objects), and Stripe (operating company with serious editorial gravity). None is a media company. None is just a tech company.
+**The combination matters.** Every ships software, writes essays, hosts a podcast, runs
+a paid community, teaches, and works inside companies. The work comes from the same
+knowledge system and compounds across surfaces. Closest analogues remain A24, Teenage
+Engineering, and Stripe, but none combines these disciplines around the same customer
+promise.
 
 ### What The New Yorker gets right and wrong
 

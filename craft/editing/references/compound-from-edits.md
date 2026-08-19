@@ -8,6 +8,12 @@ Human edits are evidence about the system, not cleanup to be absorbed silently.
 2. Compare them before producing another rewrite.
 3. Classify each meaningful change:
    - Strategic correction.
+   - Strategy-altitude correction: category, goal, promise, position, system, proof, or
+     expression had been collapsed or confused.
+   - Business-model correction: audience, offer, entry sequence, or commercial role was
+     inaccurate.
+   - Framework restoration: a useful strategic layer had been deleted, flattened, or
+     replaced by unsupported shorthand.
    - Stronger point of view.
    - Added specificity or cultural texture.
    - Active voice or sharper prose.
@@ -16,10 +22,15 @@ Human edits are evidence about the system, not cleanup to be absorbed silently.
    - Clearer ownership or measurement.
    - Formatting or native-document preservation.
 4. Identify repeated patterns across the edit.
-5. Apply `foundation/marketing-os/references/knowledge-boundaries.md`.
-6. Update the narrowest durable source only when the edit passes the promotion rule.
+5. Assign the correction a scope: line, section, complete artifact, brand canon, or
+   reusable doctrine.
+6. If the edit rules a category, promise, audience label, business-unit name, protected
+   term, or structural relationship, search the complete artifact for dependent language
+   and reconcile every affected occurrence in place.
+7. Apply `foundation/marketing-os/references/knowledge-boundaries.md`.
+8. Update the narrowest durable source only when the edit passes the promotion rule.
    Otherwise keep the learning with the project.
-7. Treat the human-edited version as canonical for that project.
+9. Treat the human-edited version as canonical for that project.
 
 ## Protect canonical language
 
@@ -34,6 +45,8 @@ phrases, deliberate provocations, and terms the team has chosen to own.
   jargon.
 - When the author rejects an edit, restore their wording and carry the preference through
   the rest of the task.
+- Distinguish connective copy, which can be tightened, from ruled strategic language,
+  which must be propagated exactly wherever it performs the same job.
 
 ## Guardrails
 
@@ -41,6 +54,8 @@ phrases, deliberate provocations, and terms the team has chosen to own.
 - Do not convert a project-specific preference into a universal rule.
 - Do not infer that every deletion is a general ban; determine the reason.
 - Preserve disagreement and unresolved choices as project context, not doctrine.
+- Do not add strategic categories merely to fill a layout. Add evidence, examples,
+  behaviors, or proof under the smallest complete set of categories.
 - State what changed and why in plain language.
 
 ## Output

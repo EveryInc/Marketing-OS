@@ -25,6 +25,91 @@ Customer demand and the ownable position should reinforce each other. Competitiv
 may address the same demand through different frames. The chosen frame must be credible,
 distinctive, and useful to the business.
 
+## Strategy architecture
+
+Before writing compact brand language, build a one-page architecture that separates the
+jobs different lines perform. A true statement in the wrong slot creates strategic drift.
+
+1. **Company category:** what kind of company this is.
+2. **Goal or ambition:** the future the company intends to help create.
+3. **Customer promise:** the durable customer outcome that unifies the portfolio.
+4. **Mental position:** the association the brand intends to own.
+5. **Business system:** the offers, business units, or surfaces that deliver the promise
+   and how they relate.
+6. **Integrity mechanism:** the actual behavior, capability, or operating practice that
+   earns belief. Do not replace it with a coined abstraction unless the organization
+   already uses and proves that term.
+7. **Audience expressions:** the distinct entry point, proof, offer, and action for each
+   priority audience.
+8. **Commercial logic:** how each audience and business unit creates value for the
+   company.
+9. **Ownable territory and assets:** language, concepts, behaviors, symbols, formats, and
+   proprietary capabilities the brand will build memory around.
+
+Keep these layers distinct even when one idea appears in several. A customer promise may
+also name a business unit, but the document must explain the relationship instead of
+silently treating them as interchangeable. A business unit may be a customer's first
+relationship with the company rather than the last step of a preferred funnel. Map the
+real entry sequence and handoff; do not force the business into a cleaner story than the
+business can deliver.
+
+Run a contradiction test after the architecture is drafted:
+
+- Does the category describe the company rather than one team inside it?
+- Does the promise state what the customer gets rather than how the company is organized?
+- Does the position create one memorable slot rather than inventory the portfolio?
+- Does the integrity mechanism name evidence-producing work?
+- Does the business system account for every material offer, including community when it
+  changes the value delivered?
+- Does the commercial logic reflect how revenue and authority actually move?
+
+## Audience and commercial architecture
+
+Use the same decision structure for every priority audience:
+
+1. **Customer promise or need state:** what they want in their own language.
+2. **The brand's role:** what the company must be for them.
+3. **Brand-equity role:** the credibility, scale, authority, badge value, or other equity
+   job this audience performs.
+4. **Commercial role:** the subscription, contract, partnership, referral, or other
+   business value this audience creates.
+
+Only after those four are locked should messaging add the reason to believe, primary
+offer, and call to action. Keep one master promise across the company. Audience promises
+are doorways into it, not separate positions. Prefer short need-state language a customer
+could plausibly say, especially when identity or status drives the choice.
+
+## Framework discipline
+
+Frameworks must preserve their strategic logic and end in plain business decisions.
+Do not delete an Aaker, Keller, Kapferer, Jobs-to-be-Done, or positioning layer merely to
+make the document shorter. Compress the explanation while retaining the decision the
+framework protects.
+
+Translate framework outputs into behavior:
+
+- A brand-customer relationship states what each side does over time.
+- A value proposition connects functional, emotional, and self-expressive value to the
+  product or service system that delivers it.
+- A reason to believe names the work that earns trust and the claim that work permits.
+- A distinctive-asset strategy states what the brand intends to own, where it appears,
+  and how repeated use builds memory.
+- Values derived from a source text become operating choices and refusals, not a list of
+  attractive virtues or a restatement of the mission.
+
+If a framework label cannot be translated into plain English without losing its meaning,
+the underlying strategic decision is not yet clear.
+
+## Ownable-language ledger
+
+Record language the team intends to own separately from ordinary copy. For each term,
+state its definition, strategic role, primary audience, proof, approved forms, and terms
+it replaces. Include coined cultural territory, named methods, customer shorthand,
+recurring formats, and visual or behavioral assets.
+
+Protected language survives compression. Propose alternatives visibly; do not silently
+smooth a ruled phrase into generic brand prose.
+
 ## Required inputs
 
 - Business model, product, price, distribution, and growth ambition
@@ -91,9 +176,31 @@ Recommend one. Do not merge incompatible positions into a consensus statement.
 8. Positioning matrix
 9. Mental position
 10. Positioning statement
-11. Value propositions and proof
-12. Brand essence or enduring promise
-13. Decision log and validation plan
+11. One-page strategy architecture
+12. Audience and commercial-role matrix
+13. Value propositions and proof
+14. Ownable-language and distinctive-asset ledger
+15. Brand essence or enduring promise
+16. Decision log and validation plan
 
 Generate two or three options for positioning statements and other compact strategic
 language. Require approval, edits, or explicit notes before lock.
+
+## Reconciliation before lock
+
+Once the human rules a category, promise, audience label, business-unit name, protected
+term, or structural relationship, search the complete artifact and every requested
+summary for dependent language. Reconcile the change in place without rewriting approved
+sections that do not depend on it.
+
+Before calling the strategy locked, check:
+
+- Table of contents, section names, page numbers, and slide order
+- Blank or duplicate pages
+- Category, promise, position, and descriptor drift
+- Audience labels, audience roles, and need-state wording
+- Offer and business-unit taxonomy
+- Reasons to believe and integrity language
+- Ownable terms and distinctive assets
+- Legacy language in verbal, messaging, and visual sections
+- Claims, citations, spelling, punctuation, and accidental placeholders
