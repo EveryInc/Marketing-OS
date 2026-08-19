@@ -13,7 +13,7 @@ frameworks.
 
 ## System
 
-Marketing OS is composed of seven reference files, each serving a distinct role:
+Marketing OS is composed of eight reference files, each serving a distinct role:
 
 ### references/canon.md
 The reference encyclopedia. Thinkers, practitioners, and researchers organized by domain
@@ -53,6 +53,11 @@ useful learning, classify it, and promote only evidence that clears the knowledg
 boundary. Load this after a meaningful correction, explicit ruling, measured result, or
 repeated pattern changes a future decision.
 
+### references/golden-path.md
+The canonical Compound Marketing workflow. Load this for substantial strategy,
+recurring marketing, or GTM work that should carry governed decisions from context
+through delivery and learning.
+
 ## When to invoke
 
 This skill is loaded automatically by every other skill in the repo. It is the root
@@ -77,6 +82,7 @@ When this skill is loaded, route to the appropriate reference file based on the 
 | Need to edit an existing formatted document | `references/native-document-editing.md` |
 | Need to add or compound repository guidance | `references/knowledge-boundaries.md` |
 | Meaningful feedback or a result should improve future work | `references/learning-loop.md` |
+| Substantial strategy, recurring marketing, or GTM work | `references/golden-path.md` |
 
 Multiple references can be loaded simultaneously. A positioning task, for example, might
 load canon.md for Trout/Ries context, method.md for Every's positioning stance, and
@@ -116,6 +122,8 @@ None — this is the root dependency. All other skills load this skill.
   movement, authority, and business outcomes
 - **compound-from-results** turns completed programs into decisions, program guidance,
   and narrowly supported updates to durable doctrine
+- **strategy/compound-marketing** carries governed decisions through strategy, market
+  execution, and a measured learning closeout
 - **strategy/** preserves the full idea while producing concise, decision-ready briefs
 
 ## Knowledge boundary

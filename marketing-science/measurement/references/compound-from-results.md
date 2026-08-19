@@ -36,6 +36,10 @@ threshold.
      test, or an explicit company decision.
 7. **Update the narrowest source.** Change only the file governed by the learning. Keep
    unresolved or one-off findings in the campaign's dated result record.
+8. **Close the Compound Marketing run.** When a run record exists, add the observed
+   result, decision, learning classification, durable updates, critical defects, and
+   next comparable run. Do not mark the system proof-ready unless the comparison passes
+   `strategy/compound-marketing/references/proof-standard.md`.
 
 ## Routing durable updates
 

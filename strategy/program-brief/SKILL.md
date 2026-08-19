@@ -14,15 +14,21 @@ Do not neutralize the idea to make the brief easier to measure.
 
 ## Workflow
 
-1. Write the one-sentence ambition in the future tense as a state Every intends to create.
-2. Explain why the idea belongs in the current Marketing strategy.
-3. Name the primary and secondary audiences.
-4. Preserve the creative premise and the operating mechanism.
-5. Define the smallest pilot that can produce a useful result or learning.
-6. Map the subscriber, paid, Consulting, fame, or authority path.
-7. Name one owner and the necessary support.
-8. Record direct and fully loaded costs, the measurement window, and decision date.
-9. Define scale, revise, or stop before launch.
+1. When supplied, inherit the approved Compound Marketing decision-record version,
+   locked decision IDs, protected language, and open questions.
+2. Write the one-sentence ambition in the future tense as a state Every intends to create.
+3. Explain why the idea belongs in the current Marketing strategy.
+4. Name the primary and secondary audiences.
+5. Preserve the creative premise and the operating mechanism.
+6. Define the smallest pilot that can produce a useful result or learning.
+7. Map the subscriber, paid, Consulting, fame, or authority path.
+8. Name one owner and the necessary support.
+9. Record direct and fully loaded costs, the measurement window, and decision date.
+10. Define scale, revise, or stop before launch.
+
+Before approval, compare the brief with the inherited decision record. Restore any
+dropped decision or protected phrase, record a human-approved change, or keep the
+conflict visibly open.
 
 ## Required standard
 
@@ -56,6 +62,7 @@ Load `references/template.md` for the working format and
 - Is there one owner?
 - Is the audience explicit?
 - Is the subscriber or Consulting path visible?
+- Does the brief name and preserve every inherited locked decision that governs it?
 - Is the primary metric different from the diagnostic signals?
 - Are cost and capacity included?
 - Is there a decision date and gate?

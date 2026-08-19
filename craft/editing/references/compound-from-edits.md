@@ -31,6 +31,9 @@ Human edits are evidence about the system, not cleanup to be absorbed silently.
 8. Update the narrowest durable source only when the edit passes the promotion rule.
    Otherwise keep the learning with the project.
 9. Treat the human-edited version as canonical for that project.
+10. When the project has a Compound Marketing run record, record the correction class,
+    affected decision IDs, durable destination or project-only status, and human review
+    time before closeout.
 
 ## Protect canonical language
 
@@ -66,3 +69,4 @@ Return:
 - Why each improved or redirected the work.
 - The durable rule or file to change.
 - Any project-specific context to keep local.
+- The run-record fields changed, when Compound Marketing is active.

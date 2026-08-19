@@ -1,0 +1,44 @@
+{
+  "skill": "compound-marketing",
+  "version": 1,
+  "cases": [
+    {
+      "run_id": "brand-book-2026-08-baseline",
+      "record": "fixtures/brand-book-baseline.json",
+      "case": "docs/cases/compound-marketing-brand-book.md",
+      "proof_level": "structural_baseline",
+      "limitation": "No prospective time baseline or market execution."
+    },
+    {
+      "run_id": "thesis-gtm-2026-08-baseline",
+      "record": "fixtures/thesis-gtm-baseline.json",
+      "case": "docs/cases/compound-marketing-thesis-gtm.md",
+      "proof_level": "structural_baseline",
+      "limitation": "Review time was not measured prospectively and no comparable follow-up run exists."
+    },
+    {
+      "run_id": "forward-strategy-source-conflict",
+      "input": "forward/strategy-packet.md",
+      "proof_level": "behavior_regression",
+      "must": [
+        "separate confirmed facts, inferences, decisions, and open questions",
+        "preserve the protected phrase exactly",
+        "reject unsupported executive-copilot and replacement claims",
+        "keep the launch date open and omit a launch calendar"
+      ],
+      "limitation": "Synthetic forward test; it checks skill behavior, not market quality."
+    },
+    {
+      "run_id": "forward-gtm-decision-fidelity",
+      "input": "forward/gtm-packet.md",
+      "proof_level": "behavior_regression",
+      "must": [
+        "preserve D1, D2, D3, and L1",
+        "keep the proposed launch date open",
+        "state that the product cannot assign tasks automatically",
+        "block dated planning until the product owner rules Q1"
+      ],
+      "limitation": "Synthetic forward test; it checks decision fidelity, not market quality."
+    }
+  ]
+}

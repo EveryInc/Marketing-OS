@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compound Marketing"
+  short_description: "Turn each marketing project into a better system"
+  default_prompt: "Use $compound-marketing to turn this context into strategy or GTM work and compound the useful learning."
