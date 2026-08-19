@@ -35,6 +35,11 @@ Identify the sources that own:
 
 Search the supplied Notion, Slack, Drive, meeting, and editorial sources before asking for information that can be found. Cite current sources. Label conflicts and unknowns.
 
+When this work comes from `strategy/compound-marketing`, inherit the approved decision
+record before drafting. Record its version, locked decision IDs, protected-language IDs,
+and open questions in the GTM artifact. Do not reinterpret those decisions from the
+underlying source pile.
+
 ## Interview before a long draft
 
 Confirm these decisions when the materials do not settle them:
@@ -96,17 +101,18 @@ If the evidence is incomplete, mark the gap instead of inventing intrigue.
 
 Use the relevant parts of this order:
 
-1. Launch facts and primary action.
-2. Goal and audience behavior.
-3. Story.
-4. Campaign concept.
-5. Launch backbone.
-6. Launch production.
-7. Launch sequence.
-8. Dated drumbeat.
-9. Social brief link.
-10. Copy and design surfaces.
-11. Open questions and sources.
+1. Decision-record version and inherited decision IDs, when supplied.
+2. Launch facts and primary action.
+3. Goal and audience behavior.
+4. Story.
+5. Campaign concept.
+6. Launch backbone.
+7. Launch production.
+8. Launch sequence.
+9. Dated drumbeat.
+10. Social brief link.
+11. Copy and design surfaces.
+12. Open questions and sources.
 
 Right-size the document. Keep measurement to one compact success definition unless the user requests a measurement plan. Do not invent targets.
 
@@ -140,6 +146,8 @@ Keep it short. Do not repeat the GTM plan or turn the brief into a channel manua
 - Quote the actual statement when claiming a thematic match.
 - Mark approval dependencies explicitly.
 - Preserve unresolved questions.
+- Compare the final artifact with every inherited locked decision and protected phrase.
+  Restore drift or record the human-approved replacement in the decision ledger.
 - Remove generic language, repeated strategy, and unsupported specificity.
 - Avoid “room,” “who belongs in the room,” and related event-marketing shorthand.
 
@@ -183,6 +191,7 @@ Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for 
 - [ ] Authority and source roles are explicit
 - [ ] Ambiguous strategic questions were resolved before the long draft
 - [ ] Goal, story, concept, and launch backbone precede the calendar
+- [ ] The artifact names its inherited decision-record version and preserves its locked IDs
 - [ ] Dates, people, claims, prices, and links are verified or clearly marked open
 - [ ] Positioning separates audience, category, outcome, mechanism, and reason to believe
 - [ ] Every proof point names the request, action, and result

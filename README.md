@@ -1,8 +1,8 @@
 # Marketing OS
 
-Every's AI-native marketing operating system. It gives @EVERY and other agents a
-shared point of view, durable brand context, and repeatable workflows for running
-marketing work.
+Every's AI-native marketing operating system. Its core method is **Compound Marketing**:
+every project produces effective work now and improves the system that produces the
+next project.
 
 Marketing creates demand and cultural gravity. Growth converts that demand. Marketing OS
 connects the two through a measurable operating loop while protecting creative ambition,
@@ -10,20 +10,23 @@ taste, and brand coherence.
 
 ## How It Works
 
-`foundation → research and audiences → positioning and voice → strategy → craft and launches → measurement → compounding`
+`context -> strategy -> market -> memory -> stronger next run`
 
-Every skill loads `foundation/marketing-os` as its root. Research and audience evidence
-inform positioning. Strategy turns that position into decisions and plans. Craft and
-launch skills produce the work. Measurement connects Marketing-sourced demand to
-subscriber quality and business economics. Completed work improves the system only when
-the learning transfers beyond the project that produced it.
+`strategy/compound-marketing` is the plain-language entry point. It creates one governed
+decision record, routes the approved strategy into a recurring program or GTM plan, and
+closes the run through human edits and measured results. Completed work improves the
+system only when the learning transfers beyond the project that produced it.
+
+Every specialist skill still loads `foundation/marketing-os` as its root. Research,
+audiences, positioning, voice, craft, launches, and measurement remain available when
+the active stage requires them.
 
 The repository map is:
 
 1. **foundation/** — The Marketing OS, the operating system underlying all skills
 2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
-4. **strategy/** — Higher-order strategy skills (messaging architecture, program briefs, one-pagers, and role-bounded marketing pods) that compose voice, positioning, and measurement
+4. **strategy/** — Compound Marketing plus higher-order strategy skills, including role-bounded marketing pods, that compose voice, positioning, programs, GTM, and measurement
 5. **craft/** — Execution-level skills for art direction, copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
 6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
 7. **marketing-science/** — Research, archetyping, brand equity, and measurement skills that inform positioning, programs, and decisions
@@ -43,8 +46,8 @@ The repository has eight skill families:
    collaboration rules, and native-document editing protocol
 2. **brand-voice/** — Voice systems for Every and its products
 3. **positioning/** — Durable, ruled master-brand and product positioning
-4. **strategy/** — Compound Brand, messaging architecture, measurable program briefs,
-   and executive one-pagers
+4. **strategy/** — Compound Marketing, Compound Brand, messaging architecture,
+   measurable program briefs, and executive one-pagers
 5. **craft/** — Verbal identity, art direction, copywriting, editing, naming, PR,
    social, email, web, and long-form execution
 6. **launches/** — The canonical launch process, launch calendar, brief, GTM strategy,
@@ -58,8 +61,9 @@ Optional historical cases live in `docs/cases/`. Skills never load them by defau
 
 ## What Belongs in the OS
 
-Marketing OS stores reusable methods: how to execute a launch, GTM plan, campaign, email
-series, channel strategy, measurement plan, or post-project review.
+Marketing OS stores reusable methods: how to turn context into strategy, execute a
+launch, build a GTM plan or recurring program, measure the result, and compound the
+learning.
 
 It does not store active roadmaps, launch briefs, campaign concepts, current rosters,
 temporary claims, prices, budgets, embargoes, or project calendars. Durable positioning
@@ -72,7 +76,7 @@ case.
 
 ## Current State
 
-As of Aug. 15, 2026, Marketing OS contains 62 skills and 92 operating references.
+As of Aug. 20, 2026, Marketing OS contains 64 skills and 100 operating references.
 
 Ready for structured use:
 
@@ -91,6 +95,8 @@ Ready for structured use:
 - Level 7 marketing pods that run research, strategy, operations, production, QA, and
   measurement as bounded agent roles while Douglas retains strategic and creative
   control, invoked through normal requests rather than orchestration jargon
+- A Compound Marketing golden path with decision records, run records, cross-stage
+  fidelity checks, and an explicit proof standard
 
 Still in development:
 
@@ -98,10 +104,25 @@ Still in development:
 - Several execution-channel skills that remain explicit scaffolding
 - More forward tests and comparative evaluations
 - Live data integrations for repeatable quarterly reporting
+- A prospective comparable second run and independent teammate rerun required for a
+  publishable compounding claim
+
+The Brand Book and Thesis GTM cases are real retrospective baselines. They pass the
+structural record checks and intentionally report `proof_ready: false`; neither recorded
+enough prospective evidence to prove compounding.
 
 Files marked `## To do` are scaffolding, not authoritative product or channel guidance.
 
 ## Changelog
+
+### Aug. 19, 2026: Compound Marketing V1
+
+- Added the governing Compound Marketing strategy and canonical golden path
+- Added one entry skill for strategy, recurring programs, GTM, and learning closeout
+- Added shared decision and run records that preserve human rulings across stages
+- Added deterministic validation for decision fidelity and comparable-run proof
+- Added honest Brand Book and Thesis GTM baselines without upgrading them into claims
+- Kept design, asset production, and agent-count claims outside V1
 
 ### July 24, 2026: Reusable Operating Layer
 

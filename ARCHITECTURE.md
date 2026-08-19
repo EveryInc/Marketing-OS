@@ -91,6 +91,18 @@ All positioning skills load:
 
 ## Strategy
 
+    strategy/compound-marketing
+      - foundation/marketing-os
+      - foundation/marketing-os/references/golden-path.md
+      - foundation/marketing-os/references/collaboration.md
+      - foundation/marketing-os/references/knowledge-boundaries.md
+      - foundation/marketing-os/references/learning-loop.md (when evidence may compound)
+      - strategy/program-brief, marketing/gtm, launches/gtm-plan, or strategy/one-pager
+        (selected dynamically after strategy approval)
+      - craft/editing and marketing-science/measurement (during closeout)
+      Carries one governed decision record from context through strategy, market action,
+      and learning. Optional pod guidance is subordinate to this path.
+
     strategy/compound-brand
       - foundation/marketing-os
       - marketing-science/research

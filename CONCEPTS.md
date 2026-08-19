@@ -1,5 +1,22 @@
 # Marketing OS Concepts
 
+## Compound Marketing
+
+### Compound Marketing
+The operating method in which every project produces effective marketing now and
+improves the system that produces the next project. Its governed loop is context,
+strategy, market, and memory.
+
+### Decision record
+The versioned source of truth for approved strategy, source authority, protected
+language, open questions, and rejected directions. Downstream work inherits its version
+and stable decision IDs instead of reconstructing the strategy from source material.
+
+### Compounding proof
+Evidence that a comparable second real run inherited prior decisions and required less
+human correction without losing quality. Structural checks and retrospective cases are
+useful baselines, but do not establish this claim.
+
 ## Art-direction production
 
 ### Locked content manifest

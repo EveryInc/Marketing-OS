@@ -60,6 +60,8 @@ Then:
 3. Update the narrowest authoritative file.
 4. Add or strengthen one regression case when the lesson prevents a repeatable failure.
 5. Run the Marketing OS smoke tests and the affected skill evaluation.
+6. If the work has a Compound Marketing run record, name the promoted destination and
+   decision it will change on the next comparable run.
 
 Do not promote the full project, its creative premise, or its working language. Abstract
 only the decision rule. Keep the human-edited artifact canonical for the project.
