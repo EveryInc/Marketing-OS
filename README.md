@@ -23,7 +23,7 @@ The repository map is:
 1. **foundation/** — The Marketing OS, the operating system underlying all skills
 2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
-4. **strategy/** — Higher-order strategy skills (messaging architecture, program briefs, one-pagers) that compose voice, positioning, and measurement
+4. **strategy/** — Higher-order strategy skills (messaging architecture, program briefs, one-pagers, and role-bounded marketing pods) that compose voice, positioning, and measurement
 5. **craft/** — Execution-level skills for art direction, copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
 6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
 7. **marketing-science/** — Research, archetyping, brand equity, and measurement skills that inform positioning, programs, and decisions
@@ -72,7 +72,7 @@ case.
 
 ## Current State
 
-As of July 24, 2026, Marketing OS contains 60 skills and 83 operating references.
+As of Aug. 15, 2026, Marketing OS contains 62 skills and 92 operating references.
 
 Ready for structured use:
 
@@ -88,6 +88,9 @@ Ready for structured use:
   Score, authority, and Consulting demand
 - Compounding from Douglas's edits and from campaign results without importing project
   details into unrelated work
+- Level 7 marketing pods that run research, strategy, operations, production, QA, and
+  measurement as bounded agent roles while Douglas retains strategic and creative
+  control, invoked through normal requests rather than orchestration jargon
 
 Still in development:
 

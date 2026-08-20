@@ -1,2 +1,5 @@
 .DS_Store
 *.swp
+.worktrees/
+__pycache__/
+*.pyc

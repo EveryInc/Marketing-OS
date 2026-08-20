@@ -117,6 +117,8 @@ None — this is the root dependency. All other skills load this skill.
 - **compound-from-results** turns completed programs into decisions, program guidance,
   and narrowly supported updates to durable doctrine
 - **strategy/** preserves the full idea while producing concise, decision-ready briefs
+- **strategy/marketing-pod** coordinates specialist skills across parallel agent roles
+  while Douglas retains strategic decisions, approval, and final taste authority
 
 ## Knowledge boundary
 

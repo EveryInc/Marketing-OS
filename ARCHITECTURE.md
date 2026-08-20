@@ -120,6 +120,19 @@ All positioning skills load:
       - marketing-science/measurement
       - positioning/{relevant brand}
 
+    strategy/marketing-pod
+      - foundation/marketing-os
+      - foundation/marketing-os/references/collaboration.md
+      - foundation/marketing-os/references/knowledge-boundaries.md
+      - strategy/program-brief or strategy/compound-brand (selected dynamically)
+      - launches/launch-brief and launches/gtm-plan, or marketing/gtm
+      - marketing-science/research
+      - marketing-science/measurement
+      - launches/claims-clearance
+      - positioning/{relevant brand}, brand-voice/{relevant brand}, and assigned craft skills
+      Orchestrates role-bounded agent waves while Douglas remains the manager.
+      Workers never delegate; agent-managed delegation belongs to a future Level 8 layer.
+
 ## Marketing
 
     marketing/gtm
