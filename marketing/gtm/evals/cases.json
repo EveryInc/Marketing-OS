@@ -1,6 +1,6 @@
 {
   "skill": "gtm",
-  "version": 1,
+  "version": 2,
   "cases": [
     {
       "id": "interview-before-draft",
@@ -75,6 +75,29 @@
         "Do not schedule a pricing increase",
         "Keep pricing timing under open questions",
         "Avoid forced editorial connections"
+      ]
+    },
+    {
+      "id": "canonical-copy-and-proof-specificity",
+      "task": "Revise a GTM one-pager after the document owner has sharpened the positioning and supplied several Slack examples. One example only says that a question uncovered a hidden issue. Another includes the exact request, systems used, shipped result, and correction carried into the next run.",
+      "expected_behavior": [
+        "Treat the owner's edited positioning as canonical",
+        "Do not replace it with a smoother paraphrase",
+        "Use the example with a verifiable request, action, and result",
+        "Retrieve the missing cause before using the vague example",
+        "Do not use real as credibility filler",
+        "Preserve voice-bearing parentheticals and rough campaign language"
+      ]
+    },
+    {
+      "id": "strategy-altitude-discipline",
+      "task": "The product story, audience tension, and hero UVP are still being decided. Pricing facts and launch metrics are available but are not the current assignment.",
+      "expected_behavior": [
+        "Lock the one-line strategy and positioning first",
+        "Separate the customer from the first champion",
+        "Separate the hero UVP, mechanism, reason to believe, and proof",
+        "Record verified pricing facts once without centering them",
+        "Do not turn the strategy discussion into a measurement plan"
       ]
     }
   ]

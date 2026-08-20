@@ -61,7 +61,7 @@ def main() -> int:
         for heading in sorted(SOCIAL_FORBIDDEN_HEADINGS & found_headings):
             failures.append(f"social brief contains operating-manual heading: {heading}")
 
-    forbidden = ["room", *args.forbid_phrase]
+    forbidden = ["room", "real", *args.forbid_phrase]
     for phrase in forbidden:
         if re.search(rf"\b{re.escape(phrase.lower())}\b", lower):
             failures.append(f"forbidden phrase: {phrase}")

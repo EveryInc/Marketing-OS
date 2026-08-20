@@ -59,6 +59,39 @@ Write these elements before building a calendar:
 
 Use the user's chosen language exactly. Keep protected sections unchanged during scoped edits.
 
+Before polishing the prose, separate the strategic jobs:
+
+- **Audience and tension:** Who needs this, and what is stopping them?
+- **Category and outcome:** What is the product, and what changes because it exists?
+- **Mechanism:** How does the product create that outcome?
+- **Reason to believe:** Why can Every credibly deliver it?
+- **Proof:** What specific request, action, and result show it happening?
+
+Make each sentence and section do one job. Do not collapse the product promise,
+positioning, hero UVP, supporting UVPs, mechanism, and reason to believe into one
+paragraph. Name the customer and the first champion separately when they differ. Lock one
+hero UVP; use the others as supporting stories rather than competing headlines.
+
+Treat the one-line strategy and positioning statement as decision tools, not website copy.
+Do not move into pricing, metrics, calendars, or channel tactics while the product story is
+still being settled unless the user makes one of those the current decision.
+
+## Write proof at production specificity
+
+Every product example must name:
+
+1. The request.
+2. The action the product took.
+3. The result.
+
+Explain causal links an unfamiliar reader could not infer. Retrieve the missing detail
+from Slack, Notion, Drive, or the governing source before writing. Never replace a specific
+field, error, file, fix, artifact, or outcome with mystery language.
+
+Do not use “real” as a credibility word. Replace it with the exact claim: shipped,
+published, corrected, approved, customer-facing, live, verified, or another concrete fact.
+If the evidence is incomplete, mark the gap instead of inventing intrigue.
+
 ## Build the master GTM plan
 
 Use the relevant parts of this order:
@@ -123,6 +156,14 @@ When the user identifies a section boundary:
 5. Compare protected content exactly.
 
 Treat the user's edited version as canonical. Learn from the delta before drafting again.
+When the user rejects an edit, restore their wording immediately and carry that decision
+through the authorized scope. Preserve parentheticals, fragments, provocations, and rough
+one-two-punch rhythms when they carry the idea or voice; tighten the connective prose
+around them.
+
+Compress only after the strategy and canonical language are stable. Cut repetition,
+throat-clearing, and process detail. Do not cut a unique idea, mechanism, proof point,
+owner, creative detail, or unresolved decision.
 
 ## Evaluate
 
@@ -143,6 +184,9 @@ Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for 
 - [ ] Ambiguous strategic questions were resolved before the long draft
 - [ ] Goal, story, concept, and launch backbone precede the calendar
 - [ ] Dates, people, claims, prices, and links are verified or clearly marked open
+- [ ] Positioning separates audience, category, outcome, mechanism, and reason to believe
+- [ ] Every proof point names the request, action, and result
+- [ ] User-edited language and voice-bearing details remain canonical
 - [ ] Measurement names a primary decision metric and decision date
 - [ ] Scoped revisions preserved protected content exactly
 - [ ] The relevant evaluation and deterministic checks passed

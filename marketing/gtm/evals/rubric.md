@@ -32,6 +32,8 @@ Score each completed artifact out of 100.
 
 - Uses direct, specific language.
 - Preserves canonical copy.
+- Preserves voice-bearing parentheticals, fragments, and creative details.
+- Writes product proof as request, action, and result.
 - Avoids repetition, generic event language, and AI tells.
 - Keeps the social brief proportionate to its job.
 
@@ -46,6 +48,10 @@ Any hard failure prevents a pass:
 - Converts an open question into a decision.
 - Omits weekends from a calendar-day plan.
 - Produces a social operating manual when the prompt asks for a brief.
+- Rewrites user-edited canonical copy without authorization.
+- Generalizes a specific product receipt into a vague capability claim.
+- Omits the request, action, or result from a proof point when the source supplies it.
+- Uses “real” as credibility filler.
 - Uses banned “room” shorthand.
 
 ## Passing bar

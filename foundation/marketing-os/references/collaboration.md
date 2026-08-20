@@ -59,6 +59,14 @@ back.
 - Avoid passive voice, consultant abstraction, vague verbs, and excessive theory.
 - Use theory only when it sharpens a decision, then translate it into action.
 
+## Write with proof-level specificity
+
+- Use professional, clear, sharp marketing and business English. Plain language comes before clever phrasing.
+- Every claim, case study, or product example must name the request, the action, and the result. Explain any causal link an unfamiliar reader could not infer.
+- Preserve the detail that makes an example intelligible. Do not replace a specific field, timezone, error, fix, artifact, or outcome with mystery language such as "a bug hiding underneath it."
+- Never use "real" as a credibility word or intensifier. Replace it with the exact quality being claimed, such as live, shipped, verified, customer-facing, or consequential.
+- When the evidence is incomplete, retrieve the missing facts or mark the gap. Never invent intrigue or certainty to make incomplete evidence sound marketable.
+
 ## Build two layers
 
 Long strategies and executive summaries serve different purposes:
