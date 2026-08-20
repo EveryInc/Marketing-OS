@@ -179,6 +179,17 @@ All positioning skills load:
       - brand-voice/{relevant brand}
       - positioning/{relevant brand}
 
+    craft/compound-copywriting
+      - foundation/marketing-os
+      - craft/copywriting
+      - craft/editing
+      - brand-voice/{relevant brand}
+      - positioning/{relevant brand}
+      - the relevant channel skill
+      Orchestrates Write → Judge → Learn → Test → Repeat. Human edits become bounded
+      project instructions immediately and durable doctrine only after a fresh transfer
+      test and the Marketing OS promotion gate.
+
     craft/editing
       - foundation/marketing-os
       - brand-voice/{relevant brand}

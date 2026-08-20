@@ -27,7 +27,7 @@ The repository map is:
 2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
 4. **strategy/** — Compound Marketing plus higher-order strategy skills, including role-bounded marketing pods, that compose voice, positioning, programs, GTM, and measurement
-5. **craft/** — Execution-level skills for art direction, copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
+5. **craft/** — Execution-level skills for art direction, copywriting, Compound Copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
 6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
 7. **marketing-science/** — Research, archetyping, brand equity, and measurement skills that inform positioning, programs, and decisions
 8. **marketing/** — Integrated planning workflows that turn strategy, sources, and campaign decisions into executable GTM artifacts
@@ -48,7 +48,8 @@ The repository has eight skill families:
 3. **positioning/** — Durable, ruled master-brand and product positioning
 4. **strategy/** — Compound Marketing, Compound Brand, messaging architecture,
    measurable program briefs, and executive one-pagers
-5. **craft/** — Verbal identity, art direction, copywriting, editing, naming, PR,
+5. **craft/** — Verbal identity, art direction, copywriting, Compound Copywriting,
+   editing, naming, PR,
    social, email, web, and long-form execution
 6. **launches/** — The canonical launch process, launch calendar, brief, GTM strategy,
    claims clearance, wireframing, email flows, and three launch tiers
@@ -97,12 +98,15 @@ Ready for structured use:
   control, invoked through normal requests rather than orchestration jargon
 - A Compound Marketing golden path with decision records, run records, cross-stage
   fidelity checks, and an explicit proof standard
+- Compound Copywriting beta that turns human edits into bounded project instructions,
+  tests transfer on fresh copy, and measures revision burden without automating taste
 
 Still in development:
 
 - Product-specific positioning and voice where source documents have not been ruled
 - Several execution-channel skills that remain explicit scaffolding
 - More forward tests and comparative evaluations
+- Live Compound Copywriting baselines and transfer evidence across comparable copy tasks
 - Live data integrations for repeatable quarterly reporting
 - A prospective comparable second run and independent teammate rerun required for a
   publishable compounding claim
@@ -123,6 +127,14 @@ Files marked `## To do` are scaffolding, not authoritative product or channel gu
 - Added deterministic validation for decision fidelity and comparable-run proof
 - Added honest Brand Book and Thesis GTM baselines without upgrading them into claims
 - Kept design, asset production, and agent-count claims outside V1
+
+### Aug. 19, 2026: Compound Copywriting
+
+- Added the Write → Judge → Learn → Test → Repeat copy-production loop
+- Separated immediate project learning from gated durable doctrine
+- Added revision-burden, protected-language, quality, hard-failure, and transfer metrics
+- Added six regression cases for human authorship, transfer, overfitting, and false
+  measurement claims
 
 ### July 24, 2026: Reusable Operating Layer
 
