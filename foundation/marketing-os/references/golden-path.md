@@ -71,7 +71,9 @@ the approved audience, idea, offer, proof, primary action, exact protected langu
 open questions. Adapt the expression to the artifact; do not reopen the strategy.
 
 Before delivery, compare the artifact with the decision record. Any missing or changed
-decision must be restored, approved as a new decision, or left visibly unresolved.
+decision must be restored, approved as a new decision, or left visibly unresolved. When
+the artifact is accepted, create the receipt defined in
+`../../../strategy/compound-marketing/references/artifact-receipt.md`.
 
 **Human gate:** The named approver accepts the exact artifact version. Record substantial
 edits instead of absorbing them silently.
@@ -95,7 +97,8 @@ learning is promoted.
 ## 4. Prove compounding
 
 Structural checks prove only that the run record is internally consistent. A named human
-must verify artifact fidelity before an operational or compounding claim.
+must verify artifact fidelity and sign a readable receipt for every applicable stage
+before a compounding claim.
 
 A publishable compounding claim requires:
 

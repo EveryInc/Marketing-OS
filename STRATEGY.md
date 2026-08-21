@@ -1,6 +1,6 @@
 ---
 name: Compound Marketing
-last_updated: 2026-08-19
+last_updated: 2026-08-21
 ---
 
 # Compound Marketing Strategy

@@ -56,6 +56,121 @@ def _string_set(value: Any) -> set[str]:
     return {item for item in value if isinstance(item, str)}
 
 
+def _resolve_shared_file(reference: str, record_path: Path) -> Path:
+    run_root = record_path.resolve().parent
+    path = Path(reference)
+    if not path.is_absolute():
+        path = run_root / path
+    resolved_path = path.resolve()
+    try:
+        resolved_path.relative_to(run_root)
+    except ValueError as exc:
+        raise ValueError("shared files must stay inside the run directory") from exc
+    return resolved_path
+
+
+def _load_shared_json(reference: str, record_path: Path) -> dict[str, Any]:
+    path = _resolve_shared_file(reference, record_path)
+    with path.open(encoding="utf-8") as handle:
+        data = json.load(handle)
+    if not isinstance(data, dict):
+        raise ValueError(f"{reference} must contain a JSON object")
+    return data
+
+
+def _artifact_receipt_failures(
+    record: dict[str, Any], *, label: str, record_path: Path | None
+) -> list[str]:
+    """Verify shared artifact receipts required for a compounding claim."""
+
+    failures: list[str] = []
+    if record_path is None:
+        return [f"{label} artifact receipts cannot be verified without a record path"]
+
+    decision_record = record.get("decision_record")
+    if not isinstance(decision_record, dict):
+        return [f"{label} decision record reference is missing"]
+    decision_path = decision_record.get("path")
+    decision_version = decision_record.get("version")
+    if not isinstance(decision_path, str) or not decision_path.strip():
+        failures.append(f"{label} decision record path is missing")
+    else:
+        try:
+            with _resolve_shared_file(decision_path, record_path).open(encoding="utf-8"):
+                pass
+        except (OSError, ValueError):
+            failures.append(f"{label} decision record is unreadable")
+    if not isinstance(decision_version, str) or not decision_version.strip():
+        failures.append(f"{label} decision record version is missing")
+
+    stages = record.get("stages")
+    stages = stages if isinstance(stages, dict) else {}
+    for stage_name in REQUIRED_STAGES:
+        stage = stages.get(stage_name)
+        if not isinstance(stage, dict) or stage.get("status") == "not_applicable":
+            continue
+        receipt_reference = stage.get("artifact_receipt")
+        if not isinstance(receipt_reference, str) or not receipt_reference.strip():
+            failures.append(f"{label} stage {stage_name} has no artifact receipt")
+            continue
+        try:
+            receipt = _load_shared_json(receipt_reference, record_path)
+        except (OSError, ValueError):
+            failures.append(f"{label} stage {stage_name} artifact receipt is unreadable")
+            continue
+
+        if receipt.get("schema_version") != 1:
+            failures.append(
+                f"{label} stage {stage_name} artifact receipt schema is invalid"
+            )
+        if receipt.get("run_id") != record.get("run_id"):
+            failures.append(
+                f"{label} stage {stage_name} artifact receipt names the wrong run"
+            )
+        if receipt.get("stage") != stage_name:
+            failures.append(
+                f"{label} stage {stage_name} artifact receipt names the wrong stage"
+            )
+        if receipt.get("artifact") != stage.get("artifact"):
+            failures.append(
+                f"{label} stage {stage_name} artifact receipt names the wrong artifact"
+            )
+
+        receipt_decision_record = receipt.get("decision_record")
+        if not isinstance(receipt_decision_record, dict) or (
+            receipt_decision_record.get("path") != decision_path
+            or receipt_decision_record.get("version") != decision_version
+        ):
+            failures.append(
+                f"{label} stage {stage_name} artifact receipt has the wrong decision record"
+            )
+
+        expected_ids: set[str] = set()
+        if stage_name == "context_to_strategy":
+            expected_ids = _string_set(stage.get("output_decision_ids", []))
+        elif stage_name == "strategy_to_market":
+            expected_ids = _string_set(stage.get("preserved_decision_ids", []))
+        receipt_ids = receipt.get("decision_ids")
+        if not isinstance(receipt_ids, list) or not all(
+            isinstance(item, str) and item for item in receipt_ids
+        ):
+            failures.append(
+                f"{label} stage {stage_name} artifact receipt decision IDs are invalid"
+            )
+        elif _string_set(receipt_ids) != expected_ids:
+            failures.append(
+                f"{label} stage {stage_name} artifact receipt decision IDs do not match"
+            )
+
+        for field in ("verified_by", "verified_at"):
+            if not isinstance(receipt.get(field), str) or not receipt[field].strip():
+                failures.append(
+                    f"{label} stage {stage_name} artifact receipt has no {field}"
+                )
+
+    return failures
+
+
 def validate_record(
     record: dict[str, Any], *, comparison_context: bool = False
 ) -> dict[str, Any]:
@@ -254,7 +369,11 @@ def validate_record(
 
 
 def compare_records(
-    baseline: dict[str, Any], followup: dict[str, Any]
+    baseline: dict[str, Any],
+    followup: dict[str, Any],
+    *,
+    baseline_path: Path | None = None,
+    followup_path: Path | None = None,
 ) -> dict[str, Any]:
     baseline_validation = validate_record(baseline, comparison_context=True)
     followup_validation = validate_record(followup, comparison_context=True)
@@ -278,6 +397,17 @@ def compare_records(
         failures.append("baseline evidence was not prospective")
     if followup.get("evidence_status") != "prospective":
         failures.append("followup evidence was not prospective")
+
+    failures.extend(
+        _artifact_receipt_failures(
+            baseline, label="baseline", record_path=baseline_path
+        )
+    )
+    failures.extend(
+        _artifact_receipt_failures(
+            followup, label="followup", record_path=followup_path
+        )
+    )
 
     stage_requirements = (
         ("context_to_strategy", {"approved", "complete"}),
@@ -441,7 +571,12 @@ def main() -> int:
             result = validate_record(load_json(args.record))
             print(json.dumps(result, indent=2, allow_nan=False))
             return 0 if result["valid"] else 1
-        result = compare_records(load_json(args.baseline), load_json(args.followup))
+        result = compare_records(
+            load_json(args.baseline),
+            load_json(args.followup),
+            baseline_path=args.baseline,
+            followup_path=args.followup,
+        )
         print(json.dumps(result, indent=2, allow_nan=False))
         return 0 if result["qualifies"] else 1
     except (OSError, ValueError) as exc:

@@ -92,6 +92,50 @@ def run_record(
     }
 
 
+def write_artifact_receipts(root: Path, record: dict) -> Path:
+    """Write the shared files required to verify artifact fidelity."""
+
+    run_root = root / record["run_id"]
+    run_root.mkdir(parents=True)
+    decision_path = run_root / "decision-record.md"
+    decision_path.write_text("# Decision record\n\nVersion: v1\n", encoding="utf-8")
+    record["decision_record"] = {"path": "decision-record.md", "version": "v1"}
+
+    for stage_name, stage in record["stages"].items():
+        if stage["status"] == "not_applicable":
+            continue
+        if stage_name == "context_to_strategy":
+            decision_ids = stage["output_decision_ids"]
+        elif stage_name == "strategy_to_market":
+            decision_ids = stage["preserved_decision_ids"]
+        else:
+            decision_ids = []
+        receipt_name = f"{stage_name}-receipt.json"
+        stage["artifact_receipt"] = receipt_name
+        (run_root / receipt_name).write_text(
+            json.dumps(
+                {
+                    "schema_version": 1,
+                    "run_id": record["run_id"],
+                    "stage": stage_name,
+                    "artifact": stage["artifact"],
+                    "decision_record": {
+                        "path": "decision-record.md",
+                        "version": "v1",
+                    },
+                    "decision_ids": decision_ids,
+                    "verified_by": "Douglas",
+                    "verified_at": "2026-08-21T12:00:00-04:00",
+                }
+            ),
+            encoding="utf-8",
+        )
+
+    record_path = run_root / "run.json"
+    record_path.write_text(json.dumps(record), encoding="utf-8")
+    return record_path
+
+
 class ValidateRunTests(unittest.TestCase):
     module = CHECK_RUN
 
@@ -175,6 +219,31 @@ class ValidateRunTests(unittest.TestCase):
                     result["errors"],
                 )
 
+    def test_malformed_nested_values_fail_without_crashing(self):
+        cases = {
+            "stage": lambda record: record["stages"].update(
+                {"context_to_strategy": []}
+            ),
+            "applies_to": lambda record: record["decisions"][0].update(
+                {"applies_to": "strategy_to_market"}
+            ),
+            "proof": lambda record: record.update({"proof": []}),
+            "metrics": lambda record: record.update({"metrics": []}),
+        }
+        for name, mutate in cases.items():
+            with self.subTest(name=name):
+                record = run_record("invalid")
+                mutate(record)
+                result = self.module.validate_record(record)
+                self.assertFalse(result["valid"])
+
+    def test_duplicate_decision_ids_fail_validation(self):
+        record = run_record("invalid")
+        record["decisions"].append(dict(record["decisions"][0]))
+        result = self.module.validate_record(record)
+        self.assertFalse(result["valid"])
+        self.assertIn("duplicate decision id D1", result["errors"])
+
 
 class CompareRunTests(unittest.TestCase):
     module = CHECK_RUN
@@ -192,10 +261,103 @@ class CompareRunTests(unittest.TestCase):
             publishable_claim=True,
             independent_operator=True,
         )
-        result = self.module.compare_records(baseline, followup)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline_path = write_artifact_receipts(root, baseline)
+            followup_path = write_artifact_receipts(root, followup)
+            result = self.module.compare_records(
+                baseline,
+                followup,
+                baseline_path=baseline_path,
+                followup_path=followup_path,
+            )
         self.assertTrue(result["qualifies"])
         self.assertTrue(result["proof_ready"])
         self.assertEqual(20.0, result["review_reduction_percent"])
+
+    def test_compounding_proof_requires_resolvable_artifact_receipts(self):
+        baseline = run_record("baseline", defects=2)
+        followup = run_record(
+            "followup",
+            review_minutes=70,
+            first_pass=True,
+            defects=1,
+            inherited=1,
+            accepted_inherited=1,
+            comparable_to="baseline",
+            independent_operator=True,
+        )
+        result = self.module.compare_records(baseline, followup)
+        self.assertFalse(result["qualifies"])
+        self.assertIn(
+            "baseline artifact receipts cannot be verified without a record path",
+            result["failures"],
+        )
+
+    def test_artifact_receipt_decision_mismatch_fails_closed(self):
+        baseline = run_record("baseline", defects=2)
+        followup = run_record(
+            "followup",
+            review_minutes=70,
+            first_pass=True,
+            defects=1,
+            inherited=1,
+            accepted_inherited=1,
+            comparable_to="baseline",
+            independent_operator=True,
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline_path = write_artifact_receipts(root, baseline)
+            followup_path = write_artifact_receipts(root, followup)
+            receipt_path = (
+                followup_path.parent / "strategy_to_market-receipt.json"
+            )
+            receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+            receipt["decision_ids"] = []
+            receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
+            result = self.module.compare_records(
+                baseline,
+                followup,
+                baseline_path=baseline_path,
+                followup_path=followup_path,
+            )
+        self.assertFalse(result["qualifies"])
+        self.assertIn(
+            "followup stage strategy_to_market artifact receipt decision IDs do not match",
+            result["failures"],
+        )
+
+    def test_artifact_receipt_cannot_escape_the_run_directory(self):
+        baseline = run_record("baseline", defects=2)
+        followup = run_record(
+            "followup",
+            review_minutes=70,
+            first_pass=True,
+            defects=1,
+            inherited=1,
+            accepted_inherited=1,
+            comparable_to="baseline",
+            independent_operator=True,
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline_path = write_artifact_receipts(root, baseline)
+            followup_path = write_artifact_receipts(root, followup)
+            followup["stages"]["strategy_to_market"]["artifact_receipt"] = (
+                "../baseline/strategy_to_market-receipt.json"
+            )
+            result = self.module.compare_records(
+                baseline,
+                followup,
+                baseline_path=baseline_path,
+                followup_path=followup_path,
+            )
+        self.assertFalse(result["qualifies"])
+        self.assertIn(
+            "followup stage strategy_to_market artifact receipt is unreadable",
+            result["failures"],
+        )
 
     def test_less_than_twenty_percent_reduction_does_not_qualify(self):
         baseline = run_record("baseline", review_minutes=100)
@@ -403,6 +565,20 @@ class CompareRunTests(unittest.TestCase):
                 ),
                 "independent teammate rerun is missing",
             ),
+            "no accepted inherited decision": (
+                lambda baseline, followup: (
+                    followup["metrics"].update(
+                        {
+                            "inherited_decisions": 0,
+                            "accepted_inherited_decisions": 0,
+                        }
+                    ),
+                    followup["proof"].update(
+                        {"accepted_inherited_decision_ids": []}
+                    ),
+                ),
+                "no inherited decision was accepted",
+            ),
             "no artifact verification": (
                 lambda baseline, followup: followup["metrics"].update(
                     {
@@ -485,6 +661,38 @@ class CliTests(unittest.TestCase):
                     )
                     self.assertEqual(expected_code, result.returncode)
                     self.assertIsInstance(json.loads(result.stdout), dict)
+
+    def test_compare_cli_uses_record_relative_receipts(self):
+        baseline = run_record("baseline", defects=2)
+        followup = run_record(
+            "followup",
+            review_minutes=70,
+            first_pass=True,
+            defects=1,
+            inherited=1,
+            accepted_inherited=1,
+            comparable_to="baseline",
+            independent_operator=True,
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline_path = write_artifact_receipts(root, baseline)
+            followup_path = write_artifact_receipts(root, followup)
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(SCRIPT),
+                    "compare",
+                    str(baseline_path),
+                    str(followup_path),
+                ],
+                check=False,
+                capture_output=True,
+                text=True,
+                cwd=root,
+            )
+        self.assertEqual(0, result.returncode)
+        self.assertTrue(json.loads(result.stdout)["proof_ready"])
 
 
 if __name__ == "__main__":

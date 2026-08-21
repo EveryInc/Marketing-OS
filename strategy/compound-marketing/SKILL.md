@@ -34,7 +34,8 @@ creating one, search `.compound-marketing/*/run.json` for an unfinished record w
 same project and workflow. Resume it when found; do not create a duplicate run.
 
 Create `run.md`, `run.json`, and `decision-record.md` there from the references in this
-skill. Do not store active project details in the Marketing OS repository. Pass the
+skill. Create the artifact receipts in `references/artifact-receipt.md` as each stage is
+accepted. Do not store active project details in the Marketing OS repository. Pass the
 three absolute paths and current decision-record version in every specialist handoff.
 
 Establish:
@@ -65,9 +66,9 @@ until the named owner decides it.
 
 Follow `../../foundation/marketing-os/references/golden-path.md`. It owns the stage
 requirements and specialist routing. At every handoff, update `run.json` with the
-artifact location, status, inherited decision IDs, protected-language IDs, open
-questions, and human ruling. The specialist produces the work; this skill keeps the
-governing record intact.
+artifact and receipt locations, status, inherited decision IDs, protected-language IDs,
+open questions, and human ruling. The specialist produces the work; this skill keeps
+the governing record intact.
 
 ## Prove the system
 
@@ -80,7 +81,8 @@ python3 <MARKETING_OS_ROOT>/strategy/compound-marketing/scripts/check_run.py com
 ```
 
 Structural checks prove only that the run record is internally consistent. A named human
-must verify artifact fidelity before an operational or compounding claim.
+must verify artifact fidelity and sign a resolvable receipt for every applicable stage
+before a compounding claim can pass.
 
 ## Use optional pods sparingly
 
@@ -104,6 +106,7 @@ a success metric.
 - [ ] Facts, decisions, protected language, and open questions are separate
 - [ ] The human approved the governing decisions
 - [ ] Downstream work names and preserves inherited decision IDs
+- [ ] Each accepted stage has a readable artifact receipt signed by its human verifier
 - [ ] Human edits and results were compared with the original inputs
 - [ ] Learning was classified before any durable file changed
 - [ ] Improvement claims use comparable real runs and pass the proof standard

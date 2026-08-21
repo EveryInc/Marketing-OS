@@ -14,8 +14,9 @@ Evidence: a valid run record and zero cross-stage decision failures.
 Allowed claim: "The run record is internally consistent."
 
 The validator cannot inspect every Google Doc, slide deck, or published surface. A named
-human must verify that the accepted artifacts match their recorded decision IDs before
-an operational or compounding claim can pass.
+human verifies each accepted artifact and signs the machine-readable receipt in
+`artifact-receipt.md`. The checker resolves those receipts and rejects missing or
+inconsistent records.
 
 ### 2. Operational proof
 
@@ -45,6 +46,8 @@ Require:
 - One independent teammate rerun before claiming team-level reuse.
 - A named human verified that the accepted artifacts match the recorded decisions and
   protected language.
+- Every applicable stage has a readable receipt that names the artifact, decision-record
+  version, preserved IDs, verifier, and verification time.
 
 Allowed claim: "The second run required less human correction because it inherited
 decisions and learning from the first."
@@ -66,8 +69,8 @@ Do not use these as evidence that marketing improved:
 python3 <MARKETING_OS_ROOT>/strategy/compound-marketing/scripts/check_run.py compare <absolute-baseline.json> <absolute-followup.json>
 ```
 
-The comparison must fail closed. Missing evidence, unmatched workflows, or a quality
-regression prevents the compounding claim.
+The comparison must fail closed. Missing evidence, unreadable artifact receipts,
+unmatched workflows, or a quality regression prevents the compounding claim.
 
 The `validate` command can mark a follow-up `comparison_ready`. It cannot mark a single
 record `proof_ready`; only a successful `compare` result can do that.

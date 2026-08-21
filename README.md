@@ -92,8 +92,8 @@ Ready for structured use:
   Score, authority, and Consulting demand
 - Compounding from Douglas's edits and from campaign results without importing project
   details into unrelated work
-- A Compound Marketing golden path with decision records, run records, cross-stage
-  fidelity checks, and an explicit proof standard
+- A Compound Marketing golden path with decision records, run records, signed artifact
+  receipts, cross-stage fidelity checks, and an explicit proof standard
 
 Still in development:
 
@@ -112,12 +112,20 @@ Files marked `## To do` are scaffolding, not authoritative product or channel gu
 
 ## Changelog
 
+### Aug. 21, 2026: Artifact Proof Gate
+
+- Required a readable, human-signed receipt for every applicable stage before a
+  compounding claim can pass
+- Added regression tests for malformed records, missing receipts, receipt drift, and
+  record-relative command use
+
 ### Aug. 19, 2026: Compound Marketing V1
 
 - Added the governing Compound Marketing strategy and canonical golden path
 - Added one entry skill for strategy, recurring programs, GTM, and learning closeout
 - Added shared decision and run records that preserve human rulings across stages
-- Added deterministic validation for decision fidelity and comparable-run proof
+- Added signed artifact receipts and deterministic validation for decision fidelity and
+  comparable-run proof
 - Added honest Brand Book and Thesis GTM baselines without upgrading them into claims
 - Kept design, asset production, and agent-count claims outside V1
 

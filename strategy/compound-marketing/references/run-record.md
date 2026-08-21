@@ -34,11 +34,11 @@ measures from memory.
 
 ## Stage record
 
-| Stage | Status | Artifact | Input decision IDs | Preserved or output IDs | Human ruling |
-|---|---|---|---|---|---|
-| Context to strategy | | | | | |
-| Strategy to market | | | | | |
-| Market to memory | | | | | |
+| Stage | Status | Artifact | Receipt | Input decision IDs | Preserved or output IDs | Human ruling |
+|---|---|---|---|---|---|---|
+| Context to strategy | | | | | | |
+| Strategy to market | | | | | | |
+| Market to memory | | | | | | |
 
 Use `not applicable` only when the project genuinely stops before that stage. A partial
 run can be useful evidence, but cannot support an end-to-end claim.
@@ -69,11 +69,13 @@ run can be useful evidence, but cannot support an end-to-end claim.
 
 ## JSON companion
 
-Use the field structure in `../evals/fixtures/brand-book-baseline.json`. Locked decisions
-that govern downstream work must appear in both the strategy output and the market
-artifact's `preserved_decision_ids`. A follow-up proof also lists the exact baseline
-decision IDs it inherited in `proof.accepted_inherited_decision_ids`; the validator
-cross-checks those IDs against both runs.
+Use the field structure in `../evals/fixtures/brand-book-baseline.json`. Add a top-level
+`decision_record` object with its path and version. Each applicable stage names its
+machine-readable `artifact_receipt`; use the format in `artifact-receipt.md`. Locked
+decisions that govern downstream work must appear in both the strategy output and the
+market artifact's `preserved_decision_ids`. A follow-up proof also lists the exact
+baseline decision IDs it inherited in `proof.accepted_inherited_decision_ids`; the
+validator cross-checks those IDs against both runs and the artifact receipts.
 
 Resolve `<MARKETING_OS_ROOT>` from the loaded Compound Marketing skill. Validate with
 absolute paths so the command works from the project directory:

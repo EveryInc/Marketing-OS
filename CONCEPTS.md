@@ -12,6 +12,11 @@ The versioned source of truth for approved strategy, source authority, protected
 language, open questions, and rejected directions. Downstream work inherits its version
 and stable decision IDs instead of reconstructing the strategy from source material.
 
+### Artifact receipt
+A machine-readable record connecting an accepted stage artifact to its run, decision
+record version, preserved decision IDs, and named human verifier. Compounding proof fails
+when a required receipt is missing or inconsistent.
+
 ### Compounding proof
 Evidence that a comparable second real run inherited prior decisions and required less
 human correction without losing quality. Structural checks and retrospective cases are
