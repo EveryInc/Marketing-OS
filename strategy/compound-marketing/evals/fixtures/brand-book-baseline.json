@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "run_status": "complete",
   "run_id": "brand-book-2026-08-baseline",
   "project": "Every Brand Book final strategy pass",
   "workflow": "brand-strategy",

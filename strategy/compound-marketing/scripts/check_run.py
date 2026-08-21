@@ -25,6 +25,7 @@ VALID_STAGE_STATUSES = {
 }
 VALID_DECISION_STATUSES = {"locked", "open", "rejected"}
 VALID_EVIDENCE_STATUSES = {"prospective", "retrospective", "incomplete"}
+VALID_RUN_STATUSES = {"open", "complete", "abandoned"}
 REQUIRED_METRICS = (
     "human_review_minutes",
     "first_pass_accepted",
@@ -56,6 +57,10 @@ def _string_set(value: Any) -> set[str]:
     return {item for item in value if isinstance(item, str)}
 
 
+def _is_allowed_string(value: Any, allowed: set[str]) -> bool:
+    return isinstance(value, str) and value in allowed
+
+
 def validate_record(
     record: dict[str, Any], *, comparison_context: bool = False
 ) -> dict[str, Any]:
@@ -67,8 +72,12 @@ def validate_record(
     for field in ("run_id", "project", "workflow"):
         _required_string(record, field, errors)
 
+    run_status = record.get("run_status")
+    if not _is_allowed_string(run_status, VALID_RUN_STATUSES):
+        errors.append("run_status is invalid")
+
     evidence_status = record.get("evidence_status")
-    if evidence_status not in VALID_EVIDENCE_STATUSES:
+    if not _is_allowed_string(evidence_status, VALID_EVIDENCE_STATUSES):
         errors.append("evidence_status is invalid")
 
     decisions = record.get("decisions")
@@ -91,7 +100,9 @@ def validate_record(
         for field in ("decision", "owner", "source", "status"):
             if not isinstance(decision.get(field), str) or not decision[field].strip():
                 errors.append(f"decision {decision_id} has no {field}")
-        if decision.get("status") not in VALID_DECISION_STATUSES:
+        if not _is_allowed_string(
+            decision.get("status"), VALID_DECISION_STATUSES
+        ):
             errors.append(f"decision {decision_id} has invalid status")
         applies_to = decision.get("applies_to", [])
         if not isinstance(applies_to, list) or not all(
@@ -112,10 +123,17 @@ def validate_record(
         if not isinstance(stage, dict):
             errors.append(f"missing stage {stage_name}")
             continue
-        if stage.get("status") not in VALID_STAGE_STATUSES:
+        if not _is_allowed_string(stage.get("status"), VALID_STAGE_STATUSES):
             errors.append(f"stage {stage_name} has invalid status")
         if not isinstance(stage.get("artifact"), str) or not stage["artifact"].strip():
             errors.append(f"stage {stage_name} has no artifact")
+
+    if run_status == "complete" and any(
+        isinstance(stage, dict)
+        and stage.get("status") in ("not_started", "in_progress")
+        for stage in stages.values()
+    ):
+        errors.append("complete run has an unfinished stage")
 
     strategy_stage = stages.get("context_to_strategy", {})
     market_stage = stages.get("strategy_to_market", {})
@@ -136,7 +154,7 @@ def validate_record(
 
     for decision in locked_decisions:
         decision_id = decision.get("id")
-        applies_to = decision.get("applies_to", [])
+        applies_to = _string_set(decision.get("applies_to", []))
         if decision_id not in output_id_set:
             errors.append(f"locked decision {decision_id} is missing from strategy output")
         if "strategy_to_market" in applies_to and decision_id not in preserved_id_set:
@@ -292,7 +310,7 @@ def compare_records(
         for stage_name, allowed in stage_requirements:
             stage = stages.get(stage_name, {})
             status = stage.get("status") if isinstance(stage, dict) else None
-            if status not in allowed:
+            if not _is_allowed_string(status, allowed):
                 failures.append(f"{label} stage {stage_name} is unfinished")
     followup_stages = stage_maps["followup"]
 

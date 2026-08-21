@@ -3,11 +3,13 @@
 Use one Markdown record for human review and one JSON companion for deterministic
 validation. Keep both in `<project-root>/.compound-marketing/<run-id>/` beside the
 decision record. Search this directory for an unfinished matching run before creating a
-new one.
+new one. In the JSON companion, `run_status: open` is the only resumable state;
+`complete` and `abandoned` are terminal.
 
 ## Open
 
 - Run ID:
+- Run status: open / complete / abandoned
 - Project:
 - Workflow: brand-strategy / company-strategy / program / GTM
 - Evidence status: prospective / retrospective / incomplete
@@ -74,6 +76,10 @@ that govern downstream work must appear in both the strategy output and the mark
 artifact's `preserved_decision_ids`. A follow-up proof also lists the exact baseline
 decision IDs it inherited in `proof.accepted_inherited_decision_ids`; the validator
 cross-checks those IDs against both runs.
+
+Set top-level `run_status` to `open` while work can resume. Set it to `complete` after
+closeout and to `abandoned` when work stops without a closeout. Do not infer resumability
+from stage status or file modification time.
 
 Resolve `<MARKETING_OS_ROOT>` from the loaded Compound Marketing skill. Validate with
 absolute paths so the command works from the project directory:

@@ -30,8 +30,9 @@ result, or repeated pattern may change future work.
 ## Open the run
 
 Use `<project-root>/.compound-marketing/<run-id>/` as the shared run directory. Before
-creating one, search `.compound-marketing/*/run.json` for an unfinished record with the
-same project and workflow. Resume it when found; do not create a duplicate run.
+creating one, search `.compound-marketing/*/run.json` for a record with `run_status:
+open` and the same project and workflow. Resume it when found; do not create a duplicate
+run. Records marked `complete` or `abandoned` are terminal and must not be resumed.
 
 Create `run.md`, `run.json`, and `decision-record.md` there from the references in this
 skill. Do not store active project details in the Marketing OS repository. Pass the

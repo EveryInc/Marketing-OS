@@ -41,6 +41,7 @@ def run_record(
 ):
     return {
         "schema_version": 1,
+        "run_status": "complete",
         "run_id": run_id,
         "project": f"Project {run_id}",
         "workflow": workflow,
@@ -133,6 +134,58 @@ class ValidateRunTests(unittest.TestCase):
         self.assertIn("decision D1 has invalid status", result["errors"])
         self.assertIn("decision D1 applies_to has an invalid stage", result["errors"])
 
+    def test_run_status_defines_resumability(self):
+        for status in ("open", "complete", "abandoned"):
+            with self.subTest(status=status):
+                record = run_record("status")
+                record["run_status"] = status
+                self.assertTrue(self.module.validate_record(record)["valid"])
+
+        record = run_record("invalid-status")
+        record["run_status"] = []
+        result = self.module.validate_record(record)
+        self.assertFalse(result["valid"])
+        self.assertIn("run_status is invalid", result["errors"])
+
+        record = run_record("unfinished-complete")
+        record["stages"]["market_to_memory"]["status"] = "in_progress"
+        result = self.module.validate_record(record)
+        self.assertFalse(result["valid"])
+        self.assertIn("complete run has an unfinished stage", result["errors"])
+
+    def test_malformed_status_values_fail_without_crashing(self):
+        cases = (
+            (
+                "evidence status",
+                lambda record: record.update({"evidence_status": {"bad": "value"}}),
+                "evidence_status is invalid",
+            ),
+            (
+                "decision status",
+                lambda record: record["decisions"][0].update({"status": []}),
+                "decision D1 has invalid status",
+            ),
+            (
+                "stage status",
+                lambda record: record["stages"]["context_to_strategy"].update(
+                    {"status": {"bad": "value"}}
+                ),
+                "stage context_to_strategy has invalid status",
+            ),
+            (
+                "applies to",
+                lambda record: record["decisions"][0].update({"applies_to": 1}),
+                "decision D1 applies_to must be a string list",
+            ),
+        )
+        for name, mutate, expected in cases:
+            with self.subTest(name=name):
+                record = run_record("broken")
+                mutate(record)
+                result = self.module.validate_record(record)
+                self.assertFalse(result["valid"])
+                self.assertIn(expected, result["errors"])
+
     def test_publishable_claim_requires_complete_prospective_proof(self):
         record = run_record(
             "overclaim",
@@ -145,6 +198,23 @@ class ValidateRunTests(unittest.TestCase):
         self.assertFalse(result["valid"])
         self.assertIn(
             "publishable claim must be evaluated with the compare command",
+            result["errors"],
+        )
+
+    def test_comparison_mode_rejects_claim_with_missing_proof(self):
+        record = run_record(
+            "overclaim",
+            review_minutes=None,
+            inherited=1,
+            accepted_inherited=1,
+            comparable_to="baseline",
+            publishable_claim=True,
+            independent_operator=True,
+        )
+        result = self.module.validate_record(record, comparison_context=True)
+        self.assertFalse(result["valid"])
+        self.assertIn(
+            "publishable claim lacks required evidence: review_minutes_recorded",
             result["errors"],
         )
 
@@ -278,6 +348,14 @@ class CompareRunTests(unittest.TestCase):
         followup = run_record("followup")
         followup["proof"] = []
         followup["metrics"] = "invalid"
+        result = self.module.compare_records(baseline, followup)
+        self.assertFalse(result["qualifies"])
+        self.assertIn("followup record is invalid", result["failures"])
+
+    def test_unhashable_stage_status_fails_comparison_without_crashing(self):
+        baseline = run_record("baseline")
+        followup = run_record("followup")
+        followup["stages"]["market_to_memory"]["status"] = {}
         result = self.module.compare_records(baseline, followup)
         self.assertFalse(result["qualifies"])
         self.assertIn("followup record is invalid", result["failures"])

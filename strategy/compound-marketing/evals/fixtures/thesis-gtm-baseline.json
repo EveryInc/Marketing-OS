@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "run_status": "complete",
   "run_id": "thesis-gtm-2026-08-baseline",
   "project": "Thesis: 2027 GTM and social brief",
   "workflow": "gtm",
