@@ -1,0 +1,66 @@
+# Case Study: Thesis 2027
+
+Use this as a process example, not a reusable aesthetic.
+
+## Strategic frame
+
+Thesis is the modern agora where humans frame what work becomes next. AI increases
+productivity and makes established competence cheaper. Human value moves toward judgment,
+problem choice, and the creative frame.
+
+## Reference synthesis
+
+The strongest references combined civic artifacts, public information, tickets, ballots,
+indexes, engraved matter, imagined scholarship, altered work objects, and surreal image
+worlds. The initial territory, **The Civic Machine**, described how contributions enter,
+take a position, assemble, and reframe a shared field.
+
+## Useful correction
+
+Early visual studies translated the concept into monumental architecture. Symmetry,
+stepped forms, fluting, arches, and prestige color drifted into Art Deco. The correction
+was to preserve the behavior and remove the period style.
+
+**Keep:** Contribution, position, assembly, reframing, visible indexes, annual color,
+asymmetric grids, flat inks, useful information, and controlled surrealism.
+
+**Remove:** Stepped facades, sunbursts, fluting, prosceniums, black-and-gold luxury,
+marble, gears, chains, chrome blobs, and generic AI atmosphere.
+
+## System lesson
+
+Define the full system before discussing a token, headshot treatment, badge, or stage
+detail. “Civic Machine” is a behavioral and editorial grammar. It should not become a
+literal building. Rich experiential imagery can grow from the same grammar after the
+wordmark, grid, typography, palette, and editorial template are approved.
+
+## Reference standard proved
+
+The human supplied favorite images and anti-references. Those choices revealed durable
+preferences that an AI could not infer from generic best practice: civic objects, invented
+scholarship, graphic public knowledge, altered classical material, and strict rejection
+of culturally overused references. The mandatory human reference gate belongs in the
+general skill.
+
+## Core metaphor refinement
+
+The territory gained a precise historical engine after the first system pass. A
+**pinakion** was a citizen's named token; a **kleroterion** was the slotted allotment
+machine that organized individual tokens into a civic process. For Thesis, the pinakion
+becomes the human token carrying a name, thesis, field, and edition. The kleroterion
+becomes the public field where authored positions enter, assemble, and change the visible
+structure.
+
+The conference remains curated. Sortition supplies motion behavior, including entry,
+release, selection, and rearrangement, without becoming a programming rule. This
+distinction keeps the metaphor defensible and prevents the identity from collapsing into
+generic classical imagery.
+
+## Production lesson
+
+The portrait-card system later showed that semantic design structure is part of the art
+direction. Full person names, stable field labels, canonical dimensions, type ownership,
+and explicit crop rules made the approved identity repeatable. Several portraits could be
+corrected automatically; a small number still needed seconds of human resizing. The right
+lesson was to encode recurring failures and preserve cheap human judgment for exceptions,
+not to pretend that production automation had replaced art direction.

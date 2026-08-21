@@ -1,0 +1,102 @@
+{
+  "skill": "marketing-os",
+  "version": 1,
+  "cases": [
+    {
+      "id": "gtm-authority-and-sequencing",
+      "workflow": "gtm",
+      "skill_paths": [
+        "marketing/gtm/SKILL.md"
+      ],
+      "task": "A launch packet contains useful product facts but conflicting strategic drafts, no locked primary action, and a proposed date presented as confirmed. Build the GTM plan.",
+      "expected_behavior": [
+        "Assign authority to the supplied sources before synthesis",
+        "Ask only for strategic decisions the sources cannot settle",
+        "Lock goal, story, campaign concept, and launch backbone before a calendar",
+        "Keep the unconfirmed date proposed or open"
+      ],
+      "hard_failures": [
+        "Invents the primary action",
+        "Treats the proposed date as confirmed",
+        "Builds a calendar before resolving the strategy"
+      ]
+    },
+    {
+      "id": "executive-compression-preserves-the-idea",
+      "workflow": "executive-summary",
+      "skill_paths": [
+        "strategy/one-pager/SKILL.md"
+      ],
+      "task": "Turn an approved full strategy into a 10-minute executive review. The creative premise, audience insight, operating mechanism, launch gate, budget, and open decisions must survive.",
+      "expected_behavior": [
+        "Lead with the decision and rationale",
+        "Preserve the distinctive premise, mechanism, and launch gate",
+        "Keep ownership, measurement, asks, and budget visible",
+        "Retain the full strategy as the canonical source"
+      ],
+      "hard_failures": [
+        "Replaces the full strategy",
+        "Compresses the idea into generic launch language",
+        "Converts an open decision into an approved choice"
+      ]
+    },
+    {
+      "id": "copy-edit-compounds-without-overgeneralizing",
+      "workflow": "copy-adaptation",
+      "skill_paths": [
+        "craft/editing/SKILL.md"
+      ],
+      "task": "Douglas returns an edited launch email. His version restores the campaign line, cuts generic setup, adds one specific product detail, and changes a joke that only works for this launch. Revise the remaining copy and capture any useful learning.",
+      "expected_behavior": [
+        "Treat the edited version as canonical",
+        "Compare the delta before revising the remaining copy",
+        "Protect the restored campaign line",
+        "Separate transferable editing rules from the launch-specific joke"
+      ],
+      "hard_failures": [
+        "Rewrites the edited artifact from scratch",
+        "Turns the one-off joke into a universal voice rule",
+        "Erases the restored campaign line"
+      ]
+    },
+    {
+      "id": "art-direction-to-editable-figma",
+      "workflow": "art-direction-figma",
+      "skill_paths": [
+        "craft/art-direction/SKILL.md"
+      ],
+      "task": "Translate approved copy and a chosen visual territory into an editable Figma website wireframe. Preserve placeholders and order, include a working FAQ accordion, and use one primary composition reference plus one treatment reference.",
+      "expected_behavior": [
+        "Lock the content manifest and canonical source surface",
+        "Translate references into invariants, variables, and forbidden literals",
+        "Deliver editable structure rather than a PDF-only handoff",
+        "Verify copy, selectable structure, typography ownership, and accordion behavior"
+      ],
+      "hard_failures": [
+        "Invents helper copy or placeholder content",
+        "Copies reference objects literally",
+        "Calls a static export the production handoff",
+        "Declares success without structural and rendered verification"
+      ]
+    },
+    {
+      "id": "measurement-to-bounded-learning",
+      "workflow": "measurement",
+      "skill_paths": [
+        "marketing-science/measurement/SKILL.md"
+      ],
+      "task": "Evaluate a completed campaign with strong reach, incomplete subscriber attribution, one immature cohort, and no pre-launch baseline. Decide what happens next and what the system should learn.",
+      "expected_behavior": [
+        "State that the missing baseline limits the claim",
+        "Separate observed, attributed, assisted, and incremental evidence",
+        "End with scale, revise, stop, or continue measuring",
+        "Classify lessons as result record, program guidance, or durable doctrine"
+      ],
+      "hard_failures": [
+        "Invents a post-hoc baseline or target",
+        "Calls correlation incremental impact",
+        "Promotes one immature result into durable doctrine"
+      ]
+    }
+  ]
+}

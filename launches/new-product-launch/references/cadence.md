@@ -22,7 +22,7 @@ strategy.
 - Positioning confirmed. The product's positioning skill is complete and reviewed.
 - Launch narrative written, reviewed, and locked. This is the upstream document for
   everything that follows. See `references/launch-narrative.md`.
-- GTM one-page strategy locked with `launches/gtm-plan`: primary customer, belief shift,
+- GTM one-page strategy locked with `marketing/gtm`: primary customer, belief shift,
   campaign hierarchy, proof engine, first customer behavior, editorial role, video
   system, and measures.
 - Brand-voice confirmed. The brand-voice skill for this product is complete.

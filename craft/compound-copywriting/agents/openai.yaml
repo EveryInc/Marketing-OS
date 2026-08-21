@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compound Copywriting"
+  short_description: "Turn human edits into better future copy"
+  default_prompt: "Use $compound-copywriting to produce this copy, learn from meaningful human edits, and verify the learning on the next comparable artifact."

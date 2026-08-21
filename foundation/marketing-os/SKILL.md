@@ -13,7 +13,7 @@ frameworks.
 
 ## System
 
-Marketing OS is composed of six reference files, each serving a distinct role:
+Marketing OS is composed of eight reference files, each serving a distinct role:
 
 ### references/canon.md
 The reference encyclopedia. Thinkers, practitioners, and researchers organized by domain
@@ -47,6 +47,17 @@ How project work becomes reusable operating doctrine without contaminating futur
 with dated briefs, campaign facts, or one-off preferences. Load this when adding,
 revising, or compounding a skill.
 
+### references/learning-loop.md
+How normal work compounds: detect meaningful feedback or results, capture the smallest
+useful learning, classify it, and promote only evidence that clears the knowledge
+boundary. Load this after a meaningful correction, explicit ruling, measured result, or
+repeated pattern changes a future decision.
+
+### references/golden-path.md
+The canonical Compound Marketing workflow. Load this for substantial strategy,
+recurring marketing, or GTM work that should carry governed decisions from context
+through delivery and learning.
+
 ## When to invoke
 
 This skill is loaded automatically by every other skill in the repo. It is the root
@@ -70,10 +81,29 @@ When this skill is loaded, route to the appropriate reference file based on the 
 | Need to develop or revise substantial work with Douglas | `references/collaboration.md` |
 | Need to edit an existing formatted document | `references/native-document-editing.md` |
 | Need to add or compound repository guidance | `references/knowledge-boundaries.md` |
+| Meaningful feedback or a result should improve future work | `references/learning-loop.md` |
+| Substantial strategy, recurring marketing, or GTM work | `references/golden-path.md` |
 
 Multiple references can be loaded simultaneously. A positioning task, for example, might
 load canon.md for Trout/Ries context, method.md for Every's positioning stance, and
 frameworks.md for the operational positioning template.
+
+## Close the learning loop
+
+Do not add a questionnaire or ceremonial retrospective. When normal feedback, an explicit
+ruling, a measured result, or a repeated pattern supplies evidence that should change a
+future decision, load `references/learning-loop.md` and capture the candidate as part of
+the task closeout. If the evidence teaches nothing transferable, finish the task without
+creating a learning record.
+
+Never promote a candidate merely because it is memorable or recent. Apply the knowledge
+boundary, protect sensitive project detail, and update the narrowest source only when the
+promotion standard is met.
+
+After changing root doctrine, routing, collaboration, knowledge boundaries, or this
+learning loop, run the five cases in `evals/smoke-cases.json` against
+`evals/smoke-rubric.md`. Use `scripts/check_learning_loop.py` to validate the case
+manifest and any learning candidate before it enters the repository.
 
 ## Dependencies
 
@@ -92,7 +122,15 @@ None — this is the root dependency. All other skills load this skill.
   movement, authority, and business outcomes
 - **compound-from-results** turns completed programs into decisions, program guidance,
   and narrowly supported updates to durable doctrine
+- **strategy/compound-marketing** carries governed decisions through strategy, market
+  execution, and a measured learning closeout
+- **marketing/gtm** is the single GTM entry point across flagship, standard, revision,
+  drumbeat, and social modes
+- **craft/compound-copywriting** turns accepted edits into bounded project guidance and
+  tests transfer on fresh copy before any durable promotion
 - **strategy/** preserves the full idea while producing concise, decision-ready briefs
+- **strategy/marketing-pod** coordinates specialist skills across parallel agent roles
+  while Douglas retains strategic decisions, approval, and final taste authority
 
 ## Knowledge boundary
 
@@ -103,5 +141,7 @@ default. Apply `references/knowledge-boundaries.md` before any repository update
 
 ## Status
 
-The core doctrine and collaboration rules are active. Canon and framework applications
-continue to develop as the corresponding thinking is finalized.
+The doctrine, collaboration rules, unified GTM route, and Compound Marketing run records
+are active. Compound Copywriting and marketing pods remain beta until prospective use
+clears their stated transfer and review-burden thresholds. Files marked `## To do` are
+scaffolding and never route as authoritative guidance.

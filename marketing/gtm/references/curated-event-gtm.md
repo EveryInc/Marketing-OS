@@ -1,5 +1,8 @@
 # Curated Event GTM Reference
 
+Load this through the canonical `marketing/gtm` skill when an event is curated,
+application-based, or depends on audience composition.
+
 Use this reference for conferences, salons, summits, retreats, communities, and other launches where admission and audience composition affect the product.
 
 ## Classify the experience

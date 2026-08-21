@@ -91,6 +91,18 @@ All positioning skills load:
 
 ## Strategy
 
+    strategy/compound-marketing
+      - foundation/marketing-os
+      - foundation/marketing-os/references/golden-path.md
+      - foundation/marketing-os/references/collaboration.md
+      - foundation/marketing-os/references/knowledge-boundaries.md
+      - foundation/marketing-os/references/learning-loop.md (when evidence may compound)
+      - strategy/program-brief, marketing/gtm, or strategy/one-pager
+        (selected dynamically after strategy approval)
+      - craft/editing and marketing-science/measurement (during closeout)
+      Carries one governed decision record from context through strategy, market action,
+      and learning. Optional pod guidance is subordinate to this path.
+
     strategy/compound-brand
       - foundation/marketing-os
       - marketing-science/research
@@ -115,6 +127,37 @@ All positioning skills load:
       - positioning/{source brand}
       - brand-voice/{source brand}
 
+    strategy/program-brief
+      - foundation/marketing-os
+      - marketing-science/measurement
+      - positioning/{relevant brand}
+
+    strategy/marketing-pod
+      - foundation/marketing-os
+      - foundation/marketing-os/references/collaboration.md
+      - foundation/marketing-os/references/knowledge-boundaries.md
+      - strategy/program-brief or strategy/compound-brand (selected dynamically)
+      - launches/launch-brief (L/XL only) and marketing/gtm
+      - marketing-science/research
+      - marketing-science/measurement
+      - launches/claims-clearance
+      - positioning/{relevant brand}, brand-voice/{relevant brand}, and assigned craft skills
+      Orchestrates role-bounded agent waves while Douglas remains the manager.
+      Workers never delegate, and pod maturity is measured by accepted work and review burden.
+
+## Marketing
+
+    marketing/gtm
+      - foundation/marketing-os
+      - positioning/every-master
+      - marketing-science/archetyping
+      - marketing-science/research
+      - marketing-science/measurement
+      - craft/editing
+      - launches/launch-brief and launches/canonical-process.md (L/XL only)
+      - launches/claims-clearance
+      Canonical GTM entry for flagship, standard, scoped-revision, drumbeat, and social modes.
+
 ## Craft
 
 ### Core craft (not channel-specific)
@@ -132,7 +175,7 @@ All positioning skills load:
       - craft/verbal-identity
       - marketing-science/research
       - marketing-science/archetyping
-      - marketing-science/brand-equity (when completed)
+      - marketing-science/brand-equity (only for explicit equity evaluation)
       - positioning/{relevant brand}
       - brand-voice/{relevant brand}
 
@@ -140,6 +183,17 @@ All positioning skills load:
       - foundation/marketing-os
       - brand-voice/{relevant brand}
       - positioning/{relevant brand}
+
+    craft/compound-copywriting
+      - foundation/marketing-os
+      - craft/copywriting
+      - craft/editing
+      - brand-voice/{relevant brand}
+      - positioning/{relevant brand}
+      - the relevant channel skill
+      Orchestrates Write → Judge → Learn → Test → Repeat. Human edits become bounded
+      project instructions immediately and durable doctrine only after a fresh transfer
+      test and the Marketing OS promotion gate.
 
     craft/editing
       - foundation/marketing-os
@@ -248,7 +302,7 @@ Each tier orchestrates a specific set of craft skills:
 
     launches/new-product-launch
       Orchestrates:
-        - launches/gtm-plan
+        - marketing/gtm
         - craft/email/current-subscriber
         - craft/email/paid-user
         - craft/email/churned-user
@@ -304,17 +358,6 @@ gets fixed.
       - marketing-science/archetyping
       - marketing-science/research
       - positioning/{relevant product}
-
-    launches/gtm-plan
-      - launches/canonical-process.md (always)
-      - launches/launch-brief (approved input)
-      - launches/new-product-launch/references/launch-narrative.md (for net-new products)
-      - strategy/messaging-architecture
-      - marketing-science/research
-      - marketing-science/brand-equity
-      - positioning/{relevant product}
-      - brand-voice/{relevant product}
-      - launches/claims-clearance
 
     launches/codex-gut-check
       - launches/canonical-process.md (always)

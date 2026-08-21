@@ -1,0 +1,99 @@
+{
+  "skill": "compound-copywriting",
+  "version": 1,
+  "cases": [
+    {
+      "id": "human-edit-becomes-project-instruction",
+      "task": "A human edits a launch email by restoring the approved campaign line, moving the coordination pain ahead of the mechanism, cutting generic setup, and replacing one project-specific joke. Revise the remaining launch assets and capture what the system learned.",
+      "expected_behavior": [
+        "Treat the human-edited email as canonical",
+        "Preserve the campaign line exactly across related assets",
+        "Extract the ordering change as a bounded project-local instruction",
+        "Keep the project-specific joke out of durable doctrine",
+        "Name a fresh related asset as the transfer test"
+      ],
+      "hard_failures": [
+        "Rewrites the approved email from scratch",
+        "Changes the protected campaign line",
+        "Promotes the joke as a universal voice rule",
+        "Claims learning before testing a fresh asset"
+      ]
+    },
+    {
+      "id": "first-draft-is-material",
+      "task": "Write headline and hero-copy options for an approved product launch. The human has supplied the point of view and launch line. No previous run exists.",
+      "expected_behavior": [
+        "Protect the supplied point of view and launch line",
+        "Write the verified proposition plainly before styling it",
+        "Present a deliberate set with weak lines removed or flagged",
+        "Record this run as the baseline rather than claiming improvement",
+        "Leave consequential selection and approval to the human"
+      ],
+      "hard_failures": [
+        "Silently rewrites the supplied launch line",
+        "Presents the first model draft as final approved copy",
+        "Claims the system is faster or better without a baseline"
+      ]
+    },
+    {
+      "id": "fresh-artifact-proves-transfer",
+      "task": "A landing-page edit established that operator-facing copy should lead with the cost of coordination before explaining the product mechanism. Test whether the lesson transfers to a launch email.",
+      "expected_behavior": [
+        "Hold audience, strategy, and brand constant while changing the channel",
+        "Apply the ordering instruction without copying the landing page's form",
+        "Check that the corrected failure does not recur",
+        "Record human review and the transfer verdict",
+        "Keep the durable promotion decision separate from project-local application"
+      ],
+      "hard_failures": [
+        "Uses a rewrite of the original landing page as the transfer test",
+        "Copies web structure into email without channel adaptation",
+        "Promotes the rule before the evidence clears the learning gate"
+      ]
+    },
+    {
+      "id": "single-edit-does-not-become-doctrine",
+      "task": "The approver removes every em dash from one founder email and says only that the punctuation felt wrong in this note. Decide what carries forward.",
+      "expected_behavior": [
+        "Classify the change as project-local unless broader evidence or an explicit ruling exists",
+        "Preserve the edited email as canonical",
+        "Apply the preference to remaining copy in the same note or tightly related sequence",
+        "Avoid changing the company-wide style guide"
+      ],
+      "hard_failures": [
+        "Creates a universal ban from one unexplained edit",
+        "Treats every deletion as a durable writing rule"
+      ]
+    },
+    {
+      "id": "scorecard-resists-false-precision",
+      "task": "The final copy is strong, but no start time, comparable baseline, human quality score, or fresh transfer artifact exists. Complete the Compound Copywriting scorecard.",
+      "expected_behavior": [
+        "Record unavailable fields honestly",
+        "Distinguish material revision rounds from cleanup",
+        "Mark transfer as pending",
+        "Make no speed or improvement claim",
+        "Record any actual hard failure"
+      ],
+      "hard_failures": [
+        "Reconstructs precise timing from memory",
+        "Invents a quality score",
+        "Treats a polished final artifact as proof of improvement"
+      ]
+    },
+    {
+      "id": "deliverable-before-ceremony",
+      "task": "Write the approved launch email now, then compound from any later edits. The brief and sources are complete.",
+      "expected_behavior": [
+        "Produce the launch email without adding a retrospective questionnaire",
+        "Keep internal scorekeeping subordinate to the deliverable",
+        "Wait for meaningful feedback before creating a learning candidate"
+      ],
+      "hard_failures": [
+        "Returns a process plan instead of the email",
+        "Blocks drafting on a scorecard interview",
+        "Creates a learning record before any learning signal exists"
+      ]
+    }
+  ]
+}

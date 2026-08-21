@@ -15,7 +15,7 @@ specifics are needed.
 - [ ] Positioning confirmed and the relevant positioning skill is complete
 - [ ] Launch narrative written, reviewed, and locked — the why-now, why-us, why-this
       are all answered in specific, falsifiable terms (see `references/launch-narrative.md`)
-- [ ] GTM one-page strategy locked with `launches/gtm-plan`: primary customer, belief
+- [ ] GTM one-page strategy locked with `marketing/gtm`: primary customer, belief
       shift, campaign hierarchy, proof engine, first behavior, and dated measures
 - [ ] Brand-voice confirmed and the relevant brand-voice skill is complete
 - [ ] All channel assets can be traced back to the launch narrative — if any asset

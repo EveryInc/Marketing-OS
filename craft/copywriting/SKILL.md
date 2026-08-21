@@ -55,6 +55,10 @@ the one-line test for any draft.
 - When a draft needs to be written from scratch rather than edited
 - When the task is "write this" rather than "fix this" (editing) or "name this" (naming)
 
+For a sequence of related assets that must learn from human edits and prove that the
+learning transfers, route to `craft/compound-copywriting`. It orchestrates this skill,
+editing, run scoring, and the Marketing OS learning loop.
+
 ## Reference routing
 
 | Task type | Load |

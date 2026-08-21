@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unified GTM"
+  short_description: "Build one governed strategy, proof, conversion, and launch plan"
+  default_prompt: "Use $gtm to turn these materials into a governed, right-sized GTM plan."

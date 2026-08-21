@@ -1,0 +1,4 @@
+interface:
+  display_name: "Art Direction"
+  short_description: "Build defensible visual systems and workflows"
+  default_prompt: "Use $art-direction to turn this strategy and reference set into a distinctive, operable visual system."

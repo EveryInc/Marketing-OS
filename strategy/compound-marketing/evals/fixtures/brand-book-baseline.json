@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "run_status": "complete",
+  "run_id": "brand-book-2026-08-baseline",
+  "project": "Every Brand Book final strategy pass",
+  "workflow": "brand-strategy",
+  "evidence_status": "retrospective",
+  "decisions": [
+    {
+      "id": "D1",
+      "decision": "Describe Every as a media and technology company.",
+      "owner": "Douglas",
+      "source": "approved Brand Book review",
+      "status": "locked",
+      "applies_to": []
+    },
+    {
+      "id": "D2",
+      "decision": "Lead with the customer promise of learning to work with AI as fast as it changes.",
+      "owner": "Douglas",
+      "source": "approved Brand Book review",
+      "status": "locked",
+      "applies_to": []
+    },
+    {
+      "id": "D3",
+      "decision": "Use ideas, software, and education as the subscription system, connected by community.",
+      "owner": "Douglas",
+      "source": "approved Brand Book review",
+      "status": "locked",
+      "applies_to": []
+    },
+    {
+      "id": "D4",
+      "decision": "Treat the Frontier Team as the applied AI lab and integrity mechanism, not the company category.",
+      "owner": "Douglas",
+      "source": "approved Brand Book review",
+      "status": "locked",
+      "applies_to": []
+    }
+  ],
+  "stages": {
+    "context_to_strategy": {
+      "status": "approved",
+      "artifact": "positioning/every-master/SKILL.md",
+      "output_decision_ids": ["D1", "D2", "D3", "D4"]
+    },
+    "strategy_to_market": {
+      "status": "not_applicable",
+      "artifact": "No market execution was authorized in this run.",
+      "preserved_decision_ids": []
+    },
+    "market_to_memory": {
+      "status": "complete",
+      "artifact": "craft/editing/references/compound-from-edits.md",
+      "learning_classification": "durable_doctrine"
+    }
+  },
+  "metrics": {
+    "human_review_minutes": null,
+    "first_pass_accepted": false,
+    "critical_defects": null,
+    "inherited_decisions": 0,
+    "accepted_inherited_decisions": 0,
+    "independent_operator": false,
+    "artifact_fidelity_verified": true,
+    "artifact_fidelity_verifier": "Douglas Brundage"
+  },
+  "proof": {
+    "comparable_to": null,
+    "accepted_inherited_decision_ids": [],
+    "publishable_claim": false
+  }
+}

@@ -49,6 +49,7 @@ Do not turn the scorecard into a collection of every available number.
 | Define attribution, cohorts, CAC, or LTV:CAC | `references/attribution-and-economics.md` |
 | Design or interpret the Every Fame Score | `references/fame-score.md` |
 | Design a control or set a decision gate | `references/experiments-and-decision-gates.md` |
+| Measure a beta, activation loop, or launch cohort | `references/beta-activation.md` |
 | Turn completed work into a decision and durable learning | `references/compound-from-results.md` |
 
 ## Dependencies
@@ -64,5 +65,6 @@ Do not turn the scorecard into a collection of every available number.
 - Are attributed, assisted, and incremental claims separated?
 - Does the cohort have a 30-, 90-, and 180-day follow-up?
 - Is the Fame Score directional rather than falsely representative?
+- For beta work, is the second-run behavior defined and instrumented?
 - Does the report end in a decision?
 - Are one-off results separated from program guidance and durable doctrine?

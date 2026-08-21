@@ -1,9 +1,8 @@
----
-name: gtm-plan
-description: Build or revise go-to-market strategy for products, services, events, and editorial franchises. Use when asked to write a GTM plan, launch strategy, route to market, campaign and conversion plan, application-based attendee journey, launch PR brief, or first-edition competitive audit, and when a launch draft is mostly dates, channels, assets, or undifferentiated goals.
----
+# GTM Strategy Standard
 
-# GTM Plan
+This is the full strategic standard used by the canonical `marketing/gtm` skill. It
+preserves the customer, offer, campaign, proof, conversion, lifecycle, editorial,
+video, and measurement doctrine formerly split into a separate launch skill.
 
 Build the strategy that turns a launch narrative into demand, conversion, proof, and learning. Use it after the launch brief and positioning are sound and before channel plans harden. Make the output read like a decision that execution teams can use, not a calendar with a thesis added on top.
 
@@ -77,15 +76,15 @@ A brand line is a payoff, not automatically a campaign idea. A product instructi
 - **Conversion action:** the literal next step, such as apply, buy, install, subscribe, or attend
 - **Payoff:** the compact expression the brand can own over time
 
-The idea must contain a human or organizational insight, generate many executions, and make real customer behavior or outcomes feel like proof. Do not invent a campaign demand merely to make the launch feel more participatory. When used, the demand may be rhetorical or public-facing; it does not need to become an admissions criterion, onboarding task, or product requirement. Reject feature summaries and asset bundles. Keep the proposition, campaign demand, and conversion action distinct even when they share language.
+The idea must contain a human or organizational insight, generate many executions, and make observed customer behavior or outcomes feel like proof. Do not invent a campaign demand merely to make the launch feel more participatory. When used, the demand may be rhetorical or public-facing; it does not need to become an admissions criterion, onboarding task, or product requirement. Reject feature summaries and asset bundles. Keep the proposition, campaign demand, and conversion action distinct even when they share language.
 
 ## Proof is the campaign engine
 
 Build the launch around evidence rather than posting volume.
 
-- Start with one verified receipt and several real workflows, customers, contributors, or use cases.
+- Start with one verified receipt and several sourced workflows, customers, contributors, or use cases.
 - Show the request or need, context, action, finished result, and consequence. A demo without an outcome is not a receipt.
-- Seed respected members of the target market before launch. Help them complete the intended behavior and reach a real result; do not script their conclusion.
+- Seed respected members of the target market before launch. Help them complete the intended behavior and reach a verified result; do not script their conclusion.
 - Continue seeding after launch. New use cases, credible advocates, participant contributions, and customer evidence sustain demand.
 - Set a publishable-evidence target. Ten credible receipts usually beat 100 generic mentions.
 
@@ -144,7 +143,7 @@ The GTM decides the role of PR. The PR brief determines how earned media perform
 
 ## Video system
 
-Separate the brand film from the proof library. The brand film makes the campaign idea memorable; the proof library makes the offer credible and useful. Define only the formats the strategy needs: a branded film, a concise overview, real interactions or participant stories, full workflows or outcomes, customer receipts, onboarding, and channel-native cutdowns.
+Separate the brand film from the proof library. The brand film makes the campaign idea memorable; the proof library makes the offer credible and useful. Define only the formats the strategy needs: a branded film, a concise overview, recorded interactions or participant stories, full workflows or outcomes, customer receipts, onboarding, and channel-native cutdowns.
 
 Every clip should prove one claim. Do not turn the campaign into a feature tour.
 

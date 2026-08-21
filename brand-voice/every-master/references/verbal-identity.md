@@ -1,8 +1,8 @@
 # Every verbal identity
 
-Source: Every Brand Book (Working), DB Edit 003, June 10, 2026, slides 53–64. This
-reference translates the working Verbal iD into operating guidance. Ruled updates from
-Douglas supersede it.
+Source: Every Brand Book, final working edit, Aug. 19, 2026, verbal identity section.
+This reference translates the ruled verbal identity into operating guidance. Douglas's
+authored tonalities and surface rules are protected language.
 
 ## Brand character
 
@@ -16,7 +16,7 @@ toward its useful, human application. We live in the future and want customers t
 
 ### Translator
 
-- Make the frontier legible through use, tests, and examples.
+- Make the frontier understandable through use, tests, and examples.
 - Explain enough context for a smart non-specialist to follow.
 - Preserve complexity where it changes the decision.
 - Connect technical detail to human or business consequence.
@@ -35,37 +35,29 @@ toward its useful, human application. We live in the future and want customers t
 - Prefer a raised eyebrow to a punchline.
 - Keep the work serious even when the form is playful.
 
-## Philosophical commitments
+## Operating worldview
 
-### Technological realism
+### The world is made, not given
 
-Celebrate what technology makes possible and name its limits, risks, costs, and second-
-order effects. Avoid utopian certainty and reflexive pessimism.
+What we make helps determine what comes next, so we are responsible for it.
 
-### Practical optimism
+### Ideas and action make each other better
 
-Criticism should produce a better model, experiment, framework, or move. When naming a
-problem, help the reader do something with it.
+We use, build, and test before we recommend.
 
-### Intellectual generosity
+### Choose what creates more possibility
 
-Assume the reader is intelligent. Share the useful distinction. Ask genuine questions.
-Present uncertainty honestly without turning the piece into mush.
+Fear and criticism contain useful information. We favor hope, generosity, and ideas that
+give people something to act on.
 
-### Accessible erudition
+### Technology should expand human agency
 
-Use plain, lively language to carry technical, economic, and philosophical ideas. Define
-specialized terms when they earn their place. Do not use jargon as a status signal.
+AI extends human work. Judgment, taste, responsibility, and the decision to make
+something new remain in the human realm.
 
-### From knowledge to allocation
+### See for yourself
 
-Raw information is abundant. Emphasize judgment, synthesis, discernment, and the choice
-of what to hand to AI and what to keep.
-
-### Champion the generalist
-
-Value adaptable thinking and synthesis across domains. Make connections concrete enough
-to change action.
+We are trailblazers. To report back from the future, we need to go live in it.
 
 ## Voice requirements
 
@@ -103,20 +95,20 @@ Use for commentary, social, asides, media, and selected Studio work.
 
 | We are | We are not | Operational meaning |
 |---|---|---|
-| Incisive | Encyclopedic | Cut to the insight; do not inventory the whole field |
-| Action-oriented | Frenetic | Show motion without chaos or pressure theater |
-| Generous | Indiscriminate | Share freely with judgment and distinction |
-| Inventive | Gimmicky | Build new instruments; do not chase formats or trends |
-| Grounded | Abstract | Use specific objects, events, people, numbers, and actions |
-| Vernacular | Jargony | Use living language; keep technical terms only when useful |
-| Playful | Flippant | Have fun without dismissing the subject or reader |
-| Curious | Anxious | Explore calmly; do not monetize fear of being behind |
-| Honest | Contrarian | Volunteer hard truths; do not dissent for attention |
-| Polished | Precious | Make craft visible, then ship |
+| Incisive | Encyclopedic | Cut to the insight. Do not inventory the whole field or become dull, superficial, or wordy. |
+| Action-oriented | Frantic | Stay in motion without becoming wild, uncontrolled, or chaotic. |
+| Generous | Indiscriminate | Share freely with careful thought, judgment, and distinction. |
+| Inventive | Gimmicky | Make new instruments and ways of thinking, not decoration or trend-chasing. |
+| Grounded | Abstract | Revolve around something real. Be specific and clear-eyed. |
+| Vernacular | Jargony | Speak the living language without dumbing it down or becoming technical for its own sake. |
+| Playful | Flippant | Have fun without becoming casual or dismissive about serious work. |
+| Curious | Anxious | Explore to uncover the truth, not because uncertainty creates panic. |
+| Honest | Contrarian | Volunteer the uncomfortable truth without loving or rejecting an idea for attention. |
+| Polished | Precious | Make effort and craft visible, then ship rather than perfecting forever. |
 
 ## Surface registers
 
-### Media: the Herald
+### Ideas / Media
 
 Mode: Lucid + Wry. Governing verb: **translate**.
 
@@ -125,7 +117,7 @@ Mode: Lucid + Wry. Governing verb: **translate**.
 - Use a personal point of view earned through practice.
 - Take a position. Neutral summary is insufficient when judgment is the product.
 
-### Studio: the Interpreter
+### Software
 
 Mode: Kinetic + Lucid. Governing verb: **produce**.
 
@@ -135,17 +127,7 @@ Mode: Kinetic + Lucid. Governing verb: **produce**.
 - Use demos, specific features, and social proof instead of aspiration.
 - Write with confidence and no superlatives.
 
-### Consulting: the Psychopomp
-
-Mode: Lucid + Intimate. Governing verb: **guide**.
-
-- Sound peer-to-peer and expert-to-client.
-- Earn authority through work performed, not credentials alone.
-- Use the client's language for the problem.
-- Name hard truths calmly.
-- Deliver scaffolds that leave the client more self-sufficient.
-
-### Education: the Borderline
+### Education
 
 Mode: Intimate + Kinetic. Governing verb: **equip**.
 
@@ -154,6 +136,15 @@ Mode: Intimate + Kinetic. Governing verb: **equip**.
 - Create urgency through consequence, never anxiety.
 - Show instructors' current edge cases, experiments, or failures.
 - End each unit with an action.
+
+### Enterprise
+
+Mode: Lucid + Intimate. Governing verb: **guide**.
+
+- Start with the work that needs to change.
+- Show the people, workflow, and outcome.
+- Work beside the client and leave the team able to keep going.
+- An engagement can come first. The subscription keeps the company learning afterward.
 
 ## Signature moves and conflict resolution
 
@@ -174,7 +165,7 @@ working vocabulary also lists `utilize`; current usage should prefer `use`.
 ### Reach for when they are exact
 
 Practice, philosophy, scaffold, learn, play, frontier, pattern, craft, signal, build,
-allocation, ship, surface, thesis, experiment, edge, attunement, discernment.
+ship, surface, thesis, experiment, edge, attunement, discernment.
 
 ### Avoid
 

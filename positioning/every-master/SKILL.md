@@ -1,9 +1,9 @@
 # Every Master Positioning
 
-Positioning framework for Every as the parent brand. Sourced July 2026 from the Every
-Brand Book, DB Edit 003 (June 10, 2026) — the ruled canon. The deck marks Verbal iD and
-Visual iD as works in progress; the foundations, modeling, audience, and positioning
-sections are ruled. Voice execution ports to `brand-voice/every-master`.
+Positioning framework for Every as the parent brand. Sourced Aug. 19, 2026 from the
+final working edit of the Every Brand Book and its approved one-page strategy. This is
+the current ruled canon for company category, promise, system, integrity, audience, and
+positioning. Voice execution ports to `brand-voice/every-master`.
 
 ## When to invoke
 
@@ -12,42 +12,58 @@ sections are ruled. Voice execution ports to `brand-voice/every-master`.
 - When evaluating how a sub-brand relates to the master brand
 - When writing "why us" in any launch narrative — the master brand is the why-us
 
-## The foundations stack (verbatim canon)
+## The ruled strategy stack
 
-- **Purpose:** Pioneer the future of work after automation.
-- **Mission:** We live in the future. We write what we see. We build what's missing.
-  We teach what works. (How? By riding the models.)
-- **Vision:** Humanity benefits from AGI.
-- **Values:** (1) We are in search of truth. (2) Truth is both found and made.
-  (3) We build the ideas we want to exist. (4) We are generative optimists.
-  (5) Technology is human.
-- **North star:** To cross into what's next and bring back something useful.
-- **Enduring promise:** We've crossed into what's next. Here's the way through.
-- **In a sentence:** Every is an applied AI lab pioneering the future of work.
-- **The grid metaphor:** We're not a model company. We ride the models. If the frontier
-  labs generate raw power, we're the grid — we build the appliances and show you how to
-  wire the house.
+- **Company category:** Every is a media and technology company.
+- **One goal:** Pioneer the future of work with AI.
+- **Customer promise:** Learn to work with AI as fast as it changes.
+- **Active position:** The must-have subscription for anyone who works, or wants to
+  work, with AI.
+- **Business system:** Ideas + Software + Education, connected by community; enterprise
+  brings the system inside companies.
+- **Integrity mechanism:** The Frontier Team, Every's applied AI lab. It uses, builds,
+  tests, and runs increasingly rigorous evals before Every recommends.
+- **Business logic:** Builders create credibility. Operators drive subscription scale.
+  Executives drive enterprise.
+- **How we operate:** We live in the future. We write what we see. We build what's
+  missing. We teach what works.
+- **Enduring invitation:** We've crossed into what comes next. Here's the way through.
+
+The operating values are:
+
+1. **The world is made, not given.** What we make helps determine what comes next, so
+   we are responsible for it.
+2. **Ideas and action make each other better.** We use, build, and test before we
+   recommend.
+3. **Choose what creates more possibility.** Fear and criticism contain useful
+   information. We favor hope, generosity, and ideas that give people something to act
+   on.
+4. **Technology should expand human agency.** AI extends human work. Judgment, taste,
+   responsibility, and the decision to make something new remain in the human realm.
+5. **See for yourself.** We are trailblazers. To report back from the future, we need to
+   go live in it.
 
 ## The position
 
-**The mental slot to own (Ries & Trout):** "the company that makes you better at
-working with AI." Everything that muddies that slot gets cut, no matter how true.
+**The mental slot to own (Ries & Trout):** The must-have subscription for anyone who
+works, or wants to work, with AI. Everything that muddies that slot gets cut.
 
-**Positioning statement:** For knowledge workers who need tools and theory, Every is
-the applied AI lab that equips you with the judgment and the software to do the work.
+**The promise behind the position:** Learn to work with AI as fast as it changes. Every
+has a complex business and sells one clear customer idea: ongoing learning at the speed
+of the frontier.
 
-**The macro frame:** The knowledge economy is ending; the **allocation economy** is
-beginning — the scarce skill is no longer what you know but knowing what to hand to AI
-and what to keep. Adoption is surging; competence is not. That gap is the entire
-addressable market. Positioning works if we: usher in the allocation economy, and
-become the leading example of how to work in it.
+**The macro frame:** **After Automation** names the future Every is helping shape.
+Automation is coming to almost every industry. Every works on what comes next while
+there is still time to shape it.
 
-**The landscape:** Solo creators comment. Newsrooms report. AI companies ship. Every
-is the only team that builds the product, writes the analysis, teaches the skill, and
-consults on the transformation from the same bench — nobody else occupies the quadrant.
+**The landscape:** Each adjacent category sells one piece of the answer: information,
+software, courses, or advice. Customers have to assemble the system themselves. Every
+connects ideas, software, education, and community in one subscription. The Frontier
+Team feeds it; enterprise brings it inside companies.
 
-**Three core positioning claims:** (1) We live in the future and report back.
-(2) Play is the method as much as work. (3) The work itself is the marketing.
+**Three core positioning claims:** (1) Our business is complex. Our promise is simple.
+(2) We know because we do first. (3) One company and one subscription keep the customer
+learning as AI changes.
 
 ## Archetype and essence
 
@@ -68,37 +84,51 @@ fear, building over criticizing, future over past).
 **Brand essence:** Praxis and play at the frontier of technology — living and working
 with what's next, then making it useful.
 
-## Audience (segmentation + focus split)
+## Audience architecture
 
-- **T1 The Operator (~40–50% of paid; 70% of focus — serve + deepen):** mid-career
-  professionals who need AI to work better starting yesterday. Badge: "I read Every" =
-  "I take AI seriously."
-- **T2 The Builder (~20–25% of paid; 10% — the atomic network):** technical
-  practitioners already in the deep end. "If we lose them, we lose our soul."
-- **T3 The Seeker (~20–25% of free; 10% — the growth audience):** done waiting, doesn't
-  know where to start. Needs permission and warmth; the brand must never make them feel
-  behind.
-- **TE The Executive (smallest by headcount, largest by contract; 100% of consulting
-  focus):** needs Bloomberg-grade integrity with a builder's edge; practitioners who
-  ship code, not slides.
-- **T0 The Evangelist (10% — the end-state):** every customer's conversion goal;
-  rewarded with belonging, not discounts.
+- **Builders:** Technical founders, engineers, and hands-on product leaders already
+  working at the edge. Promise: "Know what's possible before everyone else." Every's
+  role is the Frontier Team, its applied AI lab, plus a community built to test what
+  comes next. Builders create credibility now and may support paid evals, alpha testing,
+  and early-access programs over time.
+- **Operators:** Director-level and senior functional leaders turning AI into better
+  work inside a company. Promise: "Be the AI guy." Every's role is a learning system
+  that turns ideas, software, and education into repeatable practice. Operators create
+  badge value and drive subscription scale.
+- **Executives:** CEOs, other C-suite leaders, and heads of major business units
+  accountable for organizational adoption. Promise: "Make AI real inside my company."
+  Every's role is a transformation partner that brings its learning system inside the
+  organization. Executives create authority and enterprise revenue.
+- **Seekers:** People who know AI matters but have not committed to learning it. They
+  remain an audience to watch rather than a core segment. Culture and accessible entry
+  points should earn their free subscription and help them become operators or builders.
+- **Evangelists:** The desired relationship state across audiences. They signal taste,
+  ambition, and active participation in the future of work.
 
-## Brand architecture
+## Brand and business architecture
 
-Branded house. Sub-brands are argument-led products under the master: Cora ("your email
-should solve itself"), Monologue ("talking is the new typing"), Spiral ("AI should
-write like you, not for you"), Sparkle, Proof, Plus One. Master-brand credibility flows
-down; each surface makes every other surface more credible (editorial → software →
-consulting → education).
+Every is one company with one subscription. Ideas, Software, and Education are the core
+subscription components. Community connects them. Enterprise brings the same learning
+system inside companies and may be the customer's first relationship with Every; after
+the engagement, the subscription keeps the company learning.
 
-## The descriptor ladder (halo messaging)
+Every remains a branded house. Argument-led products sit under the master brand.
+Master-brand credibility flows down, and each surface makes every other surface more
+credible. The system moves in every direction rather than forcing every customer through
+one funnel.
 
-In a sentence: "Ideas, tools, and training about the future of work from a team that
-builds everything with AI, every day." The paragraph and conversation versions live in
-the deck's Messaging section (slides 66–67), along with per-surface sample copy (Media,
-Studio, Consulting, Education) and the "Meet the New Every" refresh narrative. Verify
-current membership names, prices, and entitlements before use.
+## The descriptor ladder
+
+- **Company:** Every is a media and technology company pioneering the future of work.
+- **Customer promise:** Learn to work with AI as fast as it changes.
+- **Active position:** The must-have subscription for anyone who works, or wants to
+  work, with AI.
+- **System:** Ideas + Software + Education, connected by community; enterprise brings
+  the system inside companies.
+- **Integrity:** The Frontier Team is Every's applied AI lab.
+
+Use the shortest layer that does the job. Do not describe the whole company as an
+applied AI lab or replace the customer promise with an inventory of business units.
 
 ## Voice pointer (executes in brand-voice/every-master)
 
@@ -111,10 +141,10 @@ codes (reach-for and avoid lists) are in the deck, slides 57–64.
 
 ## Status
 
-DB Edit 003 is the ruled edit; Verbal iD and Visual iD are flagged WIP in the deck
-itself, and a Brand Book R1 revision is in flight — reconcile this file when it locks.
-Plus One's positioning remains deliberately unpopulated (`positioning/plus-one`) and is
-not yet ruled.
+The Aug. 19, 2026 final working edit of the Brand Book is the ruled source for the
+strategy above. Preserve the approved Aaker work and the authored tone-of-voice tables
+when editing the deck. Verify current product names, membership names, prices, and
+entitlements before use.
 
 ## Dependencies
 
@@ -125,10 +155,15 @@ not yet ruled.
 
 ## Quick checklist
 
-- [ ] Applied-AI-lab slot leads; anything muddying it gets cut
-- [ ] Allocation-economy frame present where the macro story is told
+- [ ] Media and technology company names the whole company
+- [ ] Learning promise leads; portfolio detail supports it
+- [ ] Frontier Team appears as the applied AI lab and integrity mechanism
+- [ ] After Automation frames the future when the macro story is told
 - [ ] Creator-Magician register; Hermes as guide, never guru
 - [ ] Praxis backs every claim — the work itself is the marketing
-- [ ] Audience focus split respected (Operator-first; Builders are the soul; Seekers never made to feel behind)
+- [ ] Audience promises, brand roles, and commercial roles remain distinct
+- [ ] Enterprise may precede subscription; do not force a false funnel
+- [ ] Ideas + Software + Education remain the subscription components; community connects
+      them
 - [ ] Sub-brands argument-led under the branded house
 - [ ] Vocabulary codes respected (no "leverage," "disrupt," "cutting-edge," AI-ubiquitous words)

@@ -1,14 +1,15 @@
 # Every Master Brand Voice
 
-Write and edit in Every's parent-brand voice across editorial, Studio, consulting,
+Write and edit in Every's parent-brand voice across Ideas, Software, Enterprise,
 education, membership, events, and company communications. The voice is Hermetic:
 Every crosses into what is next, tests it in practice, and returns with something useful.
 It is informed, human, playful, and specific. It never sounds like a lab press release,
 a management consultant, or an AI-generated LinkedIn post.
 
-This skill operationalizes the Verbal iD in the Every Brand Book, DB Edit 003 (June 10,
-2026), and incorporates the Kate top-edit, Every editorial style, tightening rules, and
-observed patterns in recent `hello@every.to` sends.
+This skill operationalizes the Verbal Identity in the Aug. 19, 2026 final working edit
+of the Every Brand Book. It preserves Douglas's ruled tonalities and incorporates the
+Kate top-edit, Every editorial style, tightening rules, and observed patterns in recent
+`hello@every.to` sends.
 
 ## When to invoke
 
@@ -34,13 +35,13 @@ Examples are evidence, not templates. Current editorial rules overrule dated wor
 ## The voice in one line
 
 **A knowledgeable guide with a trickster's raised eyebrow, speaking from work done at
-the frontier and making the next useful move legible.**
+the frontier and making the next useful move clear.**
 
 ## Personality: Hermes the guide
 
 Express three traits together:
 
-- **Translator:** Make frontier AI legible by showing what happened in practice. Explain
+- **Translator:** Make frontier AI understandable by showing what happened in practice. Explain
   technical, economic, or philosophical ideas in plain language without flattening them.
 - **Guide:** Walk willing people through a transition. Equip them; do not preach, scold,
   or make them feel late.
@@ -50,17 +51,18 @@ Express three traits together:
 Every is a more knowledgeable other, not a guru. Authority comes from building,
 testing, teaching, and reporting back.
 
-## Core philosophy
+## Operating worldview
 
-- **Technological realism:** Show the possibility and the risk. AI is a tool with limits,
-  never a silver bullet.
-- **Practical optimism:** Critique in service of a framework, experiment, or next move.
-- **Intellectual generosity:** Ask real questions, share the useful part, and resist dogma.
-- **Accessible erudition:** Carry dense ideas in clear, lively language. Define necessary
-  technical terms; remove status jargon.
-- **Judgment over information:** Help the reader decide what to notice, choose, delegate,
-  build, or keep.
-- **The generalist's advantage:** Connect patterns across domains and turn synthesis into action.
+- **The world is made, not given.** The voice takes responsibility for what it helps
+  bring into the world.
+- **Ideas and action make each other better.** Claims begin in use, building, testing,
+  and observation.
+- **Choose what creates more possibility.** Criticism should leave the reader with
+  something they can act on.
+- **Technology should expand human agency.** Keep judgment, taste, responsibility, and
+  the decision to make something new in view.
+- **See for yourself.** Every reports from lived experience rather than repeating the
+  field's consensus.
 
 ## Default writing behavior
 
@@ -90,14 +92,14 @@ snarky. Lucid does not mean bloodless.
 
 ## Surface registers
 
-- **Media — Herald:** Lucid + Wry. Translate. Put the signal in sentence one and its
+- **Ideas / Media:** Lucid + Wry. Translate. Put the signal in sentence one and its
   meaning by sentence three. Take a position grounded in practice.
-- **Studio — Interpreter:** Kinetic + Lucid. Produce. Speak maker to maker. Show the
+- **Software:** Kinetic + Lucid. Produce. Speak maker to maker. Show the
   object, its next-minute function, and proof. Use confidence without bravado.
-- **Consulting — Psychopomp:** Lucid + Intimate. Guide. Name the hard truth in the
-  client's language, then provide a scaffold that builds self-sufficiency.
-- **Education — Borderline:** Intimate + Kinetic. Equip. Teach by doing, use second person,
+- **Education:** Intimate + Kinetic. Equip. Teach by doing, use second person,
   show current edge cases or failures, and end each unit in action.
+- **Enterprise:** Lucid + Intimate. Guide. Name the work that needs to change, show the
+  people, workflow, and outcome, and leave the client able to keep going.
 
 For detailed rules and examples, load `references/verbal-identity.md`.
 
@@ -113,7 +115,7 @@ For detailed rules and examples, load `references/verbal-identity.md`.
 ## Vocabulary and cadence
 
 Reach for: practice, philosophy, scaffold, learn, play, frontier, pattern, craft, signal,
-build, allocation, ship, surface, thesis, experiment, edge, attunement, discernment.
+build, ship, surface, thesis, experiment, edge, attunement, discernment.
 
 Avoid: leverage, ecosystem, synergy, disrupt, unlock, empower, innovation,
 revolutionize, cutting-edge, deep dive, unpack, space, stakeholder, bandwidth, delve,
@@ -164,7 +166,7 @@ rules. Email examples do not override this skill's editorial gates.
 - [ ] The writing is conversational, precise, and confident without hype
 - [ ] The reader is guided or equipped, never preached at or made to feel behind
 - [ ] One primary tone mode and no more than one secondary mode are evident
-- [ ] Technical ideas are legible without being dumbed down
+- [ ] Technical ideas are clear without being dumbed down
 - [ ] The copy uses concrete nouns, active verbs, and varied cadence
 - [ ] Canned contrasts, correlatives, AI filler, and press-release language are gone
 - [ ] Claims, quotations, numbers, and people are properly sourced or identified

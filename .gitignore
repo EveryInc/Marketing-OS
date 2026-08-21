@@ -1,2 +1,6 @@
 .DS_Store
 *.swp
+.worktrees/
+docs/reviews/
+__pycache__/
+*.py[cod]

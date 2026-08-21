@@ -27,6 +27,12 @@ The one-pager format variants — executive (for leadership and board), team (fo
 alignment), and external (for partners, press, or sales). Each variant has a different
 structure and emphasis.
 
+### references/executive-gtm-strategy.md
+How to turn deep product, brand, audience, messaging, and launch context into a concise
+executive GTM decision document. Load this for beta or launch strategy, messaging
+architecture, first successful use, creator seeding, launch gates, or multi-source GTM
+synthesis.
+
 ## When to invoke
 
 - When a stakeholder needs a concise brand or product overview
@@ -43,6 +49,7 @@ structure and emphasis.
 | Compressing a longer document into one page | `references/compression-methodology.md` |
 | Deciding what to prioritize on the page | `references/information-hierarchy.md` |
 | Choosing the right format for the audience | `references/formats.md` |
+| Building an executive GTM, beta, or launch decision document | `references/executive-gtm-strategy.md` |
 
 ## Dependencies
 
@@ -55,5 +62,7 @@ structure and emphasis.
 - Does the page lead with the decision or argument?
 - Can leadership understand it in 10 to 15 minutes?
 - Does it preserve the source's distinctive idea, mechanism, audience, and evidence?
+- For GTM work, are first successful use, locked decisions, experiments, launch proof,
+  and open questions distinct?
 - Are ownership, measurement, asks, and budget visible when relevant?
 - Does the full strategy remain available as the source of truth?

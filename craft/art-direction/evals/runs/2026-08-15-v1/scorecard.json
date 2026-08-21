@@ -1,0 +1,21 @@
+{
+  "skill_version": 1,
+  "run_date": "2026-08-15",
+  "cases_run": 10,
+  "cases_passed": 10,
+  "hard_failures": 0,
+  "score": 95,
+  "results": [
+    {"id": "generic-moodboard-trap", "result": "pass", "score": 96},
+    {"id": "category-wallpaper-audit", "result": "pass", "score": 92},
+    {"id": "territory-before-assets", "result": "pass", "score": 95},
+    {"id": "duplicate-identity-component-system", "result": "pass", "score": 96},
+    {"id": "custom-font-tool-boundary", "result": "pass", "score": 94},
+    {"id": "cheap-human-correction", "result": "pass", "score": 92},
+    {"id": "literal-reference-trap", "result": "pass", "score": 96},
+    {"id": "one-variable-branching", "result": "pass", "score": 96},
+    {"id": "motion-source-and-endpoints", "result": "pass", "score": 95},
+    {"id": "editable-wireframe-handoff", "result": "pass", "score": 96}
+  ],
+  "notes": "All cases preserved human authorship, explicit tool boundaries, semantic labeling, controlled visual branching, and structural plus rendered QA. No hard failures observed."
+}

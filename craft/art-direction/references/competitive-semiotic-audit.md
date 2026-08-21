@@ -25,13 +25,13 @@ and place of encounter.
 
 Separate:
 
-- **Icon:** resembles the thing
-- **Index:** points to evidence or effect
-- **Symbol:** carries learned cultural meaning
-- **Category code:** helps the audience recognize what kind of thing this is
-- **Distinctive asset:** repeatedly and uniquely identifies this brand
+- **Icon:** Resembles the thing.
+- **Index:** Points to evidence or effect.
+- **Symbol:** Carries learned cultural meaning.
+- **Category code:** Helps the audience recognize what kind of thing this is.
+- **Distinctive asset:** Repeatedly and uniquely identifies this brand.
 
-## Fit in versus stand out
+## Diagnose fit in versus stand out
 
 Return two lists:
 
