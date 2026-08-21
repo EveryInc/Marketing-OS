@@ -77,7 +77,9 @@ case.
 
 ## Current State
 
-As of Aug. 20, 2026, Marketing OS contains 64 skills and 100 operating references.
+As of Aug. 21, 2026, Marketing OS contains 63 skills and 101 operating references. The
+skill count fell by one because the two GTM entry points were consolidated without
+discarding their strategy or evaluation guidance.
 
 Ready for structured use:
 
@@ -93,9 +95,8 @@ Ready for structured use:
   Score, authority, and Consulting demand
 - Compounding from Douglas's edits and from campaign results without importing project
   details into unrelated work
-- Level 7 marketing pods that run research, strategy, operations, production, QA, and
-  measurement as bounded agent roles while Douglas retains strategic and creative
-  control, invoked through normal requests rather than orchestration jargon
+- Optional marketing pods that run research, operations, production, QA, and measurement
+  as bounded agent roles while Douglas retains strategic and creative control
 - A Compound Marketing golden path with decision records, run records, cross-stage
   fidelity checks, and an explicit proof standard
 - Compound Copywriting beta that turns human edits into bounded project instructions,
@@ -111,13 +112,24 @@ Still in development:
 - A prospective comparable second run and independent teammate rerun required for a
   publishable compounding claim
 
-The Brand Book and Thesis GTM cases are real retrospective baselines. They pass the
+The Brand Book and Thesis GTM cases are recorded retrospective baselines. They pass the
 structural record checks and intentionally report `proof_ready: false`; neither recorded
 enough prospective evidence to prove compounding.
 
 Files marked `## To do` are scaffolding, not authoritative product or channel guidance.
 
 ## Changelog
+
+### Aug. 21, 2026: One GTM and one compounding system
+
+- Consolidated flagship and standard GTM into one canonical `marketing/gtm` entry point
+- Preserved the full customer, offer, campaign, proof, conversion, event, and measurement
+  doctrine as routed GTM references
+- Added explicit flagship, standard, scoped-revision, drumbeat, and social operating modes
+- Unified Compound Marketing, Compound Copywriting, and optional pods around the same
+  decision records, knowledge boundaries, and proof standard
+- Removed mandatory intake questions when the request and authorized sources already
+  settle the governing brief
 
 ### Aug. 19, 2026: Compound Marketing V1
 

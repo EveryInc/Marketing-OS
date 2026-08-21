@@ -1,6 +1,6 @@
 {
   "skill": "gtm",
-  "version": 2,
+  "version": 3,
   "cases": [
     {
       "id": "interview-before-draft",
@@ -9,6 +9,17 @@
         "Ask one to three high-value questions before drafting a long plan",
         "Do not invent the missing decisions",
         "Identify which source or person can lock each decision"
+      ]
+    },
+    {
+      "id": "one-gtm-tier-routing",
+      "task": "Build GTM for two launches: a flagship product with an approved L/XL brief and a small feature release with current positioning but no flagship brief.",
+      "expected_behavior": [
+        "Use marketing/gtm as the only GTM entry point for both launches",
+        "Apply the approved flagship process and gates only to the L/XL launch",
+        "Build a right-sized decision core for the feature release",
+        "Do not import flagship rosters, meetings, or the eight-week spine into the feature release",
+        "Lock customer, offer, proof, conversion, and measurement before either channel plan"
       ]
     },
     {

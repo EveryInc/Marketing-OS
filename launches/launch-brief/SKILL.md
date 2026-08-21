@@ -39,7 +39,7 @@ approval roster in the process.
     with dates. An unapproved brief blocks Week 2 (canon Rule 3).
 11. **GTM handoff** — mark the primary customer, buyer/champion/user roles, market tension,
     positioning inputs, verified internal proof, and open product truths that
-    `launches/gtm-plan` must inherit. Do not pre-write the channel plan inside the brief.
+    `marketing/gtm` must inherit. Do not pre-write the channel plan inside the brief.
 
 ## Rules
 
@@ -58,7 +58,7 @@ approval roster in the process.
 - `marketing-science/research` competitive-audit output as input
 - `launches/new-product-launch` (narrative discipline, for net-new products)
 
-Downstream: the approved brief becomes an input to `launches/gtm-plan`.
+Downstream: the approved brief becomes an input to the flagship mode in `marketing/gtm`.
 
 ## Quick checklist
 

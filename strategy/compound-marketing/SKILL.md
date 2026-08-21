@@ -86,7 +86,8 @@ must verify artifact fidelity before an operational or compounding claim.
 
 Read `references/optional-pods.md` only when three or more independent jobs can run from
 the same approved decision record. Keep the user in plain English. Agent count is never
-a success metric.
+a success metric. When that reference's gate clears, load `../marketing-pod/SKILL.md`
+for the authoritative pod contracts and scorecard.
 
 ## Dependencies
 
@@ -94,7 +95,7 @@ a success metric.
 - `strategy/program-brief` (routed)
 - `strategy/one-pager` (routed)
 - `marketing/gtm` (routed)
-- `launches/gtm-plan` (routed)
+- `craft/compound-copywriting` (routed for related copy sequences)
 - `craft/editing`
 - `marketing-science/measurement`
 
@@ -106,5 +107,5 @@ a success metric.
 - [ ] Downstream work names and preserves inherited decision IDs
 - [ ] Human edits and results were compared with the original inputs
 - [ ] Learning was classified before any durable file changed
-- [ ] Improvement claims use comparable real runs and pass the proof standard
+- [ ] Improvement claims use comparable prospective runs and pass the proof standard
 - [ ] Design, asset production, and channel automation remained outside V1

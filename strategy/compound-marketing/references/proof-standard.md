@@ -19,7 +19,7 @@ an operational or compounding claim can pass.
 
 ### 2. Operational proof
 
-Shows that a real project produced an accepted strategy, program, or GTM artifact with
+Shows that a prospective project produced an accepted strategy, program, or GTM artifact with
 measured human review burden and defects.
 
 Evidence: a prospective run record, accepted artifact, human ruling, and complete run
@@ -29,7 +29,7 @@ Allowed claim: "The workflow produced useful work under measured conditions."
 
 ### 3. Compounding proof
 
-Shows that a comparable second real run inherited prior decisions and improved without
+Shows that a comparable second prospective run inherited prior decisions and improved without
 quality loss.
 
 Require:

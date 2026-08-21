@@ -15,6 +15,10 @@ Require all of these:
 
 Otherwise work serially.
 
+When the gate clears, load `../../marketing-pod/SKILL.md` for the authoritative role
+charters, handoff contracts, authorization rules, and run scorecard. This reference
+decides whether a pod is useful; `strategy/marketing-pod` governs the pod itself.
+
 ## Useful jobs
 
 - **Truth:** Verify sources, facts, freshness, and conflicts.

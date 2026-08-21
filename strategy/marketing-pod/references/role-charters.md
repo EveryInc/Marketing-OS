@@ -1,7 +1,7 @@
 # Marketing Pod Role Charters
 
 Use these charters to keep parallel agents independent, narrow, and reviewable. Assign
-only the roles required for the project. Douglas remains the conductor in every Level 7
+only the roles required for the project. Douglas remains the conductor in every pod
 run.
 
 ## Contents
@@ -20,7 +20,7 @@ run.
 - Separate production from QA.
 - Split channel production only after the proposition and source packet lock.
 - Do not create a role merely to increase agent count.
-- Do not let a worker delegate. Agent-managed delegation is Level 8.
+- Do not let a worker delegate. The manager owns orchestration and integration.
 
 ## Core roles
 
@@ -71,7 +71,7 @@ product facts from memory.
 position, proof system, campaign hierarchy, conversion path, and strategic refusal.
 
 **Load:** The approved discovery packet plus `strategy/program-brief`,
-`launches/gtm-plan`, `marketing/gtm`, or `strategy/compound-brand` as appropriate.
+`marketing/gtm` or `strategy/compound-brand` as appropriate.
 
 **Deliver:** A decision-ready brief with explicit evidence, open questions, and a clear
 human approval gate.

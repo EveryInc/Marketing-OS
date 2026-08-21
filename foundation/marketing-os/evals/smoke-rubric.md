@@ -18,5 +18,5 @@ verdict. A polished answer with one hard failure does not pass.
 
 ## Learning rule
 
-When a smoke case catches a real regression, capture the narrow failure mode as a
+When a smoke case catches an observed regression, capture the narrow failure mode as a
 regression-test candidate. Do not rewrite the whole skill around one failed phrasing.

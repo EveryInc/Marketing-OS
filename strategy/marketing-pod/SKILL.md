@@ -5,15 +5,14 @@ conductor, strategic decision-maker, and final taste authority. Use Marketing OS
 shared constitution, then give each worker only the sources, skills, authority, and
 output contract required for its job.
 
-This is the Level 7 operating layer. It coordinates specialist agents; it does not
-replace the specialist skills or introduce a manager agent. If an agent decomposes,
-assigns, reviews, and redirects the pod without Douglas, the workflow has crossed into
-Level 8 and requires a separate authorization and control design.
+This is an optional execution layer for work that genuinely benefits from independent
+specialists. It coordinates agents without replacing the specialist skills or treating
+agent count as progress. Douglas retains consequential strategy, approval, and final
+taste authority.
 
 ## When to invoke
 
-- When Douglas asks to run a marketing pod, parallelize Marketing OS work, or work at
-  Level 7
+- When Douglas asks to run a marketing pod or parallelize Marketing OS work
 - When Douglas says “help me run marketing for this,” “take point on this launch,”
   “figure out how we should market this,” or otherwise asks for substantial marketing
   work with several moving parts
@@ -41,8 +40,8 @@ A normal request is enough:
 
 Translate the request into the operating system silently. Respond in plain English:
 
-1. Interview Douglas before doing any work.
-2. Summarize what you heard and what remains genuinely unclear.
+1. Resolve what the request and supplied sources already establish.
+2. Summarize the governing brief and what remains genuinely unclear.
 3. Propose the first few agents by the work they will do, not by formal role names.
 4. Explain what Douglas will receive, then ask a natural approval question such as: “I
    think the first move is to have three agents check the product truth, customer
@@ -62,32 +61,30 @@ Use these translations in user-facing updates:
 
 Use the formal terms only inside logs and reusable contracts where precision matters.
 
-## Mandatory opening interview
+## Opening alignment
 
-Always interview Douglas before taking action. This applies even when the request seems
-clear, relevant context already exists, or a similar project has run before.
+Do not make Douglas repeat facts or decisions that the request and supplied sources
+already establish. Search authorized Slack, Notion, Drive, product, and analytics
+sources before asking for discoverable information. Ask one to three plain-language
+questions only when a missing human judgment could change the strategy, team, approval
+chain, external action, or definition of success.
 
-Before the interview is complete, do not:
+Before the governing brief is clear, do not:
 
-- Search Slack, Notion, Drive, the web, analytics, or other project sources
 - Dispatch agents or prepare assignments
 - Draft strategy, copy, briefs, plans, or deliverables
 - Modify files, post messages, contact people, or change any system
 
-Ask one to three plain-language questions at a time. The first round should establish
-the highest-leverage human context, usually:
+When the request leaves them open, establish the highest-leverage human context:
 
 - What outcome would make this feel successful?
 - What is the idea, tension, or instinct Douglas does not want flattened?
 - What is already decided, politically sensitive, constrained, or off-limits?
 
-Do not turn the interview into intake paperwork. Do not ask for information Douglas has
-already supplied. Even when his opening request answers most of the brief, ask at least
-one question that sharpens the stakes, judgment, or quality bar.
-
-Wait for Douglas's response. Then summarize the brief in his language. Ask another
-round only if the answer could materially change the strategy, team, approval chain, or
-definition of success. Otherwise propose the first batch and ask permission to start.
+Do not turn alignment into intake paperwork. When the opening request and sources settle
+the brief, summarize it in Douglas's language, propose the first batch, and continue if
+that batch is already authorized. Otherwise ask for the missing ruling or permission to
+start.
 
 ## Operating contract
 
@@ -147,14 +144,12 @@ program:
 
 ### 1. Establish authority
 
-Complete the mandatory opening interview first.
-
 Identify the sources and people that own product truth, strategic decisions, canonical
-copy, structure, formatting, evidence, approval, and publication. After the interview,
-search the supplied Slack, Notion, Drive, product, and analytics sources before asking
-Douglas for anything discoverable.
+copy, structure, formatting, evidence, approval, and publication. Search the supplied
+Slack, Notion, Drive, product, and analytics sources before asking Douglas for anything
+discoverable.
 
-After the opening interview, ask follow-up questions only when an unresolved answer
+After the initial source review, ask follow-up questions only when an unresolved answer
 would change the pod structure, strategic direction, approval chain, external action,
 or definition of success. Ask one to three questions at a time.
 
@@ -200,8 +195,8 @@ Give each worker a fresh context containing only:
 
 Use actual parallel agent tools when the environment permits them. If parallel agents
 are unavailable, produce complete work orders for separate tasks and state that the pod
-was prepared but a Level 7 run did not occur. Do not simulate independence with multiple
-personas in one context.
+was prepared but an independent pod run did not occur. Do not simulate independence
+with multiple personas in one context.
 
 ### 5. Review what the first batch learned
 
@@ -268,8 +263,8 @@ only when it passes the Marketing OS knowledge-boundary test.
 - `foundation/marketing-os/references/knowledge-boundaries.md`
 - `strategy/program-brief` for recurring programs
 - `strategy/compound-brand` for brand systems
-- `launches/launch-brief` and `launches/gtm-plan` for L/XL launches
-- `marketing/gtm` for non-flagship launches and drumbeats
+- `launches/launch-brief` for the L/XL flagship constitution
+- `marketing/gtm` for all GTM strategy, launch plans, and drumbeats
 - `marketing-science/research`
 - `marketing-science/measurement`
 - `launches/claims-clearance`

@@ -97,7 +97,7 @@ All positioning skills load:
       - foundation/marketing-os/references/collaboration.md
       - foundation/marketing-os/references/knowledge-boundaries.md
       - foundation/marketing-os/references/learning-loop.md (when evidence may compound)
-      - strategy/program-brief, marketing/gtm, launches/gtm-plan, or strategy/one-pager
+      - strategy/program-brief, marketing/gtm, or strategy/one-pager
         (selected dynamically after strategy approval)
       - craft/editing and marketing-science/measurement (during closeout)
       Carries one governed decision record from context through strategy, market action,
@@ -137,13 +137,13 @@ All positioning skills load:
       - foundation/marketing-os/references/collaboration.md
       - foundation/marketing-os/references/knowledge-boundaries.md
       - strategy/program-brief or strategy/compound-brand (selected dynamically)
-      - launches/launch-brief and launches/gtm-plan, or marketing/gtm
+      - launches/launch-brief (L/XL only) and marketing/gtm
       - marketing-science/research
       - marketing-science/measurement
       - launches/claims-clearance
       - positioning/{relevant brand}, brand-voice/{relevant brand}, and assigned craft skills
       Orchestrates role-bounded agent waves while Douglas remains the manager.
-      Workers never delegate; agent-managed delegation belongs to a future Level 8 layer.
+      Workers never delegate, and pod maturity is measured by accepted work and review burden.
 
 ## Marketing
 
@@ -151,7 +151,12 @@ All positioning skills load:
       - foundation/marketing-os
       - positioning/every-master
       - marketing-science/archetyping
+      - marketing-science/research
+      - marketing-science/measurement
       - craft/editing
+      - launches/launch-brief and launches/canonical-process.md (L/XL only)
+      - launches/claims-clearance
+      Canonical GTM entry for flagship, standard, scoped-revision, drumbeat, and social modes.
 
 ## Craft
 
@@ -297,7 +302,7 @@ Each tier orchestrates a specific set of craft skills:
 
     launches/new-product-launch
       Orchestrates:
-        - launches/gtm-plan
+        - marketing/gtm
         - craft/email/current-subscriber
         - craft/email/paid-user
         - craft/email/churned-user
@@ -353,17 +358,6 @@ gets fixed.
       - marketing-science/archetyping
       - marketing-science/research
       - positioning/{relevant product}
-
-    launches/gtm-plan
-      - launches/canonical-process.md (always)
-      - launches/launch-brief (approved input)
-      - launches/new-product-launch/references/launch-narrative.md (for net-new products)
-      - strategy/messaging-architecture
-      - marketing-science/research
-      - marketing-science/brand-equity
-      - positioning/{relevant product}
-      - brand-voice/{relevant product}
-      - launches/claims-clearance
 
     launches/codex-gut-check
       - launches/canonical-process.md (always)

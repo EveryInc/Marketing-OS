@@ -72,5 +72,5 @@ Record each occurrence. One hard failure prevents a clean pass:
   passes.
 - **Make no claim:** There is no comparable baseline, quality score, or transfer evidence.
 
-For the first real campaign, establish the baseline. Do not grade improvement against an
+For the first live campaign, establish the baseline. Do not grade improvement against an
 imagined pre-system workflow.

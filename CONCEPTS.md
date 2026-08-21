@@ -13,7 +13,7 @@ language, open questions, and rejected directions. Downstream work inherits its 
 and stable decision IDs instead of reconstructing the strategy from source material.
 
 ### Compounding proof
-Evidence that a comparable second real run inherited prior decisions and required less
+Evidence that a comparable second prospective run inherited prior decisions and required less
 human correction without losing quality. Structural checks and retrospective cases are
 useful baselines, but do not establish this claim.
 

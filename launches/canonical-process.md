@@ -48,7 +48,7 @@ from launch day starting at the first incomplete phase.
 6. **GTM strategy precedes the channel plan.** The GTM plan must choose the primary
    customer, market belief, campaign platform, proof engine, first customer behavior,
    and dated success measures before it expands into dates and assets. Generate it with
-   `launches/gtm-plan`. A brand line, emotional value proposition, activation instruction,
+   `marketing/gtm`. A brand line, emotional value proposition, activation instruction,
    or launch calendar is not a GTM strategy by itself.
 
 ## The eight-week spine
@@ -105,14 +105,14 @@ note in the standard format (below).
 - Stand up the Notion Calendar entry and sectioned burn-down (`notion-launch-scaffold` skill); approve with the GMs, Brandon, and Austin
 - Place Dan's three calendar holds now (brief, final web design, Launch Week) — Dan is best in person when possible
 - Hand the approved brief to Austin — the GTM framework begins with
-  `launches/gtm-plan`, not a channel calendar
+  `marketing/gtm`, not a channel calendar
 
 ### Weeks 2–4 — Brand build (three parallel tracks)
 
 - Douglas + design lead write the Figma moodboard brief; hand off to the designer
 - Designer builds the brand book: wordmark, brandmark, type hierarchy, colors, treatments, photography direction, illustration, logos, applications, systems
 - Marketing builds the full brand doc: fleshed strategy and positioning, messaging, sample web copy R1, tone of voice, influencer/culture if relevant
-- Austin builds the GTM framework and brief with `launches/gtm-plan` — the one-page
+- Austin builds the GTM framework and brief with `marketing/gtm` — the one-page
   strategy first, then the execution appendix (solo track)
 - Cadence: weekly team standup; Douglas's design standups; weekly stakeholder approval
 - Two GM/engineering touchpoints on the weekly update
@@ -263,7 +263,7 @@ brief requires.
 | notion-launch-scaffold | Active | Builds the Notion standard above |
 | codex-gut-check | Active | The Week 5 bridge |
 | launch-brief | Active | Week 1 foundation generator |
-| gtm-plan | Active | Market belief, campaign, proof, activation, and measurement strategy |
+| marketing/gtm | Active | Canonical market belief, campaign, proof, conversion, launch, and measurement strategy |
 | claims-clearance | Active | Pre-ship verification gate |
 | wireframe-from-copy | Active | Copy doc → annotated lo-fi wireframe |
 | launch-email-flows | Active | Four-flow launch email pattern |
@@ -278,8 +278,8 @@ brief requires.
   reusable system.
 
 **v1.4 — July 18, 2026 (Douglas × Codex)**
-- Added `launches/gtm-plan`, the missing strategy layer between the approved launch brief
-  and channel execution.
+- Added the full GTM strategy layer between the approved launch brief and channel
+  execution. This doctrine now lives under the canonical `marketing/gtm` skill.
 - Ruled that GTM must choose a primary customer, belief shift, campaign hierarchy, proof
   engine, first customer behavior, and dated measures before dates and assets.
 - Added pre- and post-launch influencer seeding, editorial category education, customer

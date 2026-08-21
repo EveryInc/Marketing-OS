@@ -62,8 +62,8 @@ Route from the approved decision record:
 | Work | Route |
 |---|---|
 | Recurring campaign, channel, event, partnership, PR, or research program | `strategy/program-brief` |
-| Launch strategy, launch backbone, drumbeat, or social brief | `marketing/gtm` |
-| L or XL flagship launch from an approved brief | `launches/gtm-plan` |
+| Any launch strategy, GTM plan, launch backbone, drumbeat, or social brief | `marketing/gtm` |
+| Related copy sequence that should learn from human edits | `craft/compound-copywriting` |
 | Executive decision document | `strategy/one-pager` |
 
 Every downstream artifact must cite the decision-record version it inherited. Preserve
@@ -99,7 +99,7 @@ must verify artifact fidelity before an operational or compounding claim.
 
 A publishable compounding claim requires:
 
-- Two comparable real workflows.
+- Two comparable prospective workflows.
 - Metrics declared before the second run.
 - At least 20% less human correction or review time on the second run.
 - No regression in first-pass acceptance or critical defects.

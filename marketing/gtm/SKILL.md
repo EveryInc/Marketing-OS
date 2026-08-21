@@ -1,10 +1,14 @@
 # Marketing / GTM
 
-Turn messy launch context into a strategic master plan and, when needed, a separate social brief. Lead with the argument and intended behavior. Add execution only after the strategy is clear.
+This is Marketing OS's single GTM entry point. Turn messy launch context into a
+governing market decision, then add only the proof, conversion, operating, calendar,
+channel, or social layers the launch needs. Lead with the argument and intended
+behavior. Add execution only after the strategy is clear.
 
 ## When to invoke
 
-- When building or revising a GTM strategy, launch plan, launch backbone, or campaign sequence
+- When building or revising any GTM strategy, route-to-market plan, launch plan, launch
+  backbone, campaign sequence, conversion plan, or launch PR brief
 - When producing a dated drumbeat, production plan, or concise social brief
 - When applying a scoped revision to an existing GTM artifact
 
@@ -19,8 +23,31 @@ Read:
 5. `../../marketing-science/archetyping/references/every-audiences.md`
 6. `../../craft/editing/SKILL.md`
 7. `../../craft/editing/references/compound-from-edits.md`
+8. `references/strategy-standard.md`
 
 For an existing collaborative document, also read `../../foundation/marketing-os/references/native-document-editing.md`. Apply `every-style` and `ai-check` to final prose.
+
+For an L or XL flagship launch, also read the approved
+`../../launches/launch-brief/SKILL.md` output and
+`../../launches/canonical-process.md`. For a curated or application-based event, read
+`references/curated-event-gtm.md`.
+
+## Choose the operating mode
+
+Classify the work before drafting:
+
+- **Flagship L/XL:** Use the approved launch brief and flagship process. Preserve its
+  gates, owners, work-back, and confirmation state. An unapproved brief blocks the
+  downstream GTM decision.
+- **Standard S/M:** Build a right-sized GTM decision from current positioning, customer
+  evidence, offer, proof, and constraints. Do not import flagship timelines, approval
+  rosters, or meeting requirements.
+- **Scoped revision:** Inherit the existing strategy and edit only the authorized
+  surface. Reopen a decision only when the source owner changed it.
+- **Drumbeat or social brief:** Inherit the approved GTM decision. Do not reconstruct
+  strategy inside a channel artifact.
+
+One skill owns all four modes. Never route the user to a second GTM skill.
 
 ## Establish authority
 
@@ -55,7 +82,13 @@ Ask one to three high-value questions at a time. Continue when the answers alrea
 
 ## Lock the strategy
 
-Write these elements before building a calendar:
+Use `references/strategy-standard.md` to lock the five-line value hierarchy and seven
+decision questions: governing decision, market belief, primary customer, offer and first
+value, demand and proof engine, conversion and lifecycle, and learning and measurement.
+Keep the first six answers to one page. If they do not fit, the strategy is still
+unsettled.
+
+Then express that decision through these launch elements before building a calendar:
 
 1. **Goal:** State the future condition and audience behavior.
 2. **Story:** Name the tension, the company's position, and why the launch follows.
@@ -102,19 +135,19 @@ If the evidence is incomplete, mark the gap instead of inventing intrigue.
 Use the relevant parts of this order:
 
 1. Decision-record version and inherited decision IDs, when supplied.
-2. Launch facts and primary action.
-3. Goal and audience behavior.
-4. Story.
-5. Campaign concept.
-6. Launch backbone.
-7. Launch production.
-8. Launch sequence.
-9. Dated drumbeat.
-10. Social brief link.
-11. Copy and design surfaces.
-12. Open questions and sources.
+2. Launch tier, confirmation state, facts, and primary action.
+3. The seven-section decision core from `references/strategy-standard.md`.
+4. Goal, story, campaign concept, and launch backbone.
+5. The chosen proof, seeding, editorial, PR, event, video, or evidence modules.
+6. Launch production and conversion ownership.
+7. Launch sequence and, when required, the dated drumbeat.
+8. Social brief link and copy, design, build, and QA surfaces.
+9. Scorecard, decision date, open questions, and sources.
 
-Right-size the document. Keep measurement to one compact success definition unless the user requests a measurement plan. Do not invent targets.
+Right-size the document. Use one primary decision metric, a small diagnostic set, and
+guardrails. Use the fuller business, conversion, proof, and brand scorecard when the
+launch has targets, capacity, revenue, or lifecycle decisions. Do not invent baselines
+or targets.
 
 For a dated drumbeat:
 
@@ -127,7 +160,7 @@ For a dated drumbeat:
 - Name owners and dependencies only when they help the team ship.
 - Keep undecided pricing, talent, channel, and publishing choices under open questions.
 
-Read `references/document-architecture.md` for the detailed format.
+Read `references/document-architecture.md` for the execution-layer format.
 
 ## Build the social brief separately
 
@@ -137,7 +170,7 @@ Default to three jobs:
 2. Name the actions and behavior social should elicit.
 3. List concrete ideas to discuss.
 
-Keep it short. Do not repeat the GTM plan or turn the brief into a channel manual unless the user asks for one. Include real examples when they sharpen an idea. For events, make desire, participation, and application behavior explicit.
+Keep it short. Do not repeat the GTM plan or turn the brief into a channel manual unless the user asks for one. Include specific examples when they sharpen an idea. For events, make desire, participation, and application behavior explicit.
 
 ## Verify before delivery
 
@@ -183,13 +216,18 @@ Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for 
 - `positioning/every-master`
 - `marketing-science/archetyping`
 - `marketing-science/measurement`
-- `strategy/program-brief`
+- `marketing-science/research`
 - `craft/editing`
+- `launches/launch-brief` and `launches/canonical-process.md` (L/XL only)
+- `launches/claims-clearance`
 
 ## Quick checklist
 
 - [ ] Authority and source roles are explicit
+- [ ] The work is classified as flagship, standard, scoped revision, or channel brief
+- [ ] S/M work did not inherit flagship gates, rosters, or timelines
 - [ ] Ambiguous strategic questions were resolved before the long draft
+- [ ] Governing decision, market belief, customer, offer, proof, journey, and scorecard are locked
 - [ ] Goal, story, concept, and launch backbone precede the calendar
 - [ ] The artifact names its inherited decision-record version and preserves its locked IDs
 - [ ] Dates, people, claims, prices, and links are verified or clearly marked open

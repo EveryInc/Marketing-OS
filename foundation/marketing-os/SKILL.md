@@ -124,6 +124,10 @@ None — this is the root dependency. All other skills load this skill.
   and narrowly supported updates to durable doctrine
 - **strategy/compound-marketing** carries governed decisions through strategy, market
   execution, and a measured learning closeout
+- **marketing/gtm** is the single GTM entry point across flagship, standard, revision,
+  drumbeat, and social modes
+- **craft/compound-copywriting** turns accepted edits into bounded project guidance and
+  tests transfer on fresh copy before any durable promotion
 - **strategy/** preserves the full idea while producing concise, decision-ready briefs
 - **strategy/marketing-pod** coordinates specialist skills across parallel agent roles
   while Douglas retains strategic decisions, approval, and final taste authority
@@ -137,5 +141,7 @@ default. Apply `references/knowledge-boundaries.md` before any repository update
 
 ## Status
 
-The core doctrine and collaboration rules are active. Canon and framework applications
-continue to develop as the corresponding thinking is finalized.
+The doctrine, collaboration rules, unified GTM route, and Compound Marketing run records
+are active. Compound Copywriting and marketing pods remain beta until prospective use
+clears their stated transfer and review-burden thresholds. Files marked `## To do` are
+scaffolding and never route as authoritative guidance.

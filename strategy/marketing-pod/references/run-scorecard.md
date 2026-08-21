@@ -1,13 +1,13 @@
 # Marketing Pod Run Scorecard
 
-Use this scorecard before the first dispatch and after each completed run. Level 7 is an
-operating behavior, not an agent-count claim.
+Use this scorecard before the first dispatch and after each completed run. Pod maturity
+is established through accepted work, lower review burden, and safe teammate reuse.
 
 ## Contents
 
 1. Preflight baseline
 2. Run measures
-3. Level 7 proof standard
+3. Pod proof standard
 4. Decision rule
 
 ## Preflight baseline
@@ -70,9 +70,10 @@ throughput alone is not success.
 
 Any guardrail breach fails the run regardless of speed.
 
-## Level 7 proof standard
+## Pod proof standard
 
-Call the workflow Level 7 only after two relevant project cycles satisfy all of these:
+Call the workflow proven for repeated team use only after two relevant project cycles
+satisfy all of these:
 
 - Douglas managed at least three role-bounded agents working concurrently in each cycle.
 - The pod used at least two safe waves or one parallel wave plus independent QA.
@@ -91,7 +92,8 @@ Call the workflow Level 7 only after two relevant project cycles satisfy all of 
 - At least one teammate could reuse the packet, role charter, or workflow without
   Douglas rebuilding it from scratch.
 
-If the project is too small for three concurrent roles, do not claim Level 7 from it.
+If the project is too small for three concurrent roles, run it serially and make no pod
+performance claim.
 
 ## Decision rule
 

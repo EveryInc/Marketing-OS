@@ -53,6 +53,8 @@ Any hard failure prevents a pass:
 - Omits the request, action, or result from a proof point when the source supplies it.
 - Uses “real” as credibility filler.
 - Uses banned “room” shorthand.
+- Routes a launch to a second GTM skill instead of `marketing/gtm`.
+- Applies the flagship L/XL timeline, roster, or approval gates to an S/M launch.
 
 ## Passing bar
 

@@ -1,6 +1,6 @@
 ---
 name: Compound Marketing
-last_updated: 2026-08-19
+last_updated: 2026-08-21
 ---
 
 # Compound Marketing Strategy
@@ -17,7 +17,7 @@ Every project must do two jobs: produce effective marketing now and improve the 
 that produces the next project.
 
 Compound Marketing preserves the decisions that matter, keeps them under human control,
-and adds only the learning that survives real use.
+and adds only the learning that survives accepted work and a fresh transfer test.
 
 ## Users
 
@@ -34,8 +34,10 @@ reconstruct the system.
 - V1 covers strategy, recurring marketing programs, GTM planning, evaluation, and
   durable learning.
 - Design, art direction, asset production, and channel automation are deferred.
-- Multi-agent pods are optional infrastructure. Agent count and "Level 7" language are
-  not evidence that the system works.
+- Multi-agent pods are optional infrastructure. Agent count and autonomy labels are not
+  evidence that the system works.
+- `marketing/gtm` is the single GTM entry point. Launch tier changes the required inputs
+  and operating depth, never the governing strategy standard.
 - Synthetic examples and structural tests may catch regressions, but cannot prove that
   the marketing improved.
 - Project facts, temporary preferences, and isolated results do not become durable

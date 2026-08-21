@@ -43,7 +43,7 @@ For full construction methodology, see `references/launch-narrative.md`.
 
 ## GTM strategy
 
-After the narrative is locked, use `launches/gtm-plan` to decide how the launch will
+After the narrative is locked, use `marketing/gtm` to decide how the launch will
 create demand, convert the first cohort, and produce proof for the next. Lock the one-page
 strategy before channel plans harden: primary customer, belief shift, campaign platform,
 enemy, demand, payoff, proof engine, concrete starter behavior, editorial role, video
@@ -73,7 +73,7 @@ alignment, and the final go/no-go checkpoint.
 | Task type | Load |
 |---|---|
 | Constructing or evaluating the launch narrative | `references/launch-narrative.md` |
-| Building the demand, proof, activation, and measurement strategy | `launches/gtm-plan` |
+| Building the demand, proof, activation, and measurement strategy | `marketing/gtm` |
 | Timing, sequencing, and day-of choreography | `references/cadence.md` |
 | Pre-launch readiness check | `references/pre-launch-checklist.md` |
 
@@ -102,14 +102,14 @@ A new-product launch coordinates the following channel skills:
 - `positioning/{relevant product}` (loaded dynamically)
 - `brand-voice/{relevant product}` (loaded dynamically)
 - `strategy/messaging-architecture`
-- `launches/gtm-plan`
+- `marketing/gtm`
 - `marketing-science/brand-equity` (for new sub-brands — equity framework informs how
   the product is positioned relative to Every master brand)
 
 ## Quick checklist
 
 - [ ] Positioning, brand voice, and launch narrative are locked before asset production
-- [ ] `launches/gtm-plan` has locked the customer, campaign, proof, activation, and measures
+- [ ] `marketing/gtm` has locked the customer, campaign, proof, activation, and measures
 - [ ] Channel assets trace back to the narrative and serve a named GTM objective
 - [ ] Cadence, owners, seeding, editorial, video, and post-launch proof are scheduled
 - [ ] The pre-launch readiness check has passed or every accepted gap has a named owner
