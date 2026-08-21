@@ -21,7 +21,11 @@ for the job.
 <!-- To populate — when a manifesto is the right format and how to write one -->
 
 ## Product copy
-<!-- To populate — feature descriptions, value props, CTAs -->
+
+For product examples, keep the causal chain visible: request, action, artifact or result. The
+headline may compress that chain, but it may not promise a completed job that the example does
+not show. Product-website sequencing, proof placement, and section jobs belong to the routed
+Compound Copywriting website reference.
 
 ## Choosing the right format
 <!-- To populate — decision framework for format selection -->

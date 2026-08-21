@@ -4,6 +4,13 @@ Writing rules for brand and messaging documents — generalizable across all pro
 are the verification and craft rules that run before any strategy or messaging draft ships.
 They are operating rules, not aspirations: every one is imperative and every one is auditable.
 
+These rules govern factual and strategic assertions inside the working document. Public-facing
+sample copy may make broad, absolute brand promises when the promise is directionally true,
+ownable, and grounded in the product's central mechanism. Do not force public copy to carry the
+citation language, hypothesis tags, or edge-case qualifications required by internal analysis.
+Operational claims about price, permissions, security, integrations, measured outcomes, and
+specific capabilities remain factual claims and keep the full verification bar.
+
 Companion files: line-level rules in
 `references/copywriting-line-rules.md`, the failure ledger in `references/failure-ledger.md`.
 For the research-side methodology these rules point at, see
@@ -30,6 +37,8 @@ duplicated).
 - **CASH IN THE ARCHITECTURE.** Downstream sections never cite upstream structure by label ("Pillar 2 leads"). They restate the actual message and show the sample lines. Labels are navigation, not argument.
 
 - **SAMPLE LINES ARE MANDATORY.** A messaging section without example copy is strategy, not messaging. Two or three lines per audience or moment, cascaded from existing hero and pillar language — never newly invented per section.
+
+- **SAMPLE COPY IS MARKETING, NOT A COMPLIANCE SUMMARY.** Preserve the force of a selected brand promise. Do not add caveats because the line is absolute, or reject it because it cannot survive every edge case as a literal specification. Check whether it expresses the intended strategic truth and whether the product mechanism makes the promise credible. Apply the stricter factual standard to the operational proof beneath it.
 
 - **COMPETITORS APPEAR IN EVERY BUYER-FACING SECTION.** State what named competitors currently say to that audience, verbatim where fetched, with fetch dates. Absence claims ("nobody offers X") carry the fetch date and a launch-week re-check flag. An open lane is only claimable if the doc shows who isn't in it.
 
