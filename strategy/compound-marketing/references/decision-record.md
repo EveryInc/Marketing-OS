@@ -1,7 +1,8 @@
 # Compound Marketing Decision Record
 
-Keep one versioned record for the decisions every artifact must inherit. Store it beside
-the project, not inside Marketing OS.
+Keep one canonical decision ledger inside schema V2 `run.json`. Generate this Markdown
+projection with the `render` command for human review. Do not edit the projection as a
+second source of truth. Store the run beside the project, not inside Marketing OS.
 
 ## Identity
 
@@ -85,3 +86,6 @@ Use a new row when a decision changes. Do not overwrite the previous ruling.
 - Open questions that must remain open:
 - Output owner:
 - Approval gate:
+
+The machine-readable handoff lives in `handoff.json` and follows
+`handoff-contract.md`. Every accepted artifact is bound to the current projection digest.

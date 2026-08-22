@@ -7,6 +7,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 
 SCRIPT = Path(__file__).parents[1] / "scripts" / "check_run.py"
@@ -22,6 +23,19 @@ def load_module():
 
 
 CHECK_RUN = load_module()
+
+
+class LegacyComparisonAdapter:
+    """Exercise the legacy algorithm without exposing V1 as public proof."""
+
+    def __getattr__(self, name):
+        return getattr(CHECK_RUN, name)
+
+    def compare_records(self, baseline, followup, **kwargs):
+        return CHECK_RUN._compare_v1(baseline, followup, **kwargs)
+
+
+LEGACY_CHECK_RUN = LegacyComparisonAdapter()
 
 
 def run_record(
@@ -246,7 +260,7 @@ class ValidateRunTests(unittest.TestCase):
 
 
 class CompareRunTests(unittest.TestCase):
-    module = CHECK_RUN
+    module = LEGACY_CHECK_RUN
 
     def test_twenty_percent_reduction_with_no_regression_qualifies(self):
         baseline = run_record("baseline", review_minutes=100, defects=2)
@@ -512,6 +526,1075 @@ class CompareRunTests(unittest.TestCase):
                 self.assertFalse(result["qualifies"])
                 self.assertIn(expected, result["failures"])
 
+
+class GovernedRunV2Tests(unittest.TestCase):
+    module = CHECK_RUN
+
+    def make_ready_v2(
+        self,
+        root: Path,
+        *,
+        project: str,
+        operator: str,
+        minutes: int,
+        force_new: bool = False,
+        comparable_to: str | None = None,
+        decision: str = "Lead with learning.",
+        artifact_reference: str = "artifact.md",
+    ) -> Path:
+        record_path = self.module.initialize_run(
+            root,
+            project=project,
+            workflow_family="gtm",
+            routed_output="gtm_plan",
+            operator=operator,
+            force_new=force_new,
+        )
+        if artifact_reference == "artifact.md":
+            artifact_path = record_path.parent / artifact_reference
+            artifact_path.write_text("# Accepted artifact\n", encoding="utf-8")
+        record = self.module.load_json(record_path)
+        record["sources"] = [
+            {
+                "id": "S1",
+                "owner": "dan",
+                "location": "notion://strategy",
+                "authority": "company_strategy",
+                "freshness": "2026-08-21",
+                "status": "confirmed",
+            }
+        ]
+        record["decisions"] = [
+            {
+                "id": "D1",
+                "decision": decision,
+                "owner": "douglas",
+                "source_id": "S1",
+                "status": "locked",
+            }
+        ]
+        record["artifact"].update(
+            {
+                "scope": "launch",
+                "primary_audience": "operators",
+                "owner": "douglas",
+            }
+        )
+        record["metrics"].update(
+            {
+                "human_review_minutes": minutes,
+                "first_pass_accepted": True,
+                "critical_defects": 0,
+            }
+        )
+        record["metrics"]["primary"].update(
+            {
+                "name": "human_review_minutes",
+                "unit": "minutes",
+                "method": "timer",
+                "declared_by": "douglas",
+                "declared_at": "2026-08-21T10:00:00+00:00",
+                "work_started_at": "2026-08-21T11:00:00+00:00",
+                "observed_at": "2026-08-21T12:00:00+00:00",
+                "value": minutes,
+                "measurement_window": "one run",
+                "decision_date": "2026-08-21",
+            }
+        )
+        record["proof"]["dimensions"].update(
+            {
+                "scope": "launch",
+                "primary_audience": "operators",
+                "measurement_method": "timer",
+            }
+        )
+        if comparable_to:
+            record["proof"].update(
+                {
+                    "comparable_to": comparable_to,
+                    "accepted_inherited_decision_ids": ["D1"],
+                    "comparability_rationale": (
+                        "Same artifact, audience, scope, and measure."
+                    ),
+                }
+            )
+        record_path.write_text(json.dumps(record), encoding="utf-8")
+        self.module.render_run(record_path)
+        self.module.transition_run(record_path, "strategy_pending")
+        record = self.module.load_json(record_path)
+        record["approvals"]["strategy"].update(
+            {
+                "approved_by": "human-reviewer",
+                "approved_at": "2026-08-21T12:30:00+00:00",
+                "record_digest": self.module.governance_digest(record),
+            }
+        )
+        record_path.write_text(json.dumps(record), encoding="utf-8")
+        self.module.transition_run(record_path, "strategy_approved")
+        self.module.transition_run(record_path, "artifact_pending")
+        receipt_path = self.module.scaffold_receipt(
+            record_path, stage="strategy_to_market", artifact=artifact_reference
+        )
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+        receipt.update(
+            {
+                "verified_by": "human-reviewer",
+                "verified_at": "2026-08-21T12:30:00+00:00",
+            }
+        )
+        if receipt["artifact"].get("kind") == "remote":
+            receipt["artifact"]["revision"] = "rev-1"
+        receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
+        record = self.module.load_json(record_path)
+        digest = self.module.governance_digest(record)
+        binding_digest = self.module._artifact_binding_digest(receipt["artifact"])
+        for name in ("artifact", "fidelity"):
+            record["approvals"][name].update(
+                {
+                    "approved_by": "human-reviewer",
+                    "approved_at": "2026-08-21T12:30:00+00:00",
+                    "record_digest": digest,
+                    "artifact_binding": binding_digest,
+                }
+            )
+        if comparable_to:
+            record["approvals"]["comparability"].update(
+                {
+                    "approved_by": "human-reviewer",
+                    "approved_at": "2026-08-21T12:30:00+00:00",
+                    "record_digest": self.module.approval_digest(
+                        record, "comparability"
+                    ),
+                }
+            )
+        record_path.write_text(json.dumps(record), encoding="utf-8")
+        self.module.transition_run(record_path, "artifact_approved")
+        self.module.transition_run(record_path, "measuring")
+        self.module.transition_run(record_path, "closed")
+        return record_path
+
+    def test_init_is_idempotent_and_discoverable(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            first = self.module.initialize_run(
+                root,
+                project="Every Brand Book",
+                workflow_family="brand_strategy",
+                routed_output="one_pager",
+                operator="douglas",
+            )
+            second = self.module.initialize_run(
+                root,
+                project="Every Brand Book",
+                workflow_family="brand_strategy",
+                routed_output="one_pager",
+                operator="douglas",
+            )
+            self.assertEqual(first, second)
+            self.assertTrue((first.parent / "run.md").is_file())
+            self.assertTrue((first.parent / "decision-record.md").is_file())
+            found = self.module.discover_run(
+                root, project="Every Brand Book", workflow_family="brand_strategy"
+            )
+            self.assertEqual(first, found)
+
+    def test_concurrent_init_creates_one_active_run(self):
+        with tempfile.TemporaryDirectory() as directory:
+            command = [
+                sys.executable,
+                str(SCRIPT),
+                "init",
+                directory,
+                "--project",
+                "Launch",
+                "--workflow",
+                "gtm",
+                "--route",
+                "gtm_plan",
+                "--operator",
+                "douglas",
+            ]
+            first = subprocess.Popen(command, stdout=subprocess.PIPE, text=True)
+            second = subprocess.Popen(command, stdout=subprocess.PIPE, text=True)
+            first_stdout, _ = first.communicate(timeout=10)
+            second_stdout, _ = second.communicate(timeout=10)
+            self.assertEqual(0, first.returncode)
+            self.assertEqual(0, second.returncode)
+            self.assertEqual(
+                json.loads(first_stdout)["record_path"],
+                json.loads(second_stdout)["record_path"],
+            )
+            records = list(Path(directory).glob(".compound-marketing/*/run.json"))
+            self.assertEqual(1, len(records))
+
+    def test_discovery_ignores_symlinked_records_outside_the_run_root(self):
+        with tempfile.TemporaryDirectory() as directory, tempfile.TemporaryDirectory() as outside:
+            root = Path(directory)
+            run_root = root / ".compound-marketing"
+            run_root.mkdir()
+            outside_run = Path(outside) / "escaped"
+            outside_run.mkdir()
+            record = self.module._new_v2_record(
+                run_id="escaped",
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="attacker",
+            )
+            (outside_run / "run.json").write_text(json.dumps(record), encoding="utf-8")
+            (run_root / "escaped").symlink_to(outside_run, target_is_directory=True)
+            self.assertIsNone(
+                self.module.discover_run(
+                    root, project="Launch", workflow_family="gtm"
+                )
+            )
+
+    def test_multiple_matching_runs_fail_closed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            first = self.module.initialize_run(
+                root,
+                project="Every Brand Book",
+                workflow_family="brand_strategy",
+                routed_output="one_pager",
+                operator="douglas",
+            )
+            record = json.loads(first.read_text(encoding="utf-8"))
+            duplicate = first.parents[1] / "duplicate"
+            duplicate.mkdir()
+            (duplicate / "run.json").write_text(json.dumps(record), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "multiple unfinished runs"):
+                self.module.discover_run(
+                    root,
+                    project="Every Brand Book",
+                    workflow_family="brand_strategy",
+                )
+
+    def test_ambiguous_discovery_is_an_ineligible_cli_result(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for force_new in (False, True):
+                self.module.initialize_run(
+                    root,
+                    project="Launch",
+                    workflow_family="gtm",
+                    routed_output="gtm_plan",
+                    operator="douglas",
+                    force_new=force_new,
+                )
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(SCRIPT),
+                    "discover",
+                    str(root),
+                    "--project",
+                    "Launch",
+                    "--workflow",
+                    "gtm",
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertEqual(1, result.returncode)
+
+    def test_unsigned_starter_is_honest_and_not_operational(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            result = self.module.validate_record(
+                self.module.load_json(record_path), record_path=record_path
+            )
+            self.assertTrue(result["valid"])
+            self.assertFalse(result["structural_ready"])
+            self.assertFalse(result["operational_ready"])
+            self.assertIn("SOURCE_REQUIRED", result["failure_codes"])
+
+    def test_blocked_run_restores_prior_state_and_terminal_is_immutable(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            self.module.transition_run(record_path, "strategy_pending")
+            self.module.transition_run(record_path, "blocked", reason="source conflict")
+            blocked = self.module.load_json(record_path)
+            self.assertEqual("strategy_pending", blocked["lifecycle"]["prior_status"])
+            self.module.transition_run(record_path, "resume")
+            resumed = self.module.load_json(record_path)
+            self.assertEqual("strategy_pending", resumed["lifecycle"]["status"])
+            resumed["lifecycle"]["status"] = "closed"
+            record_path.write_text(json.dumps(resumed), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "terminal run"):
+                self.module.transition_run(record_path, "open")
+
+    def test_projection_tampering_fails_validation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            decision_path = record_path.parent / "decision-record.md"
+            decision_path.write_text("tampered", encoding="utf-8")
+            result = self.module.validate_record(
+                self.module.load_json(record_path), record_path=record_path
+            )
+            self.assertFalse(result["valid"])
+            self.assertIn("DECISION_PROJECTION_STALE", result["failure_codes"])
+
+    def test_handoff_and_receipt_scaffolds_remain_unsigned(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            record = self.module.load_json(record_path)
+            record["decisions"] = [
+                {
+                    "id": "D1",
+                    "decision": "Lead with learning.",
+                    "owner": "douglas",
+                    "source_id": "S1",
+                    "status": "locked",
+                }
+            ]
+            record["sources"] = [
+                {
+                    "id": "S1",
+                    "owner": "dan",
+                    "location": "notion://strategy",
+                    "authority": "company_strategy",
+                    "freshness": "2026-08-21",
+                    "status": "confirmed",
+                }
+            ]
+            record_path.write_text(json.dumps(record), encoding="utf-8")
+            self.module.render_run(record_path)
+            handoff = self.module.scaffold_handoff(record_path, owner="douglas")
+            (record_path.parent / "artifact.md").write_text(
+                "# Draft artifact\n", encoding="utf-8"
+            )
+            receipt = self.module.scaffold_receipt(
+                record_path, artifact="artifact.md", stage="strategy_to_market"
+            )
+            self.assertIsNone(json.loads(handoff.read_text())["approved_by"])
+            self.assertIsNone(json.loads(receipt.read_text())["verified_by"])
+
+    def test_cli_returns_documented_exit_codes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            created = subprocess.run(
+                [
+                    sys.executable,
+                    str(SCRIPT),
+                    "init",
+                    str(root),
+                    "--project",
+                    "Launch",
+                    "--workflow",
+                    "gtm",
+                    "--route",
+                    "gtm_plan",
+                    "--operator",
+                    "douglas",
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertEqual(0, created.returncode, created.stderr)
+            record_path = Path(json.loads(created.stdout)["record_path"])
+            invalid = subprocess.run(
+                [sys.executable, str(SCRIPT), "validate", str(record_path)],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertEqual(1, invalid.returncode)
+            malformed = root / "bad.json"
+            malformed.write_text("{", encoding="utf-8")
+            unreadable = subprocess.run(
+                [sys.executable, str(SCRIPT), "validate", str(malformed)],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertEqual(2, unreadable.returncode)
+
+    def test_content_bound_closed_run_is_operationally_ready(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory), project="Launch", operator="douglas", minutes=100
+            )
+            result = self.module.validate_record(
+                self.module.load_json(record_path), record_path=record_path
+            )
+            self.assertTrue(result["structural_ready"])
+            self.assertTrue(result["operational_ready"])
+            self.assertFalse(result["comparison_ready"])
+            self.assertFalse(result["proof_ready"])
+
+    def test_stale_human_approval_digest_blocks_operational_readiness(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory), project="Launch", operator="douglas", minutes=100
+            )
+            record = self.module.load_json(record_path)
+            record["approvals"]["fidelity"]["record_digest"] = "stale"
+            record_path.write_text(json.dumps(record), encoding="utf-8")
+            result = self.module.validate_record(record, record_path=record_path)
+            self.assertFalse(result["operational_ready"])
+
+    def test_receipt_cannot_bind_an_external_local_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            record_path = self.make_ready_v2(
+                root, project="Launch", operator="douglas", minutes=100
+            )
+            external = root / "outside-run.md"
+            external.write_text("# Different artifact\n", encoding="utf-8")
+            record = self.module.load_json(record_path)
+            receipt_path = record_path.parent / record["artifact"]["receipt"]
+            receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+            receipt["artifact"] = {
+                "kind": "local",
+                "path": str(external),
+                "sha256": self.module._sha256(external),
+            }
+            receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
+            result = self.module.validate_record(record, record_path=record_path)
+            self.assertFalse(result["operational_ready"])
+
+    def test_governance_change_invalidates_signed_approval_even_when_markdown_is_unchanged(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory), project="Launch", operator="douglas", minutes=100
+            )
+            record = self.module.load_json(record_path)
+            record["sources"][0]["freshness"] = "2026-08-22"
+            record_path.write_text(json.dumps(record), encoding="utf-8")
+            result = self.module.validate_record(record, record_path=record_path)
+            self.assertFalse(result["structural_ready"])
+            self.assertFalse(result["operational_ready"])
+            self.assertIn("GOVERNANCE_DIGEST_STALE", result["failure_codes"])
+
+    def test_receipt_contract_fields_fail_closed(self):
+        mutations = {
+            "schema": lambda receipt: receipt.update({"schema_version": 1}),
+            "stage": lambda receipt: receipt.update({"stage": "market_to_memory"}),
+            "decision ids": lambda receipt: receipt.update({"decision_ids": []}),
+            "governance": lambda receipt: receipt.update({"governance_digest": "stale"}),
+        }
+        for name, mutate in mutations.items():
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as directory:
+                record_path = self.make_ready_v2(
+                    Path(directory), project="Launch", operator="douglas", minutes=100
+                )
+                record = self.module.load_json(record_path)
+                receipt_path = record_path.parent / record["artifact"]["receipt"]
+                receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+                mutate(receipt)
+                receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
+                result = self.module.validate_record(record, record_path=record_path)
+                self.assertFalse(result["operational_ready"])
+                self.assertIn("RECEIPT_INVALID", result["failure_codes"])
+
+    def test_artifact_approvals_must_name_the_exact_receipt_binding(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory), project="Launch", operator="douglas", minutes=100
+            )
+            record = self.module.load_json(record_path)
+            record["approvals"]["artifact"]["artifact_binding"] = "different"
+            record_path.write_text(json.dumps(record), encoding="utf-8")
+            result = self.module.validate_record(record, record_path=record_path)
+            self.assertFalse(result["operational_ready"])
+
+    def test_strategy_transition_enforces_governance_and_updates_stage_metadata(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            self.module.transition_run(record_path, "strategy_pending")
+            with self.assertRaisesRegex(ValueError, "authoritative source"):
+                self.module.transition_run(record_path, "strategy_approved")
+            pending = self.module.load_json(record_path)
+            self.assertEqual("context_to_strategy", pending["lifecycle"]["current_stage"])
+            pending["sources"] = [
+                {
+                    "id": "S1",
+                    "owner": "dan",
+                    "location": "notion://strategy",
+                    "authority": "company_strategy",
+                    "freshness": "2026-08-21",
+                    "status": "confirmed",
+                }
+            ]
+            pending["decisions"] = [
+                {
+                    "id": "D1",
+                    "decision": "Lead with learning.",
+                    "owner": "douglas",
+                    "source_id": "S1",
+                    "status": "locked",
+                }
+            ]
+            pending["questions"] = [
+                {
+                    "id": "Q1",
+                    "question": "Who owns it?",
+                    "owner": "douglas",
+                    "blocking": True,
+                    "status": "open",
+                }
+            ]
+            record_path.write_text(json.dumps(pending), encoding="utf-8")
+            self.module.render_run(record_path)
+            pending = self.module.load_json(record_path)
+            pending["approvals"]["strategy"].update(
+                {
+                    "approved_by": "human-reviewer",
+                    "approved_at": "2026-08-21T12:30:00+00:00",
+                    "record_digest": self.module.governance_digest(pending),
+                }
+            )
+            record_path.write_text(json.dumps(pending), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "blocking governance"):
+                self.module.transition_run(record_path, "strategy_approved")
+
+    def test_missing_local_artifact_does_not_create_receipt_or_mutate_record(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            before = record_path.read_text(encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "existing regular file"):
+                self.module.scaffold_receipt(
+                    record_path, stage="strategy_to_market", artifact="missing.md"
+                )
+            self.assertEqual(before, record_path.read_text(encoding="utf-8"))
+            self.assertFalse((record_path.parent / "strategy_to_market-receipt.json").exists())
+
+    def test_malformed_nested_v2_records_fail_closed_without_crashing(self):
+        fields = (
+            "lifecycle",
+            "artifact",
+            "metrics",
+            "approvals",
+            "evidence",
+            "proof",
+            "projections",
+            "sources",
+            "source_conflicts",
+            "decisions",
+            "protected_language",
+            "questions",
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            original = self.module.load_json(record_path)
+            for field in fields:
+                with self.subTest(field=field):
+                    malformed = json.loads(json.dumps(original))
+                    malformed[field] = [] if isinstance(malformed[field], dict) else {}
+                    result = self.module.validate_record(malformed, record_path=record_path)
+                    self.assertFalse(result["valid"])
+                    self.assertIn("SHAPE_INVALID", result["failure_codes"])
+
+    def test_successor_run_records_a_terminal_predecessor(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            predecessor = self.make_ready_v2(
+                root, project="Launch", operator="douglas", minutes=100
+            )
+            successor = self.module.initialize_run(
+                root,
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="austin",
+                predecessor=predecessor,
+            )
+            record = self.module.load_json(successor)
+            self.assertEqual(
+                self.module.load_json(predecessor)["run_id"],
+                record["predecessor_run"]["run_id"],
+            )
+            self.assertTrue(
+                self.module.validate_record(record, record_path=successor)["valid"]
+            )
+            record["predecessor_run"]["governance_digest"] = "tampered"
+            self.assertFalse(
+                self.module.validate_record(record, record_path=successor)["valid"]
+            )
+
+    def test_terminal_timestamp_must_match_terminal_status(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory), project="Launch", operator="douglas", minutes=100
+            )
+            record = self.module.load_json(record_path)
+            record["lifecycle"]["closed_at"] = None
+            result = self.module.validate_record(record, record_path=record_path)
+            self.assertFalse(result["valid"])
+            self.assertIn("LIFECYCLE_TIMESTAMP_INVALID", result["failure_codes"])
+
+    def test_metric_values_and_timing_must_be_valid(self):
+        mutations = {
+            "negative minutes": lambda record: record["metrics"].update(
+                {"human_review_minutes": -1}
+            ),
+            "boolean minutes": lambda record: record["metrics"].update(
+                {"human_review_minutes": True}
+            ),
+            "negative defects": lambda record: record["metrics"].update(
+                {"critical_defects": -1}
+            ),
+            "boolean defects": lambda record: record["metrics"].update(
+                {"critical_defects": True}
+            ),
+            "late declaration": lambda record: record["metrics"]["primary"].update(
+                {"declared_at": "2026-08-21T12:00:00+00:00"}
+            ),
+        }
+        for name, mutate in mutations.items():
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as directory:
+                record_path = self.make_ready_v2(
+                    Path(directory), project="Launch", operator="douglas", minutes=100
+                )
+                record = self.module.load_json(record_path)
+                mutate(record)
+                record_path.write_text(json.dumps(record), encoding="utf-8")
+                result = self.module.validate_record(record, record_path=record_path)
+                self.assertFalse(result["operational_ready"])
+
+    def test_synthetic_run_cannot_become_operational_proof(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory), project="Launch", operator="douglas", minutes=100
+            )
+            record = self.module.load_json(record_path)
+            record["evidence"]["origin"] = "synthetic"
+            record_path.write_text(json.dumps(record), encoding="utf-8")
+            result = self.module.validate_record(record, record_path=record_path)
+            self.assertFalse(result["operational_ready"])
+
+    def test_comparable_independent_v2_followup_is_proof_eligible(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline_path = self.make_ready_v2(
+                root, project="Launch", operator="douglas", minutes=100
+            )
+            followup_path = self.make_ready_v2(
+                root,
+                project="Launch",
+                operator="austin",
+                minutes=80,
+                force_new=True,
+                comparable_to=self.module.load_json(baseline_path)["run_id"],
+            )
+            baseline = self.module.load_json(baseline_path)
+            followup = self.module.load_json(followup_path)
+            result = self.module.compare_records(
+                baseline,
+                followup,
+                baseline_path=baseline_path,
+                followup_path=followup_path,
+            )
+            self.assertTrue(result["proof_eligible"])
+            self.assertFalse(result["publication_authorized"])
+
+    def test_v2_comparison_gates_fail_closed(self):
+        cases = {
+            "blank rationale": (
+                lambda baseline, followup: followup["proof"].update(
+                    {"comparability_rationale": ""}
+                ),
+                "comparability rationale is missing",
+            ),
+            "blank dimension": (
+                lambda baseline, followup: followup["proof"]["dimensions"].update(
+                    {"scope": None}
+                ),
+                "comparison dimensions do not match",
+            ),
+            "late baseline metric": (
+                lambda baseline, followup: baseline["metrics"]["primary"].update(
+                    {"declared_at": "2026-08-21T12:00:00+00:00"}
+                ),
+                "baseline is not operationally ready",
+            ),
+            "same normalized operator": (
+                lambda baseline, followup: followup.update({"operator": " Douglas "}),
+                "followup operator is not independent",
+            ),
+        }
+        for name, (mutate, expected) in cases.items():
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                baseline_path = self.make_ready_v2(
+                    root, project="Launch", operator="douglas", minutes=100
+                )
+                followup_path = self.make_ready_v2(
+                    root,
+                    project="Launch",
+                    operator="austin",
+                    minutes=80,
+                    force_new=True,
+                    comparable_to=self.module.load_json(baseline_path)["run_id"],
+                )
+                baseline = self.module.load_json(baseline_path)
+                followup = self.module.load_json(followup_path)
+                mutate(baseline, followup)
+                result = self.module.compare_records(
+                    baseline,
+                    followup,
+                    baseline_path=baseline_path,
+                    followup_path=followup_path,
+                )
+                self.assertFalse(result["proof_eligible"])
+                self.assertIn(expected, result["failures"])
+
+    def test_v2_inherited_decision_must_preserve_meaning_and_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline_path = self.make_ready_v2(
+                root, project="Launch", operator="douglas", minutes=100
+            )
+            followup_path = self.make_ready_v2(
+                root,
+                project="Launch",
+                operator="austin",
+                minutes=80,
+                force_new=True,
+                comparable_to=self.module.load_json(baseline_path)["run_id"],
+                decision="Lead with software.",
+            )
+            baseline = self.module.load_json(baseline_path)
+            followup = self.module.load_json(followup_path)
+            result = self.module.compare_records(
+                baseline,
+                followup,
+                baseline_path=baseline_path,
+                followup_path=followup_path,
+            )
+            self.assertFalse(result["proof_eligible"])
+            self.assertIn(
+                "accepted inherited decision D1 changed meaning or source",
+                result["failures"],
+            )
+
+    def test_terminal_runs_reject_every_public_mutator(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory), project="Launch", operator="douglas", minutes=100
+            )
+            for operation in (
+                lambda: self.module.render_run(record_path),
+                lambda: self.module.scaffold_handoff(record_path, owner="douglas"),
+                lambda: self.module.scaffold_receipt(
+                    record_path,
+                    stage="strategy_to_market",
+                    artifact="artifact.md",
+                ),
+                lambda: self.module.transition_run(record_path, "abandoned"),
+            ):
+                with self.subTest(operation=operation), self.assertRaisesRegex(
+                    self.module.IneligibleError, "terminal run"
+                ):
+                    operation()
+
+    def test_approval_timestamps_must_be_parseable_and_timezone_aware(self):
+        for bad_timestamp in ("yesterday", "2026-08-21T12:30:00"):
+            with self.subTest(timestamp=bad_timestamp), tempfile.TemporaryDirectory() as directory:
+                record_path = self.make_ready_v2(
+                    Path(directory), project="Launch", operator="douglas", minutes=100
+                )
+                record = self.module.load_json(record_path)
+                record["approvals"]["strategy"]["approved_at"] = bad_timestamp
+                record_path.write_text(json.dumps(record), encoding="utf-8")
+                result = self.module.validate_record(record, record_path=record_path)
+                self.assertFalse(result["operational_ready"])
+
+    def test_governed_collections_require_unique_ids_and_source_links(self):
+        cases = {
+            "duplicate source": lambda record: record["sources"].append(
+                dict(record["sources"][0])
+            ),
+            "duplicate decision": lambda record: record["decisions"].append(
+                dict(record["decisions"][0])
+            ),
+            "missing protected id": lambda record: record["protected_language"].append(
+                {"id": None, "text": "One subscription", "owner": "douglas"}
+            ),
+            "unknown source": lambda record: record["decisions"][0].update(
+                {"source_id": "S404"}
+            ),
+        }
+        for name, mutate in cases.items():
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as directory:
+                record_path = self.module.initialize_run(
+                    Path(directory),
+                    project="Launch",
+                    workflow_family="gtm",
+                    routed_output="gtm_plan",
+                    operator="douglas",
+                )
+                record = self.module.load_json(record_path)
+                record["sources"] = [
+                    {
+                        "id": "S1",
+                        "owner": "dan",
+                        "location": "notion://strategy",
+                        "authority": "company_strategy",
+                        "freshness": "2026-08-21",
+                        "status": "confirmed",
+                    }
+                ]
+                record["decisions"] = [
+                    {
+                        "id": "D1",
+                        "decision": "Lead with learning.",
+                        "owner": "douglas",
+                        "source_id": "S1",
+                        "status": "locked",
+                    }
+                ]
+                mutate(record)
+                record_path.write_text(json.dumps(record), encoding="utf-8")
+                self.module.render_run(record_path)
+                result = self.module.validate_record(
+                    self.module.load_json(record_path), record_path=record_path
+                )
+                self.assertFalse(result["valid"])
+                self.assertIn("GOVERNANCE_INVALID", result["failure_codes"])
+
+    def test_failed_projection_generation_does_not_advance_lifecycle(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            with patch.object(
+                self.module, "_run_markdown", side_effect=OSError("projection failed")
+            ), self.assertRaisesRegex(OSError, "projection failed"):
+                self.module.transition_run(record_path, "strategy_pending")
+            self.assertEqual(
+                "open", self.module.load_json(record_path)["lifecycle"]["status"]
+            )
+            self.module.transition_run(record_path, "strategy_pending")
+            self.assertEqual(
+                "strategy_pending",
+                self.module.load_json(record_path)["lifecycle"]["status"],
+            )
+
+    def test_receipt_commit_failure_rolls_back_projections_and_can_retry(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            artifact_path = record_path.parent / "artifact.md"
+            artifact_path.write_text("# Artifact\n", encoding="utf-8")
+            before_record = record_path.read_bytes()
+            before_run = (record_path.parent / "run.md").read_bytes()
+            before_decisions = (record_path.parent / "decision-record.md").read_bytes()
+            original_atomic_json = self.module._atomic_json
+
+            def fail_record_commit(path, data):
+                if path.resolve() == record_path.resolve():
+                    raise OSError("record commit failed")
+                return original_atomic_json(path, data)
+
+            with patch.object(
+                self.module, "_atomic_json", side_effect=fail_record_commit
+            ), self.assertRaisesRegex(OSError, "record commit failed"):
+                self.module.scaffold_receipt(
+                    record_path,
+                    stage="strategy_to_market",
+                    artifact="artifact.md",
+                )
+            self.assertEqual(before_record, record_path.read_bytes())
+            self.assertEqual(before_run, (record_path.parent / "run.md").read_bytes())
+            self.assertEqual(
+                before_decisions,
+                (record_path.parent / "decision-record.md").read_bytes(),
+            )
+            receipt = self.module.scaffold_receipt(
+                record_path,
+                stage="strategy_to_market",
+                artifact="artifact.md",
+            )
+            self.assertTrue(receipt.is_file())
+
+    def test_blocked_run_can_be_abandoned_and_linked_to_a_successor(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            predecessor = self.module.initialize_run(
+                root,
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            self.module.transition_run(predecessor, "blocked", reason="Dan must rule")
+            self.module.transition_run(predecessor, "abandoned")
+            abandoned = self.module.load_json(predecessor)
+            self.assertEqual("Dan must rule", abandoned["lifecycle"]["blocked_on"])
+            self.assertIsNotNone(
+                self.module._parse_iso(abandoned["lifecycle"]["abandoned_at"])
+            )
+            successor = self.module.initialize_run(
+                root,
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="austin",
+                predecessor=predecessor,
+            )
+            binding = self.module.load_json(successor)["predecessor_run"]
+            self.assertEqual(abandoned["run_id"], binding["run_id"])
+            self.assertTrue(
+                self.module.validate_record(
+                    self.module.load_json(successor), record_path=successor
+                )["valid"]
+            )
+
+    def test_receipts_accept_only_the_market_stage_and_safe_artifact_refs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.module.initialize_run(
+                Path(directory),
+                project="Launch",
+                workflow_family="gtm",
+                routed_output="gtm_plan",
+                operator="douglas",
+            )
+            with self.assertRaisesRegex(ValueError, "strategy_to_market"):
+                self.module.scaffold_receipt(
+                    record_path, stage="context_to_strategy", artifact="artifact.md"
+                )
+            with self.assertRaisesRegex(ValueError, "https"):
+                self.module.scaffold_receipt(
+                    record_path,
+                    stage="strategy_to_market",
+                    artifact="file:///tmp/artifact.md",
+                )
+
+    def test_remote_receipt_binding_is_operational_and_tamper_evident(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = self.make_ready_v2(
+                Path(directory),
+                project="Launch",
+                operator="douglas",
+                minutes=100,
+                artifact_reference="https://example.com/artifact",
+            )
+            record = self.module.load_json(record_path)
+            self.assertTrue(
+                self.module.validate_record(record, record_path=record_path)[
+                    "operational_ready"
+                ]
+            )
+            receipt_path = record_path.parent / record["artifact"]["receipt"]
+            receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+            receipt["artifact"]["revision"] = "rev-2"
+            receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
+            result = self.module.validate_record(record, record_path=record_path)
+            self.assertFalse(result["operational_ready"])
+
+    def test_v2_reduction_gate_uses_unrounded_value(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            baseline_path = self.make_ready_v2(
+                root, project="Launch", operator="douglas", minutes=100
+            )
+            baseline = self.module.load_json(baseline_path)
+            followup_path = self.make_ready_v2(
+                root,
+                project="Launch",
+                operator="austin",
+                minutes=80.004,
+                force_new=True,
+                comparable_to=baseline["run_id"],
+            )
+            result = self.module.compare_records(
+                baseline,
+                self.module.load_json(followup_path),
+                baseline_path=baseline_path,
+                followup_path=followup_path,
+            )
+            self.assertFalse(result["proof_eligible"])
+            self.assertEqual(20.0, result["review_reduction_percent"])
+            self.assertIn("review burden fell by less than 20%", result["failures"])
+
+    def test_all_specialist_routes_use_the_shared_handoff_contract(self):
+        root = SCRIPT.parents[3]
+        contract = (
+            root
+            / "strategy"
+            / "compound-marketing"
+            / "references"
+            / "handoff-contract.md"
+        ).read_text(encoding="utf-8")
+        for field in (
+            "Run ID",
+            "Decision-record SHA-256",
+            "Canonical governance digest",
+            "Inherited decision IDs",
+            "Protected-language IDs",
+            "Unresolved-question IDs",
+            "Artifact owner",
+        ):
+            self.assertIn(field, contract)
+        for relative in (
+            "marketing/gtm/SKILL.md",
+            "strategy/program-brief/SKILL.md",
+            "launches/gtm-plan/SKILL.md",
+            "strategy/one-pager/SKILL.md",
+        ):
+            with self.subTest(relative=relative):
+                text = (root / relative).read_text(encoding="utf-8")
+                self.assertIn("handoff-contract.md", text)
+                self.assertIn("handoff.json", text)
+
+class CompareRunLegacyAdditionalTests(unittest.TestCase):
+    module = LEGACY_CHECK_RUN
+
     def test_run_cannot_compare_against_itself(self):
         baseline = run_record("same")
         followup = run_record(
@@ -662,7 +1745,43 @@ class CliTests(unittest.TestCase):
                     self.assertEqual(expected_code, result.returncode)
                     self.assertIsInstance(json.loads(result.stdout), dict)
 
-    def test_compare_cli_uses_record_relative_receipts(self):
+    def test_render_cli_reports_malformed_nested_shape_as_json(self):
+        with tempfile.TemporaryDirectory() as directory:
+            record_path = Path(directory) / "run.json"
+            record_path.write_text(
+                json.dumps(
+                    {
+                        "schema_version": 2,
+                        "lifecycle": {},
+                        "artifact": {},
+                        "projections": {},
+                        "sources": None,
+                        "source_conflicts": [],
+                        "decisions": [],
+                        "protected_language": [],
+                        "questions": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            result = subprocess.run(
+                [sys.executable, str(SCRIPT), "render", str(record_path)],
+                check=False,
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(2, result.returncode)
+            self.assertIn("sources", json.loads(result.stdout)["error"])
+
+    def test_public_compare_rejects_legacy_records(self):
+        result = CHECK_RUN.compare_records(
+            run_record("baseline"), run_record("followup")
+        )
+        self.assertFalse(result["qualifies"])
+        self.assertFalse(result["proof_ready"])
+        self.assertIn("only schema V2 records", result["failures"][0])
+
+    def test_compare_cli_rejects_legacy_records_as_public_proof(self):
         baseline = run_record("baseline", defects=2)
         followup = run_record(
             "followup",
@@ -691,8 +1810,10 @@ class CliTests(unittest.TestCase):
                 text=True,
                 cwd=root,
             )
-        self.assertEqual(0, result.returncode)
-        self.assertTrue(json.loads(result.stdout)["proof_ready"])
+        self.assertEqual(1, result.returncode)
+        payload = json.loads(result.stdout)
+        self.assertFalse(payload["proof_ready"])
+        self.assertIn("only schema V2 records", payload["failures"][0])
 
 
 if __name__ == "__main__":

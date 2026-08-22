@@ -1,6 +1,6 @@
 {
   "skill": "compound-marketing",
-  "version": 1,
+  "version": 2,
   "cases": [
     {
       "run_id": "brand-book-2026-08-baseline",
@@ -39,6 +39,19 @@
         "block dated planning until the product owner rules Q1"
       ],
       "limitation": "Synthetic forward test; it checks decision fidelity, not market quality."
+    },
+    {
+      "run_id": "filesystem-governed-run-v2",
+      "proof_level": "synthetic_operational_regression",
+      "must": [
+        "initialize one canonical V2 run outside the repository",
+        "return the same unfinished run on repeated initialization",
+        "render human projections from canonical JSON",
+        "scaffold one governed handoff and one unsigned receipt",
+        "resume a blocked run to its recorded prior state",
+        "reject projection drift, path escape, illegal transitions, and unsigned human gates"
+      ],
+      "limitation": "Synthetic filesystem rehearsal; it verifies operability and fail-closed behavior, not human identity, marketing quality, or compounding."
     }
   ]
 }

@@ -42,6 +42,12 @@ synthesis.
 - When a brand doc or strategy is complete and needs a compressed reference version
 - When leadership needs to review a strategy in 10 to 15 minutes
 
+When invoked from Compound Marketing, read `../compound-marketing/references/handoff-contract.md`
+and the supplied `handoff.json` before compressing. Preserve the decision-record version
+and digest, governed IDs, protected language, unresolved questions, owner, and record
+paths in the governed source or companion sidecar. Do not print the governance block on
+the external one-pager.
+
 ## Reference routing
 
 | Task type | Load |
@@ -66,3 +72,4 @@ synthesis.
   and open questions distinct?
 - Are ownership, measurement, asks, and budget visible when relevant?
 - Does the full strategy remain available as the source of truth?
+- When routed from Compound Marketing, does the governed source retain the complete handoff sidecar?

@@ -11,6 +11,12 @@ Treat GTM as the point where Marketing and Growth meet. Marketing creates belief
 
 ## Required inputs
 
+When invoked from Compound Marketing, read
+`../../strategy/compound-marketing/references/handoff-contract.md` and the supplied
+`handoff.json` first. Inherit its decision-record version and digest, governed IDs,
+unresolved questions, artifact owner, and exact record paths. Keep the sidecar with the
+governed source and out of customer-facing output.
+
 Do not invent missing truths. Collect or mark OPEN:
 
 - Launch object, confirmed date, scope, capacity or supply, pricing status, and business model
@@ -232,3 +238,4 @@ not dependencies or current project guidance.
 - [ ] Research distinguishes a scale outlier from a transferable analog
 - [ ] Appendices are selected because the launch needs them, not because the template lists them
 - [ ] Every external claim routes through claims clearance
+- [ ] When routed from Compound Marketing, the governed source retains the complete handoff sidecar and every inherited decision

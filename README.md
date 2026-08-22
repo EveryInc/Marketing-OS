@@ -12,10 +12,11 @@ taste, and brand coherence.
 
 `context -> strategy -> market -> memory -> stronger next run`
 
-`strategy/compound-marketing` is the plain-language entry point. It creates one governed
-decision record, routes the approved strategy into a recurring program or GTM plan, and
-closes the run through human edits and measured results. Completed work improves the
-system only when the learning transfers beyond the project that produced it.
+`strategy/compound-marketing` is the plain-language entry point. It initializes or
+resumes one governed, project-local run; routes its approved strategy into one selected
+program, one-pager, or GTM artifact; and closes the run through content-bound human
+receipts and measured results. Completed work improves the system only when the learning
+transfers beyond the project that produced it.
 
 Every specialist skill still loads `foundation/marketing-os` as its root. Research,
 audiences, positioning, voice, craft, launches, and measurement remain available when
@@ -92,8 +93,9 @@ Ready for structured use:
   Score, authority, and Consulting demand
 - Compounding from Douglas's edits and from campaign results without importing project
   details into unrelated work
-- A Compound Marketing golden path with decision records, run records, signed artifact
-  receipts, cross-stage fidelity checks, and an explicit proof standard
+- A Compound Marketing golden path with canonical V2 run records, deterministic resume,
+  shared specialist handoffs, content-bound artifact receipts, lifecycle checks, and an
+  explicit proof standard
 
 Still in development:
 
@@ -114,10 +116,14 @@ Files marked `## To do` are scaffolding, not authoritative product or channel gu
 
 ### Aug. 21, 2026: Artifact Proof Gate
 
-- Required a readable, human-signed receipt for every applicable stage before a
-  compounding claim can pass
-- Added regression tests for malformed records, missing receipts, receipt drift, and
-  record-relative command use
+- Added blank-project initialization, deterministic discovery and resume, legal lifecycle
+  transitions, canonical JSON, and generated human projections
+- Standardized one machine-readable handoff across program briefs, one-pagers, GTM master
+  plans, and execution-ready GTM plans
+- Required a content-bound, human-signed receipt before operational or comparison
+  readiness; the checker validates consistency without pretending to authenticate humans
+- Preserved schema V1 as legacy structural evidence and reserved proof eligibility for
+  prospective comparable operational runs by different named operators
 
 ### Aug. 19, 2026: Compound Marketing V1
 

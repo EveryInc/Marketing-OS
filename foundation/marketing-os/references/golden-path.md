@@ -13,8 +13,9 @@ creates a learning without shipping useful work is not.
 
 ## 0. Open the run
 
-Before drafting, search `<project-root>/.compound-marketing/*/run.json` for an unfinished
-matching run. Resume it when found. Otherwise create one run directory and record using
+Resolve the Compound Marketing checker from the loaded skill. Use `discover` before
+`init`; resume the single unfinished project/workflow match. The tool creates canonical
+`run.json` and generated human projections using
 `../../../strategy/compound-marketing/references/run-record.md`.
 
 Record:
@@ -66,6 +67,11 @@ Route from the approved decision record:
 | L or XL flagship launch from an approved brief | `launches/gtm-plan` |
 | Executive decision document | `strategy/one-pager` |
 
+Choose exactly one route per run. Create `handoff.json` from
+`../../../strategy/compound-marketing/references/handoff-contract.md` before invoking the
+specialist. Related outputs use linked successor runs instead of sharing one artifact
+approval state.
+
 Every downstream artifact must cite the decision-record version it inherited. Preserve
 the approved audience, idea, offer, proof, primary action, exact protected language, and
 open questions. Adapt the expression to the artifact; do not reopen the strategy.
@@ -96,9 +102,10 @@ learning is promoted.
 
 ## 4. Prove compounding
 
-Structural checks prove only that the run record is internally consistent. A named human
-must verify artifact fidelity and sign a readable receipt for every applicable stage
-before a compounding claim.
+Structural checks prove only that the run record is internally consistent. They do not
+authenticate the human or establish an attestation's truth. A named human must verify
+artifact fidelity and sign a content-bound receipt before operational readiness or a
+compounding claim.
 
 A publishable compounding claim requires:
 

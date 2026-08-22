@@ -13,10 +13,10 @@ Evidence: a valid run record and zero cross-stage decision failures.
 
 Allowed claim: "The run record is internally consistent."
 
-The validator cannot inspect every Google Doc, slide deck, or published surface. A named
-human verifies each accepted artifact and signs the machine-readable receipt in
-`artifact-receipt.md`. The checker resolves those receipts and rejects missing or
-inconsistent records.
+The validator cannot inspect every Google Doc, slide deck, or published surface or
+authenticate the named human. A named human verifies each accepted artifact and signs the
+content-bound receipt in `artifact-receipt.md`. The checker rejects missing, stale, or
+inconsistent records; it proves consistency, not the truth of the attestation.
 
 ### 2. Operational proof
 
@@ -35,19 +35,19 @@ quality loss.
 
 Require:
 
-- Matching workflow type and a named baseline run.
-- Measures declared before the follow-up run.
+- Matching workflow family, artifact class, scope, audience, measurement method, and a named baseline run.
+- Measures declared before work starts in both runs, with valid observed timestamps.
 - At least 20% less human review or correction time.
 - No regression in first-pass acceptance.
 - No increase in critical defects.
 - At least one inherited decision accepted without reconstruction.
 - The accepted decision IDs exist in the baseline, the follow-up decision record, and
   the follow-up market artifact.
-- One independent teammate rerun before claiming team-level reuse.
+- A different normalized operator identity before claiming team-level reuse.
 - A named human verified that the accepted artifacts match the recorded decisions and
   protected language.
-- Every applicable stage has a readable receipt that names the artifact, decision-record
-  version, preserved IDs, verifier, and verification time.
+- The `strategy_to_market` artifact has a readable receipt that names the exact artifact
+  binding, decision-record version, preserved IDs, verifier, and verification time.
 
 Allowed claim: "The second run required less human correction because it inherited
 decisions and learning from the first."
@@ -69,8 +69,11 @@ Do not use these as evidence that marketing improved:
 python3 <MARKETING_OS_ROOT>/strategy/compound-marketing/scripts/check_run.py compare <absolute-baseline.json> <absolute-followup.json>
 ```
 
-The comparison must fail closed. Missing evidence, unreadable artifact receipts,
-unmatched workflows, or a quality regression prevents the compounding claim.
+Only two schema V2 records are eligible for public proof comparison. The comparison must
+fail closed. Missing evidence, unreadable artifact receipts,
+unmatched workflows, identical operators, or a quality regression prevents proof
+eligibility. Passing comparison never authorizes publication; a human separately approves
+the exact claim and scope.
 
 The `validate` command can mark a follow-up `comparison_ready`. It cannot mark a single
 record `proof_ready`; only a successful `compare` result can do that.

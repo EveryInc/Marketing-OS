@@ -1,5 +1,9 @@
 # GTM Document Architecture
 
+When invoked through Compound Marketing, keep the complete block from
+`../../../strategy/compound-marketing/references/handoff-contract.md` in the governed
+source or companion sidecar. Do not publish governance metadata as campaign copy.
+
 ## Master plan
 
 ### Launch facts

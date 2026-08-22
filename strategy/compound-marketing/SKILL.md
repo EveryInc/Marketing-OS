@@ -33,10 +33,11 @@ Use `<project-root>/.compound-marketing/<run-id>/` as the shared run directory. 
 creating one, search `.compound-marketing/*/run.json` for an unfinished record with the
 same project and workflow. Resume it when found; do not create a duplicate run.
 
-Create `run.md`, `run.json`, and `decision-record.md` there from the references in this
-skill. Create the artifact receipts in `references/artifact-receipt.md` as each stage is
-accepted. Do not store active project details in the Marketing OS repository. Pass the
-three absolute paths and current decision-record version in every specialist handoff.
+Resolve `scripts/check_run.py` from this loaded skill and use its `discover` and `init`
+commands with absolute project paths. The tool creates canonical `run.json` plus generated
+`run.md` and `decision-record.md` projections. Do not store active project details in the
+Marketing OS repository. One run chooses one routed output; related outputs use linked
+successor runs.
 
 Establish:
 
@@ -54,13 +55,16 @@ success.
 
 ## Carry one decision record
 
-Build `references/decision-record.md` before writing the deliverable. Give each locked
-decision a stable ID. Separate facts, decisions, protected language, evidence,
-inferences, open questions, and rejected directions.
+Build the canonical record described in `references/decision-record.md` before writing
+the deliverable, then regenerate its projection with `render`. Give each locked decision
+a stable ID. Separate facts, decisions, protected language, evidence, inferences, open
+questions, and rejected directions.
 
-The decision record is the contract between stages. Every downstream artifact names the
-version it inherited and the decision IDs it preserved. A source conflict remains open
-until the named owner decides it.
+The canonical governance digest of the decision record is the contract between stages.
+Run `handoff` and use
+`references/handoff-contract.md` before invoking the chosen specialist. Every downstream
+artifact inherits the exact digest and governed IDs. A source conflict remains open until
+the named owner decides it.
 
 ## Run the path
 
@@ -80,9 +84,10 @@ python3 <MARKETING_OS_ROOT>/strategy/compound-marketing/scripts/check_run.py val
 python3 <MARKETING_OS_ROOT>/strategy/compound-marketing/scripts/check_run.py compare <absolute-baseline.json> <absolute-followup.json>
 ```
 
-Structural checks prove only that the run record is internally consistent. A named human
-must verify artifact fidelity and sign a resolvable receipt for every applicable stage
-before a compounding claim can pass.
+Structural checks prove only that the run record is internally consistent. They do not
+authenticate the named human or prove an attestation true. A named human must verify
+artifact fidelity and sign a content-bound receipt before operational or compounding
+eligibility can pass.
 
 ## Use optional pods sparingly
 
@@ -105,6 +110,7 @@ a success metric.
 - [ ] The run has an objective, baseline status, metric, and decision date
 - [ ] Facts, decisions, protected language, and open questions are separate
 - [ ] The human approved the governing decisions
+- [ ] The run selects exactly one specialist route and carries a complete `handoff.json`
 - [ ] Downstream work names and preserves inherited decision IDs
 - [ ] Each accepted stage has a readable artifact receipt signed by its human verifier
 - [ ] Human edits and results were compared with the original inputs

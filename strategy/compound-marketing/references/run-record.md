@@ -1,85 +1,82 @@
 # Compound Marketing Run Record
 
-Use one Markdown record for human review and one JSON companion for deterministic
-validation. Keep both in `<project-root>/.compound-marketing/<run-id>/` beside the
-decision record. Search this directory for an unfinished matching run before creating a
-new one.
+`run.json` is the canonical record. `run.md` and `decision-record.md` are generated
+projections for human review. Never edit a projection as governing state.
 
-## Open
+Keep all files in `<project-root>/.compound-marketing/<run-id>/`. Resolve
+`scripts/check_run.py` from the loaded Compound Marketing skill and use its absolute path.
 
-- Run ID:
-- Project:
-- Workflow: brand-strategy / company-strategy / program / GTM
-- Evidence status: prospective / retrospective / incomplete
-- Objective:
-- Intended audience behavior:
-- Requested artifact:
-- Decision-record path and version:
-- Primary decision metric:
-- Measurement window and decision date:
-- Explicit exclusions:
-
-## Baseline
-
-- Comparable run ID, if any:
-- Why the workflows are comparable:
-- Human review and integration minutes:
-- First-pass accepted: yes / no
-- Critical defects reaching review:
-- Revision rounds:
-- Missing evidence:
-
-Label a first or incomplete run `BASELINE`. Never reconstruct missing time or quality
-measures from memory.
-
-## Stage record
-
-| Stage | Status | Artifact | Receipt | Input decision IDs | Preserved or output IDs | Human ruling |
-|---|---|---|---|---|---|---|
-| Context to strategy | | | | | | |
-| Strategy to market | | | | | | |
-| Market to memory | | | | | | |
-
-Use `not applicable` only when the project genuinely stops before that stage. A partial
-run can be useful evidence, but cannot support an end-to-end claim.
-
-## Review evidence
-
-- Human review and integration minutes:
-- First-pass accepted:
-- Critical defects:
-- Substantial corrections:
-- Decisions inherited from previous work:
-- Inherited decisions accepted without reconstruction:
-- Accepted inherited decision IDs:
-- Independent operator:
-- Artifact fidelity verified by:
-- Artifact fidelity verified at:
-
-## Closeout
-
-- Result:
-- Decision: scale / revise / stop / continue measuring
-- Human edits classified:
-- Market results classified:
-- Durable updates proposed:
-- Regression cases added:
-- Project-only learning retained:
-- Next comparable run:
-
-## JSON companion
-
-Use the field structure in `../evals/fixtures/brand-book-baseline.json`. Add a top-level
-`decision_record` object with its path and version. Each applicable stage names its
-machine-readable `artifact_receipt`; use the format in `artifact-receipt.md`. Locked
-decisions that govern downstream work must appear in both the strategy output and the
-market artifact's `preserved_decision_ids`. A follow-up proof also lists the exact
-baseline decision IDs it inherited in `proof.accepted_inherited_decision_ids`; the
-validator cross-checks those IDs against both runs and the artifact receipts.
-
-Resolve `<MARKETING_OS_ROOT>` from the loaded Compound Marketing skill. Validate with
-absolute paths so the command works from the project directory:
+## Start or resume
 
 ```bash
-python3 <MARKETING_OS_ROOT>/strategy/compound-marketing/scripts/check_run.py validate <absolute-record.json>
+python3 <ABSOLUTE_CHECKER> discover <PROJECT_ROOT> --project "Project name" --workflow gtm
+python3 <ABSOLUTE_CHECKER> init <PROJECT_ROOT> --project "Project name" --workflow gtm --route gtm_plan --operator douglas
 ```
+
+`init` returns the single unfinished match instead of creating a duplicate. Multiple
+matches fail with their paths. Use `--force-new` only for an intentionally concurrent
+run. It creates a new run and never overwrites the existing one.
+
+After a terminal run, create a linked successor instead of reopening history:
+
+```bash
+python3 <ABSOLUTE_CHECKER> init <PROJECT_ROOT> --project "Project name" --workflow gtm --route gtm_plan --operator austin --predecessor <ABSOLUTE_PRIOR_RUN_JSON>
+```
+
+The predecessor must be terminal and match the project and workflow. The successor
+records its run ID, path, and canonical governance digest.
+
+New runs use schema V2. Workflow families are `brand_strategy`, `company_strategy`,
+`program`, and `gtm`. Routes are `marketing_gtm`, `program_brief`, `gtm_plan`, and
+`one_pager`. One run governs one routed artifact.
+
+## Lifecycle
+
+`open -> strategy_pending -> strategy_approved -> artifact_pending -> artifact_approved -> measuring -> closed`
+
+- `blocked` records the prior state and a reason. `transition ... resume` restores it.
+- A blocked run may be abandoned without erasing the blocker that stopped it.
+- `abandoned` and `closed` are immutable. `render`, `handoff`, `receipt`, and further
+  transitions fail; later work creates a linked successor.
+- Strategy approval must be human-signed before `strategy_approved`.
+- Artifact acceptance and fidelity attestation must be human-signed before
+  `artifact_approved`, and both must name the exact verified artifact binding.
+- Nonnegative measurements and valid prospective timestamps must be present before
+  `closed`.
+
+```bash
+python3 <ABSOLUTE_CHECKER> transition <ABSOLUTE_RUN_JSON> strategy_pending
+python3 <ABSOLUTE_CHECKER> transition <ABSOLUTE_RUN_JSON> blocked --reason "Dan must rule the offer"
+python3 <ABSOLUTE_CHECKER> transition <ABSOLUTE_RUN_JSON> resume
+```
+
+## Handoff and receipt
+
+```bash
+python3 <ABSOLUTE_CHECKER> render <ABSOLUTE_RUN_JSON>
+python3 <ABSOLUTE_CHECKER> handoff <ABSOLUTE_RUN_JSON> --owner douglas
+python3 <ABSOLUTE_CHECKER> receipt <ABSOLUTE_RUN_JSON> --stage strategy_to_market --artifact artifact.md
+```
+
+These commands scaffold machine-readable files. Approval and verification fields remain
+unsigned. A producing agent cannot fill the human gate. Schema V2 receipts bind only the
+`strategy_to_market` artifact; the other stages are governed by the canonical decision
+record and the measured successor run.
+
+## Readiness
+
+```bash
+python3 <ABSOLUTE_CHECKER> validate <ABSOLUTE_RUN_JSON>
+```
+
+- `structural_ready`: authority, decisions, blockers, projections, lifecycle metadata,
+  and the canonical governance digest agree.
+- `operational_ready`: the terminal run also has content-bound receipts, human rulings,
+  prospective operational evidence, and complete measures.
+- `comparison_ready`: an operational run additionally names a baseline, accepted
+  inherited decisions, predeclared measures, and human-approved comparability.
+- `proof_ready` remains false for one record. Only `compare` can return proof eligibility.
+
+Schema V1 fixtures remain legacy structural evidence. Public `compare` accepts only two
+schema V2 records. V1 records cannot become operational or compounding proof and must not
+be backfilled with invented history.

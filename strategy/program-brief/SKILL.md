@@ -15,7 +15,8 @@ Do not neutralize the idea to make the brief easier to measure.
 ## Workflow
 
 1. When supplied, inherit the approved Compound Marketing decision-record version,
-   locked decision IDs, protected language, and open questions.
+   digest, locked decision IDs, protected language, open questions, owner, and record
+   paths from `../compound-marketing/references/handoff-contract.md` and `handoff.json`.
 2. Write the one-sentence ambition in the future tense as a state Every intends to create.
 3. Explain why the idea belongs in the current Marketing strategy.
 4. Name the primary and secondary audiences.
@@ -63,6 +64,7 @@ Load `references/template.md` for the working format and
 - Is the audience explicit?
 - Is the subscriber or Consulting path visible?
 - Does the brief name and preserve every inherited locked decision that governs it?
+- Does the governed source retain the complete Compound Marketing handoff sidecar?
 - Is the primary metric different from the diagnostic signals?
 - Are cost and capacity included?
 - Is there a decision date and gate?

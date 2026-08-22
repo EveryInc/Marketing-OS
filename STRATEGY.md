@@ -54,11 +54,13 @@ system's effect easier to prove.
   language, or changed decisions reaching human review.
 - **Inherited-decision reuse:** Previously captured decisions or rules reused and
   accepted without being reconstructed.
-- **Independent rerun success:** A teammate completes the workflow from its governed
-  inputs without the original author rebuilding the brief or system.
+- **Independent rerun success:** A different named operator completes the workflow from
+  its governed inputs without the baseline operator rebuilding the brief or system.
 
 The first publishable proof requires a comparable second run with at least 20% less
-correction or review time and no regression in acceptance or critical defects.
+correction or review time and no regression in acceptance or critical defects. The
+checker establishes eligibility under recorded evidence; a human separately authorizes
+the exact external claim.
 
 ## Tracks
 

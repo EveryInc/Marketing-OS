@@ -36,9 +36,11 @@ Identify the sources that own:
 Search the supplied Notion, Slack, Drive, meeting, and editorial sources before asking for information that can be found. Cite current sources. Label conflicts and unknowns.
 
 When this work comes from `strategy/compound-marketing`, inherit the approved decision
-record before drafting. Record its version, locked decision IDs, protected-language IDs,
-and open questions in the GTM artifact. Do not reinterpret those decisions from the
-underlying source pile.
+record before drafting. Read `../../strategy/compound-marketing/references/handoff-contract.md`
+and the supplied `handoff.json`. Preserve its version, digest, locked decision IDs,
+protected-language IDs, open questions, owner, and record paths. Keep the sidecar with
+the governed source; omit it from customer-facing output. Do not reinterpret those
+decisions from the underlying source pile.
 
 ## Interview before a long draft
 
@@ -68,7 +70,7 @@ Use the user's chosen language exactly. Keep protected sections unchanged during
 
 Use the relevant parts of this order:
 
-1. Decision-record version and inherited decision IDs, when supplied.
+1. Compound Marketing handoff block or linked sidecar, when supplied.
 2. Launch facts and primary action.
 3. Goal and audience behavior.
 4. Story.
@@ -150,7 +152,7 @@ Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for 
 - [ ] Authority and source roles are explicit
 - [ ] Ambiguous strategic questions were resolved before the long draft
 - [ ] Goal, story, concept, and launch backbone precede the calendar
-- [ ] The artifact names its inherited decision-record version and preserves its locked IDs
+- [ ] The governed source links the complete Compound Marketing handoff sidecar and preserves its locked IDs
 - [ ] Dates, people, claims, prices, and links are verified or clearly marked open
 - [ ] Measurement names a primary decision metric and decision date
 - [ ] Scoped revisions preserved protected content exactly

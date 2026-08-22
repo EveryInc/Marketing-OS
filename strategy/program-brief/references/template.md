@@ -2,6 +2,10 @@
 
 ## [Program name]
 
+When this brief is routed from Compound Marketing, attach the complete `handoff.json`
+defined in `../../compound-marketing/references/handoff-contract.md`. Keep it with the
+governed source rather than the published brief.
+
 **Ambition:** Every becomes [specific future state].
 
 **Why:** [One or two sentences connecting the idea to the company story, audience need,
