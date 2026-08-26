@@ -83,6 +83,7 @@ When this skill is loaded, route to the appropriate reference file based on the 
 | Need to add or compound repository guidance | `references/knowledge-boundaries.md` |
 | Meaningful feedback or a result should improve future work | `references/learning-loop.md` |
 | Substantial strategy, recurring marketing, or GTM work | `references/golden-path.md` |
+| 10- to 15-minute GTM approval deck for a launch content ecosystem | `../../marketing/gtm/SKILL.md` and `../../marketing/gtm/references/content-system-approval-deck.md` |
 
 Multiple references can be loaded simultaneously. A positioning task, for example, might
 load canon.md for Trout/Ries context, method.md for Every's positioning stance, and

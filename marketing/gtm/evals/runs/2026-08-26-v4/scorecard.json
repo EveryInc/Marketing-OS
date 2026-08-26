@@ -1,0 +1,24 @@
+{
+  "skill_version": 4,
+  "run_date": "2026-08-26",
+  "cases_run": 1,
+  "cases_passed": 1,
+  "hard_failures": 0,
+  "score": 94,
+  "results": [
+    {
+      "id": "content-system-approval-deck",
+      "result": "pass",
+      "score": 94,
+      "dimension_scores": {
+        "strategic_clarity": 28,
+        "source_fidelity": 25,
+        "audience_behavior": 19,
+        "operational_usefulness": 15,
+        "voice_and_compression": 7
+      },
+      "notes": "An independent fresh-context run preserved the production mandate, exact CTA, weekly mix, verified request-action-result receipt, and six atomic open selections. It asked leadership to approve the system rather than individual assets, left every unknown open, and passed the approval-deck deterministic checker. The artifact is thorough but dense for a 15-minute review, which lowers the compression score."
+    }
+  ],
+  "notes": "This versioned run adds prospective structural and source-fidelity evidence for the new approval-deck mode. It does not prove market improvement or compounding."
+}

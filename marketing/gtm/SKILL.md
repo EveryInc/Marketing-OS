@@ -11,6 +11,7 @@ behavior. Add execution only after the strategy is clear.
   backbone, campaign sequence, conversion plan, or launch PR brief
 - When producing a dated drumbeat, production plan, or concise social brief
 - When applying a scoped revision to an existing GTM artifact
+- When leadership needs a 10- to 15-minute approval deck for a launch content ecosystem
 
 ## Load the system
 
@@ -27,14 +28,21 @@ Read:
 
 For an existing collaborative document, also read `../../foundation/marketing-os/references/native-document-editing.md`. Apply `every-style` and `ai-check` to final prose.
 
+For a 10- to 15-minute leadership approval deck built around a launch content ecosystem,
+also read `references/content-system-approval-deck.md`. Treat the deck as the presentation
+layer of the approved GTM decision, not as a replacement for the full plan. This reference
+owns the deck structure; do not combine it with a second executive-summary template.
+
 For an L or XL flagship launch, also read the approved
 `../../launches/launch-brief/SKILL.md` output and
 `../../launches/canonical-process.md`. For a curated or application-based event, read
 `references/curated-event-gtm.md`.
 
-## Choose the operating mode
+## Choose the launch tier and artifact mode
 
-Classify the work before drafting:
+Classify both axes before drafting. Artifact mode never replaces launch tier.
+
+**Launch tier:**
 
 - **Flagship L/XL:** Use the approved launch brief and flagship process. Preserve its
   gates, owners, work-back, and confirmation state. An unapproved brief blocks the
@@ -42,12 +50,21 @@ Classify the work before drafting:
 - **Standard S/M:** Build a right-sized GTM decision from current positioning, customer
   evidence, offer, proof, and constraints. Do not import flagship timelines, approval
   rosters, or meeting requirements.
+
+**Artifact mode:**
+
+- **Master GTM plan:** Build the governing market decision and only the execution layers
+  the launch needs.
 - **Scoped revision:** Inherit the existing strategy and edit only the authorized
   surface. Reopen a decision only when the source owner changed it.
 - **Drumbeat or social brief:** Inherit the approved GTM decision. Do not reconstruct
   strategy inside a channel artifact.
+- **Content-system approval deck:** Inherit the approved GTM decision and use the deck to
+  approve the campaign system, production mandate, and remaining inputs. Do not turn the
+  review into a post-by-post editorial meeting.
 
-One skill owns all four modes. Never route the user to a second GTM skill.
+One skill owns both launch tiers and all four artifact modes. Never route the user to a
+second GTM skill.
 
 ## Establish authority
 
@@ -162,6 +179,12 @@ For a dated drumbeat:
 
 Read `references/document-architecture.md` for the execution-layer format.
 
+For a content-system approval deck, use
+`references/content-system-approval-deck.md`. Lead with the exact decision, organize the
+ecosystem by strategic job, prove every format with a literal example, translate the
+approved cadence into a credible calendar, and close with the work to lock, make,
+publish, and ship.
+
 ## Build the social brief separately
 
 Default to three jobs:
@@ -208,7 +231,12 @@ owner, creative detail, or unresolved decision.
 
 ## Evaluate
 
-Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for deterministic checks. The skill passes only when it clears the score threshold with zero hard failures.
+Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for
+deterministic checks, using `--mode approval-deck` for a content-system approval deck.
+The deterministic check covers structure and prohibited approval behavior; source
+fidelity, invention, and strategic quality still require rubric review against the
+governing sources. The skill passes only when it clears the score threshold with zero
+hard failures.
 
 ## Dependencies
 
@@ -224,7 +252,8 @@ Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for 
 ## Quick checklist
 
 - [ ] Authority and source roles are explicit
-- [ ] The work is classified as flagship, standard, scoped revision, or channel brief
+- [ ] The work has a launch tier and an artifact mode: master plan, scoped revision,
+  drumbeat/social brief, or content-system approval deck
 - [ ] S/M work did not inherit flagship gates, rosters, or timelines
 - [ ] Ambiguous strategic questions were resolved before the long draft
 - [ ] Governing decision, market belief, customer, offer, proof, journey, and scorecard are locked
@@ -237,3 +266,6 @@ Use `evals/cases.json` and `evals/rubric.md`. Run `scripts/check_output.py` for 
 - [ ] Measurement names a primary decision metric and decision date
 - [ ] Scoped revisions preserved protected content exactly
 - [ ] The relevant evaluation and deterministic checks passed
+- [ ] A content-system approval deck states the review decision, preserves the approved
+  cadence and any supplied content-role mix, uses literal calendar copy, and ends with
+  executable asks whose open-input count matches the governing sources

@@ -30,10 +30,21 @@ def headings(text: str) -> set[str]:
     }
 
 
+def heading_positions(text: str) -> list[tuple[str, int]]:
+    return [
+        (match.group(1).strip().lower(), match.start())
+        for match in re.finditer(r"^#{1,6}\s+(.+?)\s*$", text, re.MULTILINE)
+    ]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("file", type=Path)
-    parser.add_argument("--mode", choices=("gtm", "social", "scoped"), default="gtm")
+    parser.add_argument(
+        "--mode",
+        choices=("gtm", "social", "scoped", "approval-deck"),
+        default="gtm",
+    )
     parser.add_argument("--max-words", type=int)
     parser.add_argument("--require-heading", action="append", default=[])
     parser.add_argument("--require-phrase", action="append", default=[])
@@ -60,6 +71,87 @@ def main() -> int:
     if args.mode == "social":
         for heading in sorted(SOCIAL_FORBIDDEN_HEADINGS & found_headings):
             failures.append(f"social brief contains operating-manual heading: {heading}")
+
+    if args.mode == "approval-deck":
+        decision_pattern = (
+            r"\b(approve|authorize)\b.{0,100}\b(system|ecosystem|production mandate)\b"
+            r"|\b(system|ecosystem|production mandate)\b.{0,100}\b(approve|authorize)\b"
+        )
+        segment_size = max(1, len(text) // 3)
+        if not re.search(decision_pattern, lower[:segment_size]):
+            failures.append("system approval decision missing near beginning")
+        if not re.search(decision_pattern, lower[-segment_size:]):
+            failures.append("system approval decision missing near close")
+
+        positions = heading_positions(text)
+        sequence_positions = [
+            position
+            for heading, position in positions
+            if "campaign sequence" in heading or heading.startswith("phase")
+        ]
+        system_positions = [
+            position
+            for heading, position in positions
+            if heading == "content system"
+            or heading.startswith("content format")
+            or heading.startswith("asset inventory")
+        ]
+        if not sequence_positions:
+            failures.append("missing campaign sequence or phase heading")
+        if not system_positions:
+            failures.append("missing content-system or format heading")
+        if sequence_positions and system_positions and min(sequence_positions) > min(system_positions):
+            failures.append("content inventory appears before campaign sequence")
+
+        calendar_positions = [
+            position for heading, position in positions if "calendar" in heading
+        ]
+        if not calendar_positions:
+            failures.append("missing publishing calendar heading")
+        else:
+            calendar_position = min(calendar_positions)
+            later_heading_positions = [
+                position for _, position in positions if position > calendar_position
+            ]
+            calendar_end = min(later_heading_positions, default=len(text))
+            calendar_text = lower[calendar_position:calendar_end]
+            literal_entries = re.findall(
+                r"^(?:[-*]\s*)?(?:mon(?:day)?|tue(?:sday)?|wed(?:nesday)?|thu(?:rsday)?|fri(?:day)?|sat(?:urday)?|sun(?:day)?|week\s+\d+|\d{1,2}/\d{1,2})\s*:\s*(.+)$",
+                calendar_text,
+                re.MULTILINE,
+            )
+            substantive_entries = [
+                entry
+                for entry in literal_entries
+                if entry.strip().lower() not in {"tbd", "open", "unknown", "n/a", "—", "-"}
+            ]
+            if len(substantive_entries) < 2:
+                failures.append("calendar needs at least two literal, non-placeholder entries")
+
+            workstream_positions: list[int] = []
+            for workstream in ("lock", "make", "publish", "ship"):
+                matches = list(
+                    re.finditer(
+                        rf"^(?:#{{1,6}}\s+|(?:\d+[.)]|[-*])\s+)?"
+                        rf"(?:\*\*)?{workstream}:?(?:\*\*)?(?=\s|$)",
+                        lower,
+                        re.MULTILINE,
+                    )
+                )
+                valid = [match.start() for match in matches if match.start() >= calendar_end]
+                if not valid:
+                    failures.append(f"missing close workstream after calendar: {workstream}")
+                else:
+                    workstream_positions.append(min(valid))
+            if len(workstream_positions) == 4 and workstream_positions != sorted(workstream_positions):
+                failures.append("close workstreams are not ordered lock, make, publish, ship")
+
+        if re.search(
+            r"\b(approve|review|sign[- ]off on)\s+(each|every|individual)\s+"
+            r"(post|cutdown|asset|format|video|workflow|calendar item)s?\b",
+            lower,
+        ):
+            failures.append("asks leadership to approve or review individual content items")
 
     forbidden = ["room", "real", *args.forbid_phrase]
     for phrase in forbidden:

@@ -63,6 +63,7 @@ Route from the approved decision record:
 |---|---|
 | Recurring campaign, channel, event, partnership, PR, or research program | `strategy/program-brief` |
 | Any launch strategy, GTM plan, launch backbone, drumbeat, or social brief | `marketing/gtm` |
+| 10- to 15-minute GTM approval deck for a launch content ecosystem | `marketing/gtm`, using its content-system approval-deck reference and the approved decision record |
 | Related copy sequence that should learn from human edits | `craft/compound-copywriting` |
 | Executive decision document | `strategy/one-pager` |
 

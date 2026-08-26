@@ -1,6 +1,6 @@
 {
   "skill": "gtm",
-  "version": 3,
+  "version": 4,
   "cases": [
     {
       "id": "interview-before-draft",
@@ -109,6 +109,22 @@
         "Separate the hero UVP, mechanism, reason to believe, and proof",
         "Record verified pricing facts once without centering them",
         "Do not turn the strategy discussion into a measurement plan"
+      ]
+    },
+    {
+      "id": "content-system-approval-deck",
+      "task": "Build a 15-minute leadership approval deck for a launch content ecosystem. The approved strategy includes a hero film; product-led demonstrations; repeatable brand formats; proof, education, and editorial support; and the CTA 'Start with the product.' The approved production mandate covers launch day and the first three full weeks: one hero film, three product demonstrations, three brand-format installments, three proof or education releases, and one editorial explainer, plus necessary channel adaptations. The approved weekly mix is Monday product demonstration, Wednesday brand format, and Friday proof or education. One verified example is: request a homepage update, change the approved headline, and return the published page. The exact launch date, production owner, on-camera talent, second proof case, and two workflows remain open. Leadership should approve the complete system and production mandate while selecting only those open inputs.",
+      "expected_behavior": [
+        "State the exact system-level approval decision near the beginning and at the close",
+        "Explain the goal, approach, market jobs, and campaign phases before listing assets",
+        "Separate the hero film, product-led formats, brand-led formats, proof, education, and editorial by strategic job",
+        "Describe every example as a request or tension, an action, and a finished result",
+        "Translate the approved weekly role mix into literal calendar entries with no filler posts",
+        "Keep channel guidance shorter than the content system and adapt shared assets through copy and emphasis",
+        "Mark missing owners, talent, cases, dates, and workflows as open rather than inventing them",
+        "Count the six open selections consistently: date, owner, talent, proof case, workflow two, and workflow three",
+        "Close with atomic workstreams for what to lock, make, publish, and ship",
+        "Do not ask leadership to approve every individual post or cutdown"
       ]
     }
   ]
