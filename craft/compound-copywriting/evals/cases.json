@@ -1,6 +1,6 @@
 {
   "skill": "compound-copywriting",
-  "version": 1,
+  "version": 2,
   "cases": [
     {
       "id": "human-edit-becomes-project-instruction",
@@ -93,6 +93,196 @@
         "Returns a process plan instead of the email",
         "Blocks drafting on a scorecard interview",
         "Creates a learning record before any learning signal exists"
+      ]
+    },
+    {
+      "id": "recover-source-lines-before-generating",
+      "task": "Revise an iterative product website. Prior human-authored drafts and accepted edits contain several strong lines, but the current section has a gap.",
+      "expected_behavior": [
+        "Search the ruled drafts and accepted edits before generating replacements",
+        "Treat selected, restored, or explicitly praised language as protected",
+        "Use the human-edited document as authority for copy and structure while verified product sources retain authority over factual claims",
+        "Generate net-new language only for the remaining message gap",
+        "Preserve the operation behind accepted language rather than imitating its surface"
+      ],
+      "hard_failures": [
+        "Generates a full replacement before checking accepted source copy",
+        "Silently rewrites a selected or restored line",
+        "Treats all prior copy as equally canonical",
+        "Uses website copy to override a verified product, price, permission, security, or integration fact"
+      ]
+    },
+    {
+      "id": "one-conversion-job-per-web-section",
+      "task": "Audit a product homepage whose hero, how-it-works section, and audience section all explain the same organizational-adoption benefit in different words.",
+      "expected_behavior": [
+        "Assign each section one reader decision or objection",
+        "Identify the duplicated section job",
+        "Merge, cut, or reassign the duplicate instead of polishing three paraphrases",
+        "Preserve useful repetition only when it advances the reader"
+      ],
+      "hard_failures": [
+        "Rewrites all three sections without resolving duplication",
+        "Adds another explanatory section for the same claim",
+        "Applies the rule as a universal ban on message repetition across channels"
+      ]
+    },
+    {
+      "id": "product-promise-matches-artifact",
+      "task": "Review a use-case card whose headline says the product handled an urgent problem, while the supporting request only asks the product to generate a prompt for a later audit.",
+      "expected_behavior": [
+        "Compare the headline promise with the request, action, and resulting artifact",
+        "Flag that the example proves prompt generation rather than resolution",
+        "Narrow the promise or replace the example with a completed action",
+        "Keep the causal chain specific"
+      ],
+      "hard_failures": [
+        "Approves the transformation headline because it sounds compelling",
+        "Invents a completed result not present in the evidence",
+        "Confuses a plan or prompt with the underlying job being done"
+      ]
+    },
+    {
+      "id": "brand-promise-is-not-compliance-copy",
+      "task": "Review a product hero with a bold absolute promise that expresses the product's central ambition. The supporting page contains verified examples, while separate pricing, permission, and security details are still being finalized.",
+      "expected_behavior": [
+        "Classify the hero as a brand promise rather than an operational specification",
+        "Judge the promise on strategic truth, ownability, memorability, and product support",
+        "Preserve its force instead of adding edge-case qualifications",
+        "Keep verification gates on pricing, permissions, security, measured outcomes, integrations, and specific capabilities"
+      ],
+      "hard_failures": [
+        "Rejects the line solely because it is absolute",
+        "Adds compliance-style caveats to the public hero",
+        "Treats a broad brand promise as equivalent to an unsupported price or security claim",
+        "Uses the marketing standard to excuse fabricated operational facts"
+      ]
+    },
+    {
+      "id": "spoken-language-one-dominant-idea",
+      "task": "Draft a homepage section from a brief containing three benefits, internal jargon, and a request to make the headline punchier with a rule of three.",
+      "expected_behavior": [
+        "Choose the one reader decision the section must advance",
+        "Use common words and natural spoken syntax",
+        "Keep only supporting details that clarify or prove the dominant idea",
+        "Use a rule of three only if it sharpens the proposition",
+        "Read the copy aloud and preserve necessary detail instead of chasing arbitrary brevity"
+      ],
+      "hard_failures": [
+        "Cram all three competing benefits into the section",
+        "Use jargon or prestige diction to sound authoritative",
+        "Treat a rule of three as the idea",
+        "Apply an arbitrary word count that removes necessary meaning",
+        "Equate simple language with generic language"
+      ]
+    },
+    {
+      "id": "consequential-copy-finishing-controls",
+      "task": "Finish a consequential founder letter that contains an attributed quotation, an unclear requested action, and a same-day deadline.",
+      "expected_behavior": [
+        "Verify the quotation against its source",
+        "Make the intended reader action unmistakable",
+        "Read the letter aloud before approval",
+        "Use whatever distance and capable second review the deadline permits",
+        "Recommend direct conversation when immediate two-way coordination is the actual need"
+      ],
+      "hard_failures": [
+        "Send an unverified quotation because it sounds right",
+        "Leave the requested action implicit",
+        "Apply a two-page limit regardless of the letter's job",
+        "Delay the usable draft solely to perform process ceremony",
+        "Assume prose can replace an urgent two-way decision"
+      ]
+    },
+    {
+      "id": "interface-language-not-agent-abstraction",
+      "task": "Revise a three-step agent onboarding section that says 'hand it a task,' 'ask for a finished result,' and 'the work lands back in the channel.'",
+      "expected_behavior": [
+        "Replace outside-in agent abstractions with recognizable interface actions",
+        "Use the verbs a person would use in Slack or in the completed job",
+        "Keep the steps literal and short",
+        "Read the result aloud for natural speech"
+      ],
+      "hard_failures": [
+        "Preserves generated product diction because it is technically accurate",
+        "Replaces one vague abstraction with another",
+        "Adds a manifesto to a setup sequence"
+      ]
+    },
+    {
+      "id": "proof-inventory-prevents-repetition",
+      "task": "A homepage uses three audited internal workflows directly below the hero. A later outcome grid needs six internal examples and three beta-customer slots, and the brief requires new internal examples.",
+      "expected_behavior": [
+        "Inventory the approved workflows and their existing placements before drafting",
+        "Select fresh audited internal examples for the later grid",
+        "Leave the beta-customer slots explicit until approved evidence exists",
+        "Use each example where it proves the intended section job"
+      ],
+      "hard_failures": [
+        "Repeats the three above-the-fold examples in the breadth grid",
+        "Invents customer workflows to complete the layout",
+        "Uses logos where the section requires proof of completed work"
+      ]
+    },
+    {
+      "id": "transformation-card-requires-an-action",
+      "task": "Write a 'Turn X into Y' workflow card about an urgent account-security incident. The available user message only says that the account was hacked.",
+      "expected_behavior": [
+        "Reject the status statement as an incomplete product request",
+        "Retrieve an audited action and completed result or leave the card out",
+        "Make X the actual starting state and Y the verified completed outcome",
+        "Keep the request, action, and result causally aligned"
+      ],
+      "hard_failures": [
+        "Treats 'my account was hacked' as an executable ask",
+        "Invents remediation the source does not prove",
+        "Writes a dramatic transformation headline unsupported by the artifact"
+      ]
+    },
+    {
+      "id": "edited-card-defines-sibling-schema",
+      "task": "The human has edited the first five cards in a 12-card workflow library, including headline form, field order, prompt voice, and yellow highlights. Finish the next seven.",
+      "expected_behavior": [
+        "Inspect the current native document before drafting",
+        "Treat the edited cards as the schema for the remaining seven",
+        "Preserve label order, syntax, requested count, and intentional highlights",
+        "Adapt the content without copying the first five examples"
+      ],
+      "hard_failures": [
+        "Uses an older draft instead of the current document",
+        "Matches only the headline while changing the field schema",
+        "Drops the highlights as cosmetic",
+        "Returns fewer or more than seven cards"
+      ]
+    },
+    {
+      "id": "reference-site-architecture-not-imitation",
+      "task": "Model a product integrations page on a strong competitor page while keeping the target product's approved claims and conversion strategy.",
+      "expected_behavior": [
+        "Extract the competitor's conversion sequence and information architecture",
+        "Rebuild each section around the target reader's questions and approved evidence",
+        "Remove sections or copy density that do not earn a conversion job",
+        "Keep the target product's language, proof, and boundaries"
+      ],
+      "hard_failures": [
+        "Copies the competitor's sentence shapes or feature taxonomy",
+        "Keeps excessive content because the reference page is long",
+        "Imports unsupported competitor claims into the target page"
+      ]
+    },
+    {
+      "id": "activation-test-not-click-test",
+      "task": "Two homepage headlines are being tested for a product whose conversion goal is an activated team workspace, not a site visit.",
+      "expected_behavior": [
+        "Name activated workspaces as the primary decision metric",
+        "Use clicks and install starts only as diagnostics",
+        "Define the activation event and measurement window before launch",
+        "Avoid declaring a winner on a proxy that does not measure adoption"
+      ],
+      "hard_failures": [
+        "Selects the headline with the highest click-through rate by default",
+        "Leaves activation undefined",
+        "Claims conversion improvement without a downstream behavior measure"
       ]
     }
   ]

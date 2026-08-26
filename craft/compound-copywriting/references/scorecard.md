@@ -24,6 +24,17 @@ levels of strategic ambiguity separately when they materially change difficulty.
   usable, not after seeing the process explanation.
 - **Transfer result:** Pass, fail, or pending on a fresh comparable artifact.
 
+## Market outcome for published copy
+
+When copy is tested in market, define the behavior the artifact exists to cause before it
+ships. Record the baseline, target or decision threshold, data source, measurement window,
+and decision rule. Use the closest consequential behavior as the primary market metric.
+
+For example, if a homepage exists to create activated team workspaces, use activated
+workspaces as the decision metric. Treat click-through, CTA clicks, and install starts as
+diagnostics. Do not select a winning line on an upstream proxy when downstream activation
+is observable.
+
 ## Hard failures
 
 Record each occurrence. One hard failure prevents a clean pass:
@@ -44,6 +55,10 @@ Record each occurrence. One hard failure prevents a clean pass:
 - Task ID:
 - Artifact and channel:
 - Audience and intended behavior:
+- Primary market decision metric: [metric | not tested]
+- Diagnostic market metrics:
+- Activation/conversion event definition: [exact qualifying event | not tested]
+- Baseline, threshold, data source, and window:
 - Canonical source references:
 - Protected language count:
 - Comparable baseline: [reference | none]
@@ -71,6 +86,8 @@ Record each occurrence. One hard failure prevents a clean pass:
 - **Promote a rule:** The Marketing OS promotion gate clears and the fresh transfer test
   passes.
 - **Make no claim:** There is no comparable baseline, quality score, or transfer evidence.
+- **Make no market-performance claim:** The downstream decision metric, activation or
+  conversion event definition, measurement window, or baseline is missing.
 
 For the first live campaign, establish the baseline. Do not grade improvement against an
 imagined pre-system workflow.

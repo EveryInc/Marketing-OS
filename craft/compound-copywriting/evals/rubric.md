@@ -2,6 +2,10 @@
 
 Score each completed workflow out of 100.
 
+This rubric grades an executed workflow. A valid case manifest or retrospective case set proves
+structural coverage only; it does not prove that an agent followed the rules, that copy improved,
+or that the system compounded.
+
 ## Scored dimensions
 
 ### Human authorship and copy quality: 25
@@ -21,6 +25,7 @@ Score each completed workflow out of 100.
 - Meaningful edits are classified by operation rather than surface imitation.
 - Project-specific taste stays local.
 - The carry-forward instruction names its trigger, scope, decision, and boundary.
+- Human-edited repeated-unit structure and native emphasis survive in related units.
 
 ### Transfer and learning integrity: 20
 
@@ -45,6 +50,10 @@ Any hard failure prevents a pass:
 - Stores raw private copy or sensitive project material as reusable doctrine.
 - Claims improvement without a comparable baseline.
 - Returns process ceremony instead of the requested copy.
+- Fills a public proof slot with an unaudited workflow or repeats an example where a fresh
+  approved example was explicitly required.
+- Ignores the human-edited schema for sibling cards, including requested count or native
+  formatting.
 
 ## Passing bar
 

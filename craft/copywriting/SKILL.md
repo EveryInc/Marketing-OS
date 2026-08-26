@@ -38,14 +38,17 @@ runs before delivery. Cross-references `marketing-science/research/references/` 
 audits, synthesis methodology) rather than restating them.
 
 ### references/copywriting-line-rules.md
-Line-level copywriting rules (C1–C5) from the sample-messaging passes: no imitation
+Line-level copywriting rules (C1–C10) from the sample-messaging passes and the creative
+canon: no imitation
 compression, every pronoun needs a visible antecedent, the line must survive its own logic,
-generate for a kill rate, state the claim plain before styling it.
+generate for a kill rate, state the claim plain before styling it, match the promise to the
+artifact, keep brand promises out of compliance-copy register, write for the ear, make every
+rhetorical device earn its place, and give each copy unit one dominant job.
 
 ### references/failure-ledger.md
-The failure ledger — the recurring ways a draft breaks when verification is treated as a
-feature of some claims instead of the default for all claims, traced to one root cause, with
-the one-line test for any draft.
+The failure ledger—the recurring ways a draft breaks when operational facts are left
+unsupported or brand promises are weakened by the wrong verification standard, with the
+claim-classification test for any draft.
 
 ## When to invoke
 
@@ -79,5 +82,6 @@ editing, run scoring, and the Marketing OS learning loop.
 
 ## Status
 
-Reference skeletons are in place. Principles and antipatterns will be populated first;
-format and channel guidance will follow.
+Core principles, line rules, messaging discipline, and product-example guidance are active.
+Channel adaptation and most format-specific guidance remain scaffolding until their references
+are populated.

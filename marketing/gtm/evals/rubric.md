@@ -9,6 +9,8 @@ Score each completed artifact out of 100.
 - Leads with a specific goal, tension, and point of view.
 - Defines a campaign mechanism that directs action.
 - Explains the launch through a causal backbone.
+- For a content-system approval deck only, states the exact decision and separates system approval from the
+  few remaining selections.
 
 ### Source fidelity: 25
 
@@ -24,9 +26,13 @@ Score each completed artifact out of 100.
 
 ### Operational usefulness: 15
 
-- Provides an executable sequence and dated drumbeat.
+- For a master GTM plan or drumbeat, provides an executable sequence and dated
+  drumbeat. For a content-system approval deck, translates the approved cadence and
+  leaves unresolved dates visibly open.
 - Includes owners and dependencies when useful.
 - Identifies required copy, design, build, and QA surfaces.
+- For a content-system approval deck only, uses literal calendar entries, preserves the approved content-role mix, and closes with
+  atomic workstreams for what to lock, make, publish, and ship.
 
 ### Voice and compression: 10
 
@@ -55,6 +61,12 @@ Any hard failure prevents a pass:
 - Uses banned “room” shorthand.
 - Routes a launch to a second GTM skill instead of `marketing/gtm`.
 - Applies the flagship L/XL timeline, roster, or approval gates to an S/M launch.
+- For a content-system approval deck only, produces an asset inventory without stating the system-level approval decision.
+- For a content-system approval deck only, uses vague internal shorthand in a publishing calendar when the source supplies the
+  actual asset, workflow, or audience action.
+- For a content-system approval deck only, invents an owner, cast member, location, customer, workflow, or date to fill a deck.
+- For a content-system approval deck only, makes leadership approve individual posts when the requested decision is approval of
+  the content system and production mandate.
 
 ## Passing bar
 

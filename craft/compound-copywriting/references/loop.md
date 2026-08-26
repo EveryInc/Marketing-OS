@@ -8,15 +8,27 @@ learning from evidence already created during drafting and review.
 Build a compact copy contract:
 
 - **Job:** What must the reader think, feel, or do?
+- **Dominant idea:** What is the one proposition this copy unit must carry?
 - **Audience:** Who is making that decision, in this context?
 - **Authority:** Which sources own product truth, strategy, evidence, voice, structure,
   canonical copy, approval, and publication?
 - **Protected language:** Which words must survive exactly?
+- **Source recovery:** Which ruled drafts, accepted edits, and human-authored lines already
+  contain language worth protecting?
+- **Evidence inventory:** Which approved examples are available, what does each one prove,
+  and where has each already been used?
+- **Pattern authority:** Which human-edited card, section, or repeated unit defines the
+  field order, syntax, count, and native formatting for its siblings?
+- **Decision metric:** Which reader behavior determines success? Prefer the downstream
+  behavior the page exists to cause over an easy proxy.
 - **Scope:** What may change, and what remains untouched?
 - **Transfer target:** Which fresh, comparable artifact will show whether the learning
   travels?
 
 Record the start time and whether a comparable baseline exists. Do not invent a baseline.
+When prior project copy exists, search it before generating replacements. A line selected,
+restored, or explicitly praised by the human becomes protected language for the current
+project unless the human later reopens it.
 
 ## 2. Write
 
@@ -28,8 +40,39 @@ Use `craft/copywriting` and the relevant channel skill.
 4. Remove known failures before presenting options.
 5. Label unresolved facts and hypotheses instead of laundering them into confident copy.
 6. Preserve every supplied protected line.
+7. Generate net-new language for actual message gaps, not as a substitute for recovering
+   accepted language already present in the source set.
+8. Separate brand promises from operational claims. A broad or absolute promise is not an
+   unresolved fact merely because edge cases exist. Preserve its force when it is ownable,
+   directionally true, and supported by the product's central mechanism. Verify prices,
+   permissions, security behavior, integration counts, measured outcomes, and specific
+   capabilities as operational facts.
+9. Use natural, spoken language and common words. Default to short sentences and
+   paragraphs, but never compress away necessary meaning or enforce a universal headline
+   length.
+10. Give each unit one dominant idea. Supporting detail must clarify, prove, or advance
+    that idea rather than introduce another message.
+11. Use drama, wit, repetition, contrast, threes, familiar-phrase twists, or an unusual
+    point of view only when the device sharpens a verified proposition or observed truth.
+12. Use product language a person would say or do in the interface. Replace generated
+    abstractions such as “hand it a task” or “ask for a result” with the actual behavior:
+    tag it with a job, correct the work, open the pull request, or place the order.
+13. In a repeated set, preserve the human-edited exemplar's semantic roles, order, count,
+    syntax, and native emphasis. Adapt the content; do not normalize the pattern away.
+14. Allocate proof deliberately. When a later section must demonstrate breadth, use fresh
+    approved examples rather than recycling the receipts that already established belief.
+15. Treat competitor pages as evidence about conversion architecture, not as a word count,
+    section count, or surface-copy template.
 
 Present a deliberate set, not raw volume. State which options are strongest and why.
+
+Before presenting consequential copy:
+
+1. Read it aloud and edit any line that sounds written rather than spoken.
+2. Verify quotations and operational claims against their sources.
+3. Confirm that the intended reader action is unmistakable.
+4. When timing permits, create distance before the final pass and ask a capable colleague
+   to improve it. Treat these as finishing controls, not reasons to delay a usable draft.
 
 ## 3. Judge
 

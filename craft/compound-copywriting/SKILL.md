@@ -33,6 +33,11 @@ Before drafting, resolve from supplied sources:
 4. Format, channel, destination, and final approver.
 5. The next comparable artifact that can test transfer.
 
+For an iterative product website, also resolve the page map, the conversion job of every
+section, the approved proof inventory, blocked operational claims, the governing repeated
+unit or card pattern, and the behavior that determines whether the copy worked. Load
+`references/product-websites.md` before drafting or revising the site.
+
 Ask only for a missing decision that changes the work. Do not require a retrospective or
 scorecard interview before producing the deliverable.
 
@@ -62,6 +67,13 @@ Load `references/loop.md` and execute the six stages:
 
 The original edited artifact demonstrates correction. The fresh artifact demonstrates
 transfer. Do not claim that the system learned until the transfer check passes.
+
+For product websites, treat the current human-edited document as canonical for copy,
+structure, formatting, and protected language. Governing GTM, positioning, product,
+security, pricing, and integration sources still own factual truth. Recover approved
+language before generating, map one conversion job to each section, and allocate verified
+receipts across the page before polishing any line. Do not solve a missing proof point with
+generic copy, an unrelated logo row, or a repeated example.
 
 ## Use two learning speeds
 
@@ -124,6 +136,13 @@ compounding.
 - `positioning/{relevant brand}` (loaded dynamically)
 - The relevant channel skill
 
+## Routed references
+
+- Related copy sequence and learning loop → `references/loop.md`
+- Iterative product homepage, workflows, integrations, or pricing copy →
+  `references/product-websites.md`
+- Revision burden and transfer measurement → `references/scorecard.md`
+
 ## Status
 
 Beta until live use establishes a comparable baseline and passes at least one fresh
@@ -138,3 +157,7 @@ transfer test. Use with human review and preserve the run evidence needed to eva
 - [ ] Did a fresh artifact test transfer?
 - [ ] Are revision rounds and hard failures measured honestly?
 - [ ] Did durable promotion clear the learning and knowledge-boundary gates?
+- [ ] For a product website, does every section have a distinct conversion job and an
+      approved proof source?
+- [ ] Do repeated units follow the human-edited exemplar in copy role, field order, count,
+      and native formatting?

@@ -62,6 +62,11 @@ The decision record is the contract between stages. Every downstream artifact na
 version it inherited and the decision IDs it preserved. A source conflict remains open
 until the named owner decides it.
 
+When the requested artifact is a 10- to 15-minute approval deck for a launch content
+ecosystem, route through `marketing/gtm` and its content-system approval-deck reference.
+The deck approves the system, production mandate, and remaining inputs; it does not
+reconstruct the strategy or ask leadership to approve every post.
+
 ## Run the path
 
 Follow `../../foundation/marketing-os/references/golden-path.md`. It owns the stage
