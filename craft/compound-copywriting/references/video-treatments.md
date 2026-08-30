@@ -71,6 +71,30 @@ when it reveals character, advances the story, sharpens the product mechanism, o
 off a setup. Preserve odd specifics, parentheticals, fragments, and visual asides selected
 by the human; smoothing them often removes the voice.
 
+## Build repeatable short-form series
+
+A recurring brand format needs a repeatable structure, not merely a shared title. Define
+what repeats before writing individual episodes:
+
+1. The branded opening or recurring frame.
+2. The character behavior that creates the premise.
+3. The kind of ordinary request that triggers the catchphrase or turn.
+4. The visible product action and completed result.
+5. An end card that turns the character's line into an audience action.
+
+Vary the cast, request, workflow, result, setting, and character details. Keep the engine,
+product role, and CTA recognizable enough for the audience to learn the format.
+
+In a 10- to 15-second film, establish the world and show the product at the same time when
+the campaign requires an immediate product reveal. Let wardrobe, props, location,
+performance, silence, and reaction carry character so the dialogue can stay sparse. A
+brief ignored request, repeated question, or delayed response may earn the punchline more
+efficiently than another explanatory line.
+
+Do not repeat an internal catchphrase mechanically on the end card. When the phrase can
+become an instruction, shift it from the character's point of view to the viewer's and
+pair it with the approved product action and offer.
+
 ## Make the strategy visible
 
 Do not rely on the closing voice-over to explain the strategic idea. If the promise is
@@ -86,6 +110,11 @@ timecodes. Account for pauses, reaction shots, product comprehension, supers, an
 card. A dense paragraph cannot occupy a two-second beat merely because the table says it
 does.
 
+If two elements share a time range, state that they happen simultaneously. Otherwise,
+give each beat its own non-overlapping range. Budget silent performance, entrances,
+repeated questions, screen reading, and end-card comprehension as action even when they
+add no spoken words.
+
 When the script runs long, protect the engine, setup, causal proof, callback, and CTA.
 Cut repeated explanation and redundant examples before cutting the detail that makes a
 scene intelligible or funny.
@@ -98,6 +127,8 @@ scene intelligible or funny.
 - [ ] Product claims are proven through visible request, action, and result
 - [ ] The strategic mechanism happens on screen before it is explained
 - [ ] Recurring jokes have a setup, escalation, and payoff
+- [ ] A recurring format defines which beats stay fixed and which elements change
+- [ ] Short-form dialogue leaves enough time for performance and product comprehension
 - [ ] Supers add meaning or humor instead of repeating the dialogue
 - [ ] A read-through confirms that the script fits the stated runtime
 - [ ] The CTA and operational offer match the current approved source

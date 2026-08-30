@@ -86,6 +86,11 @@ Give the hero film its own slide. Give each recurring format a short slide or co
 card that states the premise, action, product reveal, and repeatable variation. A title
 is not an idea. An unfamiliar reader should understand what happens on screen.
 
+For a recurring short-form series, define its repeatable skeleton: branded opening,
+character or tension, trigger, product proof, and CTA. Then name the variables that make
+new episodes possible, such as cast, setting, workflow, result, and props. The first
+treatment should prove the format can repeat rather than consume its only good joke.
+
 Keep the approval concept and production treatment distinct. The approval slide locks the
 film's strategic tension, story or comic engine, product mechanism, proof mandate, CTA,
 and production constraints. After approval, route the film through
@@ -187,6 +192,7 @@ idea, the deck arrived before the strategy was ready.
 - [ ] The hero film, product-led formats, and brand-led formats are distinct
 - [ ] The hero film has one story or comic engine and a clear route from approval concept
       to timed production treatment
+- [ ] Every recurring series identifies its fixed skeleton and useful episode variables
 - [ ] Proof, education, and editorial each have an explicit job
 - [ ] Every example states request, action, and result
 - [ ] Every calendar cell is literal, sequenced, and justified

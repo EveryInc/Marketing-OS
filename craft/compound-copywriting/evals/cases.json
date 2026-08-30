@@ -303,6 +303,27 @@
         "Removes the protected joke or supers as unnecessary copy",
         "Assigns a dense closing paragraph to a two-second beat"
       ]
+    },
+    {
+      "id": "repeatable-fifteen-second-brand-series",
+      "task": "Write the first 15-second installment of a recurring character-led brand series. The campaign requires the product in the opening seconds, one verified workflow, a finished result, a recurring catchphrase, and a conversion CTA. The human wants very few spoken lines and very little action.",
+      "expected_behavior": [
+        "Define a repeatable opening, character premise, trigger, product proof, and CTA",
+        "Show the product while establishing the series world instead of spending the opening on exposition",
+        "Use wardrobe, props, setting, silence, or reaction to carry character with little dialogue",
+        "Earn the catchphrase through one short setup or delayed response",
+        "Show one specific request and completed result",
+        "Turn the character's catchphrase into an audience-facing action on the end card when the phrase permits it",
+        "Use explicit simultaneous or non-overlapping time ranges and leave time for screen comprehension"
+      ],
+      "hard_failures": [
+        "Writes a one-off joke with no repeatable episode structure",
+        "Hides the product until the final seconds",
+        "Explains the character premise through several spoken lines",
+        "Repeats the title on the end card without a product action",
+        "Uses overlapping timecodes without stating that the action is simultaneous",
+        "Fits entrances, pauses, repeated questions, product reading, and an end card into implausible time ranges"
+      ]
     }
   ]
 }

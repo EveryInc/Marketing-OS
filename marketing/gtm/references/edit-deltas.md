@@ -36,6 +36,9 @@ examples.
   timed beats, exact spoken copy, visible action, production notes, and an honest runtime.
 - Give a hero film one story or comic engine. Put product proof inside the character beat
   and make the strategic mechanism happen on screen before the closing line explains it.
+- Give a recurring brand series a fixed engine and variable episodes. In very short films,
+  use performance, props, setting, and silence to carry character while the product stays
+  visible and the spoken copy stays sparse.
 - Write proof as request, action, and result. Explain causal links and retrieve missing
   facts instead of replacing them with mystery language.
 - Never use “real” as credibility filler. Name the exact fact or outcome.
