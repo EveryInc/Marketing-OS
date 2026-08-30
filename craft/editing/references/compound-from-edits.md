@@ -18,6 +18,8 @@ Human edits are evidence about the system, not cleanup to be absorbed silently.
    - Added specificity or cultural texture.
    - Active voice or sharper prose.
    - Better structure or hierarchy.
+   - Treatment correction: story engine, character, visual action, product proof,
+     callback, runtime, or production feasibility.
    - Stronger evidence.
    - Clearer ownership or measurement.
    - Formatting or native-document preservation.
@@ -56,6 +58,9 @@ phrases, deliberate provocations, and terms the team has chosen to own.
 - Do not rewrite the whole artifact while extracting the lesson.
 - Do not convert a project-specific preference into a universal rule.
 - Do not infer that every deletion is a general ban; determine the reason.
+- Do not reduce a treatment rewrite to line edits. Separate changes to the story engine,
+  spoken copy, visible action, proof, humor, timing, and shootability before extracting a
+  rule.
 - Preserve disagreement and unresolved choices as project context, not doctrine.
 - Do not add strategic categories merely to fill a layout. Add evidence, examples,
   behaviors, or proof under the smallest complete set of categories.

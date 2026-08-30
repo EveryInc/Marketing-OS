@@ -38,6 +38,11 @@ section, the approved proof inventory, blocked operational claims, the governing
 unit or card pattern, and the behavior that determines whether the copy worked. Load
 `references/product-websites.md` before drafting or revising the site.
 
+For a scripted marketing video, resolve the strategic tension, story or comic engine,
+runtime, cast, verified product receipts, required product capture, CTA, and production
+constraints. Load `references/video-treatments.md` before drafting or revising the
+treatment.
+
 Ask only for a missing decision that changes the work. Do not require a retrospective or
 scorecard interview before producing the deliverable.
 
@@ -141,6 +146,8 @@ compounding.
 - Related copy sequence and learning loop → `references/loop.md`
 - Iterative product homepage, workflows, integrations, or pricing copy →
   `references/product-websites.md`
+- Launch film, product video, brand film, or scripted video treatment →
+  `references/video-treatments.md`
 - Revision burden and transfer measurement → `references/scorecard.md`
 
 ## Status
@@ -161,3 +168,5 @@ transfer test. Use with human review and preserve the run evidence needed to eva
       approved proof source?
 - [ ] Do repeated units follow the human-edited exemplar in copy role, field order, count,
       and native formatting?
+- [ ] For a video treatment, are story, spoken copy, visible action, product proof, and
+      runtime independently judgeable?

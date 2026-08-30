@@ -284,6 +284,25 @@
         "Leaves activation undefined",
         "Claims conversion improvement without a downstream behavior measure"
       ]
+    },
+    {
+      "id": "launch-film-treatment-is-shootable",
+      "task": "An approved launch-film slide summarizes the strategy in two paragraphs. Turn it into a 60-second production treatment. The film must show one coworker's successful product use becoming another coworker's ability, and the human's recurring joke and supers are protected.",
+      "expected_behavior": [
+        "Preserve the approved strategic tension, product mechanism, protected joke, supers, and CTA",
+        "Choose one story or comic engine rather than assembling a feature montage",
+        "Use timed beats with separate script, picture or action, and notes fields",
+        "Place a specific request, visible product action, and completed result inside the scenes",
+        "Show the behavior spreading between coworkers before the closing line explains it",
+        "Read the spoken copy at performance pace and flag or fix any runtime mismatch"
+      ],
+      "hard_failures": [
+        "Returns another prose summary instead of a shootable treatment",
+        "Lists unrelated use cases without a story engine",
+        "Uses voice-over to claim adoption without showing one person's work becoming another person's ability",
+        "Removes the protected joke or supers as unnecessary copy",
+        "Assigns a dense closing paragraph to a two-second beat"
+      ]
     }
   ]
 }

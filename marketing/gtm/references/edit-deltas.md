@@ -32,6 +32,10 @@ examples.
   propagate the decision through the authorized scope.
 - Preserve parentheticals, fragments, jokes, and rough one-two-punch language when they
   carry the idea or make it producible.
+- Distinguish an approval-level film concept from a shootable treatment. The latter needs
+  timed beats, exact spoken copy, visible action, production notes, and an honest runtime.
+- Give a hero film one story or comic engine. Put product proof inside the character beat
+  and make the strategic mechanism happen on screen before the closing line explains it.
 - Write proof as request, action, and result. Explain causal links and retrieve missing
   facts instead of replacing them with mystery language.
 - Never use “real” as credibility filler. Name the exact fact or outcome.

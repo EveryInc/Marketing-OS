@@ -63,6 +63,9 @@ Use `craft/copywriting` and the relevant channel skill.
     approved examples rather than recycling the receipts that already established belief.
 15. Treat competitor pages as evidence about conversion architecture, not as a word count,
     section count, or surface-copy template.
+16. For a scripted video, begin with one story or comic engine and use the timed treatment
+    schema in `video-treatments.md`. Put the product receipt inside the scene instead of
+    attaching a feature demo to an otherwise unrelated joke.
 
 Present a deliberate set, not raw volume. State which options are strongest and why.
 
@@ -88,6 +91,8 @@ When the human edits, rejects, selects, or restores language:
    - Protected-language restoration.
    - Specificity or cultural texture.
    - Structure, hierarchy, or channel fit.
+   - For video: story engine, character, visual action, product proof, comic payoff,
+     runtime, or production feasibility.
    - Voice, rhythm, grammar, or economy.
    - One-off taste decision.
 5. Explain the operation behind the change. Do not merely imitate the new length,

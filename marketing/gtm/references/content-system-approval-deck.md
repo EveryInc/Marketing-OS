@@ -86,6 +86,13 @@ Give the hero film its own slide. Give each recurring format a short slide or co
 card that states the premise, action, product reveal, and repeatable variation. A title
 is not an idea. An unfamiliar reader should understand what happens on screen.
 
+Keep the approval concept and production treatment distinct. The approval slide locks the
+film's strategic tension, story or comic engine, product mechanism, proof mandate, CTA,
+and production constraints. After approval, route the film through
+`craft/compound-copywriting/references/video-treatments.md` and build a timed beat table
+with separate fields for script, picture/action, and notes. Do not expand the approval
+deck into a screenplay or treat its paragraph summary as a shootable treatment.
+
 Separate the brand film from the proof library. The brand film makes the idea memorable;
 product and proof formats make the offer credible. Every product clip should prove one
 claim rather than tour several features.
@@ -178,6 +185,8 @@ idea, the deck arrived before the strategy was ready.
 - [ ] Goal, approach, and jobs to be done perform different strategic roles
 - [ ] Campaign phases precede the asset inventory
 - [ ] The hero film, product-led formats, and brand-led formats are distinct
+- [ ] The hero film has one story or comic engine and a clear route from approval concept
+      to timed production treatment
 - [ ] Proof, education, and editorial each have an explicit job
 - [ ] Every example states request, action, and result
 - [ ] Every calendar cell is literal, sequenced, and justified

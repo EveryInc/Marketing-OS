@@ -67,6 +67,13 @@ ecosystem, route through `marketing/gtm` and its content-system approval-deck re
 The deck approves the system, production mandate, and remaining inputs; it does not
 reconstruct the strategy or ask leadership to approve every post.
 
+When an approved hero-film concept becomes a production treatment, route through
+`craft/compound-copywriting` and its video-treatment reference. Preserve the decision
+record's strategic tension, product mechanism, proof mandate, protected language, CTA,
+and constraints. Let the treatment solve character, scenes, visual action, humor, and
+timing without reopening the strategy. Record meaningful human changes by those
+operations, not by surface word count.
+
 ## Run the path
 
 Follow `../../foundation/marketing-os/references/golden-path.md`. It owns the stage

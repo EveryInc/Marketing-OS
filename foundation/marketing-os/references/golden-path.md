@@ -65,6 +65,7 @@ Route from the approved decision record:
 | Any launch strategy, GTM plan, launch backbone, drumbeat, or social brief | `marketing/gtm` |
 | 10- to 15-minute GTM approval deck for a launch content ecosystem | `marketing/gtm`, using its content-system approval-deck reference and the approved decision record |
 | Related copy sequence that should learn from human edits | `craft/compound-copywriting` |
+| Approved launch-film concept becoming a production treatment | `craft/compound-copywriting`, using its video-treatment reference while preserving the inherited strategic tension, proof mandate, CTA, and protected language |
 | Executive decision document | `strategy/one-pager` |
 
 Every downstream artifact must cite the decision-record version it inherited. Preserve
@@ -76,6 +77,11 @@ decision must be restored, approved as a new decision, or left visibly unresolve
 
 **Human gate:** The named approver accepts the exact artifact version. Record substantial
 edits instead of absorbing them silently.
+
+For treatments, compare human edits by operation rather than word count: story engine,
+character, visual action, product proof, humor, runtime, and production feasibility. A
+longer treatment may be a sharper execution when it replaces abstract exposition with
+shootable beats.
 
 ## 3. Market to memory
 
