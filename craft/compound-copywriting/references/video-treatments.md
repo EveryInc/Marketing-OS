@@ -42,6 +42,10 @@ An approval-deck mini-treatment may summarize the premise and mandate. Once the 
 is approved, replace that summary with the timed production treatment. Do not present a
 paragraph as a finished treatment.
 
+Identify an unfamiliar character at first appearance with a brief super that explains
+why the audience should care about them. Do not make an external viewer decode an
+internal org chart before the scene works.
+
 ## Put proof inside the scene
 
 Every product beat must show the causal chain:
@@ -70,6 +74,11 @@ Do not add interchangeable jokes after the treatment is written. A joke earns it
 when it reveals character, advances the story, sharpens the product mechanism, or pays
 off a setup. Preserve odd specifics, parentheticals, fragments, and visual asides selected
 by the human; smoothing them often removes the voice.
+
+A treatment may retain a small number of production options when each expresses the same
+behavior and one option is meaningfully stranger, sharper, or easier to shoot. Phrase the
+choice concretely enough for the director to select. Do not use open-ended options to
+avoid deciding what the scene means.
 
 ## Build repeatable short-form series
 
@@ -126,6 +135,12 @@ For a 10- to 15-second comedy treatment, a useful rhythm is:
 
 Do not force all five into separate shots. Several can happen simultaneously when the
 picture is doing enough work.
+
+Use parallel action to buy time. Product proof can begin under the title card or while
+the human setup is still escalating, as long as the audience can track both. Give the
+character a visible emotional progression—effort, expectation, frustration, defeat,
+relief, or another deliberate sequence—rather than repeating one reaction for the full
+scene.
 
 ### Use one visual idea to connect both halves
 
