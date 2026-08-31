@@ -95,71 +95,55 @@ Do not repeat an internal catchphrase mechanically on the end card. When the phr
 become an instruction, shift it from the character's point of view to the viewer's and
 pair it with the approved product action and offer.
 
-### Expert-as-agent comedy
+### Build short-form comedy from a human truth
 
-When a short-form series dramatizes one coworker's expertise becoming available through
-an agent, build every episode around the same human truth: companies keep interrupting
-the few people who know how to do an important job. The expert is the aspirational
-character. The agent distributes the skill and gives that person relief from being the
-company bottleneck.
+Start with a recognizable human behavior, frustration, or status game rather than a
+feature to demonstrate. Before writing, decide:
 
-Use one fixed four-beat rhythm:
+1. The human truth the audience will recognize without explanation.
+2. Which character the audience should identify with or envy.
+3. The product benefit that changes that character's situation.
+4. The comic engine that can repeat across episodes.
 
-1. A coworker asks the expert for help with a substantial, recognizable job.
-2. The expert behaves like inaccessible talent and delivers the recurring catchphrase.
-3. The coworker invokes a verified skill the expert created or shaped.
-4. The audience sees the completed deliverable, then the recurring end card.
+The joke should explain the product before the interface does. Use wardrobe, props,
+location, blocking, performance, silence, and reaction to establish the characters and
+their status. Product UI is the receipt, not the premise.
 
-Earn the catchphrase instead of dropping it into the scene. A first request may be
-ignored; a second can add urgency before the expert finally answers. After the product
-delivers, let the coworker acknowledge that the skill worked and give the expert the
-final callback, even from off screen. This closes the joke and keeps the expert, rather
-than the person borrowing the skill, as the aspirational character.
+### Earn the turn and the callback
 
-The joke must explain the product before the interface does. Props, wardrobe, location,
-and performance establish the expert's exaggerated status. Product UI is the receipt,
-not the premise.
+A catchphrase, reveal, or product turn needs pressure before it lands. A first attempt
+may fail or be ignored; a second can add urgency; the product then changes the situation.
+After the result, use a reaction or callback to close the joke and reinforce which
+character the audience should remember.
 
-Choose the job with three gates:
+For a 10- to 15-second comedy treatment, a useful rhythm is:
 
-- The expert's skill or method exists in an approved source; do not invent ownership.
-- Another person can use it without pulling the expert into the work.
-- The output is substantial enough to create envy or relief: a wireframe, redlined
-  contract, launch workback, customer-ready workshop, shipped pull request, or comparable
-  finished deliverable. Small lookups, summaries, and routine monitoring rarely carry a
-  15-second hero episode.
+1. Establish the problem and character relationship.
+2. Escalate once.
+3. Deliver the turn or catchphrase.
+4. Show the product action and completed result.
+5. Pay off the scene with a callback or end card.
 
-The benefit that should stick is not generic automation. It is that the company's best
-people no longer need to be available for everyone to benefit from what they know.
+Do not force all five into separate shots. Several can happen simultaneously when the
+picture is doing enough work.
 
-### Paired-contrast comedy
+### Use one visual idea to connect both halves
 
-When a short-form series explains the product through an "it cannot do this, but it can
-do that" contrast, the two halves must share one plain-language idea. The contrast is not
-a license to place a random physical gag beside a random product feature. A semantic
-bridge such as keys/files, personal memory/company memory, or physical repair/workflow
-repair should make the payoff immediate.
+When a script uses contrast, comparison, before-and-after, or split screen, both halves
+must share one plain-language idea. Do not place a random physical gag beside a random
+product feature. The semantic bridge should make the payoff immediate.
 
-Use a fixed parallel structure:
+Escalate the human side through specific behavior and a final reveal. On the product
+side, show request, action, and result. Let the picture prove the relationship before
+supers explain it. Use one product promise per episode, and close on the audience benefit
+rather than a generic category claim.
 
-1. Open on the product lockup while product work is already visible.
-2. Establish a physical problem the product obviously cannot solve.
-3. Use split screen or matched cutting to escalate the human failure while the product
-   completes the workplace version of the same job.
-4. Reveal the physical punchline only after the product result is clear.
-5. State the contrast in two short supers, then close on one benefit and the current
-   approved offer.
+### Choose proof with stakes
 
-The human half should work without dialogue when the behavior is visually legible. Use
-specific, increasingly absurd actions and a final reveal rather than explanatory copy.
-The product half should use approved workflows and show request, action, and result. A
-sequence of different teammates asking for related jobs can prove that the agent works
-across the company, but every example must stay readable inside the runtime.
-
-Choose one product promise per episode. The "can" side must be a specific ability the
-audience wants, not a vague category such as "fix your workflows." The "cannot" side
-must be cheap to understand, easy to shoot, and naturally linked to that promise. Let the
-picture prove the joke before the supers explain it.
+Select a verified product action that produces a substantial, legible result. The output
+should create envy, relief, surprise, or recognition when it appears on screen. Small
+lookups, generic summaries, and routine monitoring rarely carry a short hero treatment.
+Do not invent who created a method, what the product did, or whether the result shipped.
 
 ## Make the strategy visible
 
