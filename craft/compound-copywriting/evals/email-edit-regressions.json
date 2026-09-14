@@ -1,0 +1,14 @@
+{
+  "type": "manual editorial regression checklist",
+  "cases": [
+    {"id": "benefit-not-job-description", "check": "The subject promises a valued gain or avoided failure beyond the audience's ordinary job description."},
+    {"id": "plain-actionable-story", "check": "Each example identifies a request, action, and useful result without an implementation detour or abstract moral."},
+    {"id": "no-invented-completion", "check": "A recommendation or draft has not become a deployed fix, sent message, measured speed, or unlimited entitlement without evidence."},
+    {"id": "fresh-proof", "check": "Examples match the function, count, and rotation ruling; replacing names on the same repeated use case does not establish breadth."},
+    {"id": "no-opening-bullet-duplicate", "check": "The first bullet does not retell the opening's complete story."},
+    {"id": "adjacent-word-echo", "check": "Edits have been read with adjacent sentences; accidental prominent-word repetition is removed without forced synonyms or erasing intentional rhythm."},
+    {"id": "segment-and-lifecycle", "check": "Audience, entry, exclusion, offer, CTA, and exit are explicit; existing members and users are not treated as new prospects."},
+    {"id": "voice-and-authorship", "check": "Human-selected subjects, humor, brand language, and sender survive unless the human reopens them."},
+    {"id": "authorized-review-surface", "check": "Output stays within the requested channel and batch size; named editorial review has actually run before it is claimed."}
+  ]
+}

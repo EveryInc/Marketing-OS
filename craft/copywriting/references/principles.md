@@ -53,14 +53,59 @@ Marketing OS. These standards govern the writing. Channel skills still govern th
   two-way coordination, use a direct conversation instead of expecting prose to do the
   whole job.
 
+## Desire and distinctiveness
+
+- Start with the reader's desired change and the obstacle to it. Look for ambition,
+  relief, competence, belonging, pleasure, or a recognizable irritation in the evidence;
+  do not invent a psychological diagnosis or agitate a fear the brief does not support.
+- Find the interesting product truth. The unusual detail, surprising demonstration,
+  useful concession, or specific human behavior should do more work than adjectives.
+- Give the benefit a reason to be believed. Connect what the product does to why this
+  reader would want it. Proof and desire must concern the same job.
+- Make the opening a proposition worth noticing. Product news, a relevant tension, a
+  concrete benefit, an intriguing demonstration, or a sharp observation can each lead.
+  Mere announcement language earns the lead only when the announcement itself matters.
+- Choose a creative approach before polishing. Wit, emotion, or surprise must strengthen
+  the brand's argument. An accurate inventory can be dull; an entertaining line can sell
+  nothing. Check both relevance and expression.
+- Run the competitor test: if another brand could use the copy unchanged, identify the
+  missing point of view, product detail, human voice, or distinctive brand asset. Do not
+  invent uniqueness or claim that a shared capability is exclusive.
+- Let the reader complete an obvious inference. After a demonstrated outcome, remove a
+  sentence that only announces what it means. Add an explanation when the causal link is
+  unclear, an unfamiliar term needs definition, or an important objection remains.
+- Pair copy with the visual or artifact deliberately. Decide what each contributes;
+  do not narrate everything already visible. The brand must remain identifiable when
+  the work is shared outside its original context.
+
+## Proof that persuades
+
+- Select evidence for the reader's objection, not just because a number or famous name
+  is available. A comparable person's named task and result can be more useful than an
+  unrelated celebrity endorsement.
+- Distinguish independent customer testimony, internal use, demonstration, and
+  illustration. Identify the actor's relationship; never pass internal use off as
+  outside validation or an invented dialogue as an observed result.
+- Put the strongest relevant proof near the promise. Preserve request, action, and
+  result when those are necessary to understand the product. Add a measurement only
+  with its definition and evidence; do not turn a 12-second video into a 12-second
+  production-time claim.
+- Handle the objection that blocks the next action. Use plain offer and eligibility
+  terms, with any limitation that changes the decision. Do not invent urgency, scarcity,
+  savings, or risk reversal to fill a formula.
+
 ## Economy
 
 - Cut any word, sentence, proof point, or section that does not clarify the idea, make it
   more memorable, support belief, or move the reader toward the intended action.
+- When asked to shorten, first remove repeated setup, duplicate promises, generic
+  connective commentary, and secondary asks. Keep the distinctive observation and the
+  proof's causal detail. A requested percentage reduction belongs to that artifact.
 - Say one thing well. Resist the late request to "also mention" a second message unless it
   serves the first.
 - Length follows the job and channel. Do not turn Ogilvy's two-page limit for internal
-  memos into a universal rule for ads, essays, landing pages, or sales letters.
+  memos into a universal rule for ads, essays, landing pages, or sales letters. Do not
+  pad a complete argument with repeated benefits to reach a suggested word count.
 - For consequential work, build in distance before approval, then ask a capable colleague
   to improve it. A fresh read is part of the writing process, not cleanup after it.
 
@@ -74,7 +119,10 @@ Marketing OS. These standards govern the writing. Channel skills still govern th
 
 ## Source adaptation
 
-These rules adapt two practitioner references rather than copying them as universal laws:
+The persuasion additions are this system's synthesis of practitioner judgment, campaign
+analysis, and channel research, with sources and limits in `creative-canon.md`. They are
+not a set of laws attributed wholesale to Ogilvy or Bernbach. Earlier guidance also draws
+on these practitioner references:
 
 - David Ogilvy's 1982 internal memo, "How to Write," as reproduced by Farnam Street:
   https://fs.blog/david-ogilvy-10-tips-on-writing/

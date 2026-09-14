@@ -14,6 +14,13 @@ levels of strategic ambiguity separately when they materially change difficulty.
 
 ## Diagnostic metrics
 
+- **Strategic rebrief rate:** Share of artifacts that require the audience, promise,
+  offer, proof, or CTA to be reopened after drafting begins.
+- **Route correction rate:** Share of artifacts whose primary copy job or default reviewer
+  was changed by the human. Record the corrected route rather than treating the first
+  classification as success.
+- **Interview burden:** Number of interview turns before the brief supports a useful next
+  step. Exclude questions answered by sources that should have been read first.
 - **Time to approval:** Elapsed time from the first agent draft to human approval. Mark
   long inactive gaps rather than pretending they are production time.
 - **Protected-language survival:** Protected items preserved divided by protected items
@@ -22,6 +29,8 @@ levels of strategic ambiguity separately when they materially change difficulty.
   survives approval and does not require a wholesale strategic rewrite.
 - **Human quality score:** Final approver rates the artifact from 1 to 5 after the copy is
   usable, not after seeing the process explanation.
+- **Reviewer usefulness:** Whether the routed review produced a change the human accepted,
+  rejected, or judged unnecessary. Do not reward a reviewer for generating more edits.
 - **Transfer result:** Pass, fail, or pending on a fresh comparable artifact.
 
 ## Market outcome for published copy
@@ -54,6 +63,7 @@ Record each occurrence. One hard failure prevents a clean pass:
 
 - Task ID:
 - Artifact and channel:
+- Primary copy job and routed reviewer:
 - Audience and intended behavior:
 - Primary market decision metric: [metric | not tested]
 - Diagnostic market metrics:
@@ -62,12 +72,16 @@ Record each occurrence. One hard failure prevents a clean pass:
 - Canonical source references:
 - Protected language count:
 - Comparable baseline: [reference | none]
+- Interview turns: [count | skipped because brief complete]
+- Strategic rebrief required: [yes | no]
+- Route corrected by human: [yes, corrected route | no]
 - First draft timestamp:
 - Approval timestamp:
 - Material revision rounds:
 - First useful draft: [yes | no]
 - Protected-language survival: [preserved / supplied]
 - Human quality score: [1–5 | not yet scored]
+- Reviewer recommendation: [accepted | rejected | unnecessary | not run]
 - Hard failures: [none | list]
 - Project-local instruction:
 - Fresh transfer artifact:

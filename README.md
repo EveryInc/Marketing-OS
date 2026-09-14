@@ -99,8 +99,9 @@ Ready for structured use:
   as bounded agent roles while Douglas retains strategic and creative control
 - A Compound Marketing golden path with decision records, run records, cross-stage
   fidelity checks, and an explicit proof standard
-- Compound Copywriting beta that turns human edits into bounded project instructions,
-  tests transfer on fresh copy, and measures revision burden without automating taste
+- Compound Copywriting beta that interviews incomplete briefs, routes by persuasion job,
+  selects one copywriter review lens, turns human edits into bounded project instructions,
+  and tests transfer without automating taste
 
 Still in development:
 

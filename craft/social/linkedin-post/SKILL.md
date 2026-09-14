@@ -1,3 +1,8 @@
+---
+name: linkedin-post
+description: Draft LinkedIn brand, launch, and thought-leadership posts with a clear professional situation, distinctive point of view, and credible evidence.
+---
+
 # Social — LinkedIn Post
 
 Writes LinkedIn posts for product launches, thought leadership, and brand building.
@@ -20,10 +25,13 @@ Brand is resolved dynamically based on what invokes this skill.
 
 ## Channel-specific notes
 
-- Hook in the first 1–2 lines before the "see more" fold
-- Professional context but human tone — avoid LinkedIn-voice clichés
-- 1,300-character sweet spot for engagement; 3,000-character max
-
-## To do
-
-Populate with LinkedIn post guidance once social strategy work is complete.
+- Read `craft/copywriting/references/channel-adaptation.md` for social and measurement,
+  and `craft/copywriting/references/formats.md` for hooks.
+- Put a relevant professional situation, useful claim, or compelling artifact before
+  truncation. The expanded post must deliver on the opening.
+- Write in natural paragraphs. Avoid fabricated career anecdotes, one-sentence staircase
+  formatting, generic motivational conclusions, and stock questions added for engagement.
+- Choose the job: brand memory, useful discussion, proof, qualified traffic, or conversion.
+  Use an appropriate next action; not every organic post needs a sales ask.
+- Verify current account/format limits and preview the actual composition. There is no
+  established universal character-count sweet spot for conversion.

@@ -11,6 +11,16 @@ This skill produces emails for the free Every subscriber — the largest segment
 - When the brief mentions "newsletter," "free list," "the send," "Vibe Check," "Mini-Vibe Check," "Chain of Thought," "weekly send," "onboarding email," "drip," "welcome sequence," or "product launch email"
 - When the audience is any send to subscribers who have not yet upgraded to paid (main hello@every.to list)
 
+## How to use the historical patterns
+
+Read `craft/copywriting/references/channel-adaptation.md` with this skill. The subject
+patterns, structures, lengths, and CTA conventions below describe prior Every sends;
+use them as starting points. A current brief or human-selected line governs the draft.
+Do not enforce a historical formula at the expense of a better supported creative idea,
+pad to reach a length range, or copy example prices and product facts into a new campaign.
+Current positioning and offer sources own those facts. Judge a launch email by its
+intended action, not by resemblance to an editorial newsletter.
+
 ## Audience model
 
 The free subscriber is intelligent, sophisticated, and skeptical. They read Stratechery, Platformer, Lenny's, Not Boring. They've signed up for dozens of newsletters and stay subscribed to ten. They smell hype before they open. They like being treated as the analyst in the room, not the lead.

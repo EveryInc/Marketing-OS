@@ -64,6 +64,7 @@ Route from the approved decision record:
 | Recurring campaign, channel, event, partnership, PR, or research program | `strategy/program-brief` |
 | Any launch strategy, GTM plan, launch backbone, drumbeat, or social brief | `marketing/gtm` |
 | 10- to 15-minute GTM approval deck for a launch content ecosystem | `marketing/gtm`, using its content-system approval-deck reference and the approved decision record |
+| Open-ended copy assignment that needs brief discovery, copy-job routing, concept selection, or a named review lens | `craft/compound-copywriting` |
 | Related copy sequence that should learn from human edits | `craft/compound-copywriting` |
 | Approved launch-film concept becoming a production treatment | `craft/compound-copywriting`, using its video-treatment reference while preserving the inherited strategic tension, proof mandate, CTA, and protected language |
 | Executive decision document | `strategy/one-pager` |
