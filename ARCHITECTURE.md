@@ -187,13 +187,36 @@ All positioning skills load:
     craft/compound-copywriting
       - foundation/marketing-os
       - craft/copywriting
+      - craft/copywriting-interview (when the brief is incomplete)
+      - craft/copywriting-concept (when the creative approach is open)
+      - one job-matched reviewer: copywriting-ogilvy, copywriting-wieden,
+        copywriting-halbert, or copywriting-robinson
       - craft/editing
       - brand-voice/{relevant brand}
       - positioning/{relevant brand}
       - the relevant channel skill
-      Orchestrates Write → Judge → Learn → Test → Repeat. Human edits become bounded
-      project instructions immediately and durable doctrine only after a fresh transfer
-      test and the Marketing OS promotion gate.
+      Orchestrates Orient → Interview if needed → Brief → Route → Concept → Draft →
+      Review → Finalize. One reviewer is selected from the copy's primary persuasion job,
+      not its channel. When meaningful human edits exist, it adds Judge → Learn → Test →
+      Repeat; durable doctrine still requires a fresh transfer test and the Marketing OS
+      promotion gate.
+
+    craft/copywriting-interview
+      - craft/compound-copywriting
+      Establishes only the missing parts of a commercial copy brief.
+
+    craft/copywriting-concept
+      - craft/copywriting
+      - brand-voice/{relevant brand}
+      - positioning/{relevant brand}
+      Develops distinct creative mechanisms from one verified proposition.
+
+    craft/copywriting-ogilvy
+    craft/copywriting-wieden
+    craft/copywriting-halbert
+    craft/copywriting-robinson
+      Job-specific critical lenses. They review through documented practitioner
+      principles and never imitate the named copywriter's prose.
 
     craft/editing
       - foundation/marketing-os

@@ -33,6 +33,10 @@ project unless the human later reopens it.
 ## 2. Write
 
 Use `craft/copywriting` and the relevant channel skill.
+Apply the entry skill's copywriting standard before generating: settle desire, friction,
+promise, proof, creative approach, and action. Use the formats reference for subjects and
+hooks, and the channel-adaptation reference for email and social. A clean factual draft
+can still fail because it gives the reader no compelling reason to act.
 
 1. Write the plain, verified proposition before styling it.
 2. Separate message inventory from finished copy.
@@ -76,6 +80,10 @@ Before presenting consequential copy:
 3. Confirm that the intended reader action is unmistakable.
 4. When timing permits, create distance before the final pass and ask a capable colleague
    to improve it. Treat these as finishing controls, not reasons to delay a usable draft.
+5. Judge reader relevance, distinctiveness, and the hook's payoff separately from grammar.
+   Apply human length edits by cutting repeated jobs and explanatory scaffolding before
+   cutting the fact that makes the claim believable. Keep a private reason for the chosen
+   approach; do not append an explanation of the idea to the marketing copy itself.
 
 ## 3. Judge
 

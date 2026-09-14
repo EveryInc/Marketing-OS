@@ -1,3 +1,8 @@
+---
+name: x-post
+description: Draft brand posts and threads for X with a distinct idea, platform-fit proof, and an action matched to the post's job.
+---
+
 # Social — X Post
 
 Writes posts for X (Twitter) for launches, engagement, and brand presence.
@@ -20,10 +25,13 @@ Brand is resolved dynamically based on what invokes this skill.
 
 ## Channel-specific notes
 
-- 280-character constraint forces extreme compression — every word earns its place
-- Threads allow longer narrative but each post must stand alone in a feed
-- Voice and personality carry disproportionate weight at short lengths
-
-## To do
-
-Populate with X post guidance once social strategy work is complete.
+- Read `craft/copywriting/references/channel-adaptation.md` for social and measurement,
+  and `craft/copywriting/references/formats.md` for hooks.
+- Establish the intended account and format. Verify its current length and media limits;
+  do not assume every post has the same cap or that longer means more effective.
+- A post should carry one intelligible idea, proof, or observation. Use a thread when
+  progression earns it, with each part contributing rather than repeating the opener.
+- Preserve the brand's voice and supplied language. Do not compress away the detail that
+  lets a new reader understand the claim.
+- For an action-oriented post, deliver value in the post and make the next step clear.
+  For brand or discussion work, do not force a sales CTA or manufacture engagement bait.

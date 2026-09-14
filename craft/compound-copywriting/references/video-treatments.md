@@ -21,6 +21,37 @@ Do not build a hero film as a list of use cases joined by voice-over. Each beat 
 advance the plot, reveal character, demonstrate the product, or pay off an earlier setup.
 The strongest beats do more than one.
 
+## Write for the stranger, the screen, and the mouth
+
+Give each film one dominant promise. Start from a human situation the viewer can
+recognize before they understand the product, then show the product changing that
+situation. Introduce unfamiliar people by role and translate internal tools or acronyms
+at first use. An outside viewer should never need the company's org chart to follow the
+scene.
+
+Make the mechanism concrete enough to film. For a product workflow, identify:
+
+1. The source the product reads or receives.
+2. The condition that triggers the action.
+3. The action the product takes.
+4. Where the result appears.
+5. The decision, deliverable, or other state that changes.
+
+Let the picture prove that chain. Spoken copy should carry the premise, stakes,
+character, or human consequence instead of narrating interface actions the audience can
+already see. When a line repeats the product demonstration, replace it with what that
+demonstration changes for the person or team.
+
+Write dialogue as performed speech. Use familiar words and allow fragments,
+interruptions, parentheticals, and conversational turns when they reveal character.
+Remove tidy explanatory sentences that nobody would naturally say aloud.
+
+For product-led short films, establish the human situation and show the product in the
+opening seconds. The request, action, and result should remain legible with the sound
+off. Use a super to crystallize the audience benefit after the action earns it; do not
+use a super to rescue a confusing scene. End on the changed state and one audience-facing
+promise rather than stacking several claims.
+
 ## Write the shootable treatment
 
 Use a timed beat table with these fields:

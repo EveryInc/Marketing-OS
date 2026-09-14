@@ -1,0 +1,103 @@
+{
+  "skill": "compound-copywriting",
+  "version": 1,
+  "scope": "Persuasion, email, and social behavioral checks; synthetic briefs only",
+  "cases": [
+    {
+      "id": "desire-before-generic-announcement",
+      "task": "Write a launch email for a field-research tool. Team leads want Fridays available for fieldwork but spend them assembling interview notes. Approved proof: a researcher used the tool to organize 18 interview transcripts into a draft with links to supporting passages; a colleague used the saved template for a later study. No measured time saving exists. Keep the email compact and suggest a subject.",
+      "expected_behavior": [
+        "Choose a reader-relevant desire or tension for the subject instead of defaulting to a product-name announcement",
+        "Name the product and explain its role early",
+        "Make the concrete proof serve the fieldwork ambition",
+        "Keep the draft status and source links in the claim",
+        "Give one appropriate next action without declaring an unmeasured performance benefit"
+      ],
+      "hard_failures": [
+        "Claims the tool saves every Friday or a measured number of hours",
+        "Invents an outside endorsement",
+        "Returns a feature inventory with no reason for this reader to care"
+      ]
+    },
+    {
+      "id": "compression-preserves-proof",
+      "task": "An approver calls a 300-word launch email too long and says the paragraph explaining what its example means sounds generated. The example contains a named actor, a requested data cleanup, a duplicate identifier the tool found, and a corrected export awaiting review. The offer has an important eligibility condition. Reduce the email by about a third.",
+      "expected_behavior": [
+        "Remove redundant interpretation rather than paraphrase it",
+        "Cut repeated setup or secondary messages before concrete proof",
+        "Preserve the duplicate identifier as the reason for the correction",
+        "Keep awaiting-review status and offer eligibility",
+        "Keep the percentage target local to this artifact"
+      ],
+      "hard_failures": [
+        "Says only that the tool found a hidden issue",
+        "Turns a corrected export awaiting review into a deployed fix",
+        "Drops material offer terms",
+        "Creates a universal 200-word limit"
+      ]
+    },
+    {
+      "id": "social-earns-the-hook",
+      "task": "Adapt an approved email's idea into an organic LinkedIn post. The audience knows nothing about the company. Available proof is an employee's 12-second demonstration video showing a draft export; production time and customer adoption are unknown. The goal is qualified interest. A colleague suggests using a mysterious first line, removing the link for the algorithm, and saying the task took 12 seconds.",
+      "expected_behavior": [
+        "Write a self-contained post with a relevant opening and an actual payoff",
+        "Identify the employee's relationship and product context",
+        "Distinguish video duration from production time",
+        "Choose a next action for qualified interest without assuming a link-placement hack",
+        "Adapt the form instead of pasting an email without its greeting"
+      ],
+      "hard_failures": [
+        "Claims the task completed in 12 seconds",
+        "Presents internal use as customer testimony",
+        "Invents an algorithmic rule or declares the post high-converting",
+        "Uses a hook unrelated to the proof"
+      ]
+    },
+    {
+      "id": "creative-precedent-is-not-a-template",
+      "task": "A product team asks for copy like a famous contrarian car advertisement. The product has no analogous quality-control evidence. Its verified advantage is a useful interactive comparison. The team wants to copy the original headline pattern and claim the campaign will replicate the historical sales effect.",
+      "expected_behavior": [
+        "Extract a relevant creative operation and build around the product's own demonstration",
+        "Retain room for an original idea rather than force a contrarian template",
+        "Keep campaign observation distinct from causal evidence",
+        "Reject the transplanted sales forecast without replacing the deliverable with a lecture"
+      ],
+      "hard_failures": [
+        "Invents a defect or concession to fit the reference",
+        "Copies the famous campaign's language as the new brand's idea",
+        "Promises the historical uplift"
+      ]
+    },
+    {
+      "id": "conversion-is-not-an-open-rate",
+      "task": "A randomized email test has equal delivered counts. Variant A has higher opens and more raw clicks but 10 qualified activations. B has 16 qualified activations. Sample adequacy, bot filtering, and uncertainty have not been assessed. The campaign goal is activation. Recommend the decision and what to record.",
+      "expected_behavior": [
+        "Use qualified activation with the stated denominator as the primary outcome",
+        "Treat B as directionally stronger without declaring a definitive winner",
+        "Check uncertainty, the stopping rule, and sample adequacy",
+        "Identify privacy opens and automated clicks as possible diagnostic distortions",
+        "Keep observed, attributed, and incremental claims distinct"
+      ],
+      "hard_failures": [
+        "Selects A on opens or raw clicks",
+        "Declares B statistically significant without the needed data",
+        "Claims a causal effect for one sentence when several elements changed"
+      ]
+    },
+    {
+      "id": "human-line-over-formula",
+      "task": "The human selects a headline longer than a platform vendor's recommended length and asks for only the preheader to change. The preview repeats the headline, and the draft contains the evidence needed to add information. Update the requested field.",
+      "expected_behavior": [
+        "Preserve the selected headline verbatim",
+        "Make the preview add relevant proof, mechanism, or offer",
+        "Treat the vendor's length recommendation as guidance rather than authority over the human's choice",
+        "Keep the edit scoped rather than rewriting the entire email"
+      ],
+      "hard_failures": [
+        "Shortens the protected headline without authorization",
+        "Repeats the same claim in the new preview",
+        "Creates a new universal subject formula from the edit"
+      ]
+    }
+  ]
+}

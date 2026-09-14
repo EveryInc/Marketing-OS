@@ -1,6 +1,6 @@
 {
   "skill": "compound-copywriting",
-  "version": 2,
+  "version": 5,
   "cases": [
     {
       "id": "human-edit-becomes-project-instruction",
@@ -323,6 +323,159 @@
         "Repeats the title on the end card without a product action",
         "Uses overlapping timecodes without stating that the action is simultaneous",
         "Fits entrances, pauses, repeated questions, product reading, and an end card into implausible time ranges"
+      ]
+    },
+    {
+      "id": "product-script-mechanism-and-consequence",
+      "task": "Write a 30-second product film about a tool that reviews meetings an executive missed and alerts them when their decision can unblock the team. The executive and the internal recording system are unfamiliar to the audience.",
+      "expected_behavior": [
+        "Open on a recognizable human situation while showing the product in the opening seconds",
+        "Identify the unfamiliar person by role and explain the internal source in ordinary language",
+        "Make the source, trigger, action, destination, and changed state specific",
+        "Use the picture to prove the workflow and the spoken copy to carry stakes, character, or human consequence",
+        "Build the film around one audience promise and use any super to crystallize that promise after the proof",
+        "Write dialogue that sounds natural aloud and leave time for product comprehension"
+      ],
+      "hard_failures": [
+        "Says only that the product monitors meetings or flags insights without naming the source, trigger, destination, and result",
+        "Uses voice-over to narrate interface actions already visible on screen",
+        "Assumes the audience knows internal people, systems, or acronyms",
+        "Stacks several benefits or workflows into one short film",
+        "Uses a super to explain a causal chain the scene failed to show",
+        "Shows a summary or alert without a consequential changed state"
+      ]
+    },
+    {
+      "id": "strategy-slide-purpose-before-copy",
+      "task": "A GTM deck includes an Aha slide with generic bullets about showing the request, showing the work, and showing adoption, followed by a list of social content buckets. The brief says the first demonstration only needs to amaze a coworker who is not yet AI-pilled; job relevance belongs later in the journey. Rework the strategy before rewriting the copy.",
+      "expected_behavior": [
+        "State the Aha slide's single job and how it advances the deck",
+        "Cut or combine the slide if it adds no new idea, decision, proof, or action",
+        "Define the audience reaction separately from trial and adoption",
+        "Separate audience-facing messaging from asset-production instructions",
+        "Use amazement as the supported first-stage objective without inventing skepticism or job relevance",
+        "Define the social channel theory before organizing content buckets beneath it"
+      ],
+      "hard_failures": [
+        "Polishes the generic bullets without questioning why the slide exists",
+        "Recasts the coworker as skeptical when the brief does not",
+        "Collapses the Aha moment, trial, and adoption into one event",
+        "Treats content buckets as the social strategy",
+        "Requires the hero demonstration to match the coworker's job despite the brief"
+      ]
+    },
+    {
+      "id": "incomplete-brief-routes-to-interview",
+      "task": "Write copy for a new product launch. The request names the product and launch date but provides no audience, desired action, approved promise, proof, channel, or approver.",
+      "expected_behavior": [
+        "Read available product, positioning, voice, and project sources before asking questions",
+        "Identify only the missing decisions that would materially change the copy",
+        "Ask one consequential question at a time, beginning with the intended reader movement",
+        "Separate confirmed facts, hypotheses, and open decisions in the copy brief",
+        "Delay substantial drafting until the brief supports a proposition and copy job"
+      ],
+      "hard_failures": [
+        "Invents the audience, promise, proof, or CTA",
+        "Returns a generic intake form without checking sources",
+        "Treats product strategy or positioning as a wording problem",
+        "Drafts a large asset set before the consequential decisions are resolved"
+      ]
+    },
+    {
+      "id": "complete-brief-skips-interview",
+      "task": "Draft a short launch email from a complete approved brief that supplies the audience, current belief, desired movement, offer, promise, proof, protected line, CTA, channel, and approver.",
+      "expected_behavior": [
+        "Recognize that the commercial brief is sufficient",
+        "Route directly to the appropriate copywriting and channel guidance",
+        "Preserve the approved promise and protected line",
+        "Deliver the requested email before process commentary"
+      ],
+      "hard_failures": [
+        "Forces the user through an interview despite the complete brief",
+        "Reopens approved strategic decisions without contradictory evidence",
+        "Returns a workflow plan instead of the email"
+      ]
+    },
+    {
+      "id": "route-by-copy-job-not-container",
+      "task": "Review four artifacts: an explanatory product page, a culture-shaping brand campaign, a direct-response upgrade email, and a relationship-building note to a long-time partner. Select the appropriate named reviewer for each.",
+      "expected_behavior": [
+        "Classify the product page by its product-belief job and route it to the Ogilvy review",
+        "Classify the brand campaign by its cultural-desire job and route it to the Wieden review",
+        "Classify the upgrade email by its immediate-action job and route it to the Halbert review",
+        "Classify the partner note by its relationship job and route it to the Robinson review",
+        "Use one reviewer for each artifact by default",
+        "Explain any override from the primary copy job rather than from personal admiration"
+      ],
+      "hard_failures": [
+        "Routes the two emails to the same reviewer because they share a container",
+        "Uses more than one reviewer on any artifact without an explicit panel or documented consequential conflict",
+        "Chooses a reviewer because the user or model likes that copywriter",
+        "Asks a reviewer to imitate the named copywriter's prose"
+      ]
+    },
+    {
+      "id": "concept-before-consequential-draft",
+      "task": "Create a flagship brand campaign from an approved proposition, proof inventory, audience, and business objective. No creative approach has been selected.",
+      "expected_behavior": [
+        "Write the plain proposition before styling it",
+        "Develop a small set of routes that differ by mechanism or point of view",
+        "Name the proof, extensibility, and largest weakness of each route",
+        "Recommend one route against the brief",
+        "Get human selection before producing a large campaign asset set"
+      ],
+      "hard_failures": [
+        "Produces a large asset bundle around the first available idea",
+        "Presents adjective changes as distinct concepts",
+        "Copies a famous campaign's surface grammar or visual codes",
+        "Uses provocation unsupported by the product or company behavior"
+      ]
+    },
+    {
+      "id": "reviewer-receives-explicit-packet",
+      "task": "The draft is ready for its routed reviewer. The working notes contain the brief, selected concept, protected language, proof links, channel constraints, desired reader movement, and CTA.",
+      "expected_behavior": [
+        "Assemble the brief, selected concept, draft, protected language, channel contract, proof sources, desired reader movement, and next action into a compact review packet",
+        "Pass the packet explicitly to the one routed reviewer",
+        "Return to the brief when a missing decision prevents an evidence-based review",
+        "Keep internal working notes out of the audience-facing copy"
+      ],
+      "hard_failures": [
+        "Invokes the reviewer with only the draft and relies on hidden prior-turn memory",
+        "Lets the reviewer invent proof, strategy, protected language, or channel constraints",
+        "Runs a second reviewer to compensate for missing context"
+      ]
+    },
+    {
+      "id": "compound-request-waits-for-human-delta",
+      "task": "Write the first draft and compound it, but no human edit, rejection, selection, restoration, or prior comparable correction exists yet.",
+      "expected_behavior": [
+        "Deliver the requested draft",
+        "Record that the next meaningful human delta should be captured",
+        "Wait for an observable correction before running Judge, Learn, Test, or Compound",
+        "Avoid creating a project-local or durable rule from the model's own first draft"
+      ],
+      "hard_failures": [
+        "Treats the request to compound as evidence that learning occurred",
+        "Creates a carry-forward rule before a human correction exists",
+        "Runs a transfer test against a lesson inferred only from the model's draft"
+      ]
+    },
+    {
+      "id": "interview-hands-off-complete-brief",
+      "task": "Start from an incomplete launch assignment, ask only the consequential missing questions, and continue after the user supplies audience, desired movement, offer, proof, protected language, channel, CTA, and approver.",
+      "expected_behavior": [
+        "Ask one consequential question at a time and preserve confirmed answers",
+        "Return a compact brief that distinguishes facts, hypotheses, open questions, and claims requiring verification",
+        "Classify the primary copy job from the completed brief",
+        "Route to concept development only when the creative approach remains open",
+        "Pass the resulting brief forward without asking the user to repeat answers"
+      ],
+      "hard_failures": [
+        "Keeps interviewing after the copy contract is sufficient",
+        "Drops user answers between the interview and routing stages",
+        "Drafts from unresolved hypotheses as though they were approved facts",
+        "Chooses a channel before identifying the persuasion job"
       ]
     }
   ]
