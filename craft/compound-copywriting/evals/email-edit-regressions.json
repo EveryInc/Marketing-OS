@@ -1,14 +1,97 @@
 {
   "type": "manual editorial regression checklist",
   "cases": [
-    {"id": "benefit-not-job-description", "check": "The subject promises a valued gain or avoided failure beyond the audience's ordinary job description."},
-    {"id": "plain-actionable-story", "check": "Each example identifies a request, action, and useful result without an implementation detour or abstract moral."},
-    {"id": "no-invented-completion", "check": "A recommendation or draft has not become a deployed fix, sent message, measured speed, or unlimited entitlement without evidence."},
-    {"id": "fresh-proof", "check": "Examples match the function, count, and rotation ruling; replacing names on the same repeated use case does not establish breadth."},
-    {"id": "no-opening-bullet-duplicate", "check": "The first bullet does not retell the opening's complete story."},
-    {"id": "adjacent-word-echo", "check": "Edits have been read with adjacent sentences; accidental prominent-word repetition is removed without forced synonyms or erasing intentional rhythm."},
-    {"id": "segment-and-lifecycle", "check": "Audience, entry, exclusion, offer, CTA, and exit are explicit; existing members and users are not treated as new prospects."},
-    {"id": "voice-and-authorship", "check": "Human-selected subjects, humor, brand language, and sender survive unless the human reopens them."},
-    {"id": "authorized-review-surface", "check": "Output stays within the requested channel and batch size; named editorial review has actually run before it is claimed."}
+    {
+      "id": "send-earns-attention",
+      "check": "The email adds a distinct reader payoff or product-specific proof; a generic prompting exercise, membership-label swap, or renamed previous pitch fails."
+    },
+    {
+      "id": "no-spare-moral",
+      "check": "Each sentence motivates, proves, clarifies, contributes relevant personality, or enables action. An appended ask-review-share lesson is removed when it adds no reader value."
+    },
+    {
+      "id": "human-detail-survives",
+      "check": "Human-added consequences, factual texture, and jokes survive. Their factual basis is tracked separately; concision does not remove the benefit or invent a new anecdote."
+    },
+    {
+      "id": "benefit-not-job-description",
+      "check": "The subject promises a valued gain or avoided failure beyond the audience's ordinary job description."
+    },
+    {
+      "id": "plain-actionable-story",
+      "check": "Each example identifies a request, action, and useful result without an implementation detour or abstract moral."
+    },
+    {
+      "id": "no-invented-completion",
+      "check": "A recommendation or draft has not become a deployed fix, sent message, measured speed, or unlimited entitlement without evidence."
+    },
+    {
+      "id": "fresh-proof",
+      "check": "Examples match the function, count, and rotation ruling; replacing names on the same repeated use case does not establish breadth."
+    },
+    {
+      "id": "no-opening-bullet-duplicate",
+      "check": "The first bullet does not retell the opening's complete story."
+    },
+    {
+      "id": "adjacent-word-echo",
+      "check": "Edits have been read with adjacent sentences; accidental prominent-word repetition is removed without forced synonyms or erasing intentional rhythm."
+    },
+    {
+      "id": "segment-and-lifecycle",
+      "check": "Audience, entry, exclusion, offer, CTA, and exit are explicit; existing members and users are not treated as new prospects."
+    },
+    {
+      "id": "voice-and-authorship",
+      "check": "Human-selected subjects, humor, brand language, and sender survive unless the human reopens them."
+    },
+    {
+      "id": "authorized-review-surface",
+      "check": "Output stays within the requested channel and batch size; named editorial review has actually run before it is claimed."
+    },
+    {
+      "id": "setup-reminder-reentices",
+      "check": "A setup reminder contains a fresh, compelling reason to return; unfinished status and a setup link alone fail."
+    },
+    {
+      "id": "preserve-product-magic",
+      "check": "The draft preserves the distinctive capability and trigger, including proactive retrieval or execution after setup; it has not become a manual-upload tutorial."
+    },
+    {
+      "id": "production-skill-payoff",
+      "check": "A shared production skill is explained through what colleagues can generate after standards are established, not merely through saved instructions."
+    },
+    {
+      "id": "preview-adds-information",
+      "check": "The preview adds relevant proof, a use, or an entitlement instead of repeating the subject."
+    },
+    {
+      "id": "every-example-earns-slot",
+      "check": "Every example supports the promised benefit and the requested thematic grouping; no weak filler is used to meet a bullet count."
+    },
+    {
+      "id": "platform-evidence-limits",
+      "check": "Historical results are labeled by audience, lifecycle, sample scope, and version limits; subject, length, or cadence is not credited with causal lift without evidence."
+    },
+    {
+      "id": "flow-replacement-and-exits",
+      "check": "Existing sequences, exclusions, precedence, and action-based exits are accounted for; draft product-event routing is not claimed to be configured."
+    },
+    {
+      "id": "approved-offer-wording",
+      "check": "Current campaign amounts, entitlements, and the user-selected pricing wording survive across variants."
+    },
+    {
+      "id": "story-and-fact-balance",
+      "check": "The email sells the approved product story without defensive qualification, verifies facts that change the offer, and uses metrics only when they sharpen the example."
+    },
+    {
+      "id": "visual-proof-integrity",
+      "check": "Assets demonstrate the email claim, use correct identities, distinguish reconstructions from receipts, remain legible, and do not remake an asset the user excluded."
+    },
+    {
+      "id": "learning-transfer-honesty",
+      "check": "The next requested artifact applies the correction; capture, application, human approval, and measured performance are reported as distinct states."
+    }
   ]
 }
