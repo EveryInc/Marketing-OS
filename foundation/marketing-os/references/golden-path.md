@@ -5,11 +5,16 @@ the existing specialist skills without making the user operate the repository.
 
 ## The loop
 
+Marketing OS selects from the four entries in `compound-workflows.md`. This record
+protocol coordinates substantial work across them; it does not require every assignment
+to pass through all four. Existing `.compound-marketing` directories and record schemas
+remain valid. Small standalone edits use the requested workflow without opening a run.
+
 `context -> strategy -> market -> memory -> stronger next run`
 
-Every run must produce useful work and leave behind a bounded improvement for the next
-run. A project that ships without a learning may still be successful; a project that
-creates a learning without shipping useful work is not.
+Every run must produce useful work. When supported feedback or results exist, preserve
+a bounded lesson for the next comparable run. A project can succeed without producing
+a learning; capturing a learning without delivering useful work is not success.
 
 ## 0. Open the run
 
@@ -61,11 +66,13 @@ Route from the approved decision record:
 
 | Work | Route |
 |---|---|
-| Recurring campaign, channel, event, partnership, PR, or research program | `strategy/program-brief` |
-| Any launch strategy, GTM plan, launch backbone, drumbeat, or social brief | `marketing/gtm` |
+| Brand or marketing strategy, positioning, messaging, or program choice | `workflows/compound-strategy` |
+| Recurring campaign, channel, event, partnership, PR, or research program | `workflows/compound-strategy`, using `strategy/program-brief`; GTM handles execution after approval |
+| Any launch strategy, GTM plan, launch backbone, drumbeat, or social brief | `workflows/compound-gtm`, using the existing `marketing/gtm` implementation |
 | 10- to 15-minute GTM approval deck for a launch content ecosystem | `marketing/gtm`, using its content-system approval-deck reference and the approved decision record |
-| Open-ended copy assignment that needs brief discovery, copy-job routing, concept selection, or a named review lens | `craft/compound-copywriting` |
-| Related copy sequence that should learn from human edits | `craft/compound-copywriting` |
+| Open-ended copy assignment that needs brief discovery, copy-job routing, concept selection, or a named review lens | `workflows/compound-copywriting` |
+| Related copy sequence that should learn from human edits | `workflows/compound-copywriting` |
+| Visual territory, identity, editable design, asset production, or visual critique | `workflows/compound-art-direction` |
 | Approved launch-film concept becoming a production treatment | `craft/compound-copywriting`, using its video-treatment reference while preserving the inherited strategic tension, proof mandate, CTA, and protected language |
 | Executive decision document | `strategy/one-pager` |
 

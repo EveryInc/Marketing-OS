@@ -1,32 +1,51 @@
 # Marketing OS
 
-Every's AI-native marketing operating system. Its core method is **Compound Marketing**:
-every project produces effective work now and improves the system that produces the
-next project.
+Every's AI-native marketing operating system. Four workflows connect strategy, market
+execution, words, and visuals. Useful corrections improve the next comparable piece of work.
 
 Marketing creates demand and cultural gravity. Growth converts that demand. Marketing OS
-connects the two through a measurable operating loop while protecting creative ambition,
-taste, and brand coherence.
+connects the two through a measurable operating loop while protecting creative ambition
+and brand coherence.
 
 ## How It Works
 
-`context -> strategy -> market -> memory -> stronger next run`
+Ask Marketing OS for the outcome, or invoke one workflow directly:
 
-`strategy/compound-marketing` is the plain-language entry point. It creates one governed
-decision record, routes the approved strategy into a recurring program or GTM plan, and
-closes the run through human edits and measured results. Completed work improves the
-system only when the learning transfers beyond the project that produced it.
+| Workflow | Job | Entry |
+|---|---|---|
+| Compound Strategy | Decide what to do, for whom, and why | [Start](workflows/compound-strategy/SKILL.md) |
+| Compound GTM | Bring approved strategy to market | [Start](workflows/compound-gtm/SKILL.md) |
+| Compound Copywriting | Write, review, and improve the words | [Start](workflows/compound-copywriting/SKILL.md) |
+| Compound Art Direction | Direct and produce the visual system | [Start](workflows/compound-art-direction/SKILL.md) |
+
+These are independent entry points, not four mandatory stages. Marketing OS coordinates
+them for larger projects using one approved brief or decision record. Each uses the same
+[learning protocol](foundation/marketing-os/references/compound-workflows.md): make,
+review, capture a supported correction, apply it to fresh work, and check the result.
+
+The theoretical foundation, brand context, and specialist guidance remain intact.
+`strategy/compound-marketing` stays available as the legacy end-to-end coordinator;
+existing specialist paths and saved run records continue to work.
+
+Keep the full checkout available when installing these entries: their relative references
+use the shared repository, so copying a workflow folder alone is insufficient. For local
+skill discovery, use a small installed adapter that points to the chosen checkout's
+`workflows/<workflow-name>/SKILL.md`; keep the implementation in this repository. Install
+only the four public entries, not duplicate copies of the underlying specialists.
+
+Routing regression scenarios live in [workflows/evals/routing-cases.json](workflows/evals/routing-cases.json).
+They complement the foundation smoke cases; synthetic checks do not establish market results.
 
 Every specialist skill still loads `foundation/marketing-os` as its root. Research,
 audiences, positioning, voice, craft, launches, and measurement remain available when
 the active stage requires them.
 
-The repository map is:
+`workflows/` contains the four public entries. The supporting repository map is:
 
 1. **foundation/** — The Marketing OS, the operating system underlying all skills
 2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
-4. **strategy/** — Compound Marketing plus higher-order strategy skills, including role-bounded marketing pods, that compose voice, positioning, programs, GTM, and measurement
+4. **strategy/** — Strategy specialists, full-brand workflow, and the shared run coordinator
 5. **craft/** — Execution-level skills for art direction, copywriting, Compound Copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
 6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
 7. **marketing-science/** — Research, archetyping, brand equity, and measurement skills that inform positioning, programs, and decisions
@@ -40,7 +59,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the full dependency graph.
 
 ## Taxonomy
 
-The repository has eight skill families:
+The four public workflows use these eight supporting families:
 
 1. **foundation/** — Every's marketing doctrine, canon, operating frameworks,
    collaboration rules, and native-document editing protocol
@@ -77,9 +96,8 @@ case.
 
 ## Current State
 
-As of Aug. 21, 2026, Marketing OS contains 63 skills and 101 operating references. The
-skill count fell by one because the two GTM entry points were consolidated without
-discarding their strategy or evaluation guidance.
+The four-workflow interface organizes existing capabilities; it does not establish new
+performance claims or promote unfinished specialist skills to production-ready status.
 
 Ready for structured use:
 
@@ -101,7 +119,7 @@ Ready for structured use:
   fidelity checks, and an explicit proof standard
 - Compound Copywriting beta that interviews incomplete briefs, routes by persuasion job,
   selects one copywriter review lens, turns human edits into bounded project instructions,
-  and tests transfer without automating taste
+  and tests transfer while preserving human creative control
 
 Still in development:
 
@@ -120,6 +138,13 @@ enough prospective evidence to prove compounding.
 Files marked `## To do` are scaffolding, not authoritative product or channel guidance.
 
 ## Changelog
+
+### Oct. 2, 2026: Four public workflows
+
+- Organized entry points into Compound Strategy, GTM, Copywriting, and Art Direction
+- Kept theory, brand context, specialist implementations, and legacy paths intact
+- Unified discipline-specific correction and transfer checks under one shared protocol
+- Preserved existing run records and the distinction between capture and proven improvement
 
 ### Aug. 21, 2026: One GTM and one compounding system
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compound Copywriting"
+  short_description: "Write, review, and improve marketing copy"
+  default_prompt: "Use $compound-copywriting for this task, preserving approved choices and current source evidence."

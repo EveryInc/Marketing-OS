@@ -1,4 +1,29 @@
-# Every Skills — Dependency Architecture
+# Marketing OS — Workflow Architecture
+
+## Public interface
+
+Marketing OS (`foundation/marketing-os`) selects one of four workflows. Direct specialist
+requests remain valid; the user need not learn the internal folder taxonomy.
+
+| Public entry | Canonical implementation and supporting skills |
+|---|---|
+| `workflows/compound-strategy` | Compound Brand's strategy phases, positioning, research, audiences, messaging architecture, program briefs, executive summaries |
+| `workflows/compound-gtm` | `marketing/gtm`, launch tiers, channel planning, lifecycle, calendars, measurement |
+| `workflows/compound-copywriting` | `craft/compound-copywriting`, channel craft, editing, copywriter reviewers |
+| `workflows/compound-art-direction` | `craft/art-direction`, visual systems, production tools, visual QA |
+
+The workflow files hold entry-stage and ownership rules. They read existing implementations
+instead of copying them. All four share
+`foundation/marketing-os/references/compound-workflows.md`, the existing learning loop,
+knowledge boundaries, and proof standard. Research and measurement serve all four.
+
+`strategy/compound-marketing` remains the compatibility entry and substantial-run
+coordinator behind Marketing OS. `strategy/compound-brand` remains a full-brand mode
+that connects Strategy, verbal identity, and Art Direction. Neither is a fifth public
+workflow. Existing paths, private run directories, and stable decision IDs are preserved.
+
+Load the root as context when called from a specialist; route only when the user asks the
+root to select work. This prevents root-to-workflow-to-root recursion.
 
 Every skill loads `foundation/marketing-os` as its root dependency.
 Additional dependencies are listed below, grouped by category.
@@ -7,18 +32,19 @@ Additional dependencies are listed below, grouped by category.
 
 ## Skill file structure
 
-Every SKILL.md in this repo follows the same structure. Deviations are bugs, not style choices.
+Public entry skills use YAML `name` and `description` metadata for discovery. Existing
+legacy specialists may retain heading-first files until separately migrated. Both forms
+are supported; do not rewrite the whole corpus merely to normalize its format.
 
 ```
 # [Title]
 
-[One or two prose paragraphs introducing what this skill does and when it matters.
-No YAML frontmatter. The file starts with the heading.]
+[Concise purpose and scope; public skills have YAML metadata before this heading.]
 
 ## When to invoke
 
 - [Bullet list of trigger conditions, situations, and trigger phrases.]
-- [Phrase matching goes here — not in a description: field or frontmatter.]
+- [Detailed invocation guidance belongs here when needed.]
 
 ## [Body sections specific to this skill]
 
@@ -39,12 +65,10 @@ count are not fixed — use whatever sections the skill needs.]
 - [ ] Item two
 ```
 
-**What this repo does not use:**
-- YAML frontmatter (`---` blocks with `name:`, `description:`, etc.)
-- A `description:` field for trigger phrases — those live under `## When to invoke`
-- A fixed set of body section names — body sections are skill-specific
+Use concise, distinct discovery descriptions. Avoid a fixed set of body headings for
+short public entries; the legacy layout above remains a useful specialist convention.
 
-**Section ordering rules:**
+**Legacy specialist section ordering:**
 - `## When to invoke` is always near the top, directly after the intro paragraph
 - `## Dependencies` is always near the bottom, before the checklist
 - `## Quick checklist` is always last

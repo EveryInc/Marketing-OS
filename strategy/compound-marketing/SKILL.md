@@ -1,5 +1,10 @@
 # Compound Marketing
 
+Compatibility entry and shared run coordinator behind Marketing OS. For a new request,
+use `foundation/marketing-os/SKILL.md` to select among the four public workflows. A direct
+request using this old name still executes the end-to-end process below. Do not route
+back to the umbrella when it has already delegated coordination here.
+
 Turn scattered company context into governed strategy and market action, then make the
 accepted work improve the next comparable run. Use one decision record across the work
 so human judgment survives every handoff.
@@ -121,4 +126,6 @@ for the authoritative pod contracts and scorecard.
 - [ ] Human edits and results were compared with the original inputs
 - [ ] Learning was classified before any durable file changed
 - [ ] Improvement claims use comparable prospective runs and pass the proof standard
-- [ ] Design, asset production, and channel automation remained outside V1
+- [ ] Visual deliverables, when requested, used Compound Art Direction and its own
+      structural and rendered checks; run-record validation did not stand in for visual QA
+- [ ] Planning did not imply permission to publish, automate channels, spend, or send

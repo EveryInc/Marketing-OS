@@ -21,6 +21,14 @@ from generic best practice.
 
 ## Load the system
 
+Choose the entry stage before loading discovery references. New identity work uses the
+full process below. Production from an approved system inherits its references and
+components; critique or repair stays scoped to the existing artifact. In those two modes,
+skip reference collection, competitive auditing, and new territories unless a consequential
+visual choice is reopened. Verify approved evidence exists and retain all production and
+approval checks. These are the same entry modes as `../../workflows/compound-art-direction/SKILL.md`;
+do not invoke that wrapper again when it already delegated here.
+
 Read:
 
 1. `../../foundation/marketing-os/SKILL.md`
