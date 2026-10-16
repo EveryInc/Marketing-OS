@@ -196,8 +196,8 @@ extracted from corrections on past launches.
 | Building a workback calendar | `references/workback-templates.md` |
 | Writing a social brief, email, positioning brief, or deliverables list | `references/deliverable-templates.md` |
 | Iterating on web copy or hero headlines | `references/web-copy-workflow.md` |
-| Tier cadence and day-of choreography | The relevant tier skill's `references/cadence.md` |
-| Pre-launch readiness | The relevant tier skill's `references/pre-launch-checklist.md` |
+| Tier cadence and day-of choreography | [Improvement](../improvement-launch/references/cadence.md), [feature](../feature-launch/references/cadence.md), or [new product](../new-product-launch/references/cadence.md) |
+| Pre-launch readiness | [Improvement](../improvement-launch/references/pre-launch-checklist.md), [feature](../feature-launch/references/pre-launch-checklist.md), or [new product](../new-product-launch/references/pre-launch-checklist.md) |
 
 ## Dependencies
 

@@ -9,6 +9,10 @@ This is a working approval deck, not a keynote. Use minimal section cards to pac
 review, but keep the concrete examples, operating logic, and production detail required
 to make a decision. One decision per slide matters more than an arbitrary word limit.
 
+For Douglas's decks, also apply the brand, clean-slide, and closing standards in
+`foundation/marketing-os/references/strategy-decks.md` (repository-relative). This
+five-act structure remains authoritative; do not stack a second outline on top of it.
+
 ## Required inputs
 
 Do not draft until the governing GTM decision identifies the audience behavior, campaign
@@ -160,8 +164,9 @@ Leave response manuals, exhaustive matrices, and post-level copy in the operatin
 
 ### 5. Burn-down and approval
 
-Replace a repetitive summary with the work required to authorize and ship the system.
-A useful close uses four workstreams:
+Close with a concise summary of the strategic choice, then the work required to
+authorize and ship the system. The summary should add no new direction or repeat the
+full inventory. Organize proposed next steps into four workstreams:
 
 1. **Lock:** Strategy, claims, formats, offer, dates, and decisions.
 2. **Make:** Hero asset, recurring formats, templates, captures, and production finishes.
@@ -169,8 +174,9 @@ A useful close uses four workstreams:
 4. **Ship:** Distribution, conversion surfaces, QA, measurement, owners, and review date.
 
 Keep each item atomic and written as an action. Separate deferred work so it cannot be
-mistaken for launch scope. End with the exact approvals or selections required from
-leadership, followed by discussion.
+mistaken for launch scope. State the exact approvals or selections required from
+leadership, proposed owners, dependencies, and timing. Finish with a Thank you slide;
+keep the approval ask easy to return to during discussion.
 
 ## Review-budget test
 
@@ -201,4 +207,6 @@ idea, the deck arrived before the strategy was ready.
 - [ ] The opening and close use the same atomic list and count of open inputs
 - [ ] Social roles remain shorter than the content system they distribute
 - [ ] The close states what to lock, make, publish, and ship
+- [ ] A concise summary, proposed next steps, and final Thank you complete the deck
+- [ ] No assistant review or production annotations appear on slide faces
 - [ ] Fonts, colors, alignment, and editable objects match the native deck

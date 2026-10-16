@@ -9,6 +9,25 @@ Treat tab topology, section order, spacing, typography, lists, tables, links, co
 inline objects, and local formatting as authored content. Visible text alone is not the
 document.
 
+## Use the bounded-edit fast path
+
+When the user asks for a narrow append, insertion, or replacement in a named destination,
+do only the work needed to make that edit safely:
+
+1. Read the supplied source material.
+2. Open the target tab or section and inspect the insertion point plus the nearest
+   comparable formatting.
+3. Draft and write the requested content in one bounded update when the tool allows it.
+4. Re-read the edited target once to confirm the content and local formatting.
+
+This fast path supersedes the broader document audit below when the operation does not
+rename, reorder, merge, delete, or restructure tabs; alter tables, comments, or inline
+objects; or depend on conflicting sources elsewhere in the file. Do not inventory
+unrelated tabs, search the wider workspace, or reconstruct the document's authority map
+for a straightforward local edit. Expand the inspection only when the target is unclear,
+a material fact is missing, the write fails, or the requested change affects document
+structure.
+
 ## Before editing
 
 1. Identify the exact file and current revision.
@@ -40,6 +59,18 @@ Verify:
 
 If native structure cannot be preserved reliably, stop before writing and explain the
 limitation.
+
+## Remove presentation annotations precisely
+
+When asked to remove notes from slide faces, identify the annotation objects and remove
+only those objects. Preserve the argument, artwork, branding, navigation, page numbers,
+and native structure. Do not recreate the same commentary as smaller footer text.
+
+Keep source references and useful presenter context in speaker notes unless the user
+also asks to delete speaker notes. Retain any qualifier needed for a truthful visible
+claim. A request to remove notes does not authorize changing the strategy or deleting
+substantive production-plan content. Read back the saved deck and verify that unaffected
+objects and slide order remain intact. For broader deck work, use `strategy-decks.md`.
 
 ## Reconcile multi-tab strategy documents
 

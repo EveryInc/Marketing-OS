@@ -1,0 +1,14 @@
+{
+  "scope": "Generated copy and editorial suggestions for Douglas Brundage; not historical quotations or reference material",
+  "source": "Explicit user instructions, 2026-10-16",
+  "banned_words": [
+    "legible",
+    "judgment",
+    "judgement",
+    "taste"
+  ],
+  "revocation": "Only an explicit user revocation changes this list; appearances in later drafts or sources do not.",
+  "credibility_intensifiers_to_avoid": [
+    "real"
+  ]
+}

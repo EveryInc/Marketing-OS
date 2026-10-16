@@ -21,15 +21,25 @@ from generic best practice.
 
 ## Load the system
 
-Read:
+Choose the entry stage before loading discovery references. New identity work uses the
+full process below. Production from an approved system inherits its references and
+components; critique or repair stays scoped to the existing artifact. In those two modes,
+skip reference collection, competitive auditing, and new territories unless a consequential
+visual choice is reopened. Verify approved evidence exists and retain all production and
+approval checks. These are the same entry modes as `../../workflows/compound-art-direction/SKILL.md`;
+do not invoke that wrapper again when it already delegated here.
 
-1. `../../foundation/marketing-os/SKILL.md`
-2. `../../foundation/marketing-os/references/method.md`
-3. `../../foundation/marketing-os/references/collaboration.md`
-4. `../../positioning/{relevant brand}/SKILL.md`
-5. `../../brand-voice/{relevant brand}/SKILL.md`
-6. `../../marketing-science/research/SKILL.md`
-7. `../../marketing-science/archetyping/SKILL.md`
+Read `../../foundation/marketing-os/SKILL.md`. Use its task-context protocol for
+substantive work, changed briefs, or handoffs. For a new identity or reopened visual
+direction, read the following grounding; approved-system production and narrow repair
+instead inherit the source artifact and load the relevant production or design rules:
+
+1. `../../foundation/marketing-os/references/method.md`
+2. `../../foundation/marketing-os/references/collaboration.md`
+3. `../../positioning/{relevant brand}/SKILL.md`
+4. `../../brand-voice/{relevant brand}/SKILL.md`
+5. `../../marketing-science/research/SKILL.md`
+6. `../../marketing-science/archetyping/SKILL.md`
 
 Load `../../strategy/compound-brand/SKILL.md` and `../../craft/verbal-identity/SKILL.md`
 when art direction is part of a full identity workflow. Load brand equity only for an
@@ -40,11 +50,26 @@ explicit evaluation. For a formatted collaborative artifact, also read
 
 | Task | Load |
 |---|---|
+| Learn design basics; make or repair layout, hierarchy, typography, spacing, or color | `references/design-foundations.md` |
+| Review a designed surface before handoff | `references/design-review.md` |
 | Choose, analyze, or reject references | `references/reference-doctrine.md` |
 | Audit competitors, category codes, and visual white space | `references/competitive-semiotic-audit.md` |
 | Define the full visual system and surface tests | `references/visual-identity-system.md` |
 | Build components, templates, Figma systems, generative branches, or automated assets | `references/agent-readable-production.md` |
 | Study a worked correction from concept to system | `references/thesis-2027-case-study.md` |
+
+For a fundamentals lesson, load only the relevant foundation sections and the supplied
+artifact or brief; no brand discovery is needed. For layout production or repair, inherit
+approved strategy and visual sources and load only dependencies needed for the decision.
+The full discovery dependencies and human reference gate apply to new identity work.
+When no identity exists, a neutral instructional example may be marked provisional;
+it is not an approved brand system. Do not silently turn a beginner's asset request into
+a rebrand, or turn a teaching example into brand canon.
+
+Use design foundations to make explicit decisions, not to recite a tutorial. State the
+intended reading order, choose dimensions and roles, and explain the most consequential
+choice in plain language. Existing brand rules override suggested defaults unless they
+create an accessibility or production conflict, which must be surfaced.
 
 ## Establish authority
 
@@ -153,6 +178,9 @@ variable per branch. A generator can execute a visual decision; it should not be
 invent the art direction and evaluate itself in the same pass.
 
 ## Prove and evaluate the system
+
+Use `references/design-review.md` for the applicable surface checks. Passing a structural
+check or a numeric contrast test alone does not establish usability or design quality.
 
 Test a small, representative set of surfaces before scaling. Include at least one dense,
 one sparse, one small-format, and one large-format application when relevant. Verify:

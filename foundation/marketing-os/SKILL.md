@@ -1,4 +1,41 @@
+---
+name: marketing-os
+description: Coordinate brand and marketing work through Compound Strategy, Compound GTM, Compound Copywriting, or Compound Art Direction, using shared theory, source standards, brand context, and evidence-based learning.
+---
+
 # Marketing OS
+
+## Choose the workflow
+
+For a direct Marketing OS request, choose the smallest workflow that produces the requested
+outcome. When a specialist loads this file as a dependency, supply the foundation only;
+do not route back to the specialist or restart the task.
+
+| User needs | Public entry |
+|---|---|
+| Decide what to do, for whom, and why | `workflows/compound-strategy/SKILL.md` |
+| Bring an approved strategy to market | `workflows/compound-gtm/SKILL.md` |
+| Write or revise the words | `workflows/compound-copywriting/SKILL.md` |
+| Direct or produce the visual system and assets | `workflows/compound-art-direction/SKILL.md` |
+
+These paths resolve from the repository root. A mixed assignment uses one brief and only
+the relevant workflows. Read `references/compound-workflows.md` for boundaries, handoffs,
+and the shared learning protocol. A narrow edit skips upstream stages already settled.
+Research, measurement, voice, positioning, reviewers, and production tools remain
+specialists underneath the four workflows; direct specialist requests still work.
+
+For substantial cross-discipline projects, use `strategy/compound-marketing` as the
+existing run coordinator and `references/golden-path.md` as the record protocol. The old
+name remains compatible; it is not a fifth public workflow. Do not start a second run
+when the task already has a governing record.
+
+## Shared foundation
+
+For substantive work, a changed brief, or a reset, use `references/task-context.md`.
+Assemble context from current sources and load only the selected workflow's applicable
+references. A narrow edit inherits approved strategy; it does not require the entire
+method, canon, or specialist library. New strategic or creative choices still need their
+grounding. Keep mandatory approval and verification checks intact.
 
 Every's in-house marketing operating system, authored by Douglas Brundage as Head of
 Marketing. This is the theoretical and methodological foundation that every downstream
@@ -13,7 +50,8 @@ frameworks.
 
 ## System
 
-Marketing OS is composed of eight reference files, each serving a distinct role:
+The foundational references below remain authoritative. The workflow map above organizes
+access to them without replacing their theory or operating standards.
 
 ### references/canon.md
 The reference encyclopedia. Thinkers, practitioners, and researchers organized by domain
@@ -60,8 +98,8 @@ through delivery and learning.
 
 ## When to invoke
 
-This skill is loaded automatically by every other skill in the repo. It is the root
-dependency. Specific situations where it is invoked directly:
+This file supplies the root dependency to downstream skills; its reference library is
+loaded by task, not in full. Specific situations where it is invoked directly:
 
 - When generating any brand or marketing work (copy, positioning, strategy, launches)
 - When editing or evaluating existing work against Every's standards
@@ -80,6 +118,7 @@ When this skill is loaded, route to the appropriate reference file based on the 
 | Need to operationalize a framework (Binet/Field, Sharp, Aaker, etc.) | `references/frameworks.md` |
 | Need to develop or revise substantial work with Douglas | `references/collaboration.md` |
 | Need to edit an existing formatted document | `references/native-document-editing.md` |
+| Build, restructure, or review a substantive brand or marketing strategy pitch deck | `references/strategy-decks.md` |
 | Need to add or compound repository guidance | `references/knowledge-boundaries.md` |
 | Meaningful feedback or a result should improve future work | `references/learning-loop.md` |
 | Substantial strategy, recurring marketing, or GTM work | `references/golden-path.md` |
@@ -129,6 +168,8 @@ None — this is the root dependency. All other skills load this skill.
   drumbeat, and social modes
 - **craft/compound-copywriting** turns accepted edits into bounded project guidance and
   tests transfer on fresh copy before any durable promotion
+- **workflows/** exposes four public entries over the existing specialists; it does not
+  copy their implementation or weaken their approval and evidence requirements
 - **strategy/** preserves the full idea while producing concise, decision-ready briefs
 - **strategy/marketing-pod** coordinates specialist skills across parallel agent roles
   while Douglas retains strategic decisions, approval, and final taste authority

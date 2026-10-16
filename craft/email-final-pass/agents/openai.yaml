@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Final Pass"
+  short_description: "Audit Every email campaigns before approved final edits"
+  default_prompt: "Use $email-final-pass to review this campaign, give me no more than 10 recommendations, and interview me before making changes."

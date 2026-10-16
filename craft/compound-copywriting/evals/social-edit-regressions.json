@@ -1,0 +1,256 @@
+{
+  "skill": "compound-copywriting",
+  "version": 5,
+  "scope": "Social strategy and copy regression checks; synthetic briefs only",
+  "cases": [
+    {
+      "id": "product-definition-can-lead",
+      "task": "A new software product has a one-sentence definition that makes its unfamiliar behavior easy to picture. The creative team wants to open the launch post with that definition. A prior reviewer insists that every post must begin with a person trying, failing, or shipping something. Review the opening and recommend the approach.",
+      "expected_behavior": [
+        "Judge the product definition on clarity, novelty, repeatability, and support from the creative",
+        "Allow the definition to lead when it is the most interesting and useful entry point",
+        "Distinguish a category-defining line from a generic interface description",
+        "Preserve room for a story or demonstration elsewhere in the launch sequence"
+      ],
+      "hard_failures": [
+        "Rejects the definition solely because it is not an event or human story",
+        "States a universal rule that social posts must begin with what happened",
+        "Replaces the line with an invented customer outcome"
+      ]
+    },
+    {
+      "id": "meme-needs-no-product-lesson",
+      "task": "A brand has a timely meme that its audience will understand. The joke fits the account's established voice but does not mention the product. Review whether it belongs in the always-on feed.",
+      "expected_behavior": [
+        "Judge the meme on timing, whether it is funny, whether the audience understands the joke, and brand fit",
+        "Allow humor and familiarity to be the post's primary contribution",
+        "Avoid adding a forced product explanation, sales CTA, or generic question",
+        "Keep engagement separate from product-interest or conversion claims"
+      ],
+      "hard_failures": [
+        "Rejects the meme solely because it does not teach the product",
+        "Adds a product moral that weakens the joke",
+        "Claims that a funny post will produce sales"
+      ]
+    },
+    {
+      "id": "product-demonstration-uses-only-needed-detail",
+      "task": "A social post shows a routine work request, the software completing it, and a finished design ready for review. The draft calls the request ambitious, calls the design an artifact, and says the screenshot is a receipt. Tighten the post without losing what happened.",
+      "expected_behavior": [
+        "Keep the request, product action, and review-ready design clear",
+        "Remove unsupported inflation around the difficulty or importance of the task",
+        "Name the design and screenshot directly instead of relying on strategy shorthand",
+        "Preserve any detail needed for an unfamiliar reader to understand the result"
+      ],
+      "hard_failures": [
+        "Uses ambition as a default test of whether a use case matters",
+        "Replaces clear nouns with receipt, artifact, object, or similar shorthand",
+        "Compresses the post until the result no longer makes sense"
+      ]
+    },
+    {
+      "id": "feed-allows-range",
+      "task": "A month of social includes a product definition, a visual demonstration, a useful method, a strong opinion, two memes, and a founder story. A reviewer wants every post rewritten into the same hook, proof paragraph, and CTA so the strategy feels consistent. Review the plan.",
+      "expected_behavior": [
+        "Give each post a clear individual job and main idea",
+        "Judge consistency through the brand belief, voice, and recognizable choices rather than identical structure",
+        "Allow launch and always-on posts to carry different amounts of product explanation",
+        "Keep recurring formats only when they continue to produce strong ideas"
+      ],
+      "hard_failures": [
+        "Forces every post into one opening or proof structure",
+        "Requires every brand post to include a sales CTA",
+        "Uses feed-level range to excuse a weak individual post"
+      ]
+    },
+    {
+      "id": "benchmarks-do-not-become-laws",
+      "task": "A benchmark review finds several high-performing posts from brands with different audience sizes, founders, mascots, paid support, and launch moments. Build guidance for a smaller brand's social team.",
+      "expected_behavior": [
+        "Separate observed performance from explanations for why a post worked",
+        "Extract formats and creative moves worth testing without copying another brand's personality",
+        "Account for launch news, established characters, founder distribution, giveaways, and paid support",
+        "State the limits of any recommendation based on visible engagement"
+      ],
+      "hard_failures": [
+        "Calls the benchmark mechanisms proven causes of virality",
+        "Treats a mascot-led account as a directly transferable voice",
+        "Turns one post's opening or length into a universal rule"
+      ]
+    },
+    {
+      "id": "mixed-social-run-keeps-distinct-jobs",
+      "task": "A social run includes a launch post led by a clear one-line product definition and an always-on meme that is timely, funny, and unrelated to the offer. Build the briefs and review both posts.",
+      "expected_behavior": [
+        "Give the launch post a product-belief job and verify the definition against the product behavior",
+        "Give the meme an attention or cultural-relevance job and judge whether the audience understands the joke",
+        "Require an offer and CTA only where the post's job calls for them",
+        "Keep the two posts coherent through brand voice without forcing them into the same structure"
+      ],
+      "hard_failures": [
+        "Forces the meme to state the product promise, proof, objection, or CTA",
+        "Rejects the launch definition because it does not begin with an event",
+        "Treats identical post structure as the only form of consistency"
+      ]
+    },
+    {
+      "id": "weak-calendar-row-can-be-killed",
+      "task": "A launch calendar contains an 'aha moments' row with three unrelated employee examples. None is surprising enough to carry a post alone, so the draft strings all three into a list and ends with a generic question. Review the proposed post.",
+      "expected_behavior": [
+        "Judge whether the underlying idea deserves a post before rewriting it",
+        "Treat the calendar bucket as an organizing label rather than a publishing obligation",
+        "Recommend killing or reframing the row when no single moment offers enough surprise, stakes, usefulness, or visual interest",
+        "Prefer one strong moment over a roundup of weak examples"
+      ],
+      "hard_failures": [
+        "Polishes the list without questioning the premise",
+        "Adds a generic reply prompt to compensate for the lack of a central idea",
+        "Assumes every calendar row must become a published post"
+      ]
+    },
+    {
+      "id": "publishing-account-and-cta-are-set-before-copy",
+      "task": "A company account is drafting a conversion post about its new product. The draft tags the publishing account as if it were a third party and describes the product without linking to the installation page. Review it.",
+      "expected_behavior": [
+        "Confirm the publishing account and avoid self-tagging it in the body copy",
+        "Use the product or company name where identification is needed",
+        "Recognize conversion as the post's job and include a clear next step with the verified destination",
+        "Keep the post useful and intelligible before the CTA"
+      ],
+      "hard_failures": [
+        "Leaves the publishing account self-tag in place",
+        "Treats the installation link as an optional afterthought",
+        "Adds an unrelated engagement question instead of the conversion action"
+      ]
+    },
+    {
+      "id": "copy-and-media-share-one-concept",
+      "task": "A proposed X post makes a product claim in the copy, while its attached asset shows a different use case. The plan assumes readers will understand the missing connection from a later reply that has not been written. Review the concept.",
+      "expected_behavior": [
+        "Define whether the media delivers the joke, demonstrates the result, or supplies proof",
+        "Align the copy and media around one intelligible idea",
+        "Require the post to make sense without an unexplained reply or hidden context",
+        "Reframe or replace the asset when it does not strengthen the post's main job"
+      ],
+      "hard_failures": [
+        "Treats the media as decoration added after the copy",
+        "Relies on an unspecified reply to make the post understandable",
+        "Allows the copy and media to make unrelated claims"
+      ]
+    },
+    {
+      "id": "every-repost-adds-a-transferable-lesson",
+      "task": "An Every employee posts that their agent reads Notion, Slack, local files, and operating instructions, then recommends one task for the final hour of the workday. Draft a repost caption for @every.",
+      "expected_behavior": [
+        "Identify the account as @every and load the Every social-copywriting overlay",
+        "Use the employee's connected work context and concrete recommendation as the evidence",
+        "Add one useful lesson about agents or AI-native work instead of paraphrasing the post",
+        "Keep one idea and avoid generic praise or an audience question"
+      ],
+      "hard_failures": [
+        "Says only that the employee is doing inspiring or exciting work",
+        "Repeats the employee's full post without adding a frame",
+        "Turns the caption into abstract commentary about the future of AI",
+        "Invents product behavior, time saved, or business results"
+      ]
+    },
+    {
+      "id": "every-product-promotion-must-teach",
+      "task": "Every is releasing a guide to structuring folders for agents. The draft says only that a new guide is live and asks people to click. Review and improve the concept for @every.",
+      "expected_behavior": [
+        "Open with the concrete folder problem, missed move, or useful result the guide addresses",
+        "Teach one usable principle before or alongside the promotion",
+        "Keep the post in Every's agents and AI-native work lane",
+        "Use a clear destination when the post's job includes guide traffic"
+      ],
+      "hard_failures": [
+        "Treats launch status as sufficient reader value",
+        "Adds unsupported hype instead of a usable lesson",
+        "Turns the post into a feature list with no central idea",
+        "Ends with a generic engagement question"
+      ]
+    },
+    {
+      "id": "every-lived-story-keeps-the-work",
+      "task": "An Every team member reports using a model for one month, losing early access, and changing a recurring workflow as a result. Build the @every post from the story.",
+      "expected_behavior": [
+        "Use the month-long trial or loss of access as the opening tension when it is the strongest entry point",
+        "Preserve what the person did, what changed, and the consequence for the workflow",
+        "Connect the story to Every's AI-native work lane without adding a generic moral",
+        "Keep the personal detail that makes the result credible"
+      ],
+      "hard_failures": [
+        "Removes the lived details and produces a neutral model summary",
+        "Uses the story only as a pretext for product promotion",
+        "Invents a numerical improvement or causal claim",
+        "Adds a broad prediction about AI with no teachable payoff"
+      ]
+    },
+    {
+      "id": "every-social-prior-allows-earned-exceptions",
+      "task": "A timely meme fits @every's established voice and clearly lands with its audience, but it does not teach a workflow or promote a product. Review whether it can ship under the Every social standard.",
+      "expected_behavior": [
+        "Treat the hook-teach-lane formula as a strong account prior rather than a mandatory template",
+        "Evaluate the meme on timing, clarity, humor, and Every brand fit",
+        "Allow the post when cultural relevance or humor is its deliberate job",
+        "Avoid adding a forced agent lesson, product mention, CTA, or audience question"
+      ],
+      "hard_failures": [
+        "Rejects the meme solely because it does not teach",
+        "Adds an unrelated Every product moral",
+        "Claims visible engagement would prove product demand",
+        "Applies the @every account prior to every social account"
+      ]
+    },
+    {
+      "id": "bounded-social-append-uses-fast-path",
+      "task": "The user supplies a complete list of editorial ideas and asks for social posts to be appended to the bottom of a named tab in an existing launch document. The brand rules and destination are already known. Execute the request.",
+      "expected_behavior": [
+        "Read the supplied ideas and the narrow governing social guidance",
+        "Inspect only the named tab and the local insertion point",
+        "Draft and append the requested posts in one bounded update when the tool permits",
+        "Verify the edited area once and deliver the result before optional compounding"
+      ],
+      "hard_failures": [
+        "Inventories unrelated tabs or audits the full document before a local append",
+        "Launches broad workspace or benchmark research without a material copy gap",
+        "Runs repeated readbacks or reviewer passes that cannot change the deliverable",
+        "Delays the usable copy while performing optional process work"
+      ]
+    },
+    {
+      "id": "every-never-self-tags-and-tags-partners",
+      "task": "Draft a post for @every about the Every Agent doing work inside Slack with an Every employee and Anthropic technology. The employee handle and established partner handles are available.",
+      "expected_behavior": [
+        "Treat @every as the publishing voice and refer to the company or product as Every, the Every Agent, we, or our",
+        "Tag Slack as @SlackHQ because the platform is material to the workflow",
+        "Tag the employee and @AnthropicAI when their work or technology is named",
+        "Run an explicit handle pass before delivery"
+      ],
+      "hard_failures": [
+        "Includes @Every anywhere in the post body or CTA",
+        "Leaves Slack untagged when it is material and @SlackHQ is established",
+        "Drops a supplied employee or partner tag",
+        "Invents an unverified handle"
+      ]
+    },
+    {
+      "id": "every-qualified-traffic-post-names-the-click-value",
+      "task": "Draft an @every X post whose assigned job is to drive qualified traffic to a new article. The article contains the full test, copyable prompt, screenshots, and failure log. The supplied draft gives away no result and ends with 'Read more.'",
+      "expected_behavior": [
+        "Give the reader a concrete result, tension, or conclusion in the post instead of withholding the basic answer",
+        "Include one proof point that earns the claim",
+        "Replace the generic CTA with the exact material available at the destination",
+        "Choose and label a testable placement treatment: direct link in the main post or native post with a context-matched linked reply",
+        "Require a placement-specific UTM and judge the treatment on qualified sessions per impression with reach as a guardrail"
+      ],
+      "hard_failures": [
+        "Uses 'read more,' 'full story,' 'check it out,' or another generic CTA as the reason to click",
+        "Creates a curiosity gap by hiding the article's basic conclusion",
+        "Sends the reader to a homepage or destination that does not match the post's promise",
+        "Claims that putting a link in a reply is proven to increase conversion",
+        "Uses link clicks alone as proof of qualified site traffic or business impact"
+      ]
+    }
+  ]
+}

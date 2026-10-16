@@ -3,6 +3,35 @@
 Use these rules when a human asks to compound email edits across a campaign. They
 govern writing decisions, not a fixed subject formula or sending schedule.
 
+## Reject a weak concept before editing its sentences
+
+Short, clear copy can still be a bad email. Before drafting or revising, name the
+specific reason this reader should act now. A status reminder, a generic task, or
+instructions to promote the product to colleagues cannot substitute for a payoff.
+
+- A setup reminder needs a fresh, compelling demonstration as well as a return link.
+  Keep it short, but do not strip it down to administrative status alone.
+- A reminder must move beyond the previous message. If it adds no useful proof,
+  capability, or decision, combine it with another message or remove it.
+- Sell what the person can now accomplish. Recording instructions, producing a
+  report, or setting up a monitor may be intermediate steps rather than the benefit.
+- A capable generic chatbot should not be able to inherit the pitch unchanged when
+  the product's distinctive value depends on connections, proactive action, or
+  shared workflows.
+
+## Show the mechanism behind the central promise
+
+For shared-agent campaigns, make public work a causal story: a colleague sees a
+request, the corrections, and a useful result; recognizes an application to their
+own job; and can use the shared process. Watching, trying, reusing, and completing
+work are distinct stages. Do not claim that one proves all the others occurred.
+
+Use concrete cases to demonstrate the mechanism. Repeating an adoption slogan or
+adding a collaboration moral to each example is not proof. Supporting resources,
+methods, and recommendations should strengthen the central promise rather than
+displace it with a feature inventory. Apply this frame only when it is the approved
+product positioning, not as a universal requirement for every brand's emails.
+
 ## Frame the benefit before the subject
 
 - Name the gain beyond the reader's ordinary job: a new ability, a recurring failure
@@ -22,6 +51,10 @@ govern writing decisions, not a fixed subject formula or sending schedule.
   Keep the detail that explains why this changes what the person can do.
 - Follow the work to its consequential result when evidence supports it. An audit,
   recommendation, draft, approved change, and deployed fix are different results.
+- Preserve the workflow's trigger. When a product owner confirms proactive monitoring
+  or automatic alerts, do not rewrite the benefit as a manual upload or repeated
+  prompt. Distinguish initial connection/setup from what happens afterward, and
+  carry the corrected mechanism into related campaign assets.
 - Use named people and relevant roles as proof when available. Explain why their
   starting point matters; a person without technical training producing a code change
   is a different story from a developer doing the same task.
@@ -29,8 +62,16 @@ govern writing decisions, not a fixed subject formula or sending schedule.
   how another person can use the workflow when adoption or sharing is the point.
 - Prefer spoken verbs and recognizable outputs. End with a concrete next request or
   action matched to the recipient's current state.
+- Tie the ending to the benefit the email just demonstrated. Do not append a
+  generic ask-review-share tutorial or an explanation of how colleagues will learn
+  merely to repeat the campaign's adoption message. A short, obvious next action
+  is enough when the examples have already made the case.
 - Retain human humor, warmth, and deliberate brand language. Shorter is useful only
   when it preserves the thought.
+- Practice selective economy: retain causal details, consequential outputs, required
+  setup, necessary commercial terms, and personality. Cut spare sentences before
+  cutting those elements. A requested percentage reduction is an editorial target,
+  not a demonstrated conversion law or a permanent word-count rule.
 - Check each proposed edit against the sentences before and after it for accidental
   repetition of prominent words and their close forms. Read the revised paragraph,
   not just the replacement line. Cut or recast an echo instead of reaching for an
@@ -40,11 +81,18 @@ govern writing decisions, not a fixed subject formula or sending schedule.
   Let the opening establish the stakes and the examples deliver the evidence.
 - Earn excitement through recognizable stakes, specific outcomes, and personality.
   Adding adjectives or implementation details does not strengthen a weak example.
+- Describe a shared production skill through what colleagues can now make. For
+  design, explain that the design team establishes the standards and others can
+  generate assets that follow them; saving fonts and rules alone is not the payoff.
+  Keep setup requirements and observed outcomes distinct from proposed workflows.
 
 ## Allocate examples across the sequence
 
 - Keep an example ledger before drafting: source, request, action, result, material
   limitations, relevant function, and every email already using it.
+- For a broad launch, choose the strongest proof across functions; for a themed
+  follow-up, group high-impact examples that serve the same reader need. A requested
+  three-example format does not justify a weak third item.
 - Choose a deliberate set. A broad launch can demonstrate different functions; a
   themed follow-up should group related jobs. Honor the brief's count and format.
 - When the human asks for fresh examples, apply that ruling across audience variants
@@ -54,6 +102,28 @@ govern writing decisions, not a fixed subject formula or sending schedule.
 - Distinguish a coworker watching, trying, reusing a shared skill, and completing a
   job. Explain the causal link relevant to the campaign instead of attaching a generic
   claim about collaboration to every list.
+
+## Pitch journalists with access and a story
+
+- Open like a person: identify the sender, name what is launching and when, then connect
+  the pitch to a specific piece of the journalist's work. Explain why that work makes
+  them the right person to examine this story.
+- Do not hide a weak or unclear angle behind a clever subject line. A short subject can
+  create curiosity, but the opening must quickly explain the product and why this
+  journalist should care.
+- Make an access offer tangible. Name what the journalist can use, observe, inspect,
+  question, and publish. Workspace access, live team behavior, operating records, and
+  candid conversations are more persuasive than a generic demo invitation.
+- Show breadth with a small set of concrete, varied uses. A mix of consequential and
+  unexpectedly human work can make the product memorable; a feature inventory cannot.
+- State the product hypothesis plainly. When the product's history explains why the
+  team believes it, summarize the evolution in one clean sentence instead of adding a
+  company origin story.
+- Be candid about failures and keep the human aside that gives the note personality.
+  Polish should not erase humor, warmth, or evidence that the sender has lived with the
+  product.
+- End with the smallest specific yes that matches the offer, such as testing access for
+  a defined period. A generic request to chat makes the journalist invent the next step.
 
 ## Segment before presenting
 
@@ -86,9 +156,22 @@ govern writing decisions, not a fixed subject formula or sending schedule.
   a human-selected sender and match the reply invitation to it.
 - Explain a commercial choice in human terms when that strengthens the offer. State
   pricing plainly without repeating equivalent claims or inventing unlimited access.
+- Preserve the user's exact approved pricing language and numeric format across all
+  variants. Keep current amounts and entitlements in the campaign source, verify them
+  before use, and do not replace a chosen formulation with a supposedly equivalent
+  phrase. Keep operational billing messages separate from creative campaign themes.
 
 ## Use platform evidence to shape the email
 
+- Earn each send with value for the recipient. A request to invite a colleague,
+  share a result, or save a workflow does not justify a standalone email on its own.
+  Supply a useful new example, reusable resource, or specific next task first;
+  make sharing the natural next action. If the message adds no value beyond a
+  previous email, combine it with that message or remove the send.
+- A reminder must add a reason to act. Generic note-to-summary or note-to-brief
+  exercises are weak acquisition proof when the product's distinct benefit is
+  connected company context, proactive work, or shared capabilities. Lead with
+  that benefit and a specific demonstrated result, not a prompting lesson.
 - Assign one primary reader action before choosing length or links. Acquisition earns
   installation; onboarding earns a first useful result; adoption earns repeat use;
   billing resolves an actual block. Multiple links can support one action, but do not
@@ -109,6 +192,49 @@ govern writing decisions, not a fixed subject formula or sending schedule.
 - Measure the requested behavior. A prompt meant to be used in Slack may succeed
   without an email click; an installation link click may never become an installation.
   Use opens and clicks as diagnostics alongside verified product actions when available.
+- State the scope of historical research. A relevant sample is not an exhaustive
+  ranking. The same subject can perform differently across audiences; avoid claiming
+  that a subject, length, or cadence caused the difference without suitable evidence.
+- Treat proposed onboarding as a replacement or a coordinated extension of existing
+  flows. Do not leave both versions running by default. Confirm behavior events and
+  segment joins before treating draft routing as an implemented automation.
+
+## Keep product evidence precise
+
+- Treat product and launch email as marketing, not an evidence audit. Preserve an
+  approved brand promise when the product mechanism supports it. Do not weaken the
+  story with qualifications merely because every sentence is not a measured claim.
+- Verify the facts that change the offer or the reader's decision: pricing, credits,
+  entitlements, permissions, limits, integrations, and completion state.
+- A specific example needs a clear request, action, and result. It does not need a
+  number by default. Use a metric when it makes the consequence easier to understand,
+  not as a ritual attached to every workflow.
+- Distinguish a proposed workflow, a configured automation, and an observed result.
+  An owner's current capability confirmation is evidence; record its scope without
+  inventing a named customer story or historical performance result around it.
+- Do not silently erase a current owner correction because an older source describes
+  a narrower capability. Resolve material contradictions and distinguish current
+  truth from historical limitations.
+- Preserve stages of completion: draft, reviewed output, opened code change,
+  deployed fix, and sent message are different. Asset duration is not production time.
+- Do not invent speed, conversion lift, autonomous completion, customer quotes, or
+  universal reliability. Keep unresolved evidence gaps outside reader-facing copy.
+
+## Make visuals prove the same promise
+
+- Show the exact workflow the email describes, including the useful result. Use the
+  verified people's names and roles; do not substitute anonymous departments when
+  identity makes the example more credible and understandable.
+- Keep reconstructed dialogue distinguishable from verbatim recordings or quotes.
+  A simulated editing example is not evidence of a completed named editorial review.
+- Make text legible at email width, communicate the payoff in the first frame, and
+  hold the result long enough to read. Supply useful alt text and a static fallback.
+- Check the sending platform's current media guidance before choosing formats.
+  When embedded video is poorly supported, use an optimized GIF or a linked preview;
+  retain a video master for review or playback elsewhere. Format choice is not proof
+  of conversion lift.
+- Inventory existing assets first. Reuse the supplied asset when it already meets
+  the need; do not recreate an excluded or completed example.
 
 ## Review and compound one unit at a time
 
@@ -118,6 +244,10 @@ govern writing decisions, not a fixed subject formula or sending schedule.
   a transfer test; test on the next requested email or other authorized artifact.
 - Preserve the prior version and canonical human edit privately. Record whether the
   lesson concerns strategy, evidence, voice, length, audience, or action.
+- Treat the live human-edited document as canonical. Preserve approved wording,
+  subjects, humor, sender, formatting, and edit scope. Never silently rewrite approved
+  sections during batch cleanup. Keep the requested destination as drafts; do not
+  create sending-platform drafts, schedule, or send without that scope being authorized.
 - Treat a fresh draft as a pending transfer test until the human reviews it. Capturing
   a rule does not establish that the next draft succeeded.
 - Run the requested editorial tool on every settled audience variant. A named review
@@ -127,6 +257,11 @@ govern writing decisions, not a fixed subject formula or sending schedule.
   sections. If editorial review must precede inclusion, review a staging draft first,
   then transfer the reviewed copy. Keep evidence gaps outside reader-facing prose and
   resolve or visibly flag them before treating the batch as ready.
+- Keep review notes, learning records, and process explanations out of a document
+  the user wants to contain only email copy and its agreed production metadata.
+- A rule is captured when it is saved. Its application is demonstrated only by the
+  next comparable draft; successful transfer requires review. Do not announce that
+  the system has learned while the same failure keeps recurring.
 
 ## Final email check
 

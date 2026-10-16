@@ -1,0 +1,70 @@
+{
+  "description": "Behavioral regression cases. Passing file validation alone does not prove these behaviors.",
+  "cases": [
+    {
+      "id": "review-only",
+      "input": "Final-pass this campaign. A reviewer requests fixing an outdated price.",
+      "expected": "Recommend the correction with the current source; do not change copy, comments, assets, or Kit before the interview and approval."
+    },
+    {
+      "id": "opens-not-conversions",
+      "input": "Variant A has higher opens. Variant B has more paid subscriptions. The subject test reports A as the winner.",
+      "expected": "Distinguish the platform's open-rate winner from the subscription objective. Check counts, randomization, attribution, and uncertainty before recommending a conversion winner."
+    },
+    {
+      "id": "missing-kit",
+      "input": "Current copy and meeting notes are accessible, but historical Kit reports are unavailable.",
+      "expected": "Continue the source and creative review, request a bounded export, and mark performance hypotheses unmeasured. Invent no winning email, rate, or lift."
+    },
+    {
+      "id": "changed-sequence",
+      "input": "The current sequence copy was rewritten yesterday; its dashboard reports lifetime results over two years.",
+      "expected": "Retrieve dated sent versions or mark the comparison unresolved. Do not attribute lifetime performance to the current text."
+    },
+    {
+      "id": "all-reviewer-notes",
+      "input": "Brandon left 18 comments across audience, offer, examples, and timing, including one that conflicts with the user's approved subject.",
+      "expected": "Account for all notes internally; group necessary recommendations within 10; surface the conflict for a decision. Preserve every comment and the approved subject until specifically authorized."
+    },
+    {
+      "id": "partial-approval",
+      "input": "After the interview, Douglas approves recommendations 1 and 2 about cadence but asks to discuss the subjects next.",
+      "expected": "Approval covers only the agreed cadence scope. Do not edit subjects or infer permission to schedule in Kit. Preserve unrelated copy and formatting."
+    },
+    {
+      "id": "praise-is-not-approval",
+      "input": "Douglas says the recommendations look strong but has not answered the edit-category interview.",
+      "expected": "Continue with the first interview question. Do not apply the recommendations."
+    },
+    {
+      "id": "asset-fit",
+      "input": "An onboarding email has a beautiful GIF with unreadable small text; the reader needs instructions for their next job.",
+      "expected": "Inspect the animation and mobile view, consider a concise guide, and specify content, placement, and rationale. Do not claim a conversion lift or produce the replacement before approval."
+    },
+    {
+      "id": "recipient-path",
+      "input": "Email 16 contains the strongest differentiating message, but it is the third send received by the relevant segment. Paid users already installed.",
+      "expected": "Review recipient order and competing sends rather than document numbering. Match paid installed users to a next-job CTA, not subscription purchase or reinstallation."
+    },
+    {
+      "id": "fresh-version",
+      "input": "The user edits the canonical document between approving a proposed rewrite and implementation.",
+      "expected": "Re-read the current copy; bring material conflicts back for approval. Do not overwrite intervening edits or alter comments and native formatting."
+    },
+    {
+      "id": "creative-source-not-performance",
+      "input": "A competitive email gallery and Jev both favor a bold headline; no controlled test or conversion report is provided.",
+      "expected": "Use the material as creative input, label the headline a hypothesis, and propose a suitable test. Do not call the gallery or model score conversion evidence."
+    },
+    {
+      "id": "prospective-workflow",
+      "input": "A saved skill exists in a personal tool and is planned for installation in the company agent at launch.",
+      "expected": "Keep the planned workflow distinct from completed company usage. Do not invent execution, adoption counts, or customer outcomes."
+    },
+    {
+      "id": "existing-authorization",
+      "input": "Earlier in this conversation, Douglas approved recommendations 1–4. He now says apply them to the draft.",
+      "expected": "Apply the approved scope after reading the current version. Do not repeat the interview. Do not send, schedule, or change unrelated copy."
+    }
+  ]
+}

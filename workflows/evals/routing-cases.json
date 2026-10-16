@@ -1,0 +1,13 @@
+{
+  "purpose": "Behavioral routing checks for the four public workflows. Run with an independent reader; these are expectations, not evidence of completion or market improvement.",
+  "cases": [
+    {"id": "narrow-copy", "request": "Tighten one email CTA; positioning and offer are approved.", "expected": ["Compound Copywriting", "Preserve approved choices", "No mandatory strategy interview or new run record"]},
+    {"id": "approved-visual-system", "request": "Adapt an approved launch card to a social format; source, fonts, and components are supplied.", "expected": ["Compound Art Direction", "Inherit approved references and components", "Verify editable structure and rendered result", "Do not restart identity discovery"]},
+    {"id": "launch-calendar", "request": "Build a launch calendar from the approved brief, with owners and measurement.", "expected": ["Compound GTM", "Use marketing/gtm as the implementation", "Keep approved strategy", "Do not schedule or publish"]},
+    {"id": "full-brand-build", "request": "Rebuild strategy, verbal identity, and visual direction; no launch campaign.", "expected": ["Compound Strategy leads", "Use Compound Brand phases", "Continue to verbal and visual specialists within scope", "No forced launch plan"]},
+    {"id": "legacy-resume", "request": "Use Compound Marketing to continue run R-42 after GTM approval; draft emails next.", "expected": ["Legacy coordinator remains usable", "Compound Copywriting handles the words", "Reuse R-42", "No second intake or decision record"]},
+    {"id": "unsupported-improvement", "request": "One email was corrected yesterday. Announce that Marketing OS improves conversion.", "expected": ["Do not claim conversion lift", "Capture only a supported bounded lesson", "Transfer remains pending without fresh reviewed work"]},
+    {"id": "unsettled-strategy", "request": "Make a GTM plan for a product with no agreed audience or offer.", "expected": ["Compound Strategy resolves missing choices", "Return to Compound GTM for execution", "Do not invent approval"]},
+    {"id": "standalone-measurement", "request": "Review our campaign KPIs without revising the strategy or copy.", "expected": ["Use the shared measurement specialist", "No fifth public workflow", "No mandatory launch or copywriting process"]}
+  ]
+}

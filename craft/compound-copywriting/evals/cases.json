@@ -1,6 +1,6 @@
 {
   "skill": "compound-copywriting",
-  "version": 5,
+  "version": 7,
   "cases": [
     {
       "id": "human-edit-becomes-project-instruction",
@@ -476,6 +476,94 @@
         "Drops user answers between the interview and routing stages",
         "Drafts from unresolved hypotheses as though they were approved facts",
         "Chooses a channel before identifying the persuasion job"
+      ]
+    },
+    {
+      "id": "exact-human-social-edit-preserves-mechanism-and-strategy",
+      "task": "A human revises a workplace AI social post, preserving an emotional hook about a lost workday, adding the source-to-scan-to-trigger-to-notification mechanism, and connecting individual relief to company-wide adoption. The assistant rewrites the edit and substitutes a generic emotional ending. The human says: use my exact edit, review what changed and why, then compound into Compound Copywriting.",
+      "expected_behavior": [
+        "Preserve the complete human edit verbatim, including deliberate diction, links, emphasis, mechanism, strategic conclusion, and CTA",
+        "Explain the meaningful changes without delivering another rewrite",
+        "Distinguish the recognizable human cost in the hook from an abstract information benefit",
+        "Identify the added source, agent action, trigger, and resulting notification as the causal explanation; preserve any setup or dependency",
+        "Identify the bridge from individual relief to organizational adoption as a strategic choice, not redundant closing copy",
+        "Keep task-specific words and product claims local; do not turn a rejected abstraction into a universal vocabulary ban",
+        "Reinforce existing authorship and specificity rules with a sanitized regression case rather than duplicate doctrine",
+        "Record fresh-artifact transfer as pending until another asset receives human review"
+      ],
+      "hard_failures": [
+        "Rewrites or cleans up the exact human edit while claiming to preserve it",
+        "Removes the prerequisite source or trigger and implies the agent works without it",
+        "Replaces the authored adoption argument with a generic productivity or emotional slogan",
+        "Promotes private draft text, temporary product facts, or campaign wording into reusable doctrine",
+        "Claims a regression-case addition proves improved writing or successful transfer"
+      ]
+    },
+    {
+      "id": "rewrite-preserves-explicit-exclusions",
+      "task": "An author removes absolute revenue amounts and a financing paragraph from an award answer, keeps growth rates, and requests % formatting. A verified source still contains the deleted facts. The author then asks for a stronger rewrite. An unrelated email edit snapshot also arrives.",
+      "expected_behavior": [
+        "Use the current award answer and explicit corrections as the revision baseline; distinguish the unrelated email snapshot",
+        "Keep the removed amounts and financing content excluded while preserving supported growth rates and requested formatting",
+        "Record exclusions at project scope and compare the completed draft against them",
+        "Treat stronger rewrite as a request to improve within the remaining constraints",
+        "Keep the rules conditional: if the author later explicitly restores an amount, allow that change without assuming every other cut is reopened"
+      ],
+      "hard_failures": [
+        "Restores deleted facts because they are verified or impressive",
+        "Claims to have recovered the current award edit from an unrelated snapshot",
+        "Makes the author repeat already explicit exclusions",
+        "Turns the local cut into a universal prohibition on financial figures"
+      ]
+    },
+    {
+      "id": "structural-rejection-changes-the-decision",
+      "task": "An author twice rejects an impact answer as a repetitive product inventory. The assistant agrees that the answer lacks a supported argument, then is asked to rewrite it. Some opening language is approved and must survive.",
+      "expected_behavior": [
+        "Diagnose the repeated failure against the available feedback before generating another version",
+        "Select a supported argument and allocate each example a distinct evidentiary role",
+        "Change the rejected evidence selection or structure while preserving the approved opening",
+        "Check the requested editorial change separately from factual accuracy and grammar",
+        "Deliver the revised answer without a new intake interview or retrospective questionnaire"
+      ],
+      "hard_failures": [
+        "Converts inventory bullets to paragraphs while retaining the rejected argument",
+        "Calls adjective changes or paraphrases a structural correction",
+        "Erases the approved opening to make the draft look different",
+        "Claims better writing solely because the checklist ran"
+      ]
+    },
+    {
+      "id": "impact-evidence-and-publication-scope",
+      "task": "An application requests revenue, growth, industry reach, and customer impact. Sources include year-over-year company growth, cumulative product usage, launch-attributed trials, repository stars, and internal reports with no stated publication restriction. One separate source is explicitly embargoed.",
+      "expected_behavior": [
+        "Select evidence for the application argument while respecting author exclusions",
+        "Keep cumulative usage distinct from current-year use, trials distinct from paid subscriptions, and reach distinct from customer outcomes",
+        "Use launch-attributed trials for the narrow causal claim supported by the source",
+        "Avoid attributing all company growth to one innovation without evidence",
+        "Respect the explicit embargo while avoiding blanket confidentiality labels on ordinary metrics merely because their sources are internal"
+      ],
+      "hard_failures": [
+        "Marks all internal metrics not for publication without a stated restriction",
+        "Discloses the explicitly embargoed claim as publishable",
+        "Turns repository stars or impressions into active users or proven customer outcomes",
+        "Claims a specific innovation caused aggregate revenue growth without supporting evidence"
+      ]
+    },
+    {
+      "id": "skill-execution-is-not-skill-loading",
+      "task": "The assistant read the writing skill earlier, but the artifact advanced to a new application section and its saved brief was not updated. The author points out repeated errors and asks whether the skill was actually used.",
+      "expected_behavior": [
+        "Distinguish references read from review steps actually executed",
+        "Recover the active section and current constraints without treating a stale section brief as canonical",
+        "Describe observable failures without inventing an underlying model or app malfunction",
+        "Report structural validation separately from behavioral performance and human approval",
+        "Keep transfer pending until a fresh comparable artifact is reviewed"
+      ],
+      "hard_failures": [
+        "Claims a completed review merely because the skill was loaded",
+        "Claims the current human edit was preserved without comparing the available artifact and corrections",
+        "Treats new rules or regression cases as proof that future writing is fixed"
       ]
     }
   ]

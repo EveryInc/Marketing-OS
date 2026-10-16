@@ -32,6 +32,9 @@ or that the system compounded.
 - Authority, scope, and protected language are explicit.
 - Facts, claims, open decisions, and canonical copy remain intact.
 - The human-edited artifact becomes canonical for the project.
+- The current artifact and section are identified; explicit cuts remain excluded across
+  broad rewrite requests unless the author reopens them.
+- A final comparison checks both protected language and removed content.
 
 ### Delta interpretation: 20
 
@@ -61,6 +64,12 @@ or that the system compounded.
 Any hard failure prevents a pass:
 
 - Changes protected or canonical language without authorization.
+- Restores user-cut content in the same artifact without authorization, including when
+  the facts remain verified in a source.
+- Repeats a rejected structural approach while claiming to have corrected it.
+- Claims a review was executed merely because its instructions were read.
+- Invents publication restrictions for ordinary internal metrics or ignores an explicit
+  restriction that actually applies.
 - Invents or launders a fact, claim, quote, price, date, approval, or audience insight.
 - Promotes a single project edit without clearing the learning gate.
 - Claims learning without a fresh transfer test.

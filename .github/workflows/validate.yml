@@ -1,0 +1,21 @@
+name: Validate Marketing OS
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_release.py --zip dist/every-marketing-os.zip
+      - run: python -m unittest discover -s scripts -p 'test_*.py' -v
+      - run: python -m unittest discover -s foundation/marketing-os/tests -v
+      - run: python -m unittest discover -s marketing/gtm/tests -v
+      - run: python -m unittest discover -s strategy/compound-marketing/tests -v
+      - uses: actions/upload-artifact@v4
+        with:
+          name: every-marketing-os
+          path: dist/every-marketing-os.zip

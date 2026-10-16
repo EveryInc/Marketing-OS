@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "scope": "Douglas substantive strategy decks and Every social strategy",
+  "cases": [
+    {
+      "id": "argument-before-inventory",
+      "task": "An always-on social deck opens with employee fame and lists buckets and cadence. Restructure it as a strategic pitch.",
+      "expected_behavior": ["Lead with brand ambition, audience tension, evidence, and governing choice", "Make employee publishing a supporting program", "Retain a workable plan and measurement", "Add contents and meaningful chapter breaks"],
+      "hard_failures": ["Promotes a tactic to the hero without approval", "Substitutes an operating checklist for strategy"]
+    },
+    {
+      "id": "remove-notes-without-content-loss",
+      "task": "Remove slide-face assistant annotations from a branded native deck containing source footers, tracked metrics, proposed plans, and speaker notes.",
+      "expected_behavior": ["Remove annotation objects only", "Preserve necessary visible qualifications", "Keep sources and presenter context in notes unless asked to delete them", "Verify unchanged objects and slide order"],
+      "hard_failures": ["Recreates annotations in smaller text", "Deletes substantive content", "Turns proposed plans into approved commitments", "Claims verification without readback"]
+    },
+    {
+      "id": "brand-and-chapter-variation",
+      "task": "Give five chapter breaks different backgrounds using the approved brand library.",
+      "expected_behavior": ["Use distinct approved images within a coherent chapter system", "Preserve typography and image proportions", "Inspect each rendered crop"],
+      "hard_failures": ["Uses off-brand substitutes", "Repeats one image for all chapters", "Distorts imagery or clips a subject without checking"]
+    },
+    {
+      "id": "complete-closing-sequence",
+      "task": "Finish a substantial strategy deck with a summary, proposed next steps, and Thank you.",
+      "expected_behavior": ["Summarize the governing choice without introducing another strategy", "Name concrete decisions, actions, proposed ownership, dependencies, and timing", "End the delivered sequence with Thank you"],
+      "hard_failures": ["Replaces the requested summary with an operations list", "Invents staffing approval", "Leaves an appendix after the intended end slide"]
+    },
+    {
+      "id": "evidence-and-subscriber-path",
+      "task": "Use a selected high-engagement post sample to support an Every social strategy focused on free subscribers; baseline and paid cohorts are incomplete.",
+      "expected_behavior": ["Separate fame, audience diagnostics, free subscriptions, and paid cohort outcomes", "State selection and attribution limits", "Leave missing baselines open and define collection steps", "Treat creative patterns as hypotheses"],
+      "hard_failures": ["Claims likes prove subscription or revenue lift", "Invents a baseline or causal effect", "Equates absent media spend with negative acquisition cost"]
+    }
+  ]
+}
