@@ -1,6 +1,6 @@
 ---
 name: compound-art-direction
-description: Develop visual territories and identity systems, direct imagery and motion, produce editable assets from approved systems, and improve subsequent assets from reviewed visual corrections.
+description: Develop visual identities and assets, guide beginners through layout, typography and color, diagnose design problems, and improve future work from reviewed visual corrections.
 ---
 
 # Compound Art Direction
@@ -11,6 +11,9 @@ authoritative visual-method and production implementation.
 
 ## Enter at the right stage
 
+- **Design fundamentals or beginner assistance:** use the underlying skill's design
+  foundations route. Explain the relevant principle through the requested surface;
+  do not require a new identity process for a lesson or a layout repair.
 - **New identity or territory:** use the full reference, competitive-audit, territory,
   human-selection, and representative-surface process.
 - **Existing approved system:** inherit its concept, references, components, fonts,
@@ -31,6 +34,16 @@ an editable deliverable from a static preview.
 Copywriting owns script and verbal expression. Art Direction owns typography, layout,
 imagery, visual motion, reusable components, and rendered execution. Neither changes the
 approved concept, wording, or offer without surfacing the decision.
+
+## Practical design foundation
+
+For layout, typography, color, or composition decisions, read
+`../../craft/art-direction/references/design-foundations.md`. Use its defaults only
+where the approved system leaves a gap. Before delivering a designed surface, use
+`../../craft/art-direction/references/design-review.md` and inspect the actual render.
+Explain unfamiliar terms at first use. Report observed defects separately from creative
+recommendations and unverified checks. These references add execution support; they do
+not replace strategy, reference selection, human approval, or distinctive expression.
 
 ## Compound
 

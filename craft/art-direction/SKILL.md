@@ -48,11 +48,26 @@ explicit evaluation. For a formatted collaborative artifact, also read
 
 | Task | Load |
 |---|---|
+| Learn design basics; make or repair layout, hierarchy, typography, spacing, or color | `references/design-foundations.md` |
+| Review a designed surface before handoff | `references/design-review.md` |
 | Choose, analyze, or reject references | `references/reference-doctrine.md` |
 | Audit competitors, category codes, and visual white space | `references/competitive-semiotic-audit.md` |
 | Define the full visual system and surface tests | `references/visual-identity-system.md` |
 | Build components, templates, Figma systems, generative branches, or automated assets | `references/agent-readable-production.md` |
 | Study a worked correction from concept to system | `references/thesis-2027-case-study.md` |
+
+For a fundamentals lesson, load only the relevant foundation sections and the supplied
+artifact or brief; no brand discovery is needed. For layout production or repair, inherit
+approved strategy and visual sources and load only dependencies needed for the decision.
+The full discovery dependencies and human reference gate apply to new identity work.
+When no identity exists, a neutral instructional example may be marked provisional;
+it is not an approved brand system. Do not silently turn a beginner's asset request into
+a rebrand, or turn a teaching example into brand canon.
+
+Use design foundations to make explicit decisions, not to recite a tutorial. State the
+intended reading order, choose dimensions and roles, and explain the most consequential
+choice in plain language. Existing brand rules override suggested defaults unless they
+create an accessibility or production conflict, which must be surfaced.
 
 ## Establish authority
 
@@ -161,6 +176,9 @@ variable per branch. A generator can execute a visual decision; it should not be
 invent the art direction and evaluate itself in the same pass.
 
 ## Prove and evaluate the system
+
+Use `references/design-review.md` for the applicable surface checks. Passing a structural
+check or a numeric contrast test alone does not establish usability or design quality.
 
 Test a small, representative set of surfaces before scaling. Include at least one dense,
 one sparse, one small-format, and one large-format application when relevant. Verify:
