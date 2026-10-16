@@ -34,6 +34,19 @@ live connector compatibility.
 - Manual instruction review retained narrow-edit routing, approved source authority,
   no automatic publication, honest measurement limits, and unfinished-module labels.
 
+## Independent synthetic check
+
+A separate agent used the packaged entry to produce a fictional announcement and
+handoff, then assess a previously approved email revision. It preserved the exact
+headline and CTA, used the current brief rather than archived capabilities, kept the
+announcement under 40 words, and correctly skipped redundant approval. It reported
+that no production artifact was rendered and no campaign edits were performed.
+
+The check exposed residual interview wording and a missing explicit fallback for
+standalone editorial skills. The instructions now scope the interview to missing
+approval and point to bundled editorial gates for a manual pass. This is one bounded
+synthetic check, not a production acceptance test or evidence of improved conversion.
+
 ## Remaining limits
 
 - No license has been selected. Resolve this before skill-library redistribution.

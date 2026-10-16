@@ -1,6 +1,6 @@
 ---
 name: email-final-pass
-description: Audit an entire Every email campaign before final edits. Review current strategy, Notion and Slack decisions, reviewer comments, Kit performance, copy, cadence, and assets; return no more than 10 recommendations and interview Douglas before applying approved changes.
+description: Audit an entire Every email campaign before final edits. Review current strategy, Notion and Slack decisions, reviewer comments, Kit performance, copy, cadence, and assets; return no more than 10 recommendations, obtain any missing approval, and apply authorized changes.
 ---
 
 # Email Final Pass
@@ -38,7 +38,11 @@ change before applying it. Reading a comment is not permission to implement it.
 - Apply Every Style and AI Check to recommendations and proposed copy. The user's
   latest instructions and approved language take precedence over general advice.
 
-If a dependency is unavailable, name the gap and use the available rules. Do not
+If standalone Every Style or AI Check is unavailable, use the bundled
+`../../brand-voice/every-master/references/editorial-gates.md` for a manual editorial
+pass. This is not a remote KateBench or Jev run.
+
+If another dependency is unavailable, name the gap and use the available rules. Do not
 claim a tool, review, or benchmark ran merely because its instructions were read.
 
 ## 2. Recover the current campaign
@@ -148,7 +152,10 @@ bury a material problem to meet the limit. Add one short source-coverage line
 stating what was reviewed, any missing data, and unresolved reviewer questions.
 Avoid a second list of disguised recommendations or a long audit appendix.
 
-## 7. Interview before applying
+## 7. Resolve missing approval before applying
+
+Skip this interview for changes the user has already explicitly authorized. Use it
+only for the remaining recommendations; prior approval does not expire between turns.
 
 Discuss one category at a time, starting with the largest consequence: audience
 and cadence, promise and offer, subjects and hooks, examples, or assets. Use only
@@ -162,7 +169,7 @@ direction, revise the proposal and confirm it before implementation.
 
 ## 8. Apply and verify approved changes
 
-After the interview, apply only the agreed changes to the agreed document.
+Once authorized, apply only the agreed changes to the agreed document.
 Re-read the current version first. If intervening edits materially change the
 proposal, bring the difference back to Douglas. Keep a recoverable before-state.
 

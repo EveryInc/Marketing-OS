@@ -92,4 +92,3 @@ the image the plugin will create in Figma.
 ## Related Issues
 
 - [Controlled Generative Visual Iteration](../design-patterns/controlled-generative-visual-iteration.md)
-

@@ -75,4 +75,3 @@ transparent PNG, embed it in the plugin, create an image node named
 ## Related
 
 - [Controlled Generative Visual Iteration](../design-patterns/controlled-generative-visual-iteration.md)
-
