@@ -103,6 +103,28 @@ product positioning, not as a universal requirement for every brand's emails.
   job. Explain the causal link relevant to the campaign instead of attaching a generic
   claim about collaboration to every list.
 
+## Pitch journalists with access and a story
+
+- Open like a person: identify the sender, name what is launching and when, then connect
+  the pitch to a specific piece of the journalist's work. Explain why that work makes
+  them the right person to examine this story.
+- Do not hide a weak or unclear angle behind a clever subject line. A short subject can
+  create curiosity, but the opening must quickly explain the product and why this
+  journalist should care.
+- Make an access offer tangible. Name what the journalist can use, observe, inspect,
+  question, and publish. Workspace access, live team behavior, operating records, and
+  candid conversations are more persuasive than a generic demo invitation.
+- Show breadth with a small set of concrete, varied uses. A mix of consequential and
+  unexpectedly human work can make the product memorable; a feature inventory cannot.
+- State the product hypothesis plainly. When the product's history explains why the
+  team believes it, summarize the evolution in one clean sentence instead of adding a
+  company origin story.
+- Be candid about failures and keep the human aside that gives the note personality.
+  Polish should not erase humor, warmth, or evidence that the sender has lived with the
+  product.
+- End with the smallest specific yes that matches the offer, such as testing access for
+  a defined period. A generic request to chat makes the journalist invent the next step.
+
 ## Segment before presenting
 
 - When platform access is available, inspect saved audience definitions, exclusions,

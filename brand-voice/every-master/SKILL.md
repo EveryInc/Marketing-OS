@@ -143,6 +143,13 @@ Use `references/email-patterns.md` for observed voice behavior in recent Every s
 Use the relevant `craft/email/*` skill for format, audience, length, CTA, and sequence
 rules. Email examples do not override this skill's editorial gates.
 
+## Social calibration
+
+Use `references/social-copywriting.md` for posts published by `@every` and employee
+repost copy intended for the Every account. It defines the account's evidence-backed
+topic priorities, repeatable post shapes, and review gates. Use the general Compound
+Copywriting social reference for platform-wide craft and exceptions.
+
 ## Reference routing
 
 | Need | Load |
@@ -150,6 +157,7 @@ rules. Email examples do not override this skill's editorial gates.
 | Full verbal identity, modes, descriptors, and surface behavior | `references/verbal-identity.md` |
 | Kate top-edit, Every style, AI-tell, and tightening pass | `references/editorial-gates.md` |
 | Recent email patterns and channel calibration | `references/email-patterns.md` |
+| `@every` posts and employee repost copy | `references/social-copywriting.md` |
 
 ## Dependencies
 
@@ -171,3 +179,9 @@ rules. Email examples do not override this skill's editorial gates.
 - [ ] Canned contrasts, correlatives, AI filler, and press-release language are gone
 - [ ] Claims, quotations, numbers, and people are properly sourced or identified
 - [ ] The draft passed the Kate top-edit, Every style, and tightening gates
+
+## Explicit editorial constraints
+
+For Douglas’s copy and editorial suggestions, apply
+[the current constraints](references/editorial-constraints.json). These override older
+examples in this library. Other users retain their own explicit vocabulary choices.

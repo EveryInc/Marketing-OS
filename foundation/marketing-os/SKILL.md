@@ -118,6 +118,7 @@ When this skill is loaded, route to the appropriate reference file based on the 
 | Need to operationalize a framework (Binet/Field, Sharp, Aaker, etc.) | `references/frameworks.md` |
 | Need to develop or revise substantial work with Douglas | `references/collaboration.md` |
 | Need to edit an existing formatted document | `references/native-document-editing.md` |
+| Build, restructure, or review a substantive brand or marketing strategy pitch deck | `references/strategy-decks.md` |
 | Need to add or compound repository guidance | `references/knowledge-boundaries.md` |
 | Meaningful feedback or a result should improve future work | `references/learning-loop.md` |
 | Substantial strategy, recurring marketing, or GTM work | `references/golden-path.md` |

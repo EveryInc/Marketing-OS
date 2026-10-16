@@ -4,6 +4,11 @@ Use these rules when developing a social approach, writing a related run of post
 carrying human edits into the next post. They govern creative decisions. They do not
 prescribe one opening, format, content mix, or posting schedule.
 
+Load a maintained brand-specific social reference after this file when one exists. The
+brand overlay may set evidence-backed topic priorities, recurring post shapes, or review
+gates for one account. Keep those instructions bounded to that account instead of turning
+them into universal social rules.
+
 ## Give the post a job before choosing its form
 
 A post may explain, demonstrate, teach, entertain, provoke, or tell a story. Choose the

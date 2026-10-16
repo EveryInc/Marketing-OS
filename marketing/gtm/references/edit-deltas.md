@@ -27,6 +27,23 @@ examples.
 - Lock the one-line strategy and positioning before building execution.
 - Make each sentence and section do one strategic job. Keep product promise, positioning,
   hero UVP, mechanism, reason to believe, and proof distinct.
+- Give every strategy slide one job in the argument. If it adds no new idea, decision,
+  proof, or action, cut or combine it before polishing the copy.
+- Never shrink slide type to force an exhaustive list or dense table onto one page.
+  Split the material across additional slides and group it by the decision the audience
+  needs to make, so every page remains legible at presentation size.
+- Define a channel strategy as a causal theory of audience movement before choosing
+  content buckets. Map every bucket to a job in that theory.
+- Keep the first champion and the next user distinct when adoption spreads through a
+  team. Do not invent skepticism or resistance that the evidence does not establish.
+- Keep attention, trial, and adoption distinct. Choose hero demonstrations for their
+  ability to change perception; require job relevance only when the next step needs it.
+- Give social, editorial, education, and other channels distinct jobs that reinforce the
+  same message instead of repeating the same copy on every surface.
+- Carry a distinctive, verified proof idea across the few channels where it can do a
+  different job. Use social to make the result surprising and lifecycle email to turn
+  the same use case into a concrete first task; preserve the underlying request, action,
+  and result across both.
 - Name the customer and first champion separately when they differ.
 - Treat Douglas's edited language as canonical. When he rejects an edit, restore it and
   propagate the decision through the authorized scope.
@@ -41,6 +58,14 @@ examples.
   visible and the spoken copy stays sparse.
 - Write proof as request, action, and result. Explain causal links and retrieve missing
   facts instead of replacing them with mystery language.
+- When the product collapses a laborious task, show the steps a person would have to
+  complete before revealing the one agent request and finished result. Keep the steps
+  true to the task and avoid inventing an internal process.
+- Give adjacent social posts different jobs. If one post dramatizes a result, the next
+  can teach the workflow by publishing the input, exact prompt, guardrails, review step,
+  and output. A renamed retelling is still a duplicate.
+- Verify and tag a named teammate's public handle when they appear in public copy. The
+  attribution also creates a natural repost and reply path. Never guess the handle.
 - Never use “real” as credibility filler. Name the exact fact or outcome.
 - Keep strategy, content/social, and creator/community plans separate when each needs its
   own operating detail.

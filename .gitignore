@@ -4,3 +4,8 @@
 docs/reviews/
 __pycache__/
 *.py[cod]
+
+# Local integrations, private source notes, and generated packages
+.claude/
+.private/
+dist/

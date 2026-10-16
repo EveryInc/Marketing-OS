@@ -27,11 +27,39 @@ The theoretical foundation, brand context, and specialist guidance remain intact
 `strategy/compound-marketing` stays available as the legacy end-to-end coordinator;
 existing specialist paths and saved run records continue to work.
 
-Keep the full checkout available when installing these entries: their relative references
-use the shared repository, so copying a workflow folder alone is insufficient. For local
-skill discovery, use a small installed adapter that points to the chosen checkout's
-`workflows/<workflow-name>/SKILL.md`; keep the implementation in this repository. Install
-only the four public entries, not duplicate copies of the underlying specialists.
+## Install or share
+
+Install the **whole repository as one skill folder** named `every-marketing-os` in your
+host's skill directory. The root [SKILL.md](SKILL.md) routes into the four workflows.
+Do not copy an individual workflow folder: it depends on shared references elsewhere
+in this repository. The repository root, not the shell's current directory, anchors
+repository-relative paths.
+
+For an existing setup that prefers four separately discoverable workflows, keep the
+full checkout and use thin adapters pointing to its four public entries. Choose either
+that setup or the umbrella entry to avoid duplicate discovery. Supporting `SKILL.md`
+files are routed references, not separately installable packages.
+
+Python 3.10+ and Git are needed only for release checks and packaging, not for reading
+the skill. From the repository root:
+
+```sh
+python3 scripts/validate_release.py
+python3 scripts/validate_release.py --zip dist/every-marketing-os.zip
+```
+
+The ZIP includes the complete release candidate and excludes ignored private notes,
+local integration settings, and generated output. Untracked, nonignored additions are
+included, so review the candidate before publishing. Checks cover local references,
+JSON, public entry metadata, and selected privacy patterns; they do not certify the
+absence of sensitive material or prove better marketing outcomes.
+
+Slack, Notion, Google Drive, Kit, and specialist reviewers are optional host capabilities,
+not bundled connections. Without them, use supplied sources, identify missing evidence,
+and continue independent work. Product scaffolds remain explicitly unfinished.
+
+The repository currently has no declared license. Confirm licensing with the repository
+owner before redistribution through a skill library.
 
 Routing regression scenarios live in [workflows/evals/routing-cases.json](workflows/evals/routing-cases.json).
 They complement the foundation smoke cases; synthetic checks do not establish market results.
