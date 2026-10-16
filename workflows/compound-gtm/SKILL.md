@@ -10,6 +10,8 @@ Bring an approved strategy to market. This is the public entry for the existing
 for the selected launch tier and deliverable. There is one GTM implementation, not two.
 
 Inherit the approved audience, promise, offer, proof, protected wording, and open decisions.
+Use `../../foundation/marketing-os/references/task-context.md` for substantive briefs,
+changed direction, or handoffs; preserve the implementation's tier and approval gates.
 If a governing choice is genuinely missing, resolve that choice through Compound Strategy
 and return here. Do not run the full strategy workflow for a calendar or scoped revision.
 

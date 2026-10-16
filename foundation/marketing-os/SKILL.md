@@ -31,6 +31,12 @@ when the task already has a governing record.
 
 ## Shared foundation
 
+For substantive work, a changed brief, or a reset, use `references/task-context.md`.
+Assemble context from current sources and load only the selected workflow's applicable
+references. A narrow edit inherits approved strategy; it does not require the entire
+method, canon, or specialist library. New strategic or creative choices still need their
+grounding. Keep mandatory approval and verification checks intact.
+
 Every's in-house marketing operating system, authored by Douglas Brundage as Head of
 Marketing. This is the theoretical and methodological foundation that every downstream
 skill in the repo — brand-voice, positioning, craft, strategy, launches — pulls from
@@ -92,8 +98,8 @@ through delivery and learning.
 
 ## When to invoke
 
-This skill is loaded automatically by every other skill in the repo. It is the root
-dependency. Specific situations where it is invoked directly:
+This file supplies the root dependency to downstream skills; its reference library is
+loaded by task, not in full. Specific situations where it is invoked directly:
 
 - When generating any brand or marketing work (copy, positioning, strategy, launches)
 - When editing or evaluating existing work against Every's standards

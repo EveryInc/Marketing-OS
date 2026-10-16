@@ -56,7 +56,9 @@ Promote a durable rule only when at least one condition holds:
 Then:
 
 1. Apply `knowledge-boundaries.md`.
-2. Search for an existing broader rule before adding text.
+2. Search for an existing broader rule before adding text. Prefer clarifying or replacing
+   overlapping guidance; check callers before retiring superseded instructions. State
+   which future decision the change improves. Keep example-specific details local.
 3. Update the narrowest authoritative file.
 4. Add or strengthen one regression case when the lesson prevents a repeatable failure.
 5. Run the Marketing OS smoke tests and the affected skill evaluation.

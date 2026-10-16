@@ -261,7 +261,9 @@ language as reusable doctrine.
 
 ## Measure the run
 
-Load `references/scorecard.md`. The primary metric is material revision rounds per
+For an explicit benchmark, requested measurement, or active learning run, load
+`references/scorecard.md`. An ordinary draft or clean handoff does not require a scorecard
+or a new baseline. The primary metric is material revision rounds per
 approved artifact. Record time to approval, protected-language survival, hard failures,
 human quality score, and whether the next-task transfer check passed.
 
@@ -286,9 +288,9 @@ compounding.
 ## Dependencies
 
 - `foundation/marketing-os`
-- `foundation/marketing-os/references/collaboration.md`
-- `foundation/marketing-os/references/learning-loop.md`
-- `foundation/marketing-os/references/knowledge-boundaries.md`
+- `foundation/marketing-os/references/collaboration.md` (substantial creative decisions)
+- `foundation/marketing-os/references/learning-loop.md` (meaningful learning evidence)
+- `foundation/marketing-os/references/knowledge-boundaries.md` (durable promotion)
 - `craft/copywriting`
 - `craft/copywriting-interview` (when the brief is incomplete)
 - `craft/copywriting-concept` (when the creative approach is open)

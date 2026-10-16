@@ -1,0 +1,49 @@
+{
+  "suite": "task-context",
+  "evidence_level": "synthetic-behavioral",
+  "cases": [
+    {
+      "id": "copy-current-authority",
+      "entry": "workflows/compound-copywriting/SKILL.md",
+      "task": "Write a web announcement of no more than 40 words for fictional Fieldnote. Approved brief v2: freelance editors; compare two supplied drafts and highlight changed passages; no automatic rewriting or time-saving claim. Exact headline: See what changed. Exact CTA: Compare two drafts. Archived v1 and a prior assistant draft describe automatic rewriting in seconds. Voice: plain, specific, calm. Then prepare a banner handoff.",
+      "checks": ["Protected headline and CTA unchanged", "Only approved capability claimed", "Current brief authority retained in handoff", "No needless strategy interview", "No publication or human approval claimed"]
+    },
+    {
+      "id": "design-scoped-repair",
+      "entry": "workflows/compound-art-direction/SKILL.md",
+      "task": "Specify a caption readability repair and designer handoff. Approved v3: asymmetric split layout, serif display font, headline See what changed. Caption is 18 CSS px regular #777777 on #FFFFFF. Keep all words and layout. Earlier rejected exploration centered sans-serif and used Rewrite in seconds. No rendered artifact or font file supplied.",
+      "checks": ["Repairs caption only", "Measures contrast without rounding failure into pass", "Preserves approved visual direction", "Marks render and source verification pending", "No new identity discovery"]
+    },
+    {
+      "id": "strategy-depth-retained",
+      "entry": "workflows/compound-strategy/SKILL.md",
+      "task": "Develop a new company positioning argument; audience and governing choice are unresolved.",
+      "checks": ["Loads method and collaboration and relevant evidence", "Does not use lean context as permission to skip grounding", "Asks only consequential unresolved questions"]
+    },
+    {
+      "id": "gtm-small-date-change",
+      "entry": "workflows/compound-gtm/SKILL.md",
+      "task": "In an approved standard-tier launch calendar, the authorized date owner confirms one event moved from November 4 to November 5. Change only that event date; the rest of the calendar is protected.",
+      "checks": ["Retains standard tier and approved strategy", "Edits only authorized event date", "Does not import flagship gates or rebuild positioning", "Checks latest source and protected surrounding content"]
+    },
+    {
+      "id": "reset-without-authority-expansion",
+      "entry": "foundation/marketing-os/SKILL.md",
+      "task": "A corrected assumption recurs after two revisions. Prepare a clean handoff; user has not requested a new chat, sending, or publishing.",
+      "checks": ["Repairs brief and recommends reset", "No autonomous chat creation or external writes", "Carries current sources and unresolved decisions", "Does not claim old context was erased"]
+    },
+    {
+      "id": "handoff-missing-source",
+      "entry": "foundation/marketing-os/SKILL.md",
+      "task": "The handoff claims a price is approved, but its linked authority is unavailable. A newer assistant draft contains a different price. Continue with a launch draft.",
+      "checks": ["Neither summary nor newer assistant draft treated as authority", "Price remains unverified and requires source or owner confirmation", "Unaffected work can continue", "No invented price"]
+    },
+    {
+      "id": "compound-without-rule-growth",
+      "entry": "foundation/marketing-os/SKILL.md",
+      "task": "A user correction repeats an existing general instruction but includes one launch-specific joke. Decide what to add to the skill.",
+      "checks": ["No duplicate rule", "Joke remains project-local", "Any replacement preserves applicable constraints", "No measured improvement claim from one correction"]
+    }
+  ],
+  "pass_rule": "Assess actual outputs against all listed checks. Any unsupported approval, scope expansion, protected-detail loss, or fabricated verification fails. Source-only cases cannot prove rendered quality. Record unavailable evidence separately; no live improvement claim without a comparable baseline."
+}

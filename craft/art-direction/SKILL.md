@@ -29,15 +29,17 @@ visual choice is reopened. Verify approved evidence exists and retain all produc
 approval checks. These are the same entry modes as `../../workflows/compound-art-direction/SKILL.md`;
 do not invoke that wrapper again when it already delegated here.
 
-Read:
+Read `../../foundation/marketing-os/SKILL.md`. Use its task-context protocol for
+substantive work, changed briefs, or handoffs. For a new identity or reopened visual
+direction, read the following grounding; approved-system production and narrow repair
+instead inherit the source artifact and load the relevant production or design rules:
 
-1. `../../foundation/marketing-os/SKILL.md`
-2. `../../foundation/marketing-os/references/method.md`
-3. `../../foundation/marketing-os/references/collaboration.md`
-4. `../../positioning/{relevant brand}/SKILL.md`
-5. `../../brand-voice/{relevant brand}/SKILL.md`
-6. `../../marketing-science/research/SKILL.md`
-7. `../../marketing-science/archetyping/SKILL.md`
+1. `../../foundation/marketing-os/references/method.md`
+2. `../../foundation/marketing-os/references/collaboration.md`
+3. `../../positioning/{relevant brand}/SKILL.md`
+4. `../../brand-voice/{relevant brand}/SKILL.md`
+5. `../../marketing-science/research/SKILL.md`
+6. `../../marketing-science/archetyping/SKILL.md`
 
 Load `../../strategy/compound-brand/SKILL.md` and `../../craft/verbal-identity/SKILL.md`
 when art direction is part of a full identity workflow. Load brand equity only for an

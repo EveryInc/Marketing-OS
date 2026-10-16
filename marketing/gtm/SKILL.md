@@ -15,16 +15,20 @@ behavior. Add execution only after the strategy is clear.
 
 ## Load the system
 
-Read:
+Read `../../foundation/marketing-os/SKILL.md`. Use its task-context protocol for
+substantive work, changed briefs, or handoffs. Select launch tier and artifact mode before
+loading additional references:
 
-1. `../../foundation/marketing-os/SKILL.md`
-2. `../../foundation/marketing-os/references/method.md`
-3. `../../foundation/marketing-os/references/collaboration.md`
-4. `../../positioning/every-master/SKILL.md`
-5. `../../marketing-science/archetyping/references/every-audiences.md`
-6. `../../craft/editing/SKILL.md`
-7. `../../craft/editing/references/compound-from-edits.md`
-8. `references/strategy-standard.md`
+- For a new or reopened GTM decision, read the foundation's method and collaboration,
+  `../../positioning/every-master/SKILL.md`,
+  `../../marketing-science/archetyping/references/every-audiences.md`, and
+  `references/strategy-standard.md`.
+- For scoped revisions, drumbeats, or social briefs, inherit the approved decision and
+  retrieve only sources needed for the requested change. Do not rerun strategy discovery.
+- For prose editing, read `../../craft/editing/SKILL.md`; when interpreting human edits,
+  also read `../../craft/editing/references/compound-from-edits.md`.
+
+Conditional loading does not waive the selected tier's approval or verification gates.
 
 For an existing collaborative document, also read `../../foundation/marketing-os/references/native-document-editing.md`. Apply `every-style` and `ai-check` to final prose.
 

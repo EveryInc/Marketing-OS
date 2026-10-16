@@ -19,6 +19,9 @@ edit does not require every review stage.
 Inherit the strategy, offer, sources, protected wording, and approval state. Do not rewrite
 an approved strategy while polishing copy. A full new voice system routes to
 `craft/verbal-identity`; ordinary copy uses the established brand voice.
+Use `../../foundation/marketing-os/references/task-context.md` for substantive briefs,
+changed direction, or handoffs. Reuse the implementation's copy contract; do not add a
+second intake or treat a prior assistant draft as an approved source.
 
 For a film, Copywriting owns premise, story, dialogue, and script; Art Direction owns the
 visual treatment and production system. Pass the same approved concept between them.

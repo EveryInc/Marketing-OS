@@ -12,7 +12,9 @@ is needed. Do not turn a settled brief into another strategy exercise.
 ## Start at the unresolved decision
 
 Read `../../foundation/marketing-os/SKILL.md` as foundation, not as a request to restart
-routing. Read its method and collaboration references. Establish which sources own facts,
+routing. For strategic decisions, read its method and collaboration references; an exact
+scoped correction inherits the approved strategy. Use its `references/task-context.md`
+for the brief and any clean handoff. Establish which sources own facts,
 strategic choices, exact wording, and approval. Retrieve available evidence before asking
 the human for a decision the sources cannot settle.
 

@@ -11,6 +11,10 @@ authoritative visual-method and production implementation.
 
 ## Enter at the right stage
 
+Use `../../foundation/marketing-os/references/task-context.md` for substantive briefs,
+changed direction, or handoffs. Carry forward the approved visual decisions and source
+artifact, not every earlier exploration.
+
 - **Design fundamentals or beginner assistance:** use the underlying skill's design
   foundations route. Explain the relevant principle through the requested surface;
   do not require a new identity process for a lesson or a layout repair.
