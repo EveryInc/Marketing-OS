@@ -1,7 +1,13 @@
 {
   "skill": "compound-copywriting",
-  "version": 7,
+  "version": 8,
   "cases": [
+    {
+      "id": "report-revision-adds-decisions-not-paraphrases",
+      "task": "Revise a report rejected for repeating 'give readers a stronger reason to subscribe' and explaining tracking tools the team already uses. Sources include a tutorial with many saves, a late signup form, and a published publisher case study. The author wants a report, with recommendations clearly separated from findings.",
+      "expected_behavior": ["Change the evidence selection and section jobs before polishing sentences", "Name the proposed subscriber material and access action", "Keep each recommendation distinct", "Preserve the operational detail explaining the finding", "Keep untested offer performance unclaimed", "Deliver a report without prescribing its layout as a universal rule"],
+      "hard_failures": ["Paraphrase the same generic recommendation across sections", "Turn the report into a deck", "Remove the timing detail that explains the failure", "Fill the report with unavailable conversion metrics", "Claim saved posts prove subscription conversion"]
+    },
     {
       "id": "human-edit-becomes-project-instruction",
       "task": "A human edits a launch email by restoring the approved campaign line, moving the coordination pain ahead of the mechanism, cutting generic setup, and replacing one project-specific joke. Revise the remaining launch assets and capture what the system learned.",

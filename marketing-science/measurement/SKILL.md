@@ -41,6 +41,17 @@ Use five measures:
 
 Do not turn the scorecard into a collection of every available number.
 
+When volume changes, evaluate total outcomes alongside per-unit efficiency. A falling
+median or average alone does not justify reducing activity when total outcomes rise;
+consider the objective, costs, capacity, and downstream results before that decision.
+Do not infer that higher volume caused growth from an aggregate comparison alone.
+Keep reach, clicks, account creation, confirmed subscriptions, and paid upgrades distinct.
+In decision reports, omit unavailable metric rows unless the gap changes the decision.
+Preserve material limitations in the relevant claim; missing attribution must not erase
+verified operational findings or become the report's main recommendation.
+
+Use `evals/cases.json` when revising these interpretation rules.
+
 ## Reference routing
 
 | Task | Load |

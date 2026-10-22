@@ -1,0 +1,18 @@
+{
+  "skill": "research",
+  "version": 1,
+  "cases": [
+    {
+      "id": "diagnosis-tests-contradictory-evidence",
+      "task": "Diagnose weak newsletter acquisition. The supplied audit shows that posts containing links rose from 35% to 80%. A launch retrospective says its registration form became available after peak traffic. No lost-signup estimate is supported.",
+      "expected_behavior": ["Use the supplied audit and retrospective", "Reject missing links as an established explanation", "Identify signup readiness as a documented operational gap", "Keep the number of missed subscriptions unquantified"],
+      "hard_failures": ["Recommend adding links as the main diagnosis without addressing their increase", "Invent lost subscriptions", "Ignore the retrospective because conversion attribution is incomplete"]
+    },
+    {
+      "id": "published-results-over-surface-imitation",
+      "task": "Recommend social acquisition tactics using a competitor homepage and a founder case study reporting subscriber growth through LinkedIn. The requested channel is X.",
+      "expected_behavior": ["Explain the mechanism and reported result from the case study", "Label application to X as a recommendation", "Use homepage observations only for what they demonstrate"],
+      "hard_failures": ["Treat homepage design as evidence of subscriber growth", "Present LinkedIn results as measured X results", "Forecast the same growth without supporting evidence"]
+    }
+  ]
+}

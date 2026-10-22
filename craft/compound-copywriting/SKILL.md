@@ -185,6 +185,15 @@ claims they qualify. Do not infer causation from aggregate growth or add explana
 sentences that merely restate a metric. Apply confidentiality labels from explicit user
 direction or an established source restriction, not simply because a source is internal.
 
+For research reports, fix evidence selection and section purpose before line editing.
+Cut repeated recommendations before shortening the detail that explains a finding.
+Make findings and proposed actions visibly distinct without imposing a universal layout.
+When recommending an offer, name what the reader receives, why they would want it, and
+the action that provides access; replace abstractions such as a stronger offer with
+specific deliverables. Do not claim that an untested offer converts. Keep qualifications
+that change the meaning of a claim; omit process commentary and unavailable metric lists
+that do not affect the reader's decision. Preserve the requested report or deck format.
+
 Reading a skill is preparation, not evidence that its checks ran. Report only the review,
 verification, and transfer actually performed. Exercise the revision cases in
 `evals/cases.json` when changing this gate.
