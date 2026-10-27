@@ -50,8 +50,10 @@ a test. These support the strategic argument; they do not replace it.
 
 Do not place assistant commentary, drafting instructions, source-retrieval logs, skill
 names, QA status, editorial caveats about the work process, or production notes on slide
-faces. Do not hide them in smaller footers. Put supporting citations and presenter detail
-in speaker notes; put private process records in the working files.
+faces. Do not hide them in smaller footers or speaker notes. Douglas permits no added
+annotations unless explicitly requested. Keep research provenance and private process
+records in local working files. Apply the preflight and readback checks in
+`native-document-editing.md`, including for narrow edits and newly duplicated slides.
 
 Retain qualifications that change meaning inside the claim itself: for example,
 “proposed next steps,” “tracked signups,” or the dates of a measured period. Moving a

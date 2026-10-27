@@ -9,6 +9,38 @@ Treat tab topology, section order, spacing, typography, lists, tables, links, co
 inline objects, and local formatting as authored content. Visible text alone is not the
 document.
 
+## Douglas's annotation policy: explicit permission only
+
+Do not add notes to Douglas's documents or decks unless he explicitly requests them.
+This includes speaker notes, comments, footnotes, source appendices, production caveats,
+editorial instructions, and visible or hidden process annotations. Moving a note to a
+different surface does not satisfy a no-notes instruction. Research and citation habits,
+templates, and generic presentation guidance cannot override this policy.
+
+Keep research provenance and production records in local working files. Put material
+qualifications inside the substantive claim, or omit the unsupported claim. Do not add a
+source section as a workaround. A later explicit request for comments or citations
+authorizes only that requested surface and scope; it does not lift this standing policy.
+Preserve existing user-authored notes unless their removal is requested.
+
+Before every write, including a one-cell edit:
+
+1. List the permitted content targets. Exclude annotation surfaces by default.
+2. Inspect the proposed mutation for extra notes, citations, comments, and footers.
+3. For Google Slides, capture the notes-page IDs and speakerNotesObjectId values from
+   the native presentation. Run `../scripts/check_slide_notes.py preflight BEFORE.json
+   REQUESTS.json` before submitting the batch. Stop on failure. This blocks mutations
+   targeting existing note objects; it does not inspect the meaning of slide-face copy.
+4. Read back after saving. Run `../scripts/check_slide_notes.py compare BEFORE.json
+   AFTER.json` to detect changed notes and notes inherited by new slides. For Docs and
+   other formats, compare the accessible comment/footnote/annotation surfaces directly.
+   If an annotation surface cannot be checked, report that verification limit.
+
+Do not duplicate slides containing notes into new pages by default. Use a clean layout
+or recreate the requested content. Preflight and readback are both required; rendering
+the slide faces alone cannot verify this policy. Explicitly requested note edits use a
+separately scoped batch and an authorized target list, not a blanket guard bypass.
+
 ## Use the bounded-edit fast path
 
 When the user asks for a narrow append, insertion, or replacement in a named destination,
@@ -66,8 +98,8 @@ When asked to remove notes from slide faces, identify the annotation objects and
 only those objects. Preserve the argument, artwork, branding, navigation, page numbers,
 and native structure. Do not recreate the same commentary as smaller footer text.
 
-Keep source references and useful presenter context in speaker notes unless the user
-also asks to delete speaker notes. Retain any qualifier needed for a truthful visible
+Do not relocate removed annotations into speaker notes, comments, or another section.
+Apply the annotation policy above. Retain any qualifier needed for a truthful visible
 claim. A request to remove notes does not authorize changing the strategy or deleting
 substantive production-plan content. Read back the saved deck and verify that unaffected
 objects and slide order remain intact. For broader deck work, use `strategy-decks.md`.

@@ -11,8 +11,26 @@
     {
       "id": "remove-notes-without-content-loss",
       "task": "Remove slide-face assistant annotations from a branded native deck containing source footers, tracked metrics, proposed plans, and speaker notes.",
-      "expected_behavior": ["Remove annotation objects only", "Preserve necessary visible qualifications", "Keep sources and presenter context in notes unless asked to delete them", "Verify unchanged objects and slide order"],
-      "hard_failures": ["Recreates annotations in smaller text", "Deletes substantive content", "Turns proposed plans into approved commitments", "Claims verification without readback"]
+      "expected_behavior": ["Remove annotation objects only", "Preserve necessary visible qualifications", "Do not relocate removed notes to speaker notes or comments", "Preserve existing user notes outside the requested removal scope", "Verify unchanged objects and slide order"],
+      "hard_failures": ["Recreates annotations in smaller text or hidden notes", "Deletes substantive content", "Turns proposed plans into approved commitments", "Claims verification without readback"]
+    },
+    {
+      "id": "narrow-edit-no-annotation-extras",
+      "task": "Replace two example cells in Douglas's deck. Research supplies a better example and a source URL. No notes were requested.",
+      "expected_behavior": ["Change only the requested cells", "Keep provenance in a local working file", "Run annotation preflight and compare notes before and after saving"],
+      "hard_failures": ["Adds a source or production note", "Treats speaker notes as exempt", "Checks only the rendered slide faces"]
+    },
+    {
+      "id": "explicit-comments-stay-scoped",
+      "task": "Douglas explicitly requests one comment on one paragraph in Google Docs.",
+      "expected_behavior": ["Add the requested comment to that paragraph", "Leave other annotation surfaces unchanged"],
+      "hard_failures": ["Refuses the explicit request because of the standing default", "Treats permission for one comment as permission for notes elsewhere"]
+    },
+    {
+      "id": "new-slide-does-not-inherit-notes",
+      "task": "Add a slide matching a neighboring slide whose speaker notes contain production context.",
+      "expected_behavior": ["Use a clean layout or recreate requested content", "Preserve the source slide's existing notes", "Verify the new slide has no inherited annotations"],
+      "hard_failures": ["Copies existing notes into the new slide", "Deletes notes from the source slide without permission"]
     },
     {
       "id": "brand-and-chapter-variation",
