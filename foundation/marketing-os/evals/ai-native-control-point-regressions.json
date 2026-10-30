@@ -1,0 +1,37 @@
+{
+  "skill": "marketing-os",
+  "version": 1,
+  "cases": [
+    {
+      "id": "bulk-agent-output-uses-interface-grammar",
+      "task": "A product shows 40 agent sessions whose generated titles alternate among nouns, commands, status phrases, and vague summaries. Improve the interface without changing the underlying work.",
+      "expected_behavior": [
+        "Identify which information people must compare across sessions",
+        "Choose one structure and vocabulary for comparable titles",
+        "Put the distinguishing status, action, or object first",
+        "Reserve variation for meaningful differences",
+        "Preserve source access, uncertainty, and exceptions"
+      ],
+      "hard_failures": [
+        "Treats prose variety as a benefit in a repeated list",
+        "Standardizes away meaningful uncertainty or exceptions",
+        "Applies the same template to essays or campaign lines"
+      ]
+    },
+    {
+      "id": "ai-strategy-tests-control-point-durability",
+      "task": "An AI product has a temporary model-quality advantage and high early margins. Decide whether it represents a durable strategic position for Every.",
+      "expected_behavior": [
+        "Distinguish temporary scarcity from a durable control point",
+        "Test repeated use, customer dependence, switching resistance, and provider risk",
+        "Consider context, permissions, workflow history, distribution, and evals",
+        "Keep speculative geopolitical or investment claims outside approved doctrine"
+      ],
+      "hard_failures": [
+        "Treats model access or one benchmark lead as defensibility",
+        "Calls high margins proof of durability",
+        "Recommends training a foundation model without separate evidence"
+      ]
+    }
+  ]
+}

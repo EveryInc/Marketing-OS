@@ -154,6 +154,21 @@ AI is an instrument we play, not an efficiency tool we deploy.
 
 **The products are the OS, not proof of it.** Every Agent handles the connective tissue of running a small ambitious company. Cora keeps email from eating the workday. Monologue captures thinking as it happens. The publication is the room where the thinking lands and the audience that closes the loop. Each tool earns its place by making the next piece of work better than the last. Dan's term: “artisanal AI apps.” Small-batch software with a point of view, made by the people who use it.
 
+**Control points matter more as model capability diffuses.** Model access and temporary
+feature gaps are unstable advantages. When product, enterprise, or brand strategy depends
+on AI, identify the repeated activity Every can improve and the durable interface through
+which that activity passes. Persistent context, permissions, workflow history, trusted
+distribution, shared language, and proprietary evals may strengthen that position, but
+none counts as durable without evidence of repeated use, switching resistance, or customer
+dependence. For the full decision and interface rules, read
+`references/ai-native-control-points.md`.
+
+**Interface grammar is infrastructure.** When agents produce queues, histories,
+summaries, reports, or dashboards at scale, prose variety makes supervision harder.
+Repeated output should use predictable structure and vocabulary, put distinguishing
+information first, and reserve variation for meaningful differences. This rule governs
+systems of generated text, not essays, campaign lines, or other singular creative work.
+
 **Compound marketing.** Every piece of marketing leaves something behind that the next piece inherits — a line, a format, a visual move, a tool the team built, a relationship with a reader who shows up again. Nothing starts from zero. Nothing dies after one cycle. The brand is what's left after years of stacking. The compounding is the strategy.
 
 **Audience research.** Skip most of it. The audience is in the inbox, the comments, the podcast replies, the Discord. Reading them in real time, in their own words, with an instrument that lets a small team keep up with the volume, is worth more than any survey designed to extract a confirmation. The research is the conversation, ongoing.
