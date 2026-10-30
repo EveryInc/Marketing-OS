@@ -105,4 +105,3 @@ alone. Durability requires repeated-use, retention, switching, or contractual ev
 - Shreya Shankar, [Five Principles for Generating Readable AI Text in Bulk](https://fsdatalab.github.io/blog/agent-text-at-scale/),
   October 29, 2026. Its interface principles apply to repeated generated text, not all
   writing.
-
