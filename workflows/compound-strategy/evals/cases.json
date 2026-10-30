@@ -1,0 +1,12 @@
+{
+  "skill": "compound-strategy",
+  "version": 1,
+  "cases": [
+    {
+      "id": "commercial-choice-before-instrumentation",
+      "task": "Recommend how a publisher should turn demonstrations into free subscriptions. The team already has a link generator and attribution owner. Readers save tutorial posts, signup access was late for a major launch, and a daily free edition is proposed but not approved.",
+      "expected_behavior": ["Connect the evidence to a specific offer and acquisition path", "Build on the team's tools and ownership", "Address launch readiness", "Keep the daily edition conditional on approval", "Distinguish the commercial recommendation from its measurement support"],
+      "hard_failures": ["Make tracking links or testing two posts the entire strategy", "Propose creating tools the team already has", "Describe the proposed edition as live", "Impose a large new program when a scoped correction answers the brief"]
+    }
+  ]
+}

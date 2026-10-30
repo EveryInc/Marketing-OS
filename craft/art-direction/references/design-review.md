@@ -33,6 +33,7 @@ failure and the decision or resource needed. Do not publish automatically.
 | Color works in swatches but fails on page | Adjacent backgrounds, proportions, opacity | Test the actual pair and adjust its role or placement |
 | Desktop works, mobile fails | Fixed widths, reordered evidence, scaled-down text | Reflow and recrop while preserving content order |
 | Chart looks elegant but tells nothing | Missing units, labels, evidence or scale | Restore meaning; never invent data to fill the design |
+| Interface looks polished but the user still cannot do the job | Requested task, source relationships, complete action, intended account access | Repair the task structure or blocked action before another cosmetic pass; use `task-first-interfaces.md` |
 
 ## Short teaching examples
 
@@ -58,6 +59,11 @@ Report: intended first read; most consequential correction; what was checked and
 size/state; remaining failures or unknowns; editable source and rendered output references.
 Classify findings as **blocking defect**, **recommended refinement**, or **unverified**.
 A blocker cannot be averaged away by good scores elsewhere.
+
+For interactive tools, report visual, functional, and audience-access checks separately.
+Test the intended account role; owner access or a local test identity does not establish
+deployed teammate access. A core blocked action belongs in the opening handoff, even if
+the design is approved. Keep privacy intact while resolving access requirements.
 
 When a human correction warrants learning, use the shared compound workflow. Keep a
 small project-local record: before/after references, observed defect, correction and

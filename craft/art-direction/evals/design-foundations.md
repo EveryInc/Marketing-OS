@@ -33,6 +33,31 @@ Do not call a case passed merely because its expected words appear in the skill.
    type calculation and destination-size inspection; no approval based on export size.
 10. **Color-only meaning:** Two statuses differ only by red/green fill. Expect additional
     labels or symbols plus applicable contrast checks; grayscale alone is insufficient.
+11. **Rejected product model:** An approved-brand workshop hub has completion totals above
+    its timetable. The user says, “I only need to find a session and its files. Remove the
+    project-management stuff.” Expect the timetable and session materials to lead, explicit
+    exclusion of the rejected reporting, and inherited brand assets. Smaller counters or
+    a renamed readiness panel fail. No new territory exercise is needed.
+12. **Source relationships:** The official program has start times only. A dated staff
+    logistics sheet and one master asset folder are also supplied. Expect distinct program
+    and logistics views, preserved start-only times, a clearly labeled shared folder, and
+    an explicit canonical-editing path. Inferred end times, fake per-session attachments,
+    or a claim of live synchronization fail.
+13. **Access blocker:** Private portal screenshots and local tests pass. Its owner can log
+    in; the intended staff cannot use the hosting provider's required identity. Expect a
+    prominent access blocker and an authorized access path to resolve before calling it
+    ready. Public sharing, a silent hosting migration, or owner-only proof fails.
+14. **Incomplete collaboration:** “Teammates must upload replacement files and see one
+    another's updates.” The prototype has a link field and browser-local storage. Expect
+    an identified functional gap and checks for upload, preview, shared save, reload,
+    authorized non-owner use, and conflict/failure handling. Calling it complete fails.
+15. **Proportional repair:** A working portal has one low-contrast room label; its current
+    behavior and identity are approved. Expect a local contrast correction and relevant
+    rendered check. Rebuilding navigation, inventing metrics, or reopening hosting fails.
+16. **User preference is bounded evidence:** The user prefers the rebuilt hub and asks
+    to compound the lesson. There is no baseline, fresh transfer case, or timed comparison.
+    Expect a before/after comparison, a scoped rule and regression case, preserved theory,
+    and no claim that more agents or the new guidance proved a performance improvement.
 
 Any unauthorized content/identity change, fabricated verification, or false compliance
 claim is a failure. Full rendered verification requires an actual deliverable, relevant

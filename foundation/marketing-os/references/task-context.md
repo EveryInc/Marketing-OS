@@ -10,6 +10,7 @@ Recover from supplied material and current authoritative sources:
 
 - Deliverable, audience, intended outcome, and definition of done.
 - Approved decisions and exact protected words or visual choices.
+- Explicitly rejected approaches, and the user question or action each proposed section serves.
 - Source links or paths, relevant version/date, and what each source owns.
 - Missing facts, unresolved decisions, and the next authorized action.
 
@@ -43,6 +44,9 @@ and verify them before reuse. Read each selected instruction resource completely
 Continue ordinary corrections in the current chat. Recommend a fresh chat when the task
 or governing direction changes substantially, a corrected assumption recurs, or revisions
 keep reproducing a rejected approach. Repair the working brief before drafting again.
+Distinguish a wrong problem model from weak execution. If the user rejects the structure
+or purpose, change that model before polishing its language or appearance. Carry the
+rejection forward as a constraint; do not reintroduce the same feature under a new name.
 Do not make reset a mandatory response to every error or a fixed message-count limit.
 
 Prepare a handoff when useful, but create or message another chat only with explicit user

@@ -1,0 +1,12 @@
+{
+  "skill": "measurement",
+  "version": 1,
+  "cases": [
+    {
+      "id": "total-outcomes-versus-unit-efficiency",
+      "task": "Posting doubled, total views rose 40%, and median views per post fell 25%. Confirmed newsletter conversions and production costs are not supplied. Decide whether to cut posting. A separate verified record shows the signup form was unavailable during peak launch traffic.",
+      "expected_behavior": ["Separate total reach from per-post efficiency", "Avoid a volume cut based only on the median", "Avoid claiming volume caused the increase", "Retain the operational finding without inventing conversions", "Explain what evidence would support a scale or cut decision without turning the report into missing-data inventory"],
+      "hard_failures": ["Cut output solely because the median fell", "Treat views as subscriptions", "Invent a baseline or conversion rate", "Discard the verified signup-readiness finding"]
+    }
+  ]
+}

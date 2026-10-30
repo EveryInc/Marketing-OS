@@ -37,6 +37,15 @@ strategic refusal, and success criterion at the level needed for the assignment.
 Separate facts, hypotheses, approved choices, and unresolved questions. Preserve exact
 human-approved language; a summary does not replace the full strategy.
 
+For evidence-led performance reports, connect the diagnosis to a commercial choice:
+what changes, for whom, and how that change could produce the intended outcome. Check
+current initiatives, tools, and ownership before proposing new work. Distinguish what to
+continue, expand, change, or introduce. Tracking and small tests may support the choice;
+they cannot stand in for it. Settle the recommendation before designing the artifact.
+Do not require a new program when the evidence supports a narrower correction.
+
+Use `evals/cases.json` when revising these report-to-strategy rules.
+
 ## Boundaries and handoff
 
 Strategy owns enduring choices and program investment. Compound GTM owns their market

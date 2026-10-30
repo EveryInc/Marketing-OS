@@ -30,6 +30,11 @@ These entry modes govern which implementation stages apply. The reference-collec
 gate in the underlying skill applies to new visual direction; an approved system already
 supplies that evidence. Missing approved references or a changed concept reopens the gate.
 
+For an interactive schedule, portal, asset library, or working dashboard, also read
+`../../craft/art-direction/references/task-first-interfaces.md`. It governs task structure,
+source ownership, complete user actions, and access checks. Keep narrow visual repairs
+scoped; this route does not authorize a rebuild, publication, or access-policy change.
+
 Use the relevant Figma, image-generation, slide, or asset-production tool only when the
 assignment needs it. The workflow name does not make those tools available. If a tool,
 font, or asset is missing, report the specific limit; do not substitute silently or claim

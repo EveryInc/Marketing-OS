@@ -59,6 +59,16 @@ Separate:
 For each recommendation, show the supporting evidence and the evidence that would change
 the conclusion.
 
+For performance diagnoses, recover the supplied research before commissioning more.
+Identify the observed behavior, breakdown, or missed opportunity behind each diagnosis.
+Check proposed explanations against contradictory evidence and actions the team already
+takes. An activity that increased cannot be treated as absent. Separate a documented
+breakdown from an estimated loss; do not invent the latter. When recommending tactics
+from other organizations, prefer published outcomes with an identifiable mechanism over
+homepage observations. Preserve channel, attribution, and sample limits in the claim.
+
+Use `evals/cases.json` when revising these diagnosis rules.
+
 ## Dependencies
 
 - `foundation/marketing-os`

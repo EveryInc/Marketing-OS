@@ -78,7 +78,9 @@ when developing or revising substantial strategy, positioning, campaign, or bran
 
 ### references/native-document-editing.md
 How to edit existing native documents without destroying their structure or design.
-Load this before changing a formatted, multi-tab, table-heavy, or collaborative document.
+Load this before creating or changing a formatted or collaborative document, even for
+a narrow edit. Douglas's standing rule: no added notes, including speaker notes, unless
+explicitly requested. Follow that reference's annotation preflight and readback checks.
 
 ### references/knowledge-boundaries.md
 How project work becomes reusable operating doctrine without contaminating future work
