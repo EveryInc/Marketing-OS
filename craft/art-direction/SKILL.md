@@ -52,6 +52,7 @@ explicit evaluation. For a formatted collaborative artifact, also read
 |---|---|
 | Learn design basics; make or repair layout, hierarchy, typography, spacing, or color | `references/design-foundations.md` |
 | Review a designed surface before handoff | `references/design-review.md` |
+| Design or rebuild an interactive schedule, portal, asset library, or working dashboard | `references/task-first-interfaces.md` |
 | Choose, analyze, or reject references | `references/reference-doctrine.md` |
 | Audit competitors, category codes, and visual white space | `references/competitive-semiotic-audit.md` |
 | Define the full visual system and surface tests | `references/visual-identity-system.md` |
