@@ -117,6 +117,7 @@ When this skill is loaded, route to the appropriate reference file based on the 
 |---|---|
 | Need a reference, thinker, or historical grounding | `references/canon.md` |
 | Need the point of view or argumentative position | `references/method.md` |
+| Need to evaluate an AI-native control point or design repeated agent output for human supervision | `references/ai-native-control-points.md` |
 | Need to operationalize a framework (Binet/Field, Sharp, Aaker, etc.) | `references/frameworks.md` |
 | Need to develop or revise substantial work with Douglas | `references/collaboration.md` |
 | Need to edit an existing formatted document | `references/native-document-editing.md` |
