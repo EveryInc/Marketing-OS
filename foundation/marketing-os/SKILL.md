@@ -53,6 +53,12 @@ frameworks.
 The foundational references below remain authoritative. The workflow map above organizes
 access to them without replacing their theory or operating standards.
 
+### references/groundings.md
+Douglas's philosophical groundings, ruled Nov. 8, 2026: semiotics, ways of seeing, design
+as art, style as meaning, memetics, positioning, behavioral economics, and the spectacle.
+Load this first for any strategy, concept, campaign, social, naming, copy, or
+art-direction task. Run its opening pass before frameworks and its tests before handoff.
+
 ### references/canon.md
 The reference encyclopedia. Thinkers, practitioners, and researchers organized by domain
 (effectiveness, creative, brand theory, behavioral, strategy, deep history). Load this
