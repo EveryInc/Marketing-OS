@@ -34,12 +34,19 @@ substantive work, changed briefs, or handoffs. For a new identity or reopened vi
 direction, read the following grounding; approved-system production and narrow repair
 instead inherit the source artifact and load the relevant production or design rules:
 
-1. `../../foundation/marketing-os/references/method.md`
-2. `../../foundation/marketing-os/references/collaboration.md`
-3. `../../positioning/{relevant brand}/SKILL.md`
-4. `../../brand-voice/{relevant brand}/SKILL.md`
-5. `../../marketing-science/research/SKILL.md`
-6. `../../marketing-science/archetyping/SKILL.md`
+1. `../../foundation/marketing-os/references/groundings.md`
+2. `references/design-lineage.md`
+3. `../../foundation/marketing-os/references/method.md`
+4. `../../foundation/marketing-os/references/collaboration.md`
+5. `../../positioning/{relevant brand}/SKILL.md`
+6. `../../brand-voice/{relevant brand}/SKILL.md`
+7. `../../marketing-science/research/SKILL.md`
+8. `../../marketing-science/archetyping/SKILL.md`
+
+Munari leads. Follow his order for new work: problem, elements, data and analysis, then
+creativity, materials, experimentation, models, and verification. Rand, Bass, Glaser,
+Chermayeff, and the Swiss school are the lineage the work is measured against; borrow their
+reasoning, never their look.
 
 Load `../../strategy/compound-brand/SKILL.md` and `../../craft/verbal-identity/SKILL.md`
 when art direction is part of a full identity workflow. Load brand equity only for an
@@ -54,6 +61,7 @@ explicit evaluation. For a formatted collaborative artifact, also read
 | Review a designed surface before handoff | `references/design-review.md` |
 | Design or rebuild an interactive schedule, portal, asset library, or working dashboard | `references/task-first-interfaces.md` |
 | Choose, analyze, or reject references | `references/reference-doctrine.md` |
+| Apply Munari's method or the design lineage (Rand, Bass, Glaser, Chermayeff, Swiss school) | `references/design-lineage.md` |
 | Audit competitors, category codes, and visual white space | `references/competitive-semiotic-audit.md` |
 | Define the full visual system and surface tests | `references/visual-identity-system.md` |
 | Build components, templates, Figma systems, generative branches, or automated assets | `references/agent-readable-production.md` |
@@ -111,7 +119,8 @@ Offer no more than two:
 1. **Functional-led:** Organized around what the brand demonstrates or helps people do.
 2. **Emotional-led:** Organized around the feeling, identity, or cultural tension it owns.
 
-Each territory must combine at least two specific reference domains in a way that feels
+Present territories only after the problem, its elements, and the field are worked through
+(Munari's order). Each territory must combine at least two specific reference domains in a way that feels
 new in the category. Explain the conceptual bridge. Present the governing idea,
 reference logic, semiotic codes, system grammar, risks, anti-references, and representative
 surface behavior.
@@ -219,6 +228,7 @@ equally weighted options.
 ## Dependencies
 
 - `foundation/marketing-os`
+- `foundation/marketing-os/references/groundings.md`
 - `strategy/compound-brand` for a full identity workflow
 - `craft/verbal-identity` for a full identity workflow
 - `marketing-science/research`
@@ -232,6 +242,8 @@ equally weighted options.
 - [ ] Strategy, character, verbal identity, product, and channel context are explicit
 - [ ] Canonical files, components, assets, fonts, variables, and approval owners were found
 - [ ] The human supplied five to 10 references and at least three anti-references
+- [ ] Groundings opening pass is done and Munari's order was followed
+- [ ] The relevant lineage tests in `references/design-lineage.md` were run
 - [ ] Competitive visual and semiotic audit is complete
 - [ ] References are specific, category-fresh, and system-generating
 - [ ] No more than two distinct territories were presented

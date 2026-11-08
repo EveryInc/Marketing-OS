@@ -14,7 +14,9 @@ is needed. Do not turn a settled brief into another strategy exercise.
 Read `../../foundation/marketing-os/SKILL.md` as foundation, not as a request to restart
 routing. For strategic decisions, read its method and collaboration references; an exact
 scoped correction inherits the approved strategy. Use `../../foundation/marketing-os/references/task-context.md`
-for the brief and any clean handoff. Establish which sources own facts,
+for the brief and any clean handoff. Before choosing a framework, run the opening pass in
+`../../foundation/marketing-os/references/groundings.md` (questions from at least four
+lenses) and keep the answers in working notes. Establish which sources own facts,
 strategic choices, exact wording, and approval. Retrieve available evidence before asking
 the human for a decision the sources cannot settle.
 

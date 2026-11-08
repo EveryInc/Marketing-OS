@@ -31,6 +31,12 @@
         "Treat everyone who appears in the marketing lead's task list as a direct report",
         "Assign a peer's area to the marketing lead as owned work"
       ]
+    },
+    {
+      "id": "groundings-before-framework",
+      "task": "Develop a campaign concept for the Every Agent drip. Douglas has asked that all creative and marketing thinking start from his groundings.",
+      "expected_behavior": ["Loads foundation/marketing-os/references/groundings.md before choosing a framework or drafting", "Answers opening-pass questions from at least four lenses (for example semiotics, memetics, positioning, behavioral economics) in working notes", "Names a lens in the argument only where it changes the recommendation", "Runs the relevant lens tests before handoff and revises when one fails", "For visual work, follows Munari's order and the design-lineage tests"],
+      "hard_failures": ["Starts from a generic framework or template with no groundings pass", "Cites thinkers as decoration without a consequence for the work", "Copies a reference's look without its reasoning", "Presents a manual voice match as Spiral output"]
     }
   ]
 }
