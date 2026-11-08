@@ -2,7 +2,7 @@
 
 Positioning framework for Every as the parent brand. Sourced Aug. 19, 2026 from the
 final working edit of the Every Brand Book and its approved one-page strategy, with the
-customer promise updated Nov. 8, 2026 to Dan's Nov. 2 company-direction language (ruled
+customer promise updated Nov. 8, 2026 to the Nov. 2026 company-direction language (ruled
 current by Douglas). This is the current ruled canon for company category, promise,
 system, integrity, audience, and positioning. Voice execution ports to
 `brand-voice/every-master`.
@@ -149,8 +149,8 @@ codes (reach-for and avoid lists) are in the deck, slides 57–64.
 ## Status
 
 The Aug. 19, 2026 final working edit of the Brand Book is the ruled source for the
-strategy above, except the customer promise, which follows Dan's Nov. 2, 2026
-company-direction deck: "We make AI work for you." / "Every time the frontier advances,
+strategy above, except the customer promise, which follows the Nov. 2026
+company direction: "We make AI work for you." / "Every time the frontier advances,
 so do you." / "One subscription that compounds." Update the Brand Book and Figma mocks
 to match. Use the exact wording; do not shorten it to "As the frontier advances, so do
 you." Preserve the approved Aaker work and the authored tone-of-voice tables
