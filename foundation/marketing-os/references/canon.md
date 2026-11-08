@@ -59,7 +59,7 @@ Co-founder of DDB, whose Volkswagen and Avis work led the Creative Revolution of
 
 ### George Lois
 **Role**: Art director and adman (1931–2022); Esquire covers 1962–1972; "I Want My MTV" in the 1980s; author of Damn Good Advice and other books.
-**Contribution**: Made the big idea the whole job: find a product's unique virtue and sear it into people's minds with one image or line. His Esquire covers, such as Muhammad Ali posed as Saint Sebastian, turned a magazine cover into a cultural argument. With Glenn O'Brien, Douglas's closest creative-style reference (Self-Portrait, Nov 8, 2026).
+**Contribution**: Made the big idea the whole job: find a product's unique virtue and sear it into people's minds with one image or line. His Esquire covers, such as Muhammad Ali posed as Saint Sebastian, turned a magazine cover into a cultural argument. With Glenn O'Brien, Douglas's closest creative-style reference.
 **When to invoke**: When a concept needs one image or line that does the whole job; when judging whether a piece has a big idea or only an execution.
 
 ### Dan Wieden
@@ -329,7 +329,7 @@ Co-founder of Young & Rubicam. Insisted that advertising must resist the usual (
 
 ### Mike Taylor
 **Role**: Every writer; author of Marketing Memetics (2023); co-founder of the agency Ladder.
-**Contribution**: Turns memetics into a working method: map a category's memes, copy where the audience expects familiarity and differ where the brand must stand out, and build each idea with bait, hook, reward, and payload. Prioritizes tests by concept, theme, and variant. In-house reference; the Drive copy read so far covers chapters 1–3.2.
+**Contribution**: Turns memetics into a working method: map a category's memes, copy where the audience expects familiarity and differ where the brand must stand out, and build each idea with bait, hook, reward, and payload. Prioritizes tests by concept, theme, and variant. In-house reference.
 **When to invoke**: When mapping a category's formats; when deciding what to copy and where to differ; when planning creative tests.
 
 ### Seth Godin

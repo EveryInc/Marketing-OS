@@ -150,8 +150,7 @@ HarperCollins. Chermayeff also made found-object collages with a dry sense of hu
   recognize and remove the rest (the NBC peacock lost five feathers, not its identity).
 - Collage and found material can carry wit in a modernist system.
 
-**Use when** refreshing a sub-brand, consolidating competing marks (the brand book's seven
-Consulting E treatments), or building collage-led campaign imagery.
+**Use when** refreshing a sub-brand, consolidating competing marks, or building collage-led campaign imagery.
 
 **Tests.** What recognition must survive the refresh? Is the simplified mark still
 recognizably the old one to existing customers? Does the collage have a single idea?
