@@ -189,6 +189,12 @@ amplifiers of brand copy. The Frontier Team is a core content source and bucket.
 room for behind-the-scenes brand and design work, thought leadership, and criticism when
 they strengthen the same promise. Education-led does not mean utility-only.
 
+Every link from social to an Every resource should reach a free-subscription gate that
+asks for first name, last name, and business email, unless the post's deliberate job is
+something else (a partner link, news, or a gift link to one article). Marketing owns
+driving free subscriptions; Growth owns conversion to paid. (Ruled by Douglas, Nov. 8,
+2026.)
+
 For subscription-growth programs, use tracked free subscriptions as the primary outcome,
 with reach, follower growth, shares, and qualified visits as diagnostics. Follow paid
 conversion and retention by mature cohort. Pair attribution with brand recognition,
