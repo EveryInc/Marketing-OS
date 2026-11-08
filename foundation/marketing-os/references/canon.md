@@ -264,8 +264,8 @@ Co-founder of Young & Rubicam. Insisted that advertising must resist the usual (
 **When to invoke**: When the work plays with artifice, irony, or excess; when testing whether humor in form is knowing or accidental.
 
 ### Glenn O'Brien
-**Role**: Writer, editor, and creative director; Interview editor, GQ's Style Guy, author of Like Art: Glenn O'Brien on Advertising (Karma, 2017; Artforum columns 1984–1990), How to Be a Man (2011), and other books.
-**Contribution**: Treated ads as art objects and argued that advertising and art keep converging. Wrote about cool and hipness as a discipline and as knowledge passed inside a group, and about style as wit with practical use. Worked across art, fashion, music, TV (TV Party), and advertising, a model for a creative director who moves between culture and commerce.
+**Role**: Writer, editor, and creative director; Interview editor, GQ's Style Guy, author of Like Art: Glenn O'Brien on Advertising (Karma, 2017; collects his Artforum advertising column, 1985–1990), How to Be a Man (2011), and other books.
+**Contribution**: Argued that advertising and art have converged until, ideally, the only difference is the logo, and that Pop Art's license to steal ran both ways. Valued ads that transcend their category and use commerce as a vehicle for art; came into advertising writing a Barneys New York spot. Wrote about cool and hipness as a discipline and moved across art, fashion, music, TV (TV Party), and advertising, a model for a creative director who works between culture and commerce. Excerpt read: The Paris Review, Feb. 27, 2017 (theparisreview.org/blog/2017/02/27/like-art/).
 **When to invoke**: When work must hold up as an object without its offer; when writing about style; when bridging art and commercial work. Every rejects his "no ethics in advertising" line (see `groundings.md`).
 
 ### Marshall McLuhan

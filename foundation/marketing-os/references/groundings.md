@@ -109,7 +109,8 @@ meaning? Is any part decoration standing in for an idea?
 **Core texts.** Dick Hebdige, *Subculture: The Meaning of Style* (1979). Pierre Bourdieu,
 *Distinction* (1979). Susan Sontag, "Notes on 'Camp'" (1964). Glenn O'Brien's writing,
 especially *Like Art: Glenn O'Brien on Advertising* (Karma, 2017), which collects his
-*Artforum* advertising columns from 1984 to 1990, plus his work at *Interview*, as GQ's
+*Artforum* advertising column, which ran from 1985 to 1990 (dates per the book's
+excerpt in *The Paris Review*, Feb. 27, 2017), plus his work at *Interview*, as GQ's
 Style Guy, and in advertising.
 
 **What it teaches.**
@@ -121,8 +122,10 @@ Style Guy, and in advertising.
   distinction from the common choice are what make a brand worth identifying with.
 - Sontag: camp is a sensibility of artifice and exaggeration, a way of seeing style over
   content. It shows that a knowing relationship with form can itself be the appeal.
-- O'Brien: advertising and art keep converging, and ads can be read as art objects. Cool
-  is a discipline, and hipness runs on knowledge passed inside a group. Style is wit put to
+- O'Brien: advertising and art have converged until, ideally, the only difference is the
+  logo. Pop Art took from advertising, and advertising took the license back. The ads
+  worth making transcend their category and use commerce to carry art. Cool is a
+  discipline, hipness runs on knowledge passed inside a group, and style is wit put to
   practical use.
 
 **Questions.** Who would recognize this as theirs, and who would not get it? What
