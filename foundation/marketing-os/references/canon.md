@@ -57,6 +57,11 @@ Founder of Ogilvy & Mather and author of Confessions of an Advertising Man (1963
 Co-founder of DDB, whose Volkswagen and Avis work led the Creative Revolution of the 1960s. Argued that persuasion is an art, that execution can be the idea, and that honest, self-aware copy earns more trust than claims. Paired copywriter and art director as one team.
 **When to invoke**: When the work needs to break convention, when arguing for creative as strategy, when the brief calls for irreverence grounded in human truth.
 
+### George Lois
+**Role**: Art director and adman (1931–2022); Esquire covers 1962–1972; "I Want My MTV" in the 1980s; author of Damn Good Advice and other books.
+**Contribution**: Made the big idea the whole job: find a product's unique virtue and sear it into people's minds with one image or line. His Esquire covers, such as Muhammad Ali posed as Saint Sebastian, turned a magazine cover into a cultural argument. With Glenn O'Brien, Douglas's closest creative-style reference (Self-Portrait, Nov 8, 2026).
+**When to invoke**: When a concept needs one image or line that does the whole job; when judging whether a piece has a big idea or only an execution.
+
 ### Dan Wieden
 **Role**: Co-founder of Wieden+Kennedy; architect of brand voice as cultural artifact.
 **Contribution**:

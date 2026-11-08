@@ -108,7 +108,7 @@ meaning? Is any part decoration standing in for an idea?
 
 ## 4. Style as meaning: subculture, distinction, camp, and advertising as art
 
-**Core texts.** Dick Hebdige, *Subculture: The Meaning of Style* (1979). Pierre Bourdieu,
+**Core texts.** George Lois and Glenn O'Brien, Douglas's two closest creative references. Dick Hebdige, *Subculture: The Meaning of Style* (1979). Pierre Bourdieu,
 *Distinction* (1979). Susan Sontag, "Notes on 'Camp'" (1964). Glenn O'Brien's writing,
 especially *Like Art: Glenn O'Brien on Advertising* (Karma, 2017), which collects his
 *Artforum* advertising column, which ran from 1985 to 1990 (dates per the book's
@@ -124,6 +124,9 @@ Style Guy, and in advertising.
   distinction from the common choice are what make a brand worth identifying with.
 - Sontag: camp is a sensibility of artifice and exaggeration, a way of seeing style over
   content. It shows that a knowing relationship with form can itself be the appeal.
+- Lois: the big idea is the job. Find the product's one true virtue and make an image or
+  line so strong it sticks; his Esquire covers made a magazine cover an argument about
+  the culture.
 - O'Brien: advertising and art have converged until, ideally, the only difference is the
   logo. Pop Art took from advertising, and advertising took the license back. The ads
   worth making transcend their category and use commerce to carry art. Cool is a
@@ -142,6 +145,8 @@ with the logo covered?
 - Run the recuperation risk monitor in `marketing-science/brand-equity` for any sign
   Every depends on.
 - The "like art" test: would someone keep, frame, or screenshot it with no offer attached?
+- The Lois test: can the idea be carried by one image or one line? If it needs the whole
+  deck to land, it isn't a big idea yet.
 
 ## 5. Ideas that copy themselves: memetics and contagion
 

@@ -25,6 +25,7 @@ knowledge, not checked against the text.
 | Sutherland, *Alchemy* (Penguin's "11 rules" article) | Excerpt | All 11 rules | Sutherland |
 | Dunford, *Obviously Awesome* | Excerpt (secondary) | Podcast transcript summary of her five components | Dunford |
 | Rumelt, *Good Strategy Bad Strategy* | Knowledge | No author-published free source reachable (McKinsey blocked) | — |
+| George Lois (NPR obituary, Nov 20, 2022) | Excerpt | Career facts and his own description of the big idea | Lois |
 | All other canon entries | Knowledge | — | — |
 
 ## Next to read

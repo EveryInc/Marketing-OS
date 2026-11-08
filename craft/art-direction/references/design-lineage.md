@@ -1,7 +1,7 @@
 # Design Lineage
 
 The designers Every's art direction is measured against. Ruled by Douglas, Nov. 8, 2026:
-art direction rests on Bruno Munari first, then Paul Rand, Saul Bass, Milton Glaser, Ivan
+art direction rests on Bruno Munari first, then George Lois, Paul Rand, Saul Bass, Milton Glaser, Ivan
 Chermayeff (with Chermayeff & Geismar), and the Swiss school where the surface calls for
 it. Dieter Rams's principles sit beside Munari as the review standard.
 
@@ -120,6 +120,23 @@ participation; when designing editorial surfaces for every.to, Thesis, or newsle
 
 **Tests.** Does the reader complete it? Would someone redraw or remix it on their own and
 still credit Every? (See memetics in `groundings.md`.)
+
+## George Lois: the big idea in one image
+
+Lois art-directed Esquire's covers from 1962 to 1972, including Muhammad Ali posed as
+Saint Sebastian, and helped launch MTV with "I Want My MTV." With Glenn O'Brien, he is
+Douglas's closest creative reference.
+
+- One image or line carries the whole idea. Everything else supports it.
+- A cover, ad or poster can make an argument about the culture, not only announce a
+  product.
+- Provocation is earned by the product's real virtue, not added for attention.
+
+**Use when** making campaign key art, covers, launch images, and any piece that has to
+work at a glance.
+
+**Tests.** Can you say the idea in one sentence and show it in one image? Does the
+provocation point back to something true about the product?
 
 ## Ivan Chermayeff and Chermayeff & Geismar: systems, modernizing, collage
 
