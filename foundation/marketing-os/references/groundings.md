@@ -186,7 +186,8 @@ remixes it, and does Every's name survive with it?
 ## 6. Owning a place in the mind: positioning and differentiation
 
 **Core texts.** Al Ries and Jack Trout, *Positioning: The Battle for Your Mind* (1981). David
-Ogilvy, *Ogilvy on Advertising* (1983). Read against Byron Sharp and Jenni Romaniuk on
+Ogilvy, *Ogilvy on Advertising* (1983). April Dunford, *Obviously Awesome* (2019), for
+products. Read against Byron Sharp and Jenni Romaniuk on
 distinctiveness and mental availability.
 
 **What it teaches.**
@@ -195,6 +196,8 @@ distinctiveness and mental availability.
   you can't be first.
 - Ogilvy: research before creative, a big idea people remember, a consistent brand image
   over years, and respect for the reader's intelligence.
+- Dunford: for a product, work from what the customer would do instead, to what only we
+  can do, to why it matters, to who cares most, and name the category last.
 - Sharp and Romaniuk: memory and recognition matter more than reasons to choose, so
   distinctive assets and broad reach carry weight.
 

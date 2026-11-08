@@ -139,7 +139,7 @@ Author of The Brand Gap (2003) and Zag (2006). Defines a brand as a person's gut
 ### Rory Sutherland
 **Role**: Vice chairman of Ogilvy UK; practitioner of behavioral economics in marketing.
 **Contribution**:
-Vice chairman of Ogilvy UK and author of Alchemy (2019). Argues that psychological value can matter as much as material value, and that the logical answer is often not the most effective one. Finds counterintuitive levers in framing, signaling, and perception. See `method.md` for the rules Every uses.
+Vice chairman of Ogilvy UK and author of Alchemy (2019). Argues that psychological value can matter as much as material value, and that the logical answer is often not the most effective one. His rules, as his publisher lists them, include "the opposite of a good idea can be another good idea," "don't design for average," "it doesn't pay to be logical when everybody else is being logical," "a flower is simply a weed with an advertising budget," "test counterintuitive things, because nobody else will," and "dare to be trivial." See `method.md` for how Every uses them.
 **When to invoke**: When reframing a problem through behavioral lenses, when psychological value can substitute for material value, when the work needs a counterintuitive insight.
 
 ### Daniel Kahneman
@@ -179,7 +179,7 @@ Author of Competitive Strategy (1980) and Competitive Advantage (1985). Defined 
 ### Al Ries
 **Role**: Marketing strategist; co-originator of positioning theory.
 **Contribution**:
-Co-author with Jack Trout of Positioning: The Battle for Your Mind (1981) and The 22 Immutable Laws of Marketing (1993). Argued that positioning happens in the prospect's mind, that being first beats being better, and that a brand should own a single word. Warned against line extensions that blur the position.
+Co-author with Jack Trout of Positioning: The Battle for Your Mind (1981) and The 22 Immutable Laws of Marketing (1993). Their 1972 Advertising Age series (republished by Ries & Ries) argued that overloaded minds screen out most messages, so positioning happens in the prospect's mind; each category is a ladder with only a few rungs; leaders got there first; challengers should position against the leader, as Avis did against Hertz; and names and line extensions can blur a position. Owning a word or attribute, held consistently, is the lasting advantage.
 **When to invoke**: When the task is positioning from scratch, when the brand needs to own a word in the mind, when simplicity and focus are the strategic imperatives.
 
 ### Jack Trout
@@ -187,6 +187,11 @@ Co-author with Jack Trout of Positioning: The Battle for Your Mind (1981) and Th
 **Contribution**:
 Co-originated positioning with Al Ries, first in Advertising Age (1972). Developed repositioning the competition and owning a place on the mental ladder of a category. Later wrote Differentiate or Die (2000) on finding a defensible difference.
 **When to invoke**: When the competitive frame needs defining, when differentiation is the problem, when the task involves repositioning against an incumbent.
+
+### April Dunford
+**Role**: Positioning consultant for technology companies; author of Obviously Awesome (2019) and Sales Pitch (2023).
+**Contribution**: Positioning defines how a product is the best in the world at delivering some value that a well-defined set of customers cares about. She works through five components in order: competitive alternatives (what the customer would do instead), differentiated capabilities, the value those capabilities deliver, the target customers who care most, and finally the market category that makes the value obvious. The most practical positioning method for software, and the closest to what Every sells.
+**When to invoke**: When positioning or repositioning a product (Every Agent, Spiral, Cora, the Skills Library); when a launch can't explain why it beats the alternative.
 
 ### Richard Rumelt
 **Role**: Professor of strategy at UCLA Anderson; diagnostician of good vs. bad strategy.

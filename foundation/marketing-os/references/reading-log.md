@@ -21,11 +21,16 @@ knowledge, not checked against the text.
 | Munari, *Design as Art* | Excerpt | The Marginalian's account; method steps via a secondary source | Munari |
 | Shifman, "Memes in a Digital World" (2013) | Excerpt | Publisher abstract and definition | Shifman |
 | Design lineage facts (Bass, Glaser, Chermayeff, Swiss school) | Excerpt | Art of the Title, Irish Times, Arts Fuse, Print | Bass, Glaser, Chermayeff, Swiss school |
+| Ries & Trout, "The Positioning Era" (Advertising Age, 1972; ries.com) | Excerpt | Summary of the original article series | Ries, Trout, groundings §6 |
+| Sutherland, *Alchemy* (Penguin's "11 rules" article) | Excerpt | All 11 rules | Sutherland |
+| Dunford, *Obviously Awesome* | Excerpt (secondary) | Podcast transcript summary of her five components | Dunford |
+| Rumelt, *Good Strategy Bad Strategy* | Knowledge | No author-published free source reachable (McKinsey blocked) | — |
 | All other canon entries | Knowledge | — | — |
 
 ## Next to read
 
-Ries and Trout, *Positioning*; *Ogilvy on Advertising*; Dunford, *Obviously Awesome*;
-Sutherland, *Alchemy*; Rumelt, *Good Strategy Bad Strategy*; O'Brien, *Like Art* (full);
-Hebdige; John Berger; Munari; the rest of *Marketing Memetics*. These need Douglas's own
-copies (paid ebooks or print); no authorized free full texts were found.
+Douglas won't be scanning print books; check entries against free material the authors
+or publishers put out (articles, excerpts, talks) and keep the rest labeled Knowledge.
+Open: *Ogilvy on Advertising*; Rumelt; O'Brien, *Like Art* (full);
+Hebdige; John Berger; Munari; the rest of *Marketing Memetics* (Douglas can drop the PDF
+on his Desktop). No authorized free full texts exist for the books.
