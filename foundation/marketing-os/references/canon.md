@@ -115,6 +115,11 @@ Created customer-based brand equity (CBBE) and the brand resonance pyramid: sali
 Created the brand identity prism: physique, personality, culture, relationship, reflection, and self-image. Separates what the brand sends from how the receiver sees themselves through it. Authority on luxury brand strategy and the logic of rarity.
 **When to invoke**: When the brand identity prism is the right diagnostic, when working on premium or luxury positioning, when brand and product identity need separation.
 
+
+### Douglas Holt
+**Role**: Brand strategist and former Harvard Business School and Oxford professor; author of How Brands Become Icons (2004) and, with Douglas Cameron, Cultural Strategy (2010).
+**Contribution**: Argues that icons are made by cultural branding: a brand earns iconic status by performing a myth that resolves a tension its audience lives with. Equity is a cultural achievement, not only a stock of associations. Grounds Every's Cultural Position dimension; see `marketing-science/brand-equity/references/holt.md`.
+**When to invoke**: When the brand needs a cultural tension to resolve; when a campaign should carry a myth rather than a claim.
 ### Wally Olins
 **Role**: Co-founder of Wolff Olins; pioneer of corporate identity and nation branding.
 **Contribution**:

@@ -192,6 +192,14 @@ distinctiveness and mental availability.
 - Sharp and Romaniuk: memory and recognition matter more than reasons to choose, so
   distinctive assets and broad reach carry weight.
 
+**Brand equity models behind this lens.** Positioning sets the word; the equity models say
+what a brand must build around it. David Aaker's identity system, Kevin Lane Keller's
+brand resonance pyramid, Jean-Noël Kapferer's identity prism, and Douglas Holt's cultural
+branding (icons resolve tensions their audience lives with) each have a full reference in
+`marketing-science/brand-equity/references/` (`aaker.md`, `keller.md`, `kapferer.md`,
+`holt.md`). Load the relevant one whenever the work defines or changes what the brand
+stands for, not only for formal equity evaluations.
+
 **How Every reconciles them.** Differentiate in meaning (the word and the myth Every owns)
 and be distinctive in memory (the assets that make it Every's on sight). One without the
 other fails: a sharp position nobody can recognize, or a recognizable look that stands
