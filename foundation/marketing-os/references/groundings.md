@@ -6,7 +6,8 @@ They are how Every's marketing decides what a thing means, whether it will trave
 earns a place in the mind, and how a person actually decides. Ruled by Douglas, Nov. 8,
 2026, as the foundation for all creative and marketing thinking.
 
-`canon.md` holds the full thinker entries. `method.md` holds Every's positions and the
+`canon.md` holds the full thinker entries; `reading-log.md` records which were checked
+against the text. `method.md` holds Every's positions and the
 behavioral economics foundation. This file is the operating layer: the question each
 lens asks, the test it applies, and where the lenses pull against each other.
 
@@ -44,7 +45,8 @@ want to own that myth?
   main sign.
 - Run the competitive semiotic audit (`craft/art-direction/references/competitive-semiotic-audit.md`)
   when the work enters a crowded visual or verbal code.
-- Swap the logo. If the sign now reads as a competitor's, the code is the category's.
+- Swap the logo (Neumeier's swap test). If the sign now reads as a competitor's, the code
+  is the category's.
 
 ## 2. How images make meaning: ways of seeing
 
@@ -147,7 +149,8 @@ with the logo covered?
 Blackmore, *The Meme Machine* (1999). Limor Shifman, "Memes in a Digital World:
 Reconciling with a Conceptual Troublemaker" (2013) and *Memes in Digital Culture* (2014).
 Jonah Berger, *Contagious* (2013), and Berger and Milkman on emotion and sharing. René
-Girard on mimetic desire, from *Deceit, Desire and the Novel* (1961). In-house: Mike
+Girard on mimetic desire, from *Deceit, Desire and the Novel* (1961). Seth Godin,
+*Unleashing the Ideavirus* (2000). In-house: Mike
 Taylor, *Marketing Memetics* (2023).
 
 **What it teaches.**
@@ -162,6 +165,8 @@ Taylor, *Marketing Memetics* (2023).
   triggers bring to mind, what stirs high-arousal emotion, what is visible to others,
   what is practically useful, and what comes wrapped in a story.
 - Girard: people want what the people they admire want. Desire is borrowed from a model.
+- Godin: word of mouth dies out unless something amplifies it. Seed the idea with
+  sneezers inside a hive, make it smooth enough to get at a glance, and plan the amplifier.
 - Taylor: map what already works in a category, copy where the audience needs
   familiarity, differ where the brand must be recognized, and build each meme with bait,
   hook, reward, and payload.
@@ -176,6 +181,7 @@ remixes it, and does Every's name survive with it?
 - Identify the model the audience admires and what they are shown wanting.
 - Check STEPPS: at least two of the six are strong.
 - Check the payload: after three remixes, the idea still points back to Every.
+- Name the sneezers, the hive, and the amplifier (Godin).
 
 ## 6. Owning a place in the mind: positioning and differentiation
 
@@ -210,6 +216,9 @@ positioned against? Which distinctive asset ties this work to Every without the 
 
 **Tests.**
 - State the owned word or idea in under ten words.
+- Neumeier's hand test: cover the logo. If you can't tell who's talking, the voice isn't
+  distinctive. His field test: if the audience can't say the concept back, it wasn't
+  communicated.
 - Name the competitor or default the work positions against.
 - Name the distinctive asset carried and check it is used consistently.
 
@@ -232,8 +241,10 @@ friction, and is it in the right place? Is the value psychological, material, or
 **Core text.** Guy Debord, *The Society of the Spectacle* (1967), with the Situationist
 practice of détournement (turning an existing image or message against its original use).
 
-**What it teaches.** In a society of spectacle, images stand in for lived relationships
-between people. Spectacle absorbs critique and sells it back.
+**What it teaches.** "The spectacle is not a collection of images; it is a social relation
+between people that is mediated by images" (thesis 4). Under it, "dissatisfaction itself
+becomes a commodity" (thesis 59): critique is absorbed and sold back. Détournement is "the
+opposite of quotation" (thesis 208).
 
 **Questions.** Does this moment create a relationship between people, or only an image of
 one? If it turns someone else's image against itself, is the turn sharp enough not to be

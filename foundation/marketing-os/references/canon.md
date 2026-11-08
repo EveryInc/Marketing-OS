@@ -14,7 +14,7 @@ contribution, and guidance on when to invoke that thinker's lens.
 ### Les Binet
 **Role**: Effectiveness strategist; head of effectiveness at adam&eveDDB.
 **Contribution**:
-With Peter Field, analyzed the IPA Databank of effectiveness case studies to show that brand building and sales activation work on different timescales. Their work argues most brands should weight spend toward long-term brand building (roughly 60/40, varying by category). Emotional, fame-driven campaigns tend to outperform rational ones on long-term business results.
+With Peter Field, analyzed the IPA Databank of effectiveness case studies to show that brand building and sales activation work on different timescales. The IPA's official summary (996 campaigns, 700 brands, 83 categories) sets out ten principles: support volume and price, talk to all prospects, balance head and heart, aim for fame, and keep activation near 40% of budget (the 60:40 rule). Fame campaigns showed about four times the efficiency of others, emotional effects built over three or more years, and in the 2011 data social and viral channels added no brand effects while websites added the most.
 **When to invoke**: When balancing brand-building vs. activation spend, when arguing for long-term investment, when applying the 60/40 framework or its category-specific variants.
 
 ### Peter Field
@@ -129,7 +129,7 @@ Co-founder of Wolff Olins and author of Corporate Identity (1989). Showed that i
 ### Marty Neumeier
 **Role**: Author and brand strategist; bridge between design thinking and business strategy.
 **Contribution**:
-Author of The Brand Gap (2003) and Zag (2006). Defines a brand as a person's gut feeling about a product, and the brand gap as the distance between strategy and creative. Zag argues for radical differentiation when the market converges.
+Author of The Brand Gap (2003) and Zag (2006). Defines a brand as a person's gut feeling about a product, service, or organization ("not what you say it is, it's what they say it is") and the brand gap as the distance between strategy and creative. His five disciplines are differentiate, collaborate, innovate, validate, and cultivate, with cheap tests: the swap test for marks, the hand test for voice (cover the logo; can you tell who's talking?), and the field test (can the audience say the concept back?). Zag argues for radical differentiation when the market converges.
 **When to invoke**: When translating brand strategy into plain language, when the audience is cross-functional, when the task requires a "brand gap" diagnosis between strategy and creative.
 
 ---
@@ -279,8 +279,8 @@ Co-founder of Young & Rubicam. Insisted that advertising must resist the usual (
 **When to invoke**: When choosing a medium or format; when a new channel changes what the brand can say.
 
 ### Guy Debord
-**Role**: Situationist writer and filmmaker; author of The Society of the Spectacle (1967).
-**Contribution**: Argued that in modern society images stand in for lived relationships between people, and that spectacle absorbs critique. With the Situationists, practiced détournement: turning existing images against their original meaning. A check on empty spectacle.
+**Role**: Situationist writer and filmmaker; author of The Society of the Spectacle (1967; Ken Knabb's uncopyrighted 2014 translation read in full).
+**Contribution**: "The spectacle is not a collection of images; it is a social relation between people that is mediated by images" (thesis 4, Knabb translation). Under it "dissatisfaction itself becomes a commodity" (thesis 59), which is why critique gets absorbed and sold back. Détournement, "the opposite of quotation" (thesis 208), turns existing material against its original meaning.
 **When to invoke**: When a moment risks being only an image; when using parody or détournement; when judging whether an event creates real relationships.
 
 ### John Berger
@@ -321,6 +321,11 @@ Co-founder of Young & Rubicam. Insisted that advertising must resist the usual (
 **Role**: Every writer; author of Marketing Memetics (2023); co-founder of the agency Ladder.
 **Contribution**: Turns memetics into a working method: map a category's memes, copy where the audience expects familiarity and differ where the brand must stand out, and build each idea with bait, hook, reward, and payload. Prioritizes tests by concept, theme, and variant. In-house reference; the Drive copy read so far covers chapters 1–3.2.
 **When to invoke**: When mapping a category's formats; when deciding what to copy and where to differ; when planning creative tests.
+
+### Seth Godin
+**Role**: Marketer and author; Permission Marketing (1999), Unleashing the Ideavirus (2000; free author edition), Purple Cow (2003), Tribes (2008), This Is Marketing (2018).
+**Contribution**: An ideavirus is an idea that spreads through a population; unlike word of mouth, which dies out, it grows because something amplifies it. He names eight variables to tune: sneezers (people likelier to pass an idea on, whose power depends on not pitching friends things that don't help them), hive (a self-organized group with its own rules, history, and fashion leaders), velocity, vector, medium, smoothness (how instantly someone gets it and wants it), persistence, and amplifier. Ideaviruses favor a vacuum: the first clear idea in an empty space spreads fastest.
+**When to invoke**: When designing how an idea spreads through a specific community; when choosing who seeds it and what amplifies it.
 
 ---
 
