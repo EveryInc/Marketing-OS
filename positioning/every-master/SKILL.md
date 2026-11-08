@@ -1,9 +1,11 @@
 # Every Master Positioning
 
 Positioning framework for Every as the parent brand. Sourced Aug. 19, 2026 from the
-final working edit of the Every Brand Book and its approved one-page strategy. This is
-the current ruled canon for company category, promise, system, integrity, audience, and
-positioning. Voice execution ports to `brand-voice/every-master`.
+final working edit of the Every Brand Book and its approved one-page strategy, with the
+customer promise updated Nov. 8, 2026 to Dan's Nov. 2 company-direction language (ruled
+current by Douglas). This is the current ruled canon for company category, promise,
+system, integrity, audience, and positioning. Voice execution ports to
+`brand-voice/every-master`.
 
 ## When to invoke
 
@@ -16,7 +18,9 @@ positioning. Voice execution ports to `brand-voice/every-master`.
 
 - **Company category:** Every is a media and technology company.
 - **One goal:** Pioneer the future of work with AI.
-- **Customer promise:** Learn to work with AI as fast as it changes.
+- **What we do:** We make AI work for you.
+- **Customer promise:** Every time the frontier advances, so do you.
+- **What we make:** One subscription that compounds.
 - **Active position:** The must-have subscription for anyone who works, or wants to
   work, with AI.
 - **Business system:** Ideas + Software + Education, connected by community; enterprise
@@ -48,9 +52,11 @@ The operating values are:
 **The mental slot to own (Ries & Trout):** The must-have subscription for anyone who
 works, or wants to work, with AI. Everything that muddies that slot gets cut.
 
-**The promise behind the position:** Learn to work with AI as fast as it changes. Every
-has a complex business and sells one clear customer idea: ongoing learning at the speed
-of the frontier.
+**The promise behind the position:** Every time the frontier advances, so do you. Every
+has a complex business and sells one clear customer idea: the customer keeps pace with
+the frontier because the subscription compounds. The brand book's earlier line, "Learn to
+work with AI as fast as it changes," states the same idea and may support it in long
+copy; it no longer leads.
 
 **The macro frame:** **After Automation** names the future Every is helping shape.
 Automation is coming to almost every industry. Every works on what comes next while
@@ -120,7 +126,8 @@ one funnel.
 ## The descriptor ladder
 
 - **Company:** Every is a media and technology company pioneering the future of work.
-- **Customer promise:** Learn to work with AI as fast as it changes.
+- **What we do:** We make AI work for you.
+- **Customer promise:** Every time the frontier advances, so do you.
 - **Active position:** The must-have subscription for anyone who works, or wants to
   work, with AI.
 - **System:** Ideas + Software + Education, connected by community; enterprise brings
@@ -142,7 +149,11 @@ codes (reach-for and avoid lists) are in the deck, slides 57–64.
 ## Status
 
 The Aug. 19, 2026 final working edit of the Brand Book is the ruled source for the
-strategy above. Preserve the approved Aaker work and the authored tone-of-voice tables
+strategy above, except the customer promise, which follows Dan's Nov. 2, 2026
+company-direction deck: "We make AI work for you." / "Every time the frontier advances,
+so do you." / "One subscription that compounds." Update the Brand Book and Figma mocks
+to match. Use the exact wording; do not shorten it to "As the frontier advances, so do
+you." Preserve the approved Aaker work and the authored tone-of-voice tables
 when editing the deck. Verify current product names, membership names, prices, and
 entitlements before use.
 
@@ -156,7 +167,7 @@ entitlements before use.
 ## Quick checklist
 
 - [ ] Media and technology company names the whole company
-- [ ] Learning promise leads; portfolio detail supports it
+- [ ] "Every time the frontier advances, so do you" leads, worded exactly; portfolio detail supports it
 - [ ] Frontier Team appears as the applied AI lab and integrity mechanism
 - [ ] After Automation frames the future when the macro story is told
 - [ ] Creator-Magician register; Hermes as guide, never guru
