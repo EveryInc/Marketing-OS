@@ -16,7 +16,7 @@ sunk cost in the strategy, told to find where it fails, before the website inher
 ## Inputs (all required — refuse to run on partial context)
 
 1. The launch's full strategy/positioning doc (or brand doc containing it)
-2. Every master brand positioning and archetypes (`positioning/every-master`,
+2. Every master brand positioning and archetypes (the parent brand's private positioning,
    `marketing-science/archetyping`)
 3. The competitive set with live citations (`marketing-science/research` output — if
    stale by more than about four weeks, re-verify the claims that the copy leans on)
@@ -48,7 +48,7 @@ sunk cost in the strategy, told to find where it fails, before the website inher
 
 - `foundation/marketing-os`
 - `launches/canonical-process.md` (Week 5 definition, epistemic rules)
-- `positioning/every-master` · `positioning/{product}` (loaded dynamically)
+- The parent brand's private positioning · `positioning/{product}` (loaded dynamically)
 - `brand-voice/{product}` (loaded dynamically)
 - `marketing-science/archetyping`
 - `marketing-science/research` competitive-audit output as input

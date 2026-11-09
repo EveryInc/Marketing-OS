@@ -38,9 +38,8 @@ change before applying it. Reading a comment is not permission to implement it.
 - Apply Every Style and AI Check to recommendations and proposed copy. The user's
   latest instructions and approved language take precedence over general advice.
 
-If standalone Every Style or AI Check is unavailable, use the bundled
-`../../brand-voice/every-master/references/editorial-gates.md` for a manual editorial
-pass. This is not a remote KateBench or Jev run.
+If standalone Every Style or AI Check is unavailable, use the brand's own editorial gates
+(kept outside this repo) for a manual editorial pass. This is not a remote KateBench or Jev run.
 
 If another dependency is unavailable, name the gap and use the available rules. Do not
 claim a tool, review, or benchmark ran merely because its instructions were read.

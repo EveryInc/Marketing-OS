@@ -47,7 +47,7 @@ threshold.
 |---|---|
 | Audience behavior or segment definition | `marketing-science/archetyping/references/every-audiences.md` |
 | Attribution, CAC, cohort, or Fame Score method | `marketing-science/measurement/` |
-| Company promise or audience movement | `positioning/every-master/` |
+| Company promise or audience movement | The parent brand's positioning (kept outside this repo) |
 | Channel mechanism or format | The relevant `craft/` channel reference |
 | Program sequencing or investment gate | `strategy/program-brief/references/portfolio-rules.md` |
 | Editing, voice, or creative pattern | The narrowest `craft/editing/` or approved brand-voice reference |

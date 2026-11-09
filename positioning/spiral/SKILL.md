@@ -89,7 +89,7 @@ PERMISSION. Nothing ships without clearance (`launches/claims-clearance`).
 - `marketing-science/archetyping`
 - `marketing-science/research`
 - `brand-voice/spiral` (voice execution of this position)
-- `positioning/every-master` (parent-brand nesting)
+- The parent brand's positioning, kept outside this repo (parent-brand nesting)
 
 ## Quick checklist
 

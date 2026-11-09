@@ -116,7 +116,7 @@ the community sets a built-in audience with high expectations.
 - `marketing-science/archetyping`
 - `marketing-science/research`
 - `brand-voice/cora` (voice execution)
-- `positioning/every-master` (parent-brand nesting — "Built by Every Studio")
+- The parent brand's positioning, kept outside this repo (parent-brand nesting — "Built by Every Studio")
 
 ## Quick checklist
 

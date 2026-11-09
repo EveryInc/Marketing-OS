@@ -75,8 +75,8 @@ structure. If the workflow expands, state the reason in one sentence and continu
 Carry forward the user’s explicit word bans until they revoke them. A later appearance
 in a draft, quote, or source does not revoke a ban. Check generated copy and editorial
 suggestions against these constraints before delivery; do not infer universal bans from
-a single rejected sentence. For Douglas’s Every work, load the current constraints in
-`../../brand-voice/every-master/references/editorial-constraints.json`.
+a single rejected sentence. If the user keeps private brand constraints (banned words,
+house rules) outside this repo, load them before drafting.
 
 Existing explicit authorization to apply changes takes precedence over a default
 review-first interview. Preserve its scope; do not ask the user to approve it again.
@@ -257,9 +257,9 @@ judge each post as well as the larger feed it joins. Before delivery, run the re
 manual checks in `evals/social-edit-regressions.json`; passing them does not prove that a
 post will travel or convert.
 
-When the publishing account is `@every`, also read
-`brand-voice/every-master/references/social-copywriting.md`. Apply its topic priorities,
-two observed post shapes, repost rules, and Every-specific review gates as a brand overlay.
+When the publishing account belongs to a brand with its own private social rules, read
+them and apply their topic priorities, post shapes, repost rules, and review gates as a
+brand overlay.
 Do not generalize those priorities to product, founder, employee, or client accounts.
 
 State what each slide, section, card, or message should contribute to the reader's
@@ -475,8 +475,7 @@ compounding.
 - Email, social, and conversion-test discipline → `craft/copywriting/references/channel-adaptation.md`
 - Social strategy, opening choice, memes, product explanation, feed range, and learning
   from edits → `references/social-learning.md`
-- `@every` posts and employee repost copy for the Every account →
-  `brand-voice/every-master/references/social-copywriting.md`
+- Brand-account posts and employee reposts → that brand's private social rules, when provided
 - Ogilvy, Bernbach, campaign analysis, and research limits → `craft/copywriting/references/creative-canon.md`
 - Behavioral validation → `evals/rubric.md`, `evals/cases.json`, and `evals/persuasion-cases.json`
 

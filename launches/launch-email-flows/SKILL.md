@@ -102,7 +102,7 @@ GTM plan.
 
 - `foundation/marketing-os`
 - `launches/canonical-process.md` (gates, sequencing authority)
-- `brand-voice/{product}` + `brand-voice/every-master` (dynamically)
+- `brand-voice/{product}` + the parent brand's voice, kept outside this repo (dynamically)
 - `organization/ai-check` · `organization/every-style` (mandatory passes)
 - `launches/claims-clearance` (clearance table in)
 - Messaging Doc for the launch (input, required)
