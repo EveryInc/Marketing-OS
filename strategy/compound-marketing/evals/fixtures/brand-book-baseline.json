@@ -42,7 +42,7 @@
   "stages": {
     "context_to_strategy": {
       "status": "approved",
-      "artifact": "positioning/every-master/SKILL.md",
+      "artifact": "private parent-brand positioning",
       "output_decision_ids": ["D1", "D2", "D3", "D4"]
     },
     "strategy_to_market": {

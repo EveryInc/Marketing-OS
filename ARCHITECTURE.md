@@ -87,14 +87,15 @@ short public entries; the legacy layout above remains a useful specialist conven
 
 ## Brand Voice
 
+Every's own brand voice and positioning, including Every Agent, are kept in a private
+workspace, not in this public repo.
+
 All brand-voice skills load:
   - foundation/marketing-os (the voice OS)
 
-    brand-voice/every-master
     brand-voice/cora
     brand-voice/spiral
     brand-voice/monologue
-    brand-voice/plus-one
     brand-voice/proof
     brand-voice/sparkle
 
@@ -105,11 +106,9 @@ All positioning skills load:
   - marketing-science/archetyping
   - marketing-science/research
 
-    positioning/every-master
     positioning/cora
     positioning/spiral
     positioning/monologue
-    positioning/plus-one
     positioning/proof
     positioning/sparkle
 
@@ -173,7 +172,7 @@ All positioning skills load:
 
     marketing/gtm
       - foundation/marketing-os
-      - positioning/every-master
+      - parent-brand positioning (private, outside this repo)
       - marketing-science/archetyping
       - marketing-science/research
       - marketing-science/measurement
@@ -408,7 +407,7 @@ gets fixed.
 
     launches/codex-gut-check
       - launches/canonical-process.md (always)
-      - positioning/every-master
+      - parent-brand positioning (private, outside this repo)
       - positioning/{relevant product}
       - brand-voice/{relevant product}
       - marketing-science/archetyping

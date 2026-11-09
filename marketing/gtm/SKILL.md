@@ -20,7 +20,7 @@ substantive work, changed briefs, or handoffs. Select launch tier and artifact m
 loading additional references:
 
 - For a new or reopened GTM decision, read the foundation's method and collaboration,
-  `../../positioning/every-master/SKILL.md`,
+  the parent brand's positioning (kept outside this repo),
   `../../marketing-science/archetyping/references/every-audiences.md`, and
   `references/strategy-standard.md`.
 - For scoped revisions, drumbeats, or social briefs, inherit the approved decision and
@@ -245,7 +245,7 @@ hard failures.
 ## Dependencies
 
 - `foundation/marketing-os`
-- `positioning/every-master`
+- The parent brand's positioning (kept outside this repo)
 - `marketing-science/archetyping`
 - `marketing-science/measurement`
 - `marketing-science/research`

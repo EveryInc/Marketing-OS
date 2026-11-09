@@ -54,7 +54,7 @@ approval roster in the process.
 - `foundation/marketing-os`
 - `launches/canonical-process.md` (Week 1 checklist, rosters, epistemic rules)
 - `marketing-science/archetyping` · `marketing-science/research`
-- `positioning/every-master` · `positioning/{product}` (dynamically)
+- The parent brand's private positioning · `positioning/{product}` (dynamically)
 - `marketing-science/research` competitive-audit output as input
 - `launches/new-product-launch` (narrative discipline, for net-new products)
 
