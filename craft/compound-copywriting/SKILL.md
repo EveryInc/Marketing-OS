@@ -126,6 +126,9 @@ or preserve a relationship; its container does not decide its strategy.
 | Produce an immediate action | Direct response, conversion, performance, transactional lifecycle | `craft/copywriting-halbert` |
 | Move a relationship forward | Outreach, partnerships, editorial marketing, customer communication | `craft/copywriting-robinson` |
 
+For paid ad lines and the landing copy they point to, also load
+`craft/performance-copywriting` for line checks, evidence grades, and test sizing.
+
 Use one reviewer by default. Choose the reviewer from the copy's primary job, not the
 copywriter the user happens to admire. Let the user override the selection. Add a second
 lens only when the assignment contains a consequential conflict between two jobs or the
