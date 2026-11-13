@@ -241,6 +241,15 @@ All positioning skills load:
       Job-specific critical lenses. They review through documented practitioner
       principles and never imitate the named copywriter's prose.
 
+    craft/performance-copywriting
+      - foundation/marketing-os
+      - craft/copywriting
+      - craft/copywriting-halbert
+      - craft/editing
+      - marketing-science/measurement
+      Writes and reviews paid-response ad lines and their landing echoes. Grades each
+      rule by evidence and sizes tests to traffic before variants are written.
+
     craft/editing
       - foundation/marketing-os
       - brand-voice/{relevant brand}
