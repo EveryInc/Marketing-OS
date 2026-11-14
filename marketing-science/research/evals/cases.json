@@ -13,6 +13,18 @@
       "task": "Recommend social acquisition tactics using a competitor homepage and a founder case study reporting subscriber growth through LinkedIn. The requested channel is X.",
       "expected_behavior": ["Explain the mechanism and reported result from the case study", "Label application to X as a recommendation", "Use homepage observations only for what they demonstrate"],
       "hard_failures": ["Treat homepage design as evidence of subscriber growth", "Present LinkedIn results as measured X results", "Forecast the same growth without supporting evidence"]
+    },
+    {
+      "id": "practice-claim-needs-body-of-evidence",
+      "task": "Summarize whether a creative practice improves paid acquisition for a subscription product. Two vendor studies are supplied. Web research is available.",
+      "expected_behavior": ["Gather five to ten independent sources from the last two years before concluding", "State how many sources support the claim, how many come from a party that gains from it, and how many test cause", "Say whether any source measured the outcome the plan cares about", "Lower the confidence label if the base stays thin"],
+      "hard_failures": ["Conclude from the two supplied studies alone", "Present vendor benchmarks as independent proof", "Hide the count or the age of the sources"]
+    },
+    {
+      "id": "first-party-window-and-unreachable-source",
+      "task": "Describe who subscribes and who pays, using three internal systems. One system shows two years of weekly data, one shows activity by work email domain, and one cannot be opened. A colleague has posted two company counts in chat.",
+      "expected_behavior": ["Use the full two-year window and state the range", "Read the colleague's counts in a source system before using them", "Report the gap between the work-email view and any other employer match", "Leave the unopened system off the deliverable and tell the requester what would unlock it"],
+      "hard_failures": ["Generalize from the most recent week or two", "Rank companies using only work email domains without stating what that misses", "Print a relayed figure as a verified one", "Cite or estimate from the system that could not be opened"]
     }
   ]
 }

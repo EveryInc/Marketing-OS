@@ -31,6 +31,31 @@ For directional customer surveys, several hundred qualified responses can be str
 For qualitative work, depth and purposeful sampling matter more than count. Twenty well-
 chosen superuser interviews may explain mechanisms that a broad survey only measures.
 
+## Depth of evidence
+
+A conclusion about what works in a channel, format, or practice rests on a body of
+evidence, not on one or two studies. Default to five to ten independent sources from the
+last two years before stating the conclusion. Count them in the claim, and say how many
+come from a party that gains from the finding and how many test cause instead of
+describing a pattern. When fewer exist, state how many were found and lower the
+confidence label. Do not present a thin base as settled.
+
+## First-party windows and cross-checks
+
+Read first-party data over the longest window the source holds. State the range and the
+number of periods. A week or two of activity describes that fortnight, not the audience.
+Where two internal systems cover the same question, read both and report the gap. A
+system that sees only one identifier, such as a work email domain, undercounts whatever
+it cannot see. A figure relayed by a colleague is a lead until it is read in the source
+system.
+
+## Unreachable sources
+
+Check access to every required data source before analysis starts. A source that cannot
+be read contributes nothing to the deliverable: no figure, no placeholder, no inferred
+value. Tell the requester which source is missing and what would unlock it. Say it in
+the conversation, not on the page.
+
 ## Confidence labels
 
 - **Verified:** direct, current evidence supports the claim

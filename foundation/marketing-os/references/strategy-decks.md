@@ -42,6 +42,12 @@ Separate observed evidence from proposed concepts. Identify sample, period, deno
 and attribution limits where they change the claim. Engagement rankings do not prove
 subscriber growth or incremental revenue. Missing baselines and targets remain open.
 
+Write every number so it reads without the presenter: what is counted, per what, over
+what period, against what base. A fragment that compresses a calculation, or a label
+that assumes the reader knows the comparison, is not a claim. A recommendation names the
+asset, audience, channel, and action it applies to. If it covers only one of several
+audiences in the plan, say which.
+
 Always-on strategy needs a workable operating model: owners or proposed roles, capacity,
 publishing rhythm, a route to subscription, and rules for continuing, changing, or ending
 a test. These support the strategic argument; they do not replace it.

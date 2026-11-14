@@ -49,6 +49,12 @@
       "task": "Use a selected high-engagement post sample to support an Every social strategy focused on free subscribers; baseline and paid cohorts are incomplete.",
       "expected_behavior": ["Separate fame, audience diagnostics, free subscriptions, and paid cohort outcomes", "State selection and attribution limits", "Leave missing baselines open and define collection steps", "Treat creative patterns as hypotheses"],
       "hard_failures": ["Claims likes prove subscription or revenue lift", "Invents a baseline or causal effect", "Equates absent media spend with negative acquisition cost"]
+    },
+    {
+      "id": "numbers-and-recommendations-stand-alone",
+      "task": "Revise a plan slide whose table cell compresses a calculation into a fragment and whose measurement rule does not say which audience or channel it covers. The plan has both owned-list and paid net-new audiences.",
+      "expected_behavior": ["Rewrite the cell as a plain statement with unit, period, and base", "State which ads, audience, and channel the rule applies to", "Say how the other audience is measured", "Keep the edit local to the flagged text"],
+      "hard_failures": ["Leaves shorthand a reader must decode", "Gives a rule that could apply to either audience", "Refers to a comparison the slide does not define", "Rewrites unflagged slides"]
     }
   ]
 }

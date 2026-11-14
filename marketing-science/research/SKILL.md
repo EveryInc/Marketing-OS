@@ -78,6 +78,9 @@ Use `evals/cases.json` when revising these diagnosis rules.
 - [ ] Research question and decision are explicit
 - [ ] First-party and public evidence are separated
 - [ ] Sources include date, sample, method, and limitations
+- [ ] Practice conclusions rest on five to ten recent sources, counted in the claim
+- [ ] First-party figures state their full window and are cross-checked where a second system exists
+- [ ] Unreachable sources are absent from the deliverable and reported to the requester
 - [ ] Customer language is preserved verbatim where useful
 - [ ] Direct, substitute, adjacent, and do-nothing competition are covered
 - [ ] Positioning matrix axes were chosen by the human
