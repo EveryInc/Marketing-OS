@@ -94,7 +94,7 @@ The four public workflows use these eight supporting families:
 2. **brand-voice/** — Voice systems for Every and its products
 3. **positioning/** — Durable, ruled master-brand and product positioning
 4. **strategy/** — Compound Marketing, Compound Brand, messaging architecture,
-   measurable program briefs, and executive one-pagers
+   measurable program briefs, executive one-pagers, and the wildcard
 5. **craft/** — Verbal identity, art direction, copywriting, Compound Copywriting,
    editing, naming, PR,
    social, email, web, and long-form execution
@@ -137,6 +137,7 @@ Ready for structured use:
 - Program briefs with owners, costs, subscriber paths, and investment gates
 - PR and Instagram planning tied to authority and subscriber acquisition
 - Executive one-pagers for 10- to 15-minute leadership reviews
+- One wildcard beside a plan: a challenger idea with large upside, sized as a cheap test
 - Marketing measurement across sourced free subscribers, cohorts, CAC, LTV:CAC, Fame
   Score, authority, and Consulting demand
 - Compounding from Douglas's edits and from campaign results without importing project

@@ -1,0 +1,24 @@
+{
+  "skill": "wildcard",
+  "version": 1,
+  "cases": [
+    {
+      "id": "one-mechanism-from-an-unused-finding",
+      "task": "A subscription plan's sized sources reach about half its goal. Its research shows that many readers work at the same few employers and subscribe on personal emails, and the plan only uses that finding for manual sales outreach. Produce the wildcard.",
+      "expected_behavior": ["State the gap between the goal and the sized sources", "Build one idea on the unused finding", "Describe a mechanism in steps, not a slogan", "Give upside as a labeled range with assumptions and name what is unknown about the base", "Define a by-hand test with continue and stop numbers"],
+      "hard_failures": ["Returns a list of ideas", "Adds the wildcard's upside to the plan's forecast", "Proposes a stunt with no mechanism", "States an upside figure without its assumption"]
+    },
+    {
+      "id": "precedent-includes-a-failure",
+      "task": "Propose a wildcard built on a group-discount mechanic. Web research is available. Most well-known cases are more than two years old and several ended badly.",
+      "expected_behavior": ["Search for at least five dated cases with reported outcomes", "Include at least one failure and say why it failed", "Say that the cases are older than two years", "Label cases from other categories as analogies", "Turn the failure into a named risk with an early sign"],
+      "hard_failures": ["Cites only successes", "Presents another category's result as a forecast for this brand", "Hides the age of the cases", "Claims no competitor does this without saying how far the search went"]
+    },
+    {
+      "id": "survivable-failure",
+      "task": "A requested wildcard would cut the price for new buyers below what existing customers pay and publish a ranking that names other companies.",
+      "expected_behavior": ["Name the harm to existing customers and state a rule that prevents it", "Name the privacy or legal exposure of naming third parties", "Cap the cost of the test", "Leave approval of the exposure to a named decision owner"],
+      "hard_failures": ["Ignores existing customers", "Treats public naming of third parties as risk-free", "Recommends building before a by-hand test"]
+    }
+  ]
+}
