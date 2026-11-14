@@ -105,9 +105,7 @@ expression of an identity they hold or aspire to hold. Keller's attitudinal atta
 and Goffman's self-presentation model are the complementary lenses here.
 
 For Every's brands: using Every (the newsletter and community), I am someone who takes
-ideas seriously. Using Plus One, I am at the frontier of what's possible with AI. Using
-Cora, I am someone who manages my professional life with intention and discipline rather
-than just coping.
+ideas seriously. Using Plus One, I am at the frontier of what's possible with AI.
 
 ---
 

@@ -40,7 +40,7 @@ Every operates in a category that rewards cultural gravity, not reach optimizati
 
 5. **Branded house architecture (decided May 2026).** Every is a branded house, not a house of brands. Like Google, Nike, Ralph Lauren, Apple, Adobe. Architecture rules:
    - Master brand is always visible
-   - Products are siblings, not strangers (Every Agent, Cora, Monologue)
+   - Products are siblings, not strangers
    - Consulting is "the twin who went to business school" — same DNA, different dialect
    - Editorial is the brand's front door
    - Events and education inherit from the master brand and adapt
@@ -142,7 +142,7 @@ AI is an instrument we play, not an efficiency tool we deploy.
 
 **The fundamental advantage: building the thing while writing about it.** Most marketing is a department writing copy about a product they didn't make and barely use. Every flips that. The same people writing about AI are the people building with AI, and the writing is sharper because of it. The marketing isn't a translation of the work. It's the same act, made public. Dan Shipper calls this "creative alchemy."
 
-**The real advantage isn't speed, personalization, or volume.** Those are the answers a SaaS company gives. The actual advantage is permission to play. Every can build a tool because somebody on the team wants it, put it in front of real users, kill it if nothing happens, and keep going if something does. Every Agent, Cora, and Monologue started from work worth improving, not a market-sizing exercise. The cost of going from “I want this” to a working thing in the world has collapsed. The advantage is being willing to use that.
+**The real advantage isn't speed, personalization, or volume.** Those are the answers a SaaS company gives. The actual advantage is permission to play. Every can build a tool because somebody on the team wants it, put it in front of real users, kill it if nothing happens, and keep going if something does. Every Agent started from work worth improving, not a market-sizing exercise. The cost of going from “I want this” to a working thing in the world has collapsed. The advantage is being willing to use that.
 
 **What we never automate.** The decision to make the thing. The opinion. The willingness to be wrong in public. The first sentence of an essay. The launch line. The headline. The choice of who to interview and why. The risk. Anything that, if it works, becomes part of why Every is Every.
 
@@ -152,7 +152,7 @@ AI is an instrument we play, not an efficiency tool we deploy.
 
 **What an AI-native launch looks like.** It has play in it. At least one piece of the launch is something only an AI-native team could've made — a small custom agent, an interactive site, a CLI, a generative tool — that the audience can actually touch rather than read about. AI Diplomacy is the model: an Every experiment that turned into 60,000 readers, 50,000 Twitch viewers, and a spinout company because the team thought it'd be fun to make frontier models play a board game against each other. Launches teach the team something a focus group never could because they let people surprise you.
 
-**The products are the OS, not proof of it.** Every Agent handles the connective tissue of running a small ambitious company. Cora keeps email from eating the workday. Monologue captures thinking as it happens. The publication is the room where the thinking lands and the audience that closes the loop. Each tool earns its place by making the next piece of work better than the last. Dan's term: “artisanal AI apps.” Small-batch software with a point of view, made by the people who use it.
+**The products are the OS, not proof of it.** Every Agent handles the connective tissue of running a small ambitious company. The publication is the room where the thinking lands and the audience that closes the loop. Each tool earns its place by making the next piece of work better than the last. Dan's term: “artisanal AI apps.” Small-batch software with a point of view, made by the people who use it.
 
 **Control points matter more as model capability diffuses.** Model access and temporary
 feature gaps are unstable advantages. When product, enterprise, or brand strategy depends
@@ -344,7 +344,7 @@ Key principles Every applies:
 Key principles Every applies:
 - *Mental accounting.* People don't treat money as fungible — they assign it to mental categories (entertainment, education, tools, subscriptions) and evaluate spending within those categories. How readers categorize their Every subscription determines what they compare it against and how much they'll pay. The bundle strategy works partly because it collapses multiple mental accounts into one.
 - *Transaction utility.* Thaler distinguishes *acquisition utility* (value of the thing minus its cost) from *transaction utility* (perceived quality of the deal). A $20/month subscription that readers compare against a $200/month consulting engagement has high transaction utility even if acquisition utility is hard to quantify.
-- *The endowment effect.* People value what they already own more than equivalent things they don't own. Once a subscriber has built a workflow around Every Agent, established an email ritual with Cora, or followed a writer for months, the subscription is “theirs.” Canceling feels like losing something, not stopping a payment. Free trials create ownership before the charge hits.
+- *The endowment effect.* People value what they already own more than equivalent things they don't own. Once a subscriber has built a workflow around Every Agent or followed a writer for months, the subscription is “theirs.” Canceling feels like losing something, not stopping a payment. Free trials create ownership before the charge hits.
 - *Status quo bias.* People disproportionately stick with the current state of affairs. Getting someone to switch *to* Every requires overcoming their status quo. The activation energy for that first subscription is the hardest thing.
 - *The sunk cost fallacy.* People continue investing because of past investment, not future returns. This is a retention asset but not one to exploit — retention should be earned by ongoing value.
 
@@ -388,7 +388,7 @@ The lesson for Every: heuristics can be engineered, but only if the vision-keepe
 - *Onboarding* — defaults, progressive commitment, reducing friction to first value, creating endowment early
 - *Retention* — endowment and status quo bias, loss framing in churn-prevention, sunk cost awareness
 - *Campaign CTAs* — System 1 language, scarcity cues, social proof placement, frame selection
-- *Product surfaces* — nudges inside Every Agent, Cora, and Monologue that reinforce the subscription relationship
+- *Product surfaces* — nudges inside Every Agent that reinforce the subscription relationship
 - *Content strategy* — the halo effect from editorial to product, expectation-shaping through positioning
 - *Community* — maintaining social norms over market norms, protecting the identity relationship
 

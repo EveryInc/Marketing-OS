@@ -114,4 +114,4 @@ loads all nine. A recuperation risk check loads `cultural-capital.md` and
 
 Fully populated. Three scoring dimensions, nine reference files, operational rubric with
 evaluation template, recuperation risk monitor, McLuhan supplementary diagnostic,
-provisional target shapes for Plus One, Cora, and Every master.
+provisional target shapes for Plus One and Every master.

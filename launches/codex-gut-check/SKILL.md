@@ -57,7 +57,7 @@ sunk cost in the strategy, told to find where it fails, before the website inher
 
 - [ ] All four inputs present; refused otherwise
 - [ ] Verdict cites passages; challenges name competitors with sources
-- [ ] Copy contradictions located precisely (the Cora pattern: hero-line tension,
+- [ ] Copy contradictions located precisely (hero-line tension,
       duplicate feature blocks, truncated bodies)
 - [ ] Unverified claims inventoried and handed to claims-clearance
 - [ ] CTA/prompt candidates tested against cited competitor reality

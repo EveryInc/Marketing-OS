@@ -122,8 +122,7 @@ points (CEPs) are the contexts in which a brand needs to be available to compete
 brand that comes to mind in many relevant CEPs has high breadth of availability; a brand
 that comes to mind very readily in one or two CEPs has high depth but narrow breadth.
 
-For Every's Studio products that have clear purchase occasions (Cora as an email
-management tool, for example), CEP mapping is a productive diagnostic: which situations
+For Every's Studio products that have clear purchase occasions, CEP mapping is a productive diagnostic: which situations
 trigger the need this product addresses, and how strongly is the brand linked to those
 situations in the target audience's mental model?
 

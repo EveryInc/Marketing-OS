@@ -196,7 +196,7 @@ Co-originated positioning with Al Ries, first in Advertising Age (1972). Develop
 ### April Dunford
 **Role**: Positioning consultant for technology companies; author of Obviously Awesome (2019) and Sales Pitch (2023).
 **Contribution**: Positioning defines how a product is the best in the world at delivering some value that a well-defined set of customers cares about. She works through five components in order: competitive alternatives (what the customer would do instead), differentiated capabilities, the value those capabilities deliver, the target customers who care most, and finally the market category that makes the value obvious. The most practical positioning method for software, and the closest to what Every sells.
-**When to invoke**: When positioning or repositioning a product (Every Agent, Spiral, Cora, the Skills Library); when a launch can't explain why it beats the alternative.
+**When to invoke**: When positioning or repositioning a product (Every Agent, the Skills Library); when a launch can't explain why it beats the alternative.
 
 ### Richard Rumelt
 **Role**: Professor of strategy at UCLA Anderson; diagnostician of good vs. bad strategy.

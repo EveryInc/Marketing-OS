@@ -215,22 +215,14 @@ before drafting: at least semiotics (what it signifies), memetics (what someone 
 copy), positioning (what word it owns), and behavioral economics (the frame and the
 default). Do not reload unchanged references on every line edit.
 
-### Write in the author's voice with Spiral
+### Write in the author's voice
 
-Spiral is Every's writing product: it writes like a person, not for them, using
-stylometry (the statistical analysis of how someone writes). See `positioning/spiral` and
-`brand-voice/spiral`. Pull on it whenever copy ships under a person's name (Douglas, Dan,
-a writer, an employee repost) or must match an established Every voice.
-
-1. **If a Spiral connector or tool is available in the session,** draft or rewrite through
-   it with the author's style, then run the normal review. Spiral matches voice; it does
-   not decide the concept, promise, or offer.
-2. **If Spiral is not connected,** say so in one line, then apply its method by hand:
-   gather three or more approved samples by the author in the same channel; compare the
-   draft to them on sentence length and rhythm, opening moves, vocabulary, punctuation,
-   and how claims are hedged or stated; revise toward the samples; and note any departure
-   the brief requires.
-3. **Never present a manual voice match as Spiral output.**
+Whenever copy ships under a person's name (Douglas, Dan, a writer, an employee repost)
+or must match an established voice, match it from samples: gather three or more approved
+samples by the author in the same channel; compare the draft to them on sentence length
+and rhythm, opening moves, vocabulary, punctuation, and how claims are hedged or stated;
+revise toward the samples; and note any departure the brief requires. Voice matching does
+not decide the concept, promise, or offer.
 
 ### Diagnose the unit before writing it
 
@@ -452,7 +444,6 @@ compounding.
   `craft/copywriting-halbert`, or `craft/copywriting-robinson`
 - `craft/editing`
 - `foundation/marketing-os/references/groundings.md` (concepts, campaigns, social, naming)
-- `positioning/spiral` and `brand-voice/spiral` (voice-matched copy under a person's name)
 - `brand-voice/{relevant brand}` (loaded dynamically)
 - `positioning/{relevant brand}` (loaded dynamically)
 - The relevant channel skill

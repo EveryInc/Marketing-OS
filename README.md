@@ -71,7 +71,7 @@ the active stage requires them.
 `workflows/` contains the four public entries. The supporting repository map is:
 
 1. **foundation/** — The Marketing OS, the operating system underlying all skills
-2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Cora, Spiral, Monologue, Plus One, Proof, Sparkle)
+2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Plus One, Proof, Sparkle)
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
 4. **strategy/** — Strategy specialists, full-brand workflow, and the shared run coordinator
 5. **craft/** — Execution-level skills for art direction, copywriting, Compound Copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)

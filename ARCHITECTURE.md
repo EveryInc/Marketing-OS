@@ -93,9 +93,6 @@ workspace, not in this public repo.
 All brand-voice skills load:
   - foundation/marketing-os (the voice OS)
 
-    brand-voice/cora
-    brand-voice/spiral
-    brand-voice/monologue
     brand-voice/proof
     brand-voice/sparkle
 
@@ -106,9 +103,6 @@ All positioning skills load:
   - marketing-science/archetyping
   - marketing-science/research
 
-    positioning/cora
-    positioning/spiral
-    positioning/monologue
     positioning/proof
     positioning/sparkle
 
