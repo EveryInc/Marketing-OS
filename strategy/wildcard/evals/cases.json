@@ -6,7 +6,7 @@
       "id": "one-mechanism-from-an-unused-finding",
       "task": "A subscription plan's sized sources reach about half its goal. Its research shows that many readers work at the same few employers and subscribe on personal emails, and the plan only uses that finding for manual sales outreach. Produce the wildcard.",
       "expected_behavior": ["State the gap between the goal and the sized sources", "Build one idea on the unused finding", "Describe a mechanism in steps, not a slogan", "Give upside as a labeled range with assumptions and name what is unknown about the base", "Define a by-hand test with continue and stop numbers"],
-      "hard_failures": ["Returns a list of ideas", "Adds the wildcard's upside to the plan's forecast", "Proposes a stunt with no mechanism", "States an upside figure without its assumption"]
+      "hard_failures": ["Returns a list of ideas", "Returns an extension of a tactic the plan already contains and calls it a wildcard", "Adds the wildcard's upside to the plan's forecast", "Proposes a stunt with no mechanism", "States an upside figure without its assumption"]
     },
     {
       "id": "precedent-includes-a-failure",

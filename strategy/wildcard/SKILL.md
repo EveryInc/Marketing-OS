@@ -56,6 +56,8 @@ If the plan has no stated goal or no sized estimate, say so and size the gap fir
 
 - Exactly one idea. Alternatives considered get one line each, with why they lost.
 - It is something the core plan would not include on its own.
+- It is not a sensible extension of something already in the plan. If the plan's owner
+  would call it the obvious next step, move it into the plan and look again.
 - If it works, it changes the plan's outcome. A gain smaller than the plan's largest
   sized source is a tactic, not a wildcard.
 - Failing is survivable: capped cost, no lasting harm to existing customers or the brand.
