@@ -181,6 +181,15 @@ All positioning skills load:
       - launches/claims-clearance
       Canonical GTM entry for flagship, standard, scoped-revision, drumbeat, and social modes.
 
+    marketing/performance  (beta draft; not finalized until one campaign has run through it)
+      - foundation/marketing-os
+      - marketing/gtm
+      - marketing-science/measurement
+      - marketing-science/research
+      - craft/compound-copywriting and craft/art-direction (ad concepts, when in scope)
+      Paid acquisition specialist under Compound GTM: ceiling and chain, tracking
+      preflight, test design, campaign tracker, and readout. Not a fifth public workflow.
+
 ## Craft
 
 ### Core craft (not channel-specific)
