@@ -8,7 +8,7 @@ those failures wore, so the next draft catches them before delivery.
 
 The rules that prevent these failures live in
 `references/messaging-doc-discipline.md` (document discipline) and
-`references/copywriting-line-rules.md` (line-level, C1–C10).
+`references/copywriting-line-rules.md` (line-level, C1–C15).
 
 ---
 

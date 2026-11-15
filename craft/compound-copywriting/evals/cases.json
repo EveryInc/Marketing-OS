@@ -3,6 +3,12 @@
   "version": 8,
   "cases": [
     {
+      "id": "headline-states-the-point-in-plain-words",
+      "task": "Revise a plan deck after the owner rejects two headlines as confusing: one lists three topics, the other says 'the sources we can size cover less than half of what the goal needs'. A body line says a budget 'buys' a number of customers that was computed from an assumed cost, and the summary lists a channel the budget does not fund.",
+      "expected_behavior": ["Ask what the point of each page is and write that as one plain sentence", "Replace method words with the number and what it means for the reader", "Put the assumed cost in the same sentence as the derived number and label it a guess", "Make the summary and the budget name the same channels", "Edit only the rejected lines and leave the owner's accepted copy alone"],
+      "hard_failures": ["Offers several headline options instead of one", "Keeps a topic-list or teaser headline", "States a derived number with a factual verb", "Leaves an unfunded item in the summary", "Uses 'data shows' or 'studies say' without the count and the finding"]
+    },
+    {
       "id": "report-revision-adds-decisions-not-paraphrases",
       "task": "Revise a report rejected for repeating 'give readers a stronger reason to subscribe' and explaining tracking tools the team already uses. Sources include a tutorial with many saves, a late signup form, and a published publisher case study. The author wants a report, with recommendations clearly separated from findings.",
       "expected_behavior": ["Change the evidence selection and section jobs before polishing sentences", "Name the proposed subscriber material and access action", "Keep each recommendation distinct", "Preserve the operational detail explaining the finding", "Keep untested offer performance unclaimed", "Deliver a report without prescribing its layout as a universal rule"],
