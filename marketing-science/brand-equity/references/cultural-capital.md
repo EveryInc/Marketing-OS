@@ -52,7 +52,7 @@ always relational: things are high-quality or low-quality relative to a social f
 which positions of authority and distinction have been established.
 
 The practical implication for brand strategy: the value of a badge brand is always
-relational. Plus One, Cora, or Spiral do not carry cultural capital in the abstract —
+relational. Every's products do not carry cultural capital in the abstract —
 they carry it *in relation to* a specific social field. The question "what cultural
 capital does this brand confer?" only makes sense with a reference field specified.
 

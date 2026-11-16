@@ -69,15 +69,6 @@ expert visibility.
 - **Commercial role:** Enterprise revenue. An engagement may come first; the
   subscription follows.
 
-## Cora
-<!-- To populate -->
-
-## Spiral
-<!-- To populate -->
-
-## Monologue
-<!-- To populate -->
-
 ## Plus One
 <!-- To populate -->
 

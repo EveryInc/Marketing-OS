@@ -10,7 +10,7 @@ Every's transactional emails should feel like the system itself talking: brief, 
 - When writing email verification, payment confirmations, or receipts
 - When drafting subscription start, cancel, or renewal notices
 - When writing payment failure notifications, plan-change confirmations, or security alerts
-- When writing trial-status notifications for any Every product (Cora, Spiral, Sparkle, Monologue)
+- When writing trial-status notifications for any Every product
 - When the email is triggered by a specific user action or system event and exists for utility or confirmation rather than marketing
 - When the brief mentions "login link," "magic link," "password reset," "verification email," "receipt," "payment confirmation," "trial ending," "subscription canceled," "transactional," "system email," "noreply," "auth email," or "billing email"
 
@@ -37,10 +37,10 @@ Different from editorial / marketing voice. Tighter, more functional, fewer flou
 |---|---|
 | Authentication (login, password, verification) | `noreply@every.to` |
 | Billing (receipts, subscription state changes) | `billing@every.to` or `noreply@every.to` |
-| Product transactional (trial state, app notifications) | `[product]@every.to` (e.g., `sparkle@every.to`, `cora@every.to`) |
+| Product transactional (trial state, app notifications) | `[product]@every.to` (e.g., `sparkle@every.to`) |
 | Security alerts | `security@every.to` |
 
-Reply-to: usually unset for `noreply@`. For product transactional from named team members on activation flows, reply-to should route to a real human (Yash, Naveen, etc., as Every already does for Sparkle and Monologue).
+Reply-to: usually unset for `noreply@`. For product transactional from named team members on activation flows, reply-to should route to a real human (Yash, Naveen, etc., as Every already does for Sparkle).
 
 ## The auth email (login link / magic link / password reset)
 

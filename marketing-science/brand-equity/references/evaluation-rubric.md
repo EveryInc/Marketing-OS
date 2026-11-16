@@ -139,7 +139,7 @@ Canary signals — observable evidence that recuperation is underway. Monitor at
 - Brand appears in mainstream press category roundups (Wired, The Verge, CNET, major tech newsletters with broad undifferentiated audiences) without distinguishing framing — reviewed as an option rather than cited as a taste signal
 - Brand appears in YouTube or social comparison content positioned against generic category competitors on feature lists, price, or ease-of-use, with no reference to who uses it or what that says about the user
 - The brand's distinctive verbal assets — specific framings, vocabulary, or conceptual moves that originated as part of its cultural position — begin appearing in competitor marketing or in undifferentiated category discourse, stripped of their original context
-- Brand is cited positively by audiences whose self-described identity is explicitly outside the original target (for Every Agent: productivity-hustle and "tools I use" accounts; for Every master: mainstream AI news aggregators and generic newsletter roundups; for Cora: email-productivity content with no taste dimension)
+- Brand is cited positively by audiences whose self-described identity is explicitly outside the original target (for Every Agent: productivity-hustle and "tools I use" accounts; for Every master: mainstream AI news aggregators and generic newsletter roundups)
 - Imagery associations among the original target audience begin collapsing toward performance associations only: users describe the brand in purely functional terms without reference to the social meaning of using it
 - The brand's visual or aesthetic language begins appearing in competitor products, generic SaaS design trend reports, or category templates, decoupled from the intellectual context that generated it
 
@@ -173,7 +173,7 @@ Express targets as target scores per dimension (1–5). The overlay compares abs
 - **On-target**: absolute score within 0.5 of target. The brand is where its strategy requires it to be.
 - **Underinvested**: absolute score materially below target (more than 0.5 below). Priority gap.
 
-Because targets differ per brand, do not compare absolute dimension scores across brands without first comparing each against its own target. Every Agent at 3.2 on Cognitive Presence may be on-target; Cora at 3.2 on Cognitive Presence may be significantly underinvested. The absolute scores are comparable only within the same brand over time.
+Because targets differ per brand, do not compare absolute dimension scores across brands without first comparing each against its own target. A 3.2 on Cognitive Presence may be on-target for one brand and significantly underinvested for another. The absolute scores are comparable only within the same brand over time.
 
 ### Setting target shapes per brand
 
@@ -185,7 +185,7 @@ Target shapes are derived from three questions:
 
 **3. What stage of brand development is this brand in?** Early-stage brands should target Identity Clarity first — a brand that does not know what it is cannot build the other dimensions coherently. Cultural Position is the hardest dimension to build and the slowest to decay. Cognitive Presence in a narrow audience is the fastest to build through consistent output. The sequence matters: Identity Clarity is the foundation, Cultural Position and Cognitive Presence build from it.
 
-**4. Does this Studio product serve a proof-point function for Every master?** Studio products that are prominent enough to be read as evidence of Every's broader thesis — that editorial-led companies build software with genuine craft and point of view — should carry higher Cultural Position targets than products serving primarily utility functions in relative obscurity. The brand equity of a visible Studio product compounds into Every master's equity; modest Cultural Position at the product level is a drag on the parent brand's cultural credibility. Apply this factor to Every Agent and Cora now. Keep Monologue's target unset until its positioning and proof-point role are developed.
+**4. Does this Studio product serve a proof-point function for Every master?** Studio products that are prominent enough to be read as evidence of Every's broader thesis — that editorial-led companies build software with genuine craft and point of view — should carry higher Cultural Position targets than products serving primarily utility functions in relative obscurity. The brand equity of a visible Studio product compounds into Every master's equity; modest Cultural Position at the product level is a drag on the parent brand's cultural credibility. Apply this factor to Every Agent now.
 
 **Provisional target shapes for Every's portfolio:**
 
@@ -195,8 +195,6 @@ These are current working targets, not permanent ones. Review after significant 
 |---|---|---|---|---|
 | Every master | 4.0 | 3.5 | 4.5 | Cultural Position is the existential bet. Without a live cultural myth, Every is a newsletter bundle with a smart editorial voice. The cultural position is what makes the badge worth wearing. |
 | Every Agent | 4.5 | 4.0 | 4.5 | Badge brand in the most literal sense. Identity Clarity must be high enough that the sign is legible; Cultural Position must be high enough that the sign is worth sending; Cognitive Presence must be high enough that the relevant audience encounters it. All three must be strong. |
-| Cora | 4.5 | 4.5 | 3.5 | Cora is Every's most visible Studio product and a proof point for the thesis that editorial-led companies ship software with genuine craft. The Linear comparison is instructive: high Cognitive Presence in a narrow CEP plus disproportionate Cultural Position among the right audience — cited as a taste signal, imitated in design language. That's the model. 3.5 is not badge-brand territory; it is materially above competent-product-with-modest-footprint, which is the wrong ceiling for a product this visible. |
-| Monologue | TBD | TBD | TBD | Insufficient brand development to set targets responsibly. Proof-point function TBD. |
 
 ---
 

@@ -7,8 +7,7 @@ cognitive and emotional structure of brand knowledge in the audience's mind.
 
 CBBE is always measured relative to a target audience, not the general population. A24
 has profound resonance among cinephiles; measuring it against the general moviegoing
-public produces a false deflation. Cora's salience is measured among professionals
-managing high inbox volume, not office workers broadly. Every evaluation must specify
+public produces a false deflation. Every evaluation must specify
 its reference audience or the scores are meaningless.
 
 ---

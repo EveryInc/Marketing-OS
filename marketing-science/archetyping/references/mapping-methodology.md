@@ -1,7 +1,7 @@
 # Mapping Methodology
 
 How we map overlapping audiences across Every's sub-brands. Every operates a portfolio —
-audiences for Cora, Spiral, Plus One, etc. overlap and diverge. This methodology governs
+audiences for Plus One and the other sub-brands overlap and diverge. This methodology governs
 how we track those relationships.
 
 ---
