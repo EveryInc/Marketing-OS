@@ -100,6 +100,39 @@ Do not turn these into universal requirements:
 - September as Agent Month.
 - Creator seeding, token credits, and affiliate mechanics.
 
+## Durable rules for offer and sale plans
+
+These come from the owner's line edits to a sale plan written for approval. They cover
+any plan that sets out offers by audience.
+
+- Title the plan and its sections by what they are. "The offers" beats a clever heading.
+- Label every offer block with four things: the audience, the offer, the message line
+  the customer will read, and the goal.
+- Write the customer-facing line into the plan. A description of the message is not the
+  message.
+- State a discount as a percent next to both prices, and say which full price it is
+  measured against. When that reference price changes, find every "X more than" and
+  "X off" claim in the plan and make each one add up against the same reference.
+- Keep the renewal price and the first-charge date on any offer that has them. Shortening
+  the copy does not remove terms a buyer must see.
+- End every audience number with the action it triggers: what those people are sent and
+  in which wave. Cut a number that leads to no action.
+- Write a test as sample size out of the pool, how the sample is chosen and from which
+  data, and what result is measured.
+- Do not coin shorthand for a segment. If a label stays, define it where it appears by
+  listing the behaviors that were counted.
+- Think one step past the offer. Say what happens at the reminder, the renewal, or the
+  end of a free period, and what the team does if a test beats expectations.
+- When a lane is out of scope, say so plainly, say whether it is coming, and record any
+  low-cost probe as optional.
+- Put the approver's name on price, naming, and plan-level questions. Name collaborators
+  on owner rows.
+- Cut any block that is not an offer.
+- Leave meeting details out of a plan: no attendee lists, call times, "draft for
+  sign-off" lines, or "what we agreed" framing. The plan states the plan.
+- When the owner renames a plan or product in one place, carry the name through every
+  heading, owner row, date row, and question.
+
 ## Corrections that should become eval traps
 
 - Assigning a contributor to a subject their statement does not address.
@@ -120,3 +153,10 @@ Do not turn these into universal requirements:
 - Combining the strategy, content/social plan, and creator/community plan into one
   overloaded document.
 - Using “room” as shorthand for attendees, speakers, or the event.
+- Leaving meeting metadata or sign-off status at the top of a plan after being told to
+  remove it.
+- Describing an audience with a coined label and no definition.
+- Changing a reference price in one block while another block still says "X more than"
+  against the old one.
+- Dropping the renewal price from an offer while tightening its copy.
+- Listing an audience number without saying what those people are sent.
