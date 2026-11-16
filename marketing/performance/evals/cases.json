@@ -6,50 +6,112 @@
     {
       "id": "ceiling-before-channel",
       "task": "A return rule and a first-year customer value are in the brief. Recommend channels for a first paid test, including a business-social channel with high click prices.",
-      "expected_behavior": ["Work out the ceiling first", "Show each channel's likely cost per paying customer next to the ceiling", "Leave out or flag any channel several times over the ceiling"],
-      "hard_failures": ["Recommend a budget for a channel without comparing it to the ceiling"]
+      "expected_behavior": [
+        "Work out the ceiling first",
+        "Show each channel's likely cost per paying customer next to the ceiling",
+        "Leave out or flag any channel several times over the ceiling"
+      ],
+      "hard_failures": [
+        "Recommend a budget for a channel without comparing it to the ceiling"
+      ]
     },
     {
       "id": "small-cell-cannot-read-paid",
       "task": "The team wants to test in small equal increments and pick the winning ad by paid conversions after one week.",
-      "expected_behavior": ["Explain that a small cell compares cost per signup, not paid rates", "Pool paid results by message and read them on the deciding day", "State the early signal is a proxy"],
-      "hard_failures": ["Declare a winner on a handful of payments"]
+      "expected_behavior": [
+        "Explain that a small cell compares cost per signup, not paid rates",
+        "Pool paid results by message and read them on the deciding day",
+        "State the early signal is a proxy"
+      ],
+      "hard_failures": [
+        "Declare a winner on a handful of payments"
+      ]
     },
     {
       "id": "late-measure-cannot-gate-early-money",
       "task": "The plan releases a second budget stage on day-30 results, and all money must be spent within the month.",
-      "expected_behavior": ["Flag that the rule cannot be applied in time", "Propose an early release signal or a later date"],
-      "hard_failures": ["Leave the rule in place"]
+      "expected_behavior": [
+        "Flag that the rule cannot be applied in time",
+        "Propose an early release signal or a later date"
+      ],
+      "hard_failures": [
+        "Leave the rule in place"
+      ]
     },
     {
       "id": "one-example-is-not-a-rule",
       "task": "One publisher reports that person-led video beat offer-led ads on clicks. Write the creative rule for the campaign.",
-      "expected_behavior": ["State how many independent sources support it and what they measured", "Note that clicks are not payments", "Frame it as something to test"],
-      "hard_failures": ["State it as proven for paying customers"]
+      "expected_behavior": [
+        "State how many independent sources support it and what they measured",
+        "Note that clicks are not payments",
+        "Frame it as something to test"
+      ],
+      "hard_failures": [
+        "State it as proven for paying customers"
+      ]
     },
     {
       "id": "snapshot-is-not-today",
       "task": "A dashboard shows the same acquisition-source answers on three consecutive days. Report today's source mix.",
-      "expected_behavior": ["Check the date of the underlying data", "Label it as a snapshot with its date", "Do not report it as today's"],
-      "hard_failures": ["Report stale figures as current"]
+      "expected_behavior": [
+        "Check the date of the underlying data",
+        "Label it as a snapshot with its date",
+        "Do not report it as today's"
+      ],
+      "hard_failures": [
+        "Report stale figures as current"
+      ]
     },
     {
       "id": "count-what-the-brief-counts",
       "task": "The brief says the campaign counts only paying customers. The platform optimizes for free signups. Write the results summary.",
-      "expected_behavior": ["Lead with paying customers and cost per paying customer", "Show signups only as the early signal", "Keep the definition of a paying customer at the top"],
-      "hard_failures": ["Report free signups as the campaign result"]
+      "expected_behavior": [
+        "Lead with paying customers and cost per paying customer",
+        "Show signups only as the early signal",
+        "Keep the definition of a paying customer at the top"
+      ],
+      "hard_failures": [
+        "Report free signups as the campaign result"
+      ]
     },
     {
       "id": "budget-short-of-goal",
       "task": "The ad budget can buy at most a small fraction of the stated customer goal.",
-      "expected_behavior": ["Say so first", "Give the best and worst case", "Name and size the other sources or mark them unsized", "Frame the spend as buying a first cost number if that is what it can do"],
-      "hard_failures": ["Present the budget as the route to the goal"]
+      "expected_behavior": [
+        "Say so first",
+        "Give the best and worst case",
+        "Name and size the other sources or mark them unsized",
+        "Frame the spend as buying a first cost number if that is what it can do"
+      ],
+      "hard_failures": [
+        "Present the budget as the route to the goal"
+      ]
     },
     {
       "id": "conflicting-inputs",
       "task": "Three source notes give three budgets and two cost targets.",
-      "expected_behavior": ["List the conflict as an open decision with the approver's name", "Show the plan's sensitivity to each"],
-      "hard_failures": ["Pick one silently"]
+      "expected_behavior": [
+        "List the conflict as an open decision with the approver's name",
+        "Show the plan's sensitivity to each"
+      ],
+      "hard_failures": [
+        "Pick one silently"
+      ]
+    },
+    {
+      "id": "estimate-headline-counts-only-what-counts",
+      "task": "Build an adjustable estimate for a campaign that counts paying customers by a fixed date. Inputs include a sale conversion rate, a free-period gift whose first charge falls after the date, and an upgrade rate among existing customers.",
+      "expected_behavior": [
+        "Wire only the sale conversion input to the headline count",
+        "Show customers who start paying after the date on a separate line",
+        "Show upgrade revenue separately and exclude customers already on the higher plan",
+        "Label each input by what the person does",
+        "Test each input at both ends"
+      ],
+      "hard_failures": [
+        "Let a free-period or upgrade input move the paying-customer count for the window",
+        "Label an input with unexplained shorthand"
+      ]
     }
   ]
 }

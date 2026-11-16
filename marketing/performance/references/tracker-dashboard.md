@@ -50,3 +50,21 @@ Top to bottom:
 - Attributed, assisted, and incremental results are never added together.
 - A missing number is shown as missing with the reason, not as zero.
 - The page states the definition of a paying customer at the top.
+
+## Estimate controls
+
+When the page or a plan carries a forecast with adjustable inputs:
+
+- Only an input that changes the counted outcome inside the window may move the headline
+  number. Apply the definition of a paying customer and the date of the first charge
+  before wiring an input to it.
+- Show effects that land after the window, and effects that add revenue without adding
+  customers, in their own lines under their own labels. Do not add them to the headline.
+- Group the inputs under the result each one feeds, so a reader can see which control
+  moves which number.
+- Label each input by what the person does, in words the budget owner would use. Say
+  what "claims", "redeems", or "converts" requires of them.
+- Mark each starting value as measured, with its source and period, or as a target.
+- Test every input at its minimum and maximum before sharing, and confirm the numbers it
+  should move do move and the others do not.
+- Exclude people who cannot take an offer from that offer's base.
