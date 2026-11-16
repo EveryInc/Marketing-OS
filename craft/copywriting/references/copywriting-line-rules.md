@@ -1,4 +1,4 @@
-# Copywriting Line Rules (C1–C15)
+# Copywriting Line Rules (C1–C16)
 
 Line-level copywriting rules from the sample-messaging passes. These operate below the
 document-discipline rules in `references/messaging-doc-discipline.md`: those govern whether a
@@ -29,10 +29,12 @@ grammatical, load-bearing, and finished. Apply on every original brand line befo
 
 - **C11. THE HEADLINE IS THE POINT OF THE PAGE, IN ONE PLAIN SENTENCE.** Before writing a headline for a slide, page, or section, answer "what is the point of this page?" in one sentence a reader could repeat to someone else. That sentence is the headline. A label, a teaser, or a list of topics ("Who buys, who leaves and who is waiting") makes the reader do the work and fails. If the page has no single point, fix the page before the headline.
 
-- **C12. NAME THE THING, NOT YOUR METHOD.** Do not describe a number by how the writer handled it ("the sources we can size", "the sized rows", "the rows with estimates"). The reader was not in the analysis. Say the number and what it means for them: "So far we can see about 400 of the 1,000 orders we need."
+- **C12. NAME THE THING, NOT YOUR METHOD.** Do not describe a number by how the writer handled it ("the sources we can size", "the sized rows", "the rows with estimates"). The reader was not in the analysis. Say the number and what it means for them: "This plan gets us about 400 orders by March. We need 1,000."
 
 - **C13. AN ESTIMATE CARRIES ITS ASSUMPTION IN THE SAME SENTENCE.** A derived number never takes a factual verb. "$5,000 buys 20 to 60 customers" states a guess as a result. Write the condition first and label it: "If a customer costs $80 to $250 (our guess, not a measurement), $5,000 gets 20 to 60." If the writer cannot say where an input came from, the line does not ship.
 
 - **C14. THE SUMMARY MATCHES THE PLAN.** Every item named in a summary, TL;DR, or opening list has a line in the plan it summarizes, with the same name and the same number. Anything in the summary that the plan does not fund, schedule, or own comes out of the summary or goes into the plan. Check both directions before delivery.
 
 - **C15. VAGUE AUTHORITY IS NOT EVIDENCE.** "Data shows", "studies say", and "research suggests" are replaced by the count and the finding ("the eight studies we read found more clicks when a person is in the ad") or the line is cut.
+
+- **C16. SAY WHO DOES WHAT, BY WHEN.** A headline with a number names the actor, a plain verb, and the date: "This plan gets us about 400 orders by March. We need 1,000." Soft verbs of perception ("we can see", "we are tracking toward", "the picture shows") hide the claim. If the shortfall is the point, state both numbers so the reader can subtract.
