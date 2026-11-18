@@ -76,6 +76,9 @@ Use `evals/cases.json` when revising these diagnosis rules.
 ## Quick checklist
 
 - [ ] Research question and decision are explicit
+- [ ] The evidence bar was written down and shown before the first search, and not moved
+- [ ] Each conclusion has five or more independent sources, or is labeled a lead
+- [ ] Evidence against the owner’s view and the plan is reported first
 - [ ] First-party and public evidence are separated
 - [ ] Sources include date, sample, method, and limitations
 - [ ] Customer language is preserved verbatim where useful

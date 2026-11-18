@@ -15,6 +15,22 @@ Prefer evidence in this order when it is available and relevant:
 Lower-ranked evidence can reveal language and emerging demand that a survey misses. It
 must not be presented as statistically representative.
 
+## Set the bar before looking
+
+Write the bar down before the first search and show it to the owner. Do not move it after
+the results come in.
+
+- **What counts.** A claim counts only if it links to a study, an organization's own
+  numbers, or a named operator's account, read during this work.
+- **How many.** A conclusion needs at least five independent sources. Prefer the last two
+  years. With fewer than five, call it a lead, not a finding, and say how many were found.
+- **What goes first.** Evidence against the plan, against the owner's stated view, or
+  against the researcher's own earlier advice is reported first. Research that only
+  confirms what the owner already said is suspect; look for the case against it before
+  agreeing.
+- **Narrowing is the tell.** If a definition gets tighter after the results are in so that
+  a claim survives, stop and flag it.
+
 ## Recency
 
 Use the most recent defensible source. For changing categories, prefer the last one or two
