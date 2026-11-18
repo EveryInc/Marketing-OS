@@ -43,7 +43,7 @@ runs before delivery. Cross-references `marketing-science/research/references/` 
 audits, synthesis methodology) rather than restating them.
 
 ### references/copywriting-line-rules.md
-Line-level copywriting rules (C1–C16) from the sample-messaging passes and the creative
+Line-level copywriting rules (C1–C17) from the sample-messaging passes and the creative
 canon: no imitation
 compression, every pronoun needs a visible antecedent, the line must survive its own logic,
 generate for a kill rate, state the claim plain before styling it, match the promise to the

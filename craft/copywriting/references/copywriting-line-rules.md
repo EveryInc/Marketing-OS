@@ -1,4 +1,4 @@
-# Copywriting Line Rules (C1–C16)
+# Copywriting Line Rules (C1–C17)
 
 Line-level copywriting rules from the sample-messaging passes. These operate below the
 document-discipline rules in `references/messaging-doc-discipline.md`: those govern whether a
@@ -38,3 +38,5 @@ grammatical, load-bearing, and finished. Apply on every original brand line befo
 - **C15. VAGUE AUTHORITY IS NOT EVIDENCE.** "Data shows", "studies say", and "research suggests" are replaced by the count and the finding ("the eight studies we read found more clicks when a person is in the ad") or the line is cut.
 
 - **C16. SAY WHO DOES WHAT, BY WHEN.** A headline with a number names the actor, a plain verb, and the date: "This plan gets us about 400 orders by March. We need 1,000." Soft verbs of perception ("we can see", "we are tracking toward", "the picture shows") hide the claim. If the shortfall is the point, state both numbers so the reader can subtract.
+
+- **C17. WHEN THE OWNER IS CUTTING, DO NOT ADD.** If the owner has been shortening and simplifying a document, every edit follows that direction. Read the version the reader sees, with the owner's edits applied, before changing anything. Add only the words the change needs, in the owner's terms, and never replace their wording with a longer or more technical version. A question for a decision-maker is one short line they can answer yes or no.
