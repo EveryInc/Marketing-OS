@@ -15,6 +15,13 @@ examples.
 - Make audience behavior specific. Builders, Operators, Seekers, and Executives may require different movement.
 - Verify current names, dates, roles, quotes, approvals, and prices.
 - Label derived workback dates as proposals rather than source facts.
+- Build a calendar by working back from each send or ship date. List what that send
+  needs, order the jobs by what depends on what, and put each job on the day the next
+  job needs it. Do not stack every job on one shared deadline.
+- Give each calendar job one owner and list it once. An asset for a later send belongs
+  with that send, not with the first deadline.
+- Before showing a calendar, check every offer in the plan against it. Name any offer
+  that has no build, copy, list, or send job.
 - Use an actual contributor statement when claiming an editorial connection. Accept `N/A`.
 - Run multiple strategic lanes simultaneously when the idea requires it.
 - Use all calendar days in a dated campaign window.
