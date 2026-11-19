@@ -40,7 +40,10 @@ it only for a stated reason.
 
 ## What does not belong
 
-- A section explaining the campaign idea or the brand's worldview. The headline carries it.
+- A long essay on the campaign idea. A short "why" section is different and does belong
+  when the buyer may not know the product: a heading, then two short paragraphs. The first
+  says who the product is for and what it gives them. The second says what this offer adds.
+  It sits above the list of what's included.
 - A description of each product feature. Name the features and stop. Feature copy belongs on
   the product page and in the emails.
 - A second offer. If another audience needs a different offer, one line in the questions
@@ -95,3 +98,6 @@ Recorded so the same draft is not produced again.
   copy before it was measured. Measured, the first draft already passed. Measure first.
 - **Flat voice.** The editor's own changes added the page's only wit, in the label and the
   button.
+- Left out the "why" section on the second page of a set after the editor had added one to
+  the first. Read the editor's live version again right before writing each new page, and
+  mirror every section they added. If the live document no longer shows the page, ask for it.
