@@ -32,6 +32,34 @@ methods, and recommendations should strengthen the central promise rather than
 displace it with a feature inventory. Apply this frame only when it is the approved
 product positioning, not as a universal requirement for every brand's emails.
 
+## Open a sale email with the promise, not the sale
+
+Recorded from an owner's rewrite of a holiday sale email whose first draft he called weak.
+
+- The first sentence is the campaign promise, stated flat. "We think" in front of it, or
+  placing it in the third paragraph, wastes it. The offer comes second, in the same
+  opening paragraph, as the way to get the promise.
+- "X is on sale" is an announcement. It earns the lead only when the reader already wants
+  the product at full price.
+- State the price with a superlative you can check and that is scoped to a period
+  ("our lowest price of the year"). Do not write "lowest ever" or "best deal yet" unless
+  every past sale price has been checked.
+- Say the bonus in the fewest words: what the reader gets and who it is for. Frame it as
+  a gift to the reader when the owner has chosen that framing.
+- The "you already read us" paragraph must turn. Its first half names what the reader
+  has now. Its second half names what paying adds, in three plain categories, and leads
+  into the list.
+- Put new items in the list under their own "New this year" line. A reader who looked
+  before needs to see what changed.
+- When the owner does not want an end date in the copy, close with a soft limit
+  ("a limited-time offer") tied to one more reason to click. Never invent a date.
+- An invitation to reply and a seasonal sign-off are part of the owner's close. Carry
+  them into every sibling email.
+- When the owner deletes the greeting, the alternate subject or the second version,
+  delete them in every sibling email too. One version ships.
+- Before writing a sibling email, read the owner's latest edit of the first one again.
+  He may still be changing a word in a list item.
+
 ## Frame the benefit before the subject
 
 - Name the gain beyond the reader's ordinary job: a new ability, a recurring failure
