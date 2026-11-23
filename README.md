@@ -74,7 +74,7 @@ the active stage requires them.
 2. **brand-voice/** — Voice guides for Every's master brand and each sub-brand (Plus One, Proof, Sparkle)
 3. **positioning/** — Positioning frameworks for Every master and each sub-brand
 4. **strategy/** — Strategy specialists, full-brand workflow, and the shared run coordinator
-5. **craft/** — Execution-level skills for art direction, copywriting, Compound Copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
+5. **craft/** — Execution-level skills for art direction, generated video, copywriting, Compound Copywriting, editing, naming, and channel-specific output (launch emails, LinkedIn posts, X posts, website copy, press comms)
 6. **launches/** — Orchestration skills for three launch tiers (improvement, feature, new product) that load strategy and all channel craft skills
 7. **marketing-science/** — Research, archetyping, brand equity, and measurement skills that inform positioning, programs, and decisions
 8. **marketing/** — Integrated planning workflows that turn strategy, sources, and campaign decisions into executable GTM artifacts
@@ -95,7 +95,7 @@ The four public workflows use these eight supporting families:
 3. **positioning/** — Durable, ruled master-brand and product positioning
 4. **strategy/** — Compound Marketing, Compound Brand, messaging architecture,
    measurable program briefs, and executive one-pagers
-5. **craft/** — Verbal identity, art direction, copywriting, Compound Copywriting,
+5. **craft/** — Verbal identity, art direction, generated video, copywriting, Compound Copywriting,
    editing, naming, PR,
    social, email, web, and long-form execution
 6. **launches/** — The canonical launch process, launch calendar, brief, GTM strategy,

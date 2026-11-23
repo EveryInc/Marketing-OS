@@ -205,6 +205,14 @@ All positioning skills load:
       - positioning/{relevant brand}
       - brand-voice/{relevant brand}
 
+    craft/genai-video
+      - foundation/marketing-os
+      - craft/compound-copywriting (video treatments)
+      - craft/art-direction
+      - launches/claims-clearance (before a public release)
+      Generated-footage ads and short films: stills, takes, voice, code edit,
+      machine checks, and the production log.
+
     craft/copywriting
       - foundation/marketing-os
       - brand-voice/{relevant brand}

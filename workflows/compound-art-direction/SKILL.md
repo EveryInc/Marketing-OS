@@ -35,6 +35,10 @@ For an interactive schedule, portal, asset library, or working dashboard, also r
 source ownership, complete user actions, and access checks. Keep narrow visual repairs
 scoped; this route does not authorize a rebuild, publication, or access-policy change.
 
+For an ad or short film made from generated footage, also read
+`../../craft/genai-video/SKILL.md`. It governs stills, takes, voice, the edit, and the
+checks to run on a file the agent cannot watch or hear.
+
 Use the relevant Figma, image-generation, slide, or asset-production tool only when the
 assignment needs it. The workflow name does not make those tools available. If a tool,
 font, or asset is missing, report the specific limit; do not substitute silently or claim
